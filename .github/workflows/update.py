@@ -2,11 +2,7 @@ import os
 from urllib import parse
 
 HEADER="""# 
-# 백준 & 프로그래머스 문제 풀이 목록
-
-프로그래머스의 경우, 푼 문제 목록에 대한 마이그레이션이 필요합니다.
-
-"""
+# 백준 문제 풀이 목록
 
 def main():
     content = ""
@@ -36,7 +32,7 @@ def main():
             continue
             
         if directory not in directories:
-            if directory in ["백준", "프로그래머스"]:
+            if directory in ["백준"]:
                 content += "## 📚 {}\n".format(directory)
             else:
                 content += "### 🚀 {}\n".format(directory)

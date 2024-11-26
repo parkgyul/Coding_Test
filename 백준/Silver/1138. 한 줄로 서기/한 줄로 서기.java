@@ -30,7 +30,6 @@ class Main{
     public static void a(int depth) {
 
         if(depth == n){
-            boolean is = true;
             for(int i = 0 ; i < n ; i++){
                 int cnt = 0;
 
@@ -40,16 +39,14 @@ class Main{
                     }
                 }
                 if(cnt != arr[line[i]-1]) {
-                    is = false;
-                    break;
+                    return;
                 }
             }
-            if(is) {
+            
                 for(int i = 0; i<n; i++){
                     System.out.printf("%d ", line[i]);
                 }
-                return;
-            }
+                
         }
 
         for(int i = 1; i <= n; i++){

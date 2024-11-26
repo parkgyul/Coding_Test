@@ -9,6 +9,7 @@ class Main{
     static int n;
     static boolean[] visited;
     static int[] line;
+    static boolean found = false;
 
     public static void main(String[] args)throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -29,6 +30,8 @@ class Main{
 
     public static void a(int depth) {
 
+        if(found) return;
+
         if(depth == n){
             for(int i = 0 ; i < n ; i++){
                 int cnt = 0;
@@ -42,11 +45,11 @@ class Main{
                     return;
                 }
             }
-            
-                for(int i = 0; i<n; i++){
-                    System.out.printf("%d ", line[i]);
-                }
-                
+
+            for(int i = 0; i<n; i++){
+                System.out.printf("%d ", line[i]);
+            }
+            found = true;
         }
 
         for(int i = 1; i <= n; i++){

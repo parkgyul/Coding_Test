@@ -7,10 +7,9 @@ HEADER = """#
 
 """
 
-def get_last_modified_time(filepath):
-    # 파일의 마지막 수정 시간을 가져와 형식화합니다.
-    timestamp = os.path.getmtime(filepath)
-    return datetime.fromtimestamp(timestamp).strftime('%Y.%m.%d')
+def get_current_time():
+    # 현재 시간을 YYYY.MM.DD 형식으로 반환
+    return datetime.now().strftime('%Y.%m.%d')
 
 def main():
     content = ""
@@ -44,17 +43,17 @@ def main():
                 content += "## 📚 {}\n".format(directory)
             else:
                 content += "### 🚀 {}\n".format(directory)
-                content += "| 문제번호 | 링크 | 마지막 수정 |\n"
+                content += "| 문제번호 | 링크 | 푼 날짜 |\n"
                 content += "| ----- | ----- | ----- |\n"
             directories.append(directory)
 
         for file in files:
             if category not in solveds:
                 file_path = os.path.join(root, file)
-                last_modified = get_last_modified_time(file_path)
-                content += "|{}|[링크]({})|{}|\n".format(category, parse.quote(file_path), last_modified)
+                current_time = get_current_time()
+                content += "|{}|[링크]({})|{}|\n".format(category, parse.quote(file_path), current_time)
                 solveds.append(category)
-                print(f"category : {category}, last_modified: {last_modified}")
+                print(f"category : {category}, current_time: {current_time}")
 
     with open("README.md", "w") as fd:
         fd.write(content)

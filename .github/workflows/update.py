@@ -1,22 +1,17 @@
 import os
 from urllib import parse
-from datetime import datetime
 
-HEADER = """# 
+HEADER="""# 
 # 백준 문제 풀이 목록
 
 """
-
-def get_current_time():
-    # 현재 시간을 YYYY.MM.DD 형식으로 반환
-    return datetime.now().strftime('%Y.%m.%d')
 
 def main():
     content = ""
     content += HEADER
     
-    directories = []
-    solveds = []
+    directories = [];
+    solveds = [];
 
     for root, dirs, files in os.walk("."):
         dirs.sort()
@@ -43,20 +38,18 @@ def main():
                 content += "## 📚 {}\n".format(directory)
             else:
                 content += "### 🚀 {}\n".format(directory)
-                content += "| 문제번호 | 링크 | 푼 날짜 |\n"
-                content += "| ----- | ----- | ----- |\n"
+                content += "| 문제번호 | 링크 |\n"
+                content += "| ----- | ----- |\n"
             directories.append(directory)
 
         for file in files:
             if category not in solveds:
-                file_path = os.path.join(root, file)
-                current_time = get_current_time()
-                content += "|{}|[링크]({})|{}|\n".format(category, parse.quote(file_path), current_time)
+                content += "|{}|[링크]({})|\n".format(category, parse.quote(os.path.join(root, file)))
                 solveds.append(category)
-                print(f"category : {category}, current_time: {current_time}")
+                print("category : " + category)
 
     with open("README.md", "w") as fd:
         fd.write(content)
         
 if __name__ == "__main__":
-    main()
+    main()------> 이건 git Action 인데, commit 된 시간을 2024.10.27 이런식으로 테이블에 저장하게 해주면 안될까?

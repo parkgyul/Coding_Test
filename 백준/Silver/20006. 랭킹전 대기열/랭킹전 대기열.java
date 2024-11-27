@@ -40,7 +40,7 @@ class Main{
                     room.add(players[j]);
                     players[j].isInRoom = true;
                 }
-                Collections.sort(room);
+                room.sort((p1, p2) -> p1.name.compareTo(p2.name));
                 if(room.size() == m) sb.append("Started!\n");
                 else sb.append("Waiting!\n");
 
@@ -55,7 +55,7 @@ class Main{
 
 
     }
-    static class Player implements Comparable<Player>{
+    static class Player{
         private String name;
         private int level;
 
@@ -65,10 +65,6 @@ class Main{
             this.name = name;
             this.level = level;
         }
-
-        @Override
-        public int compareTo(Player p1) {
-            return name.compareTo(p1.name);
-        }
+        
     }
 }

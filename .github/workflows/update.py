@@ -48,25 +48,23 @@ def main():
                 content += "## 📚 {}\n".format(directory)
             else:
                 content += "### 🚀 {}\n".format(directory)
-                content += "| 문제번호 | 문제 이름 | 링크 | 푼 날짜 |\n"
-                content += "| ----- | ----- | ----- | ----- |\n"
+                content += "| 문제번호 | 링크 | 마지막 커밋 시간 |\n"
+                content += "| ----- | ----- | ----- |\n"
             directories.append(directory)
 
         for file in files:
             if file.endswith(".md"):  # 예시로 .md 파일만 처리
-                problem_number, problem_name = os.path.splitext(file)[0].split("_", 1)
                 file_path = os.path.join(root, file)
                 last_commit_time = get_last_commit_time(file_path)
 
                 if category not in solveds:
-                    content += "|{}|{}|[링크]({})|{}|\n".format(
-                        problem_number, 
-                        problem_name, 
+                    content += "|{}|[링크]({})|{}|\n".format(
+                        category, 
                         parse.quote(file_path), 
                         last_commit_time
                     )
                     solveds.append(category)
-                    print(f"Added: {problem_number} - {problem_name} (Category: {category})")
+                    print(f"category: {category}, last commit time: {last_commit_time}")
 
     with open("README.md", "w") as fd:
         fd.write(content)

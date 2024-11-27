@@ -1,20 +1,16 @@
 import os
-import subprocess
 from urllib import parse
+from datetime import datetime
 
 HEADER = """# 
 # 백준 문제 풀이 목록
 
 """
 
-def get_last_commit_time(file_path):
-    try:
-        # Git 명령으로 마지막 커밋 날짜 가져오기
-        result = subprocess.check_output(["git", "log", "-1", "--format=%ci", "--", file_path], encoding="utf-8")
-        # YYYY-MM-DD 포맷으로 변환
-        return result.strip().split(" ")[0].replace("-", ".")
-    except subprocess.CalledProcessError:
-        return "Unknown"
+def get_last_modified_time(filepath):
+    # 파일의 마지막 수정 시간을 가져와 형식화합니다.
+    timestamp = os.path.getmtime(filepath)
+    return datetime.fromtimestamp(timestamp).strftime('%Y.%m.%d')
 
 def main():
     content = ""
@@ -48,23 +44,17 @@ def main():
                 content += "## 📚 {}\n".format(directory)
             else:
                 content += "### 🚀 {}\n".format(directory)
-                content += "| 문제번호 | 링크 | 마지막 커밋 시간 |\n"
+                content += "| 문제번호 | 링크 | 마지막 수정 |\n"
                 content += "| ----- | ----- | ----- |\n"
             directories.append(directory)
 
         for file in files:
-            if file.endswith(".md"):  # 예시로 .md 파일만 처리
+            if category not in solveds:
                 file_path = os.path.join(root, file)
-                last_commit_time = get_last_commit_time(file_path)
-
-                if category not in solveds:
-                    content += "|{}|[링크]({})|{}|\n".format(
-                        category, 
-                        parse.quote(file_path), 
-                        last_commit_time
-                    )
-                    solveds.append(category)
-                    print(f"category: {category}, last commit time: {last_commit_time}")
+                last_modified = get_last_modified_time(file_path)
+                content += "|{}|[링크]({})|{}|\n".format(category, parse.quote(file_path), last_modified)
+                solveds.append(category)
+                print(f"category : {category}, last_modified: {last_modified}")
 
     with open("README.md", "w") as fd:
         fd.write(content)

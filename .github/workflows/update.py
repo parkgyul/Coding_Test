@@ -9,7 +9,7 @@ HEADER = """#
 
 def get_latest_commit_date(file_path):
     """
-    Get the latest commit date for a file.
+    Get the latest commit date for a specific file.
     """
     try:
         result = subprocess.run(
@@ -63,14 +63,16 @@ def main():
             directories.append(directory)
 
         for file in files:
-            if category not in solveds:
-                file_path = os.path.join(root, file)
-                commit_date = get_latest_commit_date(file_path)
+            file_path = os.path.join(root, file)
+            commit_date = get_latest_commit_date(file_path)  # Fetch commit date for the file
+            problem_number = os.path.splitext(file)[0]  # Assume file name starts with problem number
+
+            if problem_number not in solveds:
                 content += "|{}|[링크]({})|{}|\n".format(
-                    category, parse.quote(file_path), commit_date
+                    problem_number, parse.quote(file_path), commit_date
                 )
-                solveds.append(category)
-                print(f"category : {category}, file : {file}, commit date : {commit_date}")
+                solveds.append(problem_number)
+                print(f"Processed: {problem_number}, Commit Date: {commit_date}")
 
     with open("README.md", "w") as fd:
         fd.write(content)

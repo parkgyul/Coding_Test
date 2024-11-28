@@ -3,96 +3,82 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
 import java.util.*;
+public class Main {
 
-import static java.lang.Math.abs;
-
-class Main{
-    static int n;
+    static int N;
+    static String S;
     static char[][] arr;
-    static boolean[][] normal_visited ;
-    static boolean[][] abnormal_visited;
-    static int dx[] = {0, 0, 1, -1};
-    static int dy[] = {1,-1, 0, 0};
-    static int nor = 0;
-    static int ab = 0;
+    static boolean[][] visits;
+    static int[] dx = {-1, 0, 0, 1};
+    static int[] dy = {0, 1, -1, 0};
 
-    static Queue<Point> q1 = new LinkedList<>();
-    static Queue<Point> q2 = new LinkedList<>();
-    //RGB
-    public static void main(String[] args)throws IOException {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        n = Integer.parseInt(br.readLine());
-        arr = new char[n][n];
+        N = Integer.parseInt(br.readLine());
+        arr = new char[N + 1][N + 1];
+        visits = new boolean[N + 1][N + 1];
 
-        normal_visited = new boolean[n][n];
-        abnormal_visited = new boolean[n][n];
-
-        for(int i = 0; i<n; i++){
-            String str = br.readLine();
-            for(int j = 0; j<n; j++){
-                arr[i][j] = str.charAt(j);
+        for (int i = 0; i < N; i++) {
+            S = br.readLine(); // RRRBB
+            for (int j = 0; j < N; j++) {
+                arr[i][j] = S.charAt(j); // R R R B B
             }
         }
 
-        for(int i = 0; i<n; i++){
-            for(int j = 0; j<n; j++){
-                if(!normal_visited[i][j])
-                {
-                    q1.add(new Point(i,j));
-                    bfs_normal();
-                }
-                if(!abnormal_visited[i][j]){
-                    q2.add(new Point(i,j));
-                    bfs_abnormal();
+        // 정상인 경우
+        int cnt = 0;
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                if (!visits[i][j]) {
+                    dfs(i, j);
+                    cnt++;
                 }
             }
         }
-        System.out.println(nor+ " "+ ab);
-    }
-    public static void bfs_normal(){
-        while(!q1.isEmpty()){
-            Point current = q1.poll();
-            for(int i = 0; i <4; i++){
-                int next_i = current.x + dx[i];
-                int next_j = current.y + dy[i];
+        int normal_cnt = cnt;
+        cnt = 0;
+        visits = new boolean[N + 1][N + 1];
 
-                if(next_i < 0 || next_i >= n || next_j < 0 || next_j >= n)
-                    continue;
-                if(normal_visited[next_i][next_j])
-                    continue;
-                if(arr[next_i][next_j] != arr[current.x][current.y])
-                    continue;
+        // 비정상인 경우
+        // G를 R로 바꿔주고 돌린다.
 
-                q1.add(new Point(next_i, next_j));
-                normal_visited[next_i][next_j] = true;
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                if (arr[i][j] == 'G') {
+                    arr[i][j] = 'R'; // G를 R로 바꿔준다.
+                }
             }
         }
-        nor ++;
-    }
-    public static void bfs_abnormal(){
-        while(!q2.isEmpty()) {
-            Point current = q2.poll();
-            for (int i = 0; i < 4; i++) {
-                int next_i = current.x + dx[i];
-                int next_j = current.y + dy[i];
+        //
 
-                if (next_i < 0 || next_i >= n || next_j < 0 || next_j >= n)
-                    continue;
-                if (abnormal_visited[next_i][next_j])
-                    continue;
-                if(arr[current.x][current.y] == 'B' && arr[next_i][next_j] != 'B')
-                    continue;
-                if(arr[current.x][current.y] == 'R' && arr[next_i][next_j] == 'B')
-                    continue;
-                if(arr[current.x][current.y] == 'G' && arr[next_i][next_j] == 'B')
-                    continue;
-
-
-                q2.add(new Point(next_i, next_j));
-                abnormal_visited[next_i][next_j] = true;
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                if (!visits[i][j]) {
+                    dfs(i, j);
+                    cnt++;
+                }
             }
         }
-        ab++;
+        int abnormal_cnt = cnt;
+        System.out.println(normal_cnt + " " + abnormal_cnt);
+
+    }
+
+    public static void dfs(int x, int y) {
+        visits[x][y] = true;
+        char tmp_char = arr[x][y]; // R
+        for (int i = 0; i < 4; i++) {
+            int new_x = x + dx[i];
+            int new_y = y + dy[i];
+
+            if (new_x < 0 || new_y < 0 || new_x > N || new_y > N) {
+                continue;
+            }
+
+            if (!visits[new_x][new_y] && arr[new_x][new_y] == tmp_char) {
+                dfs(new_x, new_y);
+            }
+        }
     }
 
 }

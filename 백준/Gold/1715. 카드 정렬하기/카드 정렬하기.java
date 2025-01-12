@@ -9,25 +9,25 @@ public class Main {
         
         int n = Integer.parseInt(br.readLine());
         
-        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
         
         for (int i = 0; i < n; i++) {
             int taskTime = Integer.parseInt(br.readLine());
-            priorityQueue.add(taskTime);
+            minHeap.add(taskTime);
         }
         
-        int result = 0;
+        int totalCost = 0;
         
-        while (priorityQueue.size() > 1) {
-            int first = priorityQueue.poll();
-            int second = priorityQueue.poll();
+        while (minHeap.size() > 1) {
+            int first = minHeap.poll();
+            int second = minHeap.poll();
             
-            int sum = first + second;
-            result += sum;
+            int mergedCost = first + second;
+            totalCost += mergedCost;
             
-            priorityQueue.add(sum);
+            minHeap.add(mergedCost);
         }
         
-        System.out.println(result);
+        System.out.println(totalCost);
     }
 }

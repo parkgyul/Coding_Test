@@ -2,40 +2,44 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main{
-    static int arr[];
+public class Main {
     static int n;
     static int total = 0;
-    public static void main(String[] args)throws IOException{
+    static int[] queens;
+    static boolean[] cols;
+    static boolean[] d1;
+    static boolean[] d2;
+
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         n = Integer.parseInt(br.readLine());
-        arr = new int[n];
+        queens = new int[n];
+        cols = new boolean[n];
+        d1 = new boolean[2 * n - 1];
+        d2 = new boolean[2 * n - 1];
         dfs(0);
         System.out.println(total);
     }
-    public static void dfs(int depth){
 
-        if(depth == n){
-            total ++;
+    public static void dfs(int row) {
+        if (row == n) {
+            total++;
             return;
         }
-        for(int i =0; i<n; i++){
-            arr[depth] = i;
-            if(check(depth)){
-                dfs(depth+1);
-            }
+
+        for (int col = 0; col < n; col++) {
+            if (cols[col] || d1[row - col + n - 1] || d2[row + col]) continue;
+
+            queens[row] = col;
+            cols[col] = true;
+            d1[row - col + n - 1] = true;
+            d2[row + col] = true;
+
+            dfs(row + 1);
+
+            cols[col] = false;
+            d1[row - col + n - 1] = false;
+            d2[row + col] = false;
         }
     }
-    public static boolean check(int col){
-
-        for(int i = 0; i<col; i++){
-            if(arr[i] == arr[col])
-                return false;
-            if(Math.abs(i-col) == Math.abs(arr[i]-arr[col]))
-                return false;
-        }
-
-        return true;
-    }
-
 }

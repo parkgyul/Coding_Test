@@ -1,62 +1,43 @@
-import java.io.IOException;
 import java.io.BufferedReader;
-import java.util.StringTokenizer;
+import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.StringTokenizer;
+
+// 백준알고리즘 11403번 경로찾기
 
 public class Main {
-    static int num;
+    static int N;
     static int[][] arr;
-    static int[][] result;
-    static boolean[][] visited;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
+        N = Integer.parseInt(br.readLine());
+        arr = new int[N][N];
 
-        num = Integer.parseInt(br.readLine());
-
-        arr = new int[num][num];
-        result = new int[num][num];
-
-        for (int i = 0; i < num; i++) {
+        for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());
-            for (int j = 0; j < num; j++) {
+            for (int j = 0; j < N; j++) {
                 arr[i][j] = Integer.parseInt(st.nextToken());
             }
         }
-
-        // 모든 정점에서 BFS 탐색
-        for (int i = 0; i < num; i++) {
-            bfs(i);
-        }
-
-        // 결과 출력
-        for (int i = 0; i < num; i++) {
-            for (int j = 0; j < num; j++) {
-                System.out.print(result[i][j] + " ");
-            }
-            System.out.println();
-        }
-    }
-
-    public static void bfs(int start) {
-        Queue<Integer> q = new LinkedList<>();
-        boolean[] visited = new boolean[num]; // 각 탐색마다 방문 초기화
-
-        q.add(start);
-
-        while (!q.isEmpty()) {
-            int current = q.poll();
-
-            for (int next = 0; next < num; next++) {
-                if (arr[current][next] == 1 && !visited[next]) {
-                    visited[next] = true; // 방문 체크
-                    result[start][next] = 1; // 경로 기록
-                    q.add(next);
+        for (int k = 0; k < N; k++) {
+            for (int i = 0; i < N; i++) {
+                for (int j = 0; j < N; j++) {
+                    // 단순히 갈 수 있는 경로가 있는지만 체크함.
+                    if (arr[i][k] == 1 && arr[k][j] == 1) {
+                        arr[i][j] = 1;
+                    }
                 }
             }
         }
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                sb.append(arr[i][j]).append(" ");
+            }
+            sb.append("\n");
+        }
+        System.out.println(sb);
     }
 }

@@ -64,7 +64,7 @@ def main():
                 file_link = parse.quote(os.path.join(root, file))
                 
                 # 기존 데이터에 있으면 기존 시간 유지, 없으면 현재 시간 기록
-                added_time = existing_data.get(category, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+                added_time = existing_data.get(category, datetime.datetime.now().strftime("%Y-%m-%d"))
 
                 content += "|{}|[링크]({})|{}|\n".format(category, file_link, added_time)
                 solveds.append(category)

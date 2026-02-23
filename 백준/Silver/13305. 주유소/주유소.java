@@ -13,25 +13,26 @@ class Main{
 
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        Queue<Integer> dist = new LinkedList<>();
-        Queue<Integer> cost = new LinkedList<>();
+        int[] dist = new int[n-1];
+        int[] cost = new int[n];
 
         for(int i = 0; i < n-1; i++){
-            dist.add(Integer.parseInt(st.nextToken()));
+            dist[i] = Integer.parseInt(st.nextToken());
         }
 
         st = new StringTokenizer(br.readLine());
         for(int i = 0; i < n; i++){
-            cost.add(Integer.parseInt(st.nextToken()));
+            cost[i] = Integer.parseInt(st.nextToken());
         }
 
-        int total = 0;
-        int cost_now = Integer.MAX_VALUE;
+        long total = 0;
+        int cost_now = cost[0];
         int distance_now;
-        while (!dist.isEmpty()) {
-            distance_now = dist.poll();
-            cost_now = Math.min(cost_now, cost.poll());
-            total += cost_now * distance_now;
+        for(int i = 0; i<n-1;i++){
+            distance_now = dist[i];
+            cost_now = Math.min(cost[i], cost_now);
+
+            total += (long)distance_now * cost_now;
         }
 
         System.out.print(total);

@@ -10,6 +10,7 @@ HEADER = """#
 README_FILE = "README.md"
 
 def load_existing_data():
+    """기존 README.md 파일에서 문제번호와 추가된 시간을 로드"""
     existing_data = {}
     if os.path.exists(README_FILE):
         with open(README_FILE, "r", encoding="utf-8") as file:
@@ -19,13 +20,13 @@ def load_existing_data():
                     parts = line.strip().split("|")
                     problem_number = parts[1].strip()
                     added_time = parts[3].strip()
-                    existing_data[problem_number] = added_time if added_time else None
+                    existing_data[problem_number] = added_time
     return existing_data
 
 def main():
     content = HEADER
     directories = []
-    problems = []  # ← 여기 모아둠
+    solveds = []
     
     existing_data = load_existing_data()
 
@@ -33,51 +34,44 @@ def main():
         dirs.sort()
         if root == '.':
             for dir in ('.git', '.github'):
-                if dir in dirs:
+                try:
                     dirs.remove(dir)
+                except ValueError:
+                    pass
             continue
 
         category = os.path.basename(root)
-
+        
         if category == 'images':
             continue
         
         directory = os.path.basename(os.path.dirname(root))
+        
         if directory == '.':
             continue
-
-        for file in files:
-            file_link = parse.quote(os.path.join(root, file))
-            added_time = existing_data.get(category, None)
-            problems.append((directory, category, file_link, added_time))
-
-    # 🔥 정렬: null 먼저, 그 다음 날짜 오름차순
-    def sort_key(x):
-        date = x[3]
-        if date is None:
-            return (0, datetime.datetime.min)
-        return (1, datetime.datetime.strptime(date, "%Y.%m.%d"))
-
-    problems.sort(key=sort_key)
-
-    # 🔥 출력 생성
-    current_directory = None
-
-    for directory, category, file_link, added_time in problems:
-        if directory != current_directory:
+            
+        if directory not in directories:
             if directory in ["백준"]:
                 content += "## 📚 {}\n".format(directory)
             else:
                 content += "### 🚀 {}\n".format(directory)
                 content += "| 문제번호 | 링크 | 푼 날짜 |\n"
                 content += "| ----- | ----- | -------------- |\n"
-            current_directory = directory
+            directories.append(directory)
 
-        display_time = added_time if added_time else ""
-        content += "|{}|[링크]({})|{}|\n".format(category, file_link, display_time)
+        for file in files:
+            if category not in solveds:
+                file_link = parse.quote(os.path.join(root, file))
+                
+                # 기존 데이터에 있으면 기존 시간 유지, 없으면 현재 시간 기록
+                added_time = existing_data.get(category, datetime.datetime.now().strftime("%Y.%m.%d"))
+
+                content += "|{}|[링크]({})|{}|\n".format(category, file_link, added_time)
+                solveds.append(category)
+                print(f"category : {category}, added_time : {added_time}")
 
     with open(README_FILE, "w", encoding="utf-8") as fd:
         fd.write(content)
-
+        
 if __name__ == "__main__":
     main()

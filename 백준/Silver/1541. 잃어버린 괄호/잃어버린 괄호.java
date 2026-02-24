@@ -1,44 +1,24 @@
 import java.io.IOException;
-import java.util.LinkedList;
+import java.util.StringTokenizer;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Queue;
+
 class Main{
     public static void main(String[] args)throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine(), "+-", true);
 
-        String str = br.readLine();
-
-        Queue<String> q = new LinkedList<>();
-        Queue<Integer> num = new LinkedList<>();
-        q.add("+");
-
-        boolean flag = false;
-        int number = 0;
-        int total = 0;
-        for(int i =0; i < str.length(); i++){
-            if(str.charAt(i) == '-'){
-                flag = true;
-                q.add("-");
-                num.add(number);
-                number = 0;
-            } else if(str.charAt(i) == '+'){
-                if(flag) q.add("-");
-                else q.add("+");
-                num.add(number);
-                number = 0;
+        int total = Integer.parseInt(st.nextToken()); // 가장 처음은 숫자 가정
+        while(st.hasMoreElements()){
+            String str = st.nextToken();
+            if(str.equals("-")){
+                total -= Integer.parseInt(st.nextToken());
+                while(st.hasMoreElements()){
+                    st.nextToken();
+                    total -= Integer.parseInt(st.nextToken());
+                }
             } else{
-                number = number*10 + (str.charAt(i)-'0');
-                if(i== str.length()-1) num.add(number);
-            }
-        }
-
-        while(!num.isEmpty()){
-            int n = num.poll();
-            if(q.poll().equals("+")){
-                total += n;
-            }else{
-                total -= n;
+                total += Integer.parseInt(st.nextToken());
             }
         }
 

@@ -9,34 +9,28 @@ class Main{
 
         String str = br.readLine().toUpperCase();
 
-        HashMap<Character, Integer> map = new HashMap<>();
-        for(int i = 0; i <str.length(); i++){
-            char ch = str.charAt(i);
-
-            if(map.containsKey(ch)){
-                map.put(ch, map.get(ch) +1);
-            }else{
-                map.put(ch, 1);
-            }
-
+        int[] cnt = new int[26];
+        for(int i = 0; i < str.length(); i++){
+            int index = str.charAt(i) - 'A';
+            cnt[index]++;
         }
 
-        int max = Integer.MIN_VALUE;
-        for(char ch : map.keySet()){
-            max = Math.max(map.get(ch), max);
-        }
+        int max = -1;
+        int count = 0;
 
-        int cnt = 0;
         StringBuilder sb = new StringBuilder();
-        for(char ch : map.keySet()){
-            if(map.get(ch).equals(max)){
-                sb.append(ch);
-                cnt++;
+
+        for(int i = 0; i < 26; i++){
+            if(max < cnt[i]){
+                sb = new StringBuilder();
+                max = cnt[i];
+                sb.append((char)(i + 'A'));
+                count = 0;
+            }
+            else if(max == cnt[i]){
+                count ++;
             }
         }
-
-        if(cnt == 1) System.out.print(sb);
-        else System.out.print("?");
-
+        System.out.print(count == 0 ? sb : "?");
     }
 }

@@ -32,17 +32,23 @@ class Main{
                     continue;
                 }
 
-                int studentToRemove = board.keySet().iterator().next();;
+                int studentToRemove = -1;
+                int studentToRemove_cnt = Integer.MAX_VALUE;
+                int studentToRemove_time = Integer.MAX_VALUE;
 
                 for (int temp : board.keySet()) {
 
-                    if (students.get(temp) < students.get(studentToRemove)) { // 추천 수가 높으면
+                    if (students.get(temp) < studentToRemove_cnt) { // 추천 수가 높으면
                         studentToRemove = temp;
+                        studentToRemove_cnt = students.get(temp);
+                        studentToRemove_time = board.get(temp);
                         continue;
                     }
 
-                    if (students.get(temp).equals(students.get(studentToRemove)) && board.get(temp) < board.get(studentToRemove)) {
+                    if (students.get(temp).equals(studentToRemove_cnt) && board.get(temp) < studentToRemove_time) {
                         studentToRemove = temp;
+                        studentToRemove_cnt = students.get(temp);
+                        studentToRemove_time = board.get(temp);
                     }
                 }
                 board.remove(studentToRemove);  // 게시판에서 삭제

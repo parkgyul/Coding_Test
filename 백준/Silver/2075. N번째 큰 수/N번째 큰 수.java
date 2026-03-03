@@ -1,26 +1,34 @@
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
-import java.util.Arrays;
+
 import java.util.StringTokenizer;
+
+import java.util.PriorityQueue;
 
 class Main{
     public static void main(String[] args)throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
 
-        int[] arr = new int[(int)Math.pow(n,2)];
+        PriorityQueue<Long> pq = new PriorityQueue<>();
 
-        StringTokenizer st;
-        for(int i = 0; i< n; i++){
-            st = new StringTokenizer(br.readLine());
-            for(int j = 0; j<n; j++){
-                arr[i*n+j] = Integer.parseInt(st.nextToken());
+        for(int i = 0; i<n; i++){
+            StringTokenizer st = new StringTokenizer(br.readLine());
+
+            while(st.hasMoreTokens()){
+                Long num = Long.parseLong(st.nextToken());
+
+                if(pq.size() <n || num > pq.peek()){ // 자리가 있는 경우 or 이번에 들어온 수가 더 크다면
+                    pq.add(num);
+                }
+                
+                if(pq.size() >n){
+                    pq.poll();
+                }
             }
         }
-
-        Arrays.sort(arr);
-
-        System.out.print(arr[(int)Math.pow(n,2)-n]);
+        
+        System.out.print(pq.peek());
     }
 }

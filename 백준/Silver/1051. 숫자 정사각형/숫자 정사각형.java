@@ -14,7 +14,7 @@ public class Main{
         int[][] arr = new int[n][m];
 
         for(int i = 0; i < n; i++){
-            String str = br.readLine();
+             String str = br.readLine();
             for(int j = 0; j<m; j++){
                 arr[i][j] = str.charAt(j) - '0';
             }
@@ -24,7 +24,8 @@ public class Main{
         for(int i = 0; i<n; i++){
             for(int j = 0; j<m; j++){
                 int num = arr[i][j];
-                for(int k = 0; i+k < n && j+k < m; k++){
+                for(int k = 0; k<50; k++){
+                    if(i+k >= n || j+k >= m) break;
                     if(num != arr[i+k][j]) continue;
                     if(num != arr[i+k][j+k]) continue;
                     if(num != arr[i][j+k]) continue;

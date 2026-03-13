@@ -1,4 +1,4 @@
- import java.io.IOException;
+import java.io.IOException;
 import java.io.BufferedReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
@@ -51,12 +51,15 @@ public class Main{
 
             if(next_i <0 || next_j <0 || next_i >= R || next_j >= C)
                 continue;
-            if(selected[arr[next_i][next_j]-'A'])
+
+            int alphabet = arr[next_i][next_j] - 'A';
+
+            if(selected[alphabet])
                 continue;
 
-            selected[arr[next_i][next_j]-'A'] = true;
+            selected[alphabet] = true;
             dfs(next_i, next_j, cnt+1);
-            selected[arr[next_i][next_j]-'A'] = false;
+            selected[alphabet] = false;
         }
     }
 

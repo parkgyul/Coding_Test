@@ -1,11 +1,7 @@
- import java.io.IOException;
+import java.io.IOException;
 import java.io.BufferedReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 import java.io.InputStreamReader;
-
-import java.util.Queue;
-import java.util.LinkedList;
 
 public class Main{
     static int[] dx = {-1, 0, 0, 1};
@@ -13,7 +9,6 @@ public class Main{
     static int R, C, max;
     static char[][] arr;
     static boolean[] selected;
-    static Queue<Point> q;
     public static void main(String[] args)throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -23,7 +18,6 @@ public class Main{
         C = Integer.parseInt(st.nextToken());
 
         arr = new char[R][C];
-//        visited = new boolean[R][C];
         max = 1;
 
         for(int i = 0; i < R; i ++){
@@ -57,17 +51,6 @@ public class Main{
             selected[arr[next_i][next_j]-'A'] = true;
             dfs(next_i, next_j, cnt+1);
             selected[arr[next_i][next_j]-'A'] = false;
-        }
-    }
-
-    public static class Point{
-        int i, j, cnt;
-        boolean[] selected;
-        public Point(int i, int j, int cnt, boolean[] selected){
-            this.i = i;
-            this.j = j;
-            this.cnt = cnt;
-            this.selected = selected;
         }
     }
 }

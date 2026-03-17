@@ -1,7 +1,8 @@
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
+import java.util.List;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
@@ -13,8 +14,10 @@ public class Main{
     static int cnt;
     static int[] dx = {-1,1,0,0};
     static int[] dy = {0,0,-1,1};
-    static boolean[][] visited;
+    static List<Point> emptyList = new ArrayList<>();
+    static List<Point> virusList = new ArrayList<>();
     static int[][] temp;
+
     public static void main(String[] args)throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -29,30 +32,33 @@ public class Main{
             st = new StringTokenizer(br.readLine());
             for(int j = 0; j < M; j++){
                 arr[i][j] = Integer.parseInt(st.nextToken());
+                if(arr[i][j] == 0){
+                    emptyList.add(new Point(i, j));
+                }else if(arr[i][j] == 2){
+                    virusList.add(new Point(i, j));
+                }
             }
         }
 
         max = 0;
 
-        dfs(0);
+        dfs(0,0);
 
         System.out.print(max);
     }
 
-    public static void dfs(int depth){
+    public static void dfs(int start, int depth){
         if(depth == 3){
             findMax();
             return;
         }
 
-        for(int a = 0; a <N; a++){
-            for(int b = 0; b <M; b++){
-                if(arr[a][b] == 0){
-                    arr[a][b] = 1;
-                    dfs(depth +1);
-                    arr[a][b] = 0;
-                }
-            }
+        for(int i = start; i < emptyList.size(); i++){
+            Point p = emptyList.get(i);
+
+            arr[p.i][p.j] = 1;
+            dfs(i+1, depth+1);
+            arr[p.i][p.j] = 0;
         }
     }
 
@@ -63,12 +69,8 @@ public class Main{
             copy[i] = arr[i].clone();
         }
 
-        for(int i = 0; i < N; i ++) {
-            for (int j = 0; j < M; j++) {
-                if (copy[i][j] == 2 && !checked[i][j]) {
-                    bfs(i, j, checked, copy);
-                }
-            }
+        for(Point v : virusList){
+            bfs(v.i, v.j, checked, copy);
         }
 
         cnt = 0;

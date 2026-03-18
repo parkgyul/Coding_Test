@@ -54,18 +54,18 @@ public class Main{
 
     public static int findMin(){
         int total = 0;
-        for(int i = 0; i < houseList.size(); i++){
-            int distance = Integer.MAX_VALUE;
-            Point house = houseList.get(i);
 
-            for(int j = 0; j < chickenList.size(); j++){
-                if(!visited[j]) continue;
+        for (Point house : houseList) {
+            int distance = Integer.MAX_VALUE;
+
+            for (int j = 0; j < chickenList.size(); j++) {
+                if (!visited[j]) continue;
                 Point chicken = chickenList.get(j);
 
-                distance = Math.min(distance, Math.abs(house.i-chicken.i) + Math.abs(house.j-chicken.j));
+                distance = Math.min(distance, Math.abs(house.i - chicken.i) + Math.abs(house.j - chicken.j));
             }
 
-            total+= distance;
+            total += distance;
         }
 
         return total;

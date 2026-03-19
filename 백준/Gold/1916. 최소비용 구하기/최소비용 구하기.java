@@ -44,17 +44,13 @@ class Main{
         pq.add(new Node(start, 0));
         costs[start] = 0;
 
-        boolean[] visited = new boolean[N+1];
-
         while(!pq.isEmpty()){
             Node cur = pq.poll();
             int cur_city = cur.city;
             int cur_cost = cur.cost;
 
-            if(visited[cur_city])
+            if(cur_cost > costs[cur_city])
                 continue;
-
-            visited[cur_city] = true;
 
             for(Node next : nodes[cur_city]){
                 int next_city = next.city;

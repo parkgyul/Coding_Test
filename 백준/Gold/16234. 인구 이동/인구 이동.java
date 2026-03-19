@@ -8,7 +8,6 @@ import java.util.StringTokenizer;
 class Main{
 
     static int[][] arr;
-    static int[][] copy;
     static boolean[][] opened;
     static int N, L, R;
     static int[] dx = {-1, 1, 0, 0};
@@ -35,7 +34,6 @@ class Main{
         int total = 0;
         while(true){
             opened = new boolean[N][N];
-            copy = new int[N][N];
             flag = false;
             for(int i =0; i < N; i++){
                 for(int j = 0; j <N; j++){
@@ -51,9 +49,6 @@ class Main{
                 break;
 
             total++;
-            for(int i = 0; i < N; i++){
-                arr[i] = copy[i].clone();
-            }
         }
         System.out.print(total);
     }
@@ -99,7 +94,7 @@ class Main{
         sum /= count;
         while(!change.isEmpty()){
             Point cur = change.poll();
-            copy[cur.i][cur.j] = sum;
+            arr[cur.i][cur.j] = sum;
         }
 
         return flag;

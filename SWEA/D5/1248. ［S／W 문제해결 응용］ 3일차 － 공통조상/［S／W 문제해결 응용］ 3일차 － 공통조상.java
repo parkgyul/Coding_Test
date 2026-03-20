@@ -64,7 +64,7 @@ class Solution
             for(int next : parents[cur]){
                 if(visited[next] == true){
                     max = Math.max(next, max);
-                    return;
+                    continue;
                 }
                 q.add(next);
                 visited[next] = true;

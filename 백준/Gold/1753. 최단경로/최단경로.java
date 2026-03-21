@@ -1,75 +1,72 @@
-import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-
-
 import java.util.*;
+import java.io.IOException;
 
 public class Main{
+    static int V;
+    static int[] costs;
+    static List<Node>[] nodes;
+    static int start;
     public static void main(String[] args)throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
         StringTokenizer st = new StringTokenizer(br.readLine());
-
-        int V = Integer.parseInt(st.nextToken());
+        V = Integer.parseInt(st.nextToken());
         int E = Integer.parseInt(st.nextToken());
 
-        int start = Integer.parseInt(br.readLine());
+        costs = new int[V+1];
+        start = Integer.parseInt(br.readLine());
 
-        List<Node>[] arr = new ArrayList[V+1];
-
-        for(int i = 1; i <= V; i++){
-            arr[i] = new ArrayList<>();
+        nodes = new ArrayList[V+1];
+        for(int i = 1 ; i < V+1; i++){
+            nodes[i] = new ArrayList<>();
         }
+
         for(int i = 0; i < E; i++){
             st = new StringTokenizer(br.readLine());
             int s = Integer.parseInt(st.nextToken());
             int e = Integer.parseInt(st.nextToken());
-            int cost = Integer.parseInt(st.nextToken());
+            int c = Integer.parseInt(st.nextToken());
 
-            arr[s].add(new Node(e, cost));
+            nodes[s].add(new Node(e,c));
         }
 
-        boolean[] visited = new boolean[V+1];
-        int[] costs = new int[V+1];
         Arrays.fill(costs, Integer.MAX_VALUE);
         costs[start] = 0;
+        bfs();
 
-        visited[start] = true;
+        for(int i = 1; i < V+1; i++){
+            System.out.println(costs[i] == Integer.MAX_VALUE ? "INF" : costs[i]);
+        }
+    }
+    public static void bfs(){
         PriorityQueue<Node> pq = new PriorityQueue<>();
         pq.add(new Node(start, 0));
 
-
-        while(!pq.isEmpty()) {
+        while(!pq.isEmpty()){
             Node cur = pq.poll();
+            int cur_cost = cur.cost;
+            int cur_node = cur.node;
 
-            int e = cur.e;
-            int cost = cur.cost;
+            if(cur_cost > costs[cur_node])
+                continue;
+            
+            for(Node next : nodes[cur_node]){
+                int next_cost = next.cost + cur_cost;
 
-            if(cost > costs[e]) continue;
-
-            for (Node next : arr[e]) {
-                int nextE = next.e;
-                int newCost = cost + next.cost;
-                if (costs[nextE] <= newCost)
+                if(next_cost >= costs[next.node])
                     continue;
 
-                costs[nextE] = newCost;
-                pq.add(new Node(nextE, newCost));
+                costs[next.node] = next_cost;
+                pq.add(new Node(next.node, next_cost));
             }
-        }
-
-        for(int i = 1; i <= V; i ++){
-            if(costs[i] == Integer.MAX_VALUE) System.out.println("INF");
-            else System.out.println(costs[i]);
         }
     }
 
     public static class Node implements Comparable<Node>{
-        int e, cost;
-
-        public Node(int e, int cost){
-            this.e = e;
+        int node, cost;
+        public Node(int node, int cost){
+            this.node = node;
             this.cost = cost;
         }
 

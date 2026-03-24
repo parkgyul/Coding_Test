@@ -11,18 +11,18 @@ public class Main{
 
         Stack<Character> stack = new Stack<>();
 
-        for(int i =0 ; i < str.length(); i++){
+        boolean match;
+        for(int i = 0; i < str.length(); i ++){
             stack.push(str.charAt(i));
 
             if(stack.size() >= word.length()){
-                boolean match = true;
+                match = true;
                 for(int j = 0; j < word.length(); j++){
                     if(stack.get(stack.size() - word.length() + j) != word.charAt(j)){
-                        match = false;
+                        match = false; // 달라
                         break;
                     }
                 }
-
                 if(match){
                     for(int j = 0; j < word.length(); j++){
                         stack.pop();
@@ -33,7 +33,7 @@ public class Main{
 
         if(stack.isEmpty()){
             System.out.println("FRULA");
-        }else {
+        }else{
             StringBuilder sb = new StringBuilder();
             for(char c : stack) sb.append(c);
             System.out.println(sb);

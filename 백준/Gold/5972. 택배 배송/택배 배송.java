@@ -48,7 +48,8 @@ public class Main{
                 continue;
 
             if(cur.place == N){
-                result = Math.min(result, cur.cost);
+                result = cur.cost;
+                return;
             }
 
             visited[cur.place] = true;

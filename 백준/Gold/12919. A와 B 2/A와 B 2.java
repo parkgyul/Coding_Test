@@ -15,12 +15,13 @@ public class Main{
     }
 
     public static void dfs(String str) {
+        if(flag) return;
+
         if (str.length() == S.length()) {
             if (str.equals(S)) {
                 flag = true;
-                return;
-            } else
-                return;
+            }
+            return;
         }
 
         if (str.length() < S.length())
@@ -31,11 +32,8 @@ public class Main{
             dfs(str.substring(0, str.length() - 1));
 
         if (str.charAt(0) == 'B') {
-            StringBuilder sb = new StringBuilder();
-            for (int i = str.length() - 1; i >= 1; i--) {
-                sb.append(str.charAt(i));
-            }
-            dfs(sb.toString());
+            String next = new StringBuilder(str.substring(1)).reverse().toString();
+            dfs(next);
         }
     }
 }

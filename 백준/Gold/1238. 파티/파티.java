@@ -5,7 +5,8 @@ import java.util.*;
 
 public class Main{
     static int N, M, X;
-    static List<City>[] cities;
+    static List<City>[] toX;
+    static List<City>[] fromX;
     public static void main(String[] args)throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -13,10 +14,12 @@ public class Main{
         M = Integer.parseInt(st.nextToken());
         X = Integer.parseInt(st.nextToken());
 
-        cities = new ArrayList[N+1];
+        toX = new ArrayList[N+1];
+        fromX = new ArrayList[N+1];
 
         for(int i = 1; i <= N; i++){
-            cities[i] = new ArrayList<>();
+            toX[i] = new ArrayList<>();
+            fromX[i] = new ArrayList<>();
         }
 
         for(int i =0 ; i < M; i++){
@@ -26,70 +29,49 @@ public class Main{
             int end = Integer.parseInt(st.nextToken());
             int cost = Integer.parseInt(st.nextToken());
 
-            cities[start].add(new City(end, cost));
+            fromX[start].add(new City(end, cost));
+            toX[end].add(new City(start, cost));
         }
 
         int max = Integer.MIN_VALUE;
-        for(int i = 1; i <= N; i++){
-            if(i == X) continue;
-            max = Math.max(calculateGo(i) + calculateCome(i), max);
-        }
 
+        int[] costFromX = dijkstra(X, fromX);
+        int[]costToX = dijkstra(X, toX);
+
+        for(int i = 1; i <= N; i++){
+            max = Math.max(costFromX[i] + costToX[i], max);
+        }
 
         System.out.print(max);
     }
 
-    public static int calculateGo(int start){
+    public static int[] dijkstra(int start, List<City>[] g){
         PriorityQueue<City> pq = new PriorityQueue<>();
         pq.add(new City(start, 0));
-        boolean[] visited = new boolean[N+1];
+        int[] costs = new int[N+1];
+
+        Arrays.fill(costs, Integer.MAX_VALUE);
+        costs[start] = 0;
 
         while(!pq.isEmpty()){
             City cur = pq.poll();
 
-            if(visited[cur.num])
+            if(cur.cost > costs[cur.num])
                 continue;
 
-            if(cur.num == X)
-                return cur.cost;
+            for(City next : g[cur.num]){
+                int nextCost = cur.cost + next.cost;
 
-            visited[cur.num] = true;
-
-            for(City next : cities[cur.num]){
-                if(visited[next.num])
+                if(nextCost >= costs[next.num])
                     continue;
 
-                pq.add(new City(next.num, cur.cost+next.cost));
+                costs[next.num] = nextCost;
+
+                pq.add(new City(next.num, nextCost));
             }
         }
 
-        return -1;
-    }
-
-    public static int calculateCome(int end){
-        PriorityQueue<City> pq = new PriorityQueue<>();
-        pq.add(new City(X, 0));
-        boolean[] visited = new boolean[N+1];
-
-        while(!pq.isEmpty()){
-            City cur = pq.poll();
-
-            if(visited[cur.num])
-                continue;
-
-            if(cur.num == end)
-                return cur.cost;
-
-            visited[cur.num] = true;
-
-            for(City next : cities[cur.num]){
-                if(visited[next.num])
-                    continue;
-
-                pq.add(new City(next.num, cur.cost+next.cost));
-            }
-        }
-        return -1;
+        return costs;
     }
 
     public static class City implements Comparable<City>{

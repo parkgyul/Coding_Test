@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 
 public class Main{
     static int n, m;
-    static List<Bus>[] buses;
+    static long[][] costs;
     static StringBuilder sb = new StringBuilder();
     public static void main(String[] args)throws IOException{
         BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
@@ -15,9 +15,10 @@ public class Main{
 
         StringTokenizer st;
 
-        buses = new ArrayList[n+1];
-        for(int i = 0; i < n+1; i++){
-            buses[i] = new ArrayList<>();
+        costs = new long[n+1][n+1];
+        for(int i = 1; i <= n; i++){
+            Arrays.fill(costs[i], Long.MAX_VALUE);
+            costs[i][i] = 0;
         }
 
         for(int i = 0; i < m; i++){
@@ -26,46 +27,30 @@ public class Main{
             int end = Integer.parseInt(st.nextToken());
             int cost = Integer.parseInt(st.nextToken());
 
-            buses[start].add(new Bus(end, cost));
+            costs[start][end] = Math.min(costs[start][end], cost);
+        }
+
+        for(int k = 1; k <= n; k++){
+            for(int i = 1; i <= n; i++){
+                for(int j = 1; j <= n; j++){
+                    if(costs[i][k] != Long.MAX_VALUE && costs[k][j] != Long.MAX_VALUE){
+                        costs[i][j] = Math.min(costs[i][j], costs[i][k] + costs[k][j]);
+                    }
+                }
+            }
         }
 
         for(int i = 1; i <= n; i++){
-            bfs(i);
+            for(int j = 1; j <= n; j++){
+               sb.append(costs[i][j] == Long.MAX_VALUE ? 0 : costs[i][j]).append(" ");
+            }
+            sb.append("\n");
         }
 
         System.out.print(sb);
     }
 
-    public static void bfs(int start){
-        PriorityQueue<Bus> q = new PriorityQueue<>();
-        q.add(new Bus(start, 0));
-        long[] costs = new long[n+1];
-        Arrays.fill(costs, Integer.MAX_VALUE);
-        costs[start] = 0;
 
-        while(!q.isEmpty()){
-            Bus cur = q.poll();
-
-            if(cur.cost > costs[cur.city])
-                continue;
-
-            for(Bus next : buses[cur.city]){
-                long next_cost = costs[cur.city] + next.cost;
-
-                if(next_cost > costs[next.city])
-                    continue;
-
-                costs[next.city] = next_cost;
-                q.add(new Bus(next.city, next_cost));
-            }
-        }
-
-        for(int i = 1; i < n+1; i++){
-            sb.append(costs[i] == Integer.MAX_VALUE ? 0 : costs[i]).append(" ");
-        }
-
-        sb.append("\n");
-    }
 
     public static class Bus implements Comparable<Bus>{
         int city; long cost;
@@ -73,7 +58,7 @@ public class Main{
             this.city = city;
             this.cost = cost;
         }
-        
+
         public int compareTo(Bus o){
             return Long.compare(this.cost, o.cost);
         }

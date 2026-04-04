@@ -12,14 +12,13 @@ public class Main{
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
 
-        int[][] dp = new int[N+1][N+1];
+        int[][] prefix = new int[N+1][N+1];
 
         for(int i = 1; i <= N; i++){
             st = new StringTokenizer(br.readLine());
-            int row = 0;
             for(int j = 1; j <= N; j++){
-                row += Integer.parseInt(st.nextToken());
-                dp[i][j] = row;
+                int num = Integer.parseInt(st.nextToken());
+                prefix[i][j] = num + prefix[i-1][j] + prefix[i][j-1] - prefix[i-1][j-1];
             }
         }
 
@@ -32,10 +31,7 @@ public class Main{
             int x2 = Integer.parseInt(st.nextToken());
             int y2 = Integer.parseInt(st.nextToken());
 
-            int sum = 0;
-            for(int a = x1; a <= x2; a++){
-                sum += (dp[a][y2] - dp[a][y1-1]);
-            }
+            int sum = prefix[x2][y2] - prefix[x2][y1-1] - prefix[x1-1][y2] + prefix[x1-1][y1-1];
 
             result.append(sum).append("\n");
         }

@@ -53,11 +53,8 @@ public class Main{
 
         bfs();
 
-        for(int i = 0; i < virusList.size(); i++){
-            int[] a = new int[M];
-            a[0] = i;
-            dfs(a, 1, i);
-        }
+
+        dfs(new int[M], 0, 0);
 
         System.out.print(result == Integer.MAX_VALUE ? -1 : result);
     }
@@ -74,9 +71,9 @@ public class Main{
             return;
         }
 
-        for(int i = index+1; i < virusList.size(); i++){
+        for(int i = index; i < virusList.size(); i++){
             virus[depth] = i;
-            dfs(virus, depth+1, i);
+            dfs(virus, depth+1, i+1);
         }
     }
 

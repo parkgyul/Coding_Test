@@ -1,10 +1,10 @@
 import java.io.IOException;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+
 public class Main{
     public static void main(String[] args)throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -14,12 +14,11 @@ public class Main{
         int N = Integer.parseInt(st.nextToken());
         int K = Integer.parseInt(st.nextToken());
 
-        Jewel[] jewels = new Jewel[N];
+        int[][] jewels = new int[N][2];
         for(int i = 0; i < N; i++){
             st = new StringTokenizer(br.readLine());
-            int w = Integer.parseInt(st.nextToken());
-            int v = Integer.parseInt(st.nextToken());
-            jewels[i] = new Jewel(w, v);
+            jewels[i][0] = Integer.parseInt(st.nextToken());
+            jewels[i][1] = Integer.parseInt(st.nextToken());
         }
 
         int[] bags = new int[K];
@@ -27,18 +26,18 @@ public class Main{
             bags[i] = Integer.parseInt(br.readLine());
         }
 
-        Arrays.sort(jewels, (a, b) -> a.weight - b.weight);
+        Arrays.sort(jewels, (a, b) -> a[0] - b[0]);
         Arrays.sort(bags);
 
-        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a,b) -> b - a);
         int j = 0;
         long result = 0;
 
         for(int i = 0; i < K; i++){
             int capacity = bags[i];
 
-            while(j < N && capacity >= jewels[j].weight){
-                pq.add(jewels[j].value);
+            while(j < N && jewels[j][0] <= capacity){
+                pq.add(jewels[j][1]);
                 j++;
             }
 
@@ -48,14 +47,5 @@ public class Main{
         }
 
         System.out.print(result);
-    }
-
-    public static class Jewel{
-        int weight, value;
-
-        public Jewel(int weight, int value){
-            this.weight = weight;
-            this.value = value;
-        }
     }
 }

@@ -1,7 +1,5 @@
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.StringTokenizer;
 import java.io.InputStreamReader;
 
@@ -57,17 +55,9 @@ public class Main{
 
             visited[ni][nj] = true;
             dfs(ni, nj);
-            
+
             if(flag) return;
         }
     }
 
-    public static class Point {
-        int i, j;
-
-        public Point( int i, int j){
-            this.i = i;
-            this.j = j;
-        }
-    }
 }

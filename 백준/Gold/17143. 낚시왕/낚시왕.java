@@ -80,32 +80,24 @@ public class Main{
                 int dir = sharkD[sharkNum];
                 int speed = sharkS[sharkNum];
 
-                if (dir == 1 || dir == 2) {
-                    if (R == 1) {
-                        speed = 0;
-                    } else {
-                        speed %= (2 * (R - 1));
-                    }
+                if(dir == 1 || dir == 2){
+                    speed %= 2 * (R-1);
 
-                    while (speed-- > 0) {
-                        if (dir == 1 && ni == 1) dir = 2;
-                        else if (dir == 2 && ni == R) dir = 1;
+                    while(speed-- > 0){
+                        if(dir == 1 && ni == 1) dir = 2;
+                        else if(dir == 2 && ni == R) dir = 1;
 
-                        if (dir == 1) ni--;
+                        if(dir == 1) ni--;
                         else ni++;
                     }
-                } else {
-                    if (C == 1) {
-                        speed = 0;
-                    } else {
-                        speed %= (2 * (C - 1));
-                    }
+                }else{
+                    speed %= 2 * (C-1);
 
-                    while (speed-- > 0) {
-                        if (dir == 3 && nj == C) dir = 4;
+                    while(speed-- > 0){
+                        if(dir == 3 && nj == C) dir = 4;
                         else if (dir == 4 && nj == 1) dir = 3;
 
-                        if (dir == 3) nj++;
+                        if(dir == 3) nj++;
                         else nj--;
                     }
                 }

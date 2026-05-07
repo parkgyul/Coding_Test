@@ -1,43 +1,43 @@
 import java.util.*;
-
 class Solution {
-    static Map<String, String> map;
-    static Map<String, Integer> amounts;
+    
     public int[] solution(String[] enroll, String[] referral, String[] seller, int[] amount) {
-        int[] answer = new int[enroll.length];
-
-        map = new HashMap<>();
-        amounts = new HashMap<>();
-        for(int i =0; i < enroll.length; i++){
-            map.put(enroll[i], referral[i]);
-            amounts.put(enroll[i], 0);
+        int n = enroll.length;
+        
+        Map<String, Integer> indexMap = new HashMap<>();
+        int[] parent = new int[n];
+        int[] answer = new int[n];
+        
+        for(int i = 0; i < n; i++){
+            indexMap.put(enroll[i], i);
         }
         
-        
-        for(int i =0 ; i < seller.length; i++){
-            String s = seller[i];
-            int a = amount[i]*100;
-                  
-            dfs(s, a);
+        for(int i = 0; i < n; i++){
+            if(referral[i].equals("-")){
+                parent[i] = -1;
+            }else{
+                parent[i] = indexMap.get(referral[i]);
+            }
         }
         
-        for(int i = 0; i < enroll.length; i++){
-            String name = enroll[i];
-            int cost = amounts.get(name);
+        for(int i = 0; i < seller.length; i++){
+            int cur = indexMap.get(seller[i]);
+            int money = amount[i] * 100;
             
-            answer[i] = cost;
+            while(cur!= -1 && money > 0){
+                int give = money/10;
+                int keep = money - give;
+                
+                answer[cur] += keep;
+                
+                money = give;
+                cur = parent[cur];
+            }
+            
         }
+        
+        
         
         return answer;
-    }
-    
-    public void dfs(String s, int a){
-        amounts.put(s, (amounts.get(s) + (a < 10 ? a : a - (int)(0.1*a))));
-        
-        String next = map.get(s);
-        
-        if(next.equals("-") || a < 10) return;
-
-        dfs(next, (int)(0.1 * a));
     }
 }

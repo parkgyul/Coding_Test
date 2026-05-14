@@ -1,58 +1,53 @@
 import java.util.*;
-
 class Solution {
-    static int max;
+    static List<Integer>[] edges;
     static int[] infos;
-    static List<Integer>[] trees;
-    
-    public int solution(int[] info, int[][] edges) {
-        infos = new int[info.length];
+    static int max;
+    public int solution(int[] info, int[][] edgesInfo) {
+        int n = info.length;
         infos = info;
+        edges = new ArrayList[n+1];
         
-        trees = new ArrayList[info.length+1];
-        for(int i = 0; i < info.length+1; i++){
-            trees[i] = new ArrayList<>();
+        for(int i = 0; i < n+1; i++){
+            edges[i] = new ArrayList<>();
         }
         
-        for(int i =0 ; i < edges.length; i++){
-            int from = edges[i][0];
-            int to = edges[i][1];
+        for(int[] edge : edgesInfo){
+            int p = edge[0];
+            int c = edge[1];
             
-            trees[from].add(to);
+            edges[p].add(c);
         }
         
+        List<Integer> list = new ArrayList<>();
+        list.add(0);
         max = Integer.MIN_VALUE;
         
-        List<Integer> candidates = new ArrayList<>();
-        candidates.add(0);
-        
-        dfs(0, 0, candidates);
-        
+        dfs(0, 0, list);
         
         return max;
     }
     
     public void dfs(int sheep, int wolf, List<Integer> candidates){
         for(int next : candidates){
-            int nextSheep = sheep;
-            int nextWolf = wolf;
+            int newSheep = sheep;
+            int newWolf = wolf;
             
-            if(infos[next] == 1){
-                nextWolf++;
+            if(infos[next] == 0){ // 양
+                newSheep ++;
             }else{
-                nextSheep++;
+                newWolf++;
             }
             
-            if(nextSheep <= nextWolf)
-                continue;
+            if(newSheep == newWolf) continue;
             
-            max = Math.max(max, nextSheep);
+            max = Math.max(newSheep, max);
             
             List<Integer> newCandidates = new ArrayList<>(candidates);
             newCandidates.remove(Integer.valueOf(next));
-            newCandidates.addAll(trees[next]);
+            newCandidates.addAll(edges[next]);
             
-            dfs(nextSheep, nextWolf, newCandidates);
+            dfs(newSheep, newWolf, newCandidates);
         }
     }
 }

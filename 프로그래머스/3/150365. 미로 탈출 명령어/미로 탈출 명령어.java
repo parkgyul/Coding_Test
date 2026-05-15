@@ -1,43 +1,42 @@
 import java.util.*;
 class Solution {
-    static String answer;
     static int[] dx = {1, 0, 0, -1};
     static int[] dy = {0, -1, 1, 0};
+    static String answer = "";
     static boolean flag;
-    public String solution(int n, int m, int x, int y, int r, int c, int k) {
-        answer = "impossible";
-        
+    public String solution(int n, int m, int x, int y, int r, int c, int k) {    
         int minDist = Math.abs(x-r) + Math.abs(y-c);
-        if(minDist > k) return answer;
-        if((k - minDist) % 2 == 1) return answer;
         
-        dfs(k, 0, n, m, x, y, r, c, new char[k]);
+        if(k < minDist) return "impossible";
+        if((k - minDist) % 2 != 0) return "impossible";
+        
+        flag = false;
+        dfs(n, m, 0, new char[k], x-1, y-1, r-1, c-1, k);
+        
         return answer;
     }
     
-    public void dfs(int k, int depth, int n, int m, int si, int sj, int ei, int ej, char[] arr){
+    public static void dfs(int n, int m, int cnt, char[] path, int nowX, int nowY, int r, int c, int k)
+    {
         if(flag) return;
-        
-        int remainMove = k - depth;
-        int remainDist = Math.abs(si - ei) + Math.abs(sj - ej);
-        
-        if(remainDist > remainMove) return;
-        if((remainDist - remainMove) % 2 == 1) return;
-        
-        if(depth == k){
-            if(si == ei && sj == ej){
-                answer = new String(arr);
+        if(cnt == k){
+            if(nowX == r && nowY == c){
+                answer = new String(path);
                 flag = true;
             }
             
             return;
         }
         
-        for(int i =0 ; i < 4; i++){
-            int ni = si + dx[i];
-            int nj = sj + dy[i];
+        for(int i = 0; i < 4; i++){
+            int ni = nowX + dx[i];
+            int nj = nowY + dy[i];
             
-            if(ni < 1 || nj < 1 || ni > n || nj > m) continue;
+            if(ni < 0 || nj < 0 || ni >= n || nj >= m) continue;
+            
+            int dist = Math.abs(ni - r) + Math.abs(nj - c);
+            
+            if(dist > k - cnt) continue;
             
             char ch;
             if(i == 0) ch = 'd';
@@ -45,9 +44,9 @@ class Solution {
             else if(i == 2) ch = 'r';
             else ch = 'u';
             
-            arr[depth] = ch;
-            dfs(k, depth+1, n, m, ni, nj, ei, ej, arr);
-            if(flag) return;
+            char[] newPath = path;
+            newPath[cnt] = ch;
+            dfs(n, m, cnt+1, newPath, ni, nj, r, c, k);
         }
-    }
+    }    
 }

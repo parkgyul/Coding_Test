@@ -1,28 +1,20 @@
 class Solution {
     public long solution(int[] sequence) {
-        long[] oddSequence = new long[sequence.length];
-        long[] evenSequence = new long[sequence.length];
-
-        for (int i = 0; i < sequence.length; i++) {
-            oddSequence[i] = sequence[i];
-            evenSequence[i] = sequence[i];
-
-            if (i % 2 == 0) {
-                oddSequence[i] *= -1;
-            } else {
-                evenSequence[i] *= -1;
-            }
+        long[] pulseDp1 = new long[sequence.length]; // -1 부터
+        pulseDp1[0] = -sequence[0];
+        long[] pulseDp2 = new long[sequence.length];
+        pulseDp2[0] = sequence[0];
+        
+         long answer = Math.max(pulseDp1[0], pulseDp2[0]);
+        
+        for(int i = 1; i < sequence.length; i++){
+            int value1 = (i%2 == 0 ? -1 : 1) * sequence[i];
+            int value2 = (i%2 == 0 ? 1 : -1) * sequence[i];
+            pulseDp1[i] = Math.max(pulseDp1[i-1] + value1, value1);
+            pulseDp2[i] = Math.max(pulseDp2[i-1] + value2, value2);
+            answer = Math.max(pulseDp1[i], answer);
+            answer = Math.max(pulseDp2[i], answer);
         }
-
-        long answer = Math.max(oddSequence[0], evenSequence[0]);
-
-        for (int i = 1; i < sequence.length; i++) {
-            oddSequence[i] = Math.max(oddSequence[i], oddSequence[i - 1] + oddSequence[i]);
-            evenSequence[i] = Math.max(evenSequence[i], evenSequence[i - 1] + evenSequence[i]);
-
-            answer = Math.max(answer, Math.max(oddSequence[i], evenSequence[i]));
-        }
-
         return answer;
     }
 }

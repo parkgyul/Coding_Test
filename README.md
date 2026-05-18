@@ -10,6 +10,7 @@
 |N개 중에 M개 뽑기|[링크](./Code_Tree/trail4/N%EA%B0%9C%20%EC%A4%91%EC%97%90%20M%EA%B0%9C%20%EB%BD%91%EA%B8%B0/n-choose-m.java)|2026.05.18|
 |XOR 결과 최대 만들기|[링크](./Code_Tree/trail4/XOR%20%EA%B2%B0%EA%B3%BC%20%EC%B5%9C%EB%8C%80%20%EB%A7%8C%EB%93%A4%EA%B8%B0/max-of-xor.java)|2026.05.18|
 |가능한 수열 중 최솟값 구하기|[링크](./Code_Tree/trail4/%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%88%98%EC%97%B4%20%EC%A4%91%20%EC%B5%9C%EC%86%9F%EA%B0%92%20%EA%B5%AC%ED%95%98%EA%B8%B0/find-min-of-possible-series.java)|2026.05.18|
+|단순한 동전 챙기기|[링크](./Code_Tree/trail4/%EB%8B%A8%EC%88%9C%ED%95%9C%20%EB%8F%99%EC%A0%84%20%EC%B1%99%EA%B8%B0%EA%B8%B0/collect-coins-easy.java)|2026.05.18|
 |방향에 맞춰 최대로 움직이기|[링크](./Code_Tree/trail4/%EB%B0%A9%ED%96%A5%EC%97%90%20%EB%A7%9E%EC%B6%B0%20%EC%B5%9C%EB%8C%80%EB%A1%9C%20%EC%9B%80%EC%A7%81%EC%9D%B4%EA%B8%B0/max-movements-with-direction.java)|2026.05.17|
 |최소 점프 횟수|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%A0%90%ED%94%84%20%ED%9A%9F%EC%88%98/min-num-of-jumps.java)|2026.05.18|
 ### 🚀 SWEA

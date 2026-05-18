@@ -1,51 +1,52 @@
 import java.io.*;
+import java.util.*;
 
 public class Main {
-
     static int N;
-    static StringBuilder sequence = new StringBuilder();
-    static char[] numbers = {'4', '5', '6'};
+    static int[] arr;
+    static boolean flag;
+    static StringBuilder sb = new StringBuilder();
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
         N = Integer.parseInt(br.readLine());
+        arr = new int[N];
 
-        dfs();
+        dfs(0);
 
-        System.out.println(sequence);
+        System.out.println(sb);
     }
 
-    static boolean dfs() {
-        if (sequence.length() == N) {
-            return true;
+    public static void dfs(int depth) {
+        if (flag) return;
+
+        if (!isPossible(depth)) {
+            return;
         }
 
-        for (char num : numbers) {
-            sequence.append(num);
-
-            if (isPossible()) {
-                if (dfs()) {
-                    return true;
-                }
+        if (depth == N) {
+            for (int i = 0; i < N; i++) {
+                sb.append(arr[i]);
             }
-
-            sequence.deleteCharAt(sequence.length() - 1);
+            flag = true;
+            return;
         }
 
-        return false;
+        for (int num = 4; num <= 6; num++) {
+            arr[depth] = num;
+            dfs(depth + 1);
+
+            if (flag) return;
+        }
     }
 
-    static boolean isPossible() {
-        int len = sequence.length();
-
-        for (int size = 1; size <= len / 2; size++) {
+    public static boolean isPossible(int depth) {
+        for (int size = 1; size <= depth / 2; size++) {
             boolean same = true;
 
             for (int i = 0; i < size; i++) {
-                char left = sequence.charAt(len - 2 * size + i);
-                char right = sequence.charAt(len - size + i);
-
-                if (left != right) {
+                if (arr[depth - 1 - i] != arr[depth - 1 - size - i]) {
                     same = false;
                     break;
                 }

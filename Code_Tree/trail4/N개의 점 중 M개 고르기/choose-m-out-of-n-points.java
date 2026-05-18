@@ -7,8 +7,8 @@ public class Main {
     static int[] selected;
     static int[][] dist;
     static int min;
-    static int maxDist;
-    public static void main(String[] args)throws IOException {
+
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
@@ -18,65 +18,59 @@ public class Main {
         di = new int[N];
         dj = new int[N];
         dist = new int[N][N];
+        selected = new int[M];
 
-        for(int i = 0; i < N; i++){
+        for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());
-            int a = Integer.parseInt(st.nextToken());
-            int b = Integer.parseInt(st.nextToken());
 
-            di[i] = a;
-            dj[i] = b;
+            di[i] = Integer.parseInt(st.nextToken());
+            dj[i] = Integer.parseInt(st.nextToken());
         }
 
-        selected = new int[N];
         min = Integer.MAX_VALUE;
 
-        getDists(0, 0);
+        getDists();
 
         dfs(0, 0, 0);
-       
 
         System.out.print(min);
-
     }
 
-    static void getDists(int index, int depth){
-        if(depth == 2){
-            int a = selected[0];
-            int b = selected[1];
-
-            dist[a][b] = getDist(di[a], dj[a], di[b], dj[b]);
-            return;
-        }
-
-        for(int i = index; i < N; i++){
-            selected[depth] = i;
-            getDists(i+1, depth+1);
-        }
-    }
-
-    static void dfs(int depth, int index, int maxSum){
-        if(maxSum >= min){
-            return;
-        }
-        if(depth == M){
-            min = Math.min(min, maxSum);
-            return;
-        }
-
-        for(int i = index; i < N; i++){
-            selected[depth] = i;
-            int newMaxSum = maxSum;
-            if(depth != 0){
-                for(int j = depth-1; j >= 0; j--){
-                    newMaxSum = Math.max(dist[selected[j]][i], newMaxSum);
-                }
+    static void getDists() {
+        for (int i = 0; i < N; i++) {
+            for (int j = i + 1; j < N; j++) {
+                dist[i][j] = getDist(di[i], dj[i], di[j], dj[j]);
+                dist[j][i] = dist[i][j];
             }
-            dfs(depth+1, i+1, newMaxSum);
         }
     }
 
-    static int getDist(int si, int sj, int ei, int ej){
-        return (si-ei)*(si-ei) + (sj-ej)*(sj-ej);
+    static void dfs(int depth, int index, int maxDist) {
+        if (maxDist >= min) {
+            return;
+        }
+
+        if (depth == M) {
+            min = Math.min(min, maxDist);
+            return;
+        }
+
+        int need = M - depth;
+
+        for (int i = index; i <= N - need; i++) {
+            selected[depth] = i;
+
+            int newMaxDist = maxDist;
+
+            for (int j = 0; j < depth; j++) {
+                newMaxDist = Math.max(newMaxDist, dist[selected[j]][i]);
+            }
+
+            dfs(depth + 1, i + 1, newMaxDist);
+        }
+    }
+
+    static int getDist(int si, int sj, int ei, int ej) {
+        return (si - ei) * (si - ei) + (sj - ej) * (sj - ej);
     }
 }

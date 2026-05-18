@@ -1,54 +1,61 @@
 import java.io.*;
-import java.util.*;
 
 public class Main {
+
     static int N;
-    static int[] arr;
-    static boolean flag;
-    static StringBuilder sb;
-    public static void main(String[] args)throws IOException {
+    static StringBuilder sequence = new StringBuilder();
+    static char[] numbers = {'4', '5', '6'};
+
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        
         N = Integer.parseInt(br.readLine());
-        arr = new int[N];
 
-        sb = new StringBuilder();
-        dfs(0);
+        dfs();
 
-        System.out.println(sb);
+        System.out.println(sequence);
     }
 
-    public static void dfs(int depth){
-        if(flag) return;
+    static boolean dfs() {
+        if (sequence.length() == N) {
+            return true;
+        }
 
-        if(depth >= 4){
-            int depthIndex = 2;
-            for(int i = 0; i < depth/2-1; i++){
-                int cnt = 0;
-                for(int j = 0; j < depthIndex; j++){
-                    if(arr[depth-1-j] == arr[depth-1-depthIndex-j]){
-                        cnt++;
-                    }
+        for (char num : numbers) {
+            sequence.append(num);
+
+            if (isPossible()) {
+                if (dfs()) {
+                    return true;
                 }
-                if(cnt == depthIndex){
-                    return;
+            }
+
+            sequence.deleteCharAt(sequence.length() - 1);
+        }
+
+        return false;
+    }
+
+    static boolean isPossible() {
+        int len = sequence.length();
+
+        for (int size = 1; size <= len / 2; size++) {
+            boolean same = true;
+
+            for (int i = 0; i < size; i++) {
+                char left = sequence.charAt(len - 2 * size + i);
+                char right = sequence.charAt(len - size + i);
+
+                if (left != right) {
+                    same = false;
+                    break;
                 }
-                depthIndex++;
+            }
+
+            if (same) {
+                return false;
             }
         }
 
-        if(depth == N){
-            for(int i = 0 ; i < N; i++){
-                sb.append(arr[i]);
-            }
-            flag = true;
-            return;
-        }
-
-        for(int i = 4; i <= 6; i++){
-            if(depth >=1 && arr[depth-1] == i) continue;
-            arr[depth] = i;
-            dfs(depth+1);
-        }
+        return true;
     }
 }

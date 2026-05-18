@@ -7,7 +7,6 @@ public class Main {
     static Map<Integer, Point> map;
 
     static int min;
-    static int si, sj;
     static int ei, ej;
 
     public static void main(String[] args) throws IOException {
@@ -18,8 +17,8 @@ public class Main {
         nums = new boolean[10];
         map = new HashMap<>();
 
-        si = -1;
-        sj = -1;
+        int si = -1;
+        int sj = -1;
 
         for (int i = 0; i < N; i++) {
             String str = br.readLine();

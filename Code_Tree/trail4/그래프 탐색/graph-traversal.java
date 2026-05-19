@@ -4,6 +4,7 @@ import java.util.*;
 public class Main {
     static List<Integer>[] nodes;
     static boolean[] visited;
+    static int answer = 0;
     public static void main(String[] args)throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -28,12 +29,6 @@ public class Main {
         visited = new boolean[N+1];
         visited[1] = true;
         dfs(1, 0);
-
-        int answer = -1;
-        for(boolean flag : visited){
-            if(flag) answer++;
-        }
-
         System.out.print(answer);
     }
 
@@ -41,6 +36,7 @@ public class Main {
         for(int next : nodes[prev]){
             if(visited[next]) continue;
             visited[next] = true;
+            answer++;
             dfs(next, cnt+1);
         }
     }

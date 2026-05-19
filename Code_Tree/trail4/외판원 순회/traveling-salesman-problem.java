@@ -39,11 +39,11 @@ public class Main {
         }
 
         for(int i = 1; i < N; i++){
-            if(visited[i] || map[prev][i] == 0) continue;
-
-            visited[i] = true;
-            dfs(depth+1, sum + map[prev][i], i);
-            visited[i] = false;
+             if (!visited[i] && map[prev][i] != 0) {
+                visited[i] = true;
+                dfs(depth+1, sum + map[prev][i], i);
+                visited[i] = false;
+             }
         }
     }
 }

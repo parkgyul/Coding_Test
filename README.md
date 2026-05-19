@@ -15,6 +15,7 @@
 |거꾸로 순열|[링크](./Code_Tree/trail4/%EA%B1%B0%EA%BE%B8%EB%A1%9C%20%EC%88%9C%EC%97%B4/backward-permutation.java)|2026.05.19|
 |단순한 동전 챙기기|[링크](./Code_Tree/trail4/%EB%8B%A8%EC%88%9C%ED%95%9C%20%EB%8F%99%EC%A0%84%20%EC%B1%99%EA%B8%B0%EA%B8%B0/collect-coins-easy.java)|2026.05.18|
 |방향에 맞춰 최대로 움직이기|[링크](./Code_Tree/trail4/%EB%B0%A9%ED%96%A5%EC%97%90%20%EB%A7%9E%EC%B6%B0%20%EC%B5%9C%EB%8C%80%EB%A1%9C%20%EC%9B%80%EC%A7%81%EC%9D%B4%EA%B8%B0/max-movements-with-direction.java)|2026.05.17|
+|수들 중 최솟값 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%20%EC%A4%91%20%EC%B5%9C%EC%86%9F%EA%B0%92%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/maximin-of-numbers.java)|2026.05.19|
 |수들의 합 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%EC%9D%98%20%ED%95%A9%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/max-sum-of-numbers.java)|2026.05.19|
 |외판원 순회|[링크](./Code_Tree/trail4/%EC%99%B8%ED%8C%90%EC%9B%90%20%EC%88%9C%ED%9A%8C/traveling-salesman-problem.java)|2026.05.19|
 |최소 점프 횟수|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%A0%90%ED%94%84%20%ED%9A%9F%EC%88%98/min-num-of-jumps.java)|2026.05.18|

@@ -20,6 +20,7 @@
 |방향에 맞춰 최대로 움직이기|[링크](./Code_Tree/trail4/%EB%B0%A9%ED%96%A5%EC%97%90%20%EB%A7%9E%EC%B6%B0%20%EC%B5%9C%EB%8C%80%EB%A1%9C%20%EC%9B%80%EC%A7%81%EC%9D%B4%EA%B8%B0/max-movements-with-direction.java)|2026.05.17|
 |수들 중 최솟값 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%20%EC%A4%91%20%EC%B5%9C%EC%86%9F%EA%B0%92%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/maximin-of-numbers.java)|2026.05.19|
 |수들의 합 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%EC%9D%98%20%ED%95%A9%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/max-sum-of-numbers.java)|2026.05.19|
+|안전 지대|[링크](./Code_Tree/trail4/%EC%95%88%EC%A0%84%20%EC%A7%80%EB%8C%80/comfort-zone.java)|2026.05.20|
 |외판원 순회|[링크](./Code_Tree/trail4/%EC%99%B8%ED%8C%90%EC%9B%90%20%EC%88%9C%ED%9A%8C/traveling-salesman-problem.java)|2026.05.19|
 |최소 점프 횟수|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%A0%90%ED%94%84%20%ED%9A%9F%EC%88%98/min-num-of-jumps.java)|2026.05.18|
 |크기가 N인 순열|[링크](./Code_Tree/trail4/%ED%81%AC%EA%B8%B0%EA%B0%80%20N%EC%9D%B8%20%EC%88%9C%EC%97%B4/n-permutation.java)|2026.05.19|

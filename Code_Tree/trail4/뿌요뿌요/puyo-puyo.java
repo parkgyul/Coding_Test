@@ -33,8 +33,8 @@ public class Main {
             for(int i = 0; i < N; i++){
                 for(int j = 0; j < N; j++){
                     if(!visited[i][j] && map[i][j] == k){
-                        cnt = 0;
-
+                        cnt = 1;
+                        visited[i][j] = true;
                         dfs(i, j, k);
                         if(cnt >= 4) burstCnt ++;
                         maxBlock = Math.max(maxBlock, cnt);

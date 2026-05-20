@@ -8,6 +8,7 @@
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
 |2N개 중에 N개의 숫자를 적절하게 고르기|[링크](./Code_Tree/trail4/2N%EA%B0%9C%20%EC%A4%91%EC%97%90%20N%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90%EB%A5%BC%20%EC%A0%81%EC%A0%88%ED%95%98%EA%B2%8C%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/choose-n-out-of-2n-properly.java)|2026.05.18|
+|K번 최댓값으로 이동하기|[링크](./Code_Tree/trail4/K%EB%B2%88%20%EC%B5%9C%EB%8C%93%EA%B0%92%EC%9C%BC%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0/move-to-max-k-times.java)|2026.05.20|
 |N개 중에 M개 뽑기|[링크](./Code_Tree/trail4/N%EA%B0%9C%20%EC%A4%91%EC%97%90%20M%EA%B0%9C%20%EB%BD%91%EA%B8%B0/n-choose-m.java)|2026.05.18|
 |N개의 점 중 M개 고르기|[링크](./Code_Tree/trail4/N%EA%B0%9C%EC%9D%98%20%EC%A0%90%20%EC%A4%91%20M%EA%B0%9C%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/choose-m-out-of-n-points.java)|2026.05.18|
 |XOR 결과 최대 만들기|[링크](./Code_Tree/trail4/XOR%20%EA%B2%B0%EA%B3%BC%20%EC%B5%9C%EB%8C%80%20%EB%A7%8C%EB%93%A4%EA%B8%B0/max-of-xor.java)|2026.05.18|

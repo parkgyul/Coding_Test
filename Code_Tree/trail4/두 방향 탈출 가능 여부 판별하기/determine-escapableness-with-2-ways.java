@@ -28,16 +28,15 @@ public class Main {
 
         flag = false;
         visited[0][0]= true;
-        dfs(0, 0, 0);
+        dfs(0, 0);
        
 
         if(flag)System.out.print(1);
         else System.out.print(0);
     }
 
-    static void dfs(int prevI, int prevJ, int cnt){
+    static void dfs(int prevI, int prevJ){
         if(flag) return;
-        if(cnt > N+M-2) return;
         
         for(int i =0 ; i < 2; i++){
             int ni = prevI + dx[i];
@@ -52,7 +51,7 @@ public class Main {
             if(visited[ni][nj] || map[ni][nj] == 0) continue;
 
             visited[ni][nj] = true;
-            dfs(ni, nj, cnt+1);
+            dfs(ni, nj);
         }
     }
 }

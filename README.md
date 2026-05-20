@@ -16,6 +16,7 @@
 |그래프 탐색|[링크](./Code_Tree/trail4/%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%83%90%EC%83%89/README.md)|2026.05.19|
 |단순한 동전 챙기기|[링크](./Code_Tree/trail4/%EB%8B%A8%EC%88%9C%ED%95%9C%20%EB%8F%99%EC%A0%84%20%EC%B1%99%EA%B8%B0%EA%B8%B0/collect-coins-easy.java)|2026.05.18|
 |두 방향 탈출 가능 여부 판별하기|[링크](./Code_Tree/trail4/%EB%91%90%20%EB%B0%A9%ED%96%A5%20%ED%83%88%EC%B6%9C%20%EA%B0%80%EB%8A%A5%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%B3%84%ED%95%98%EA%B8%B0/determine-escapableness-with-2-ways.java)|2026.05.20|
+|마을 구분하기|[링크](./Code_Tree/trail4/%EB%A7%88%EC%9D%84%20%EA%B5%AC%EB%B6%84%ED%95%98%EA%B8%B0/seperate-village.java)|2026.05.20|
 |방향에 맞춰 최대로 움직이기|[링크](./Code_Tree/trail4/%EB%B0%A9%ED%96%A5%EC%97%90%20%EB%A7%9E%EC%B6%B0%20%EC%B5%9C%EB%8C%80%EB%A1%9C%20%EC%9B%80%EC%A7%81%EC%9D%B4%EA%B8%B0/max-movements-with-direction.java)|2026.05.17|
 |수들 중 최솟값 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%20%EC%A4%91%20%EC%B5%9C%EC%86%9F%EA%B0%92%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/maximin-of-numbers.java)|2026.05.19|
 |수들의 합 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%EC%9D%98%20%ED%95%A9%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/max-sum-of-numbers.java)|2026.05.19|

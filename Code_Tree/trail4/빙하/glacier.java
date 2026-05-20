@@ -1,99 +1,69 @@
-import java.io.*;
 import java.util.*;
+import java.io.*;
 
 public class Main {
-    static int N, M;
-    static int[][] map;
-    static boolean[][] canMelt;
-    static int[] dx = {-1, 0, 0, 1};
-    static int[] dy = {0, -1, 1, 0};
-    public static void main(String[] args)throws IOException{
+    static int[] dy = {1, -1, 0, 0};
+    static int[] dx = {0, 0, -1, 1};
+
+    public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        N = Integer.parseInt(st.nextToken());
-        M = Integer.parseInt(st.nextToken());
+        int n = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken());
 
-        map = new int[N][M];
-        canMelt = new boolean[N][M];
-
+        int[][] map = new int[n][m];
         int ice = 0;
-
-        for(int i = 0; i < N; i++){
+        for(int i = 0; i < n; i++) {
             st = new StringTokenizer(br.readLine());
-            for(int j = 0; j < M; j++){
+            for (int j = 0; j < m; j++) {
                 map[i][j] = Integer.parseInt(st.nextToken());
                 if(map[i][j] == 1) ice++;
             }
         }
-
-        List<Point> waters = new ArrayList<>();
-        waters.add(new Point(0,0));
-        findWaters(waters);
         
+        boolean[][] visited = new boolean[n][m];
+        Queue<Point> waters = new ArrayDeque<>();
+        
+        waters.add(new Point(0, 0));
+        visited[0][0] = true;
+
         int time = 0;
-        int size = 0;
-        int lastSize = 0;
-        while(ice > 0){
-            time++;
+        int lastMelted = 0;
 
-            size = 0;
-            waters = new ArrayList<>();
+        while(ice > 0) {
+            int meltedCount = 0;
+            Queue<Point> melted = new ArrayDeque<>();
 
-            for(int i =0 ; i < N; i++){
-                for(int j = 0; j < M; j++){
-                    if(map[i][j] == 1 && isPossibleToMelt(i, j)){
-                        map[i][j] = 0;
-                        size++;
-                        waters.add(new Point(i, j));
+            while(!waters.isEmpty()) {
+                Point cur = waters.poll();
+
+                for (int i = 0; i < 4; i++) {
+                    int ny = cur.i + dy[i];
+                    int nx = cur.j + dx[i];
+
+                    if (ny < 0 || ny >= n || nx < 0 || nx >= m) continue;
+                    if (visited[ny][nx]) continue;
+                    
+                    visited[ny][nx] = true;
+                    
+                    if (map[ny][nx] == 1) {
+                        meltedCount++;
+                        map[ny][nx] = 0;
+                        melted.add(new Point(ny, nx));
+                        ice--;
+                    } else {
+                        waters.add(new Point(ny, nx));
                     }
                 }
             }
+            
+            lastMelted = meltedCount;
+            time++;
 
-            findWaters(waters);
-
-            lastSize = size;
-            ice -= size;
+            waters = melted;
         }
-
-        System.out.print(time + " " + lastSize);
-    }
-
-    static boolean isPossibleToMelt(int r, int c){
-        for(int i =0 ; i < 4; i++){
-            int ni = r + dx[i];
-            int nj = c + dy[i];
-
-            if(ni < 0 || ni >= N || nj < 0 || nj >= M) continue;
-
-            if(canMelt[ni][nj]) return true;
-        }
-
-        return false;
-    }
-
-
-    static void findWaters(List<Point> points){
-        Queue<Point> q = new LinkedList<>();
-        for(Point p : points){
-            canMelt[p.i][p.j] = true;
-            q.add(p);
-        }
-
-        while(!q.isEmpty()){
-            Point cur = q.poll();
-
-            for(int i =0 ; i < 4; i++){
-                int ni = cur.i + dx[i];
-                int nj = cur.j + dy[i];
-
-                if(ni < 0 || ni >= N || nj < 0 || nj >= M) continue;
-                if(canMelt[ni][nj] || map[ni][nj] == 1) continue;
-
-                canMelt[ni][nj] = true;
-                q.add(new Point(ni, nj));
-            }
-        }
+        System.out.println(time + " " + lastMelted);
     }
 
     static class Point{
@@ -103,6 +73,4 @@ public class Main {
             this.j = j;
         }
     }
-
-
 }

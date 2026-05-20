@@ -38,6 +38,7 @@ public class Main {
             for(int i = 0; i < N; i++){
                 for(int j = 0; j < M; j++){
                     if(map[i][j] > k && !visited[i][j]){
+                        visited[i][j] = true;
                         cnt++;
                         dfs(i, j, k);
                     }

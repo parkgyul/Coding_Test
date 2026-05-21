@@ -28,6 +28,7 @@
 |비를 피하기|[링크](./Code_Tree/trail4/%EB%B9%84%EB%A5%BC%20%ED%94%BC%ED%95%98%EA%B8%B0/stay-out-of-rain.java)|2026.05.21|
 |빙하|[링크](./Code_Tree/trail4/%EB%B9%99%ED%95%98/README.md)|2026.05.20|
 |뿌요뿌요|[링크](./Code_Tree/trail4/%EB%BF%8C%EC%9A%94%EB%BF%8C%EC%9A%94/puyo-puyo.java)|2026.05.20|
+|상한 귤|[링크](./Code_Tree/trail4/%EC%83%81%ED%95%9C%20%EA%B7%A4/oranges-have-gone-bad.java)|2026.05.21|
 |수들 중 최솟값 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%20%EC%A4%91%20%EC%B5%9C%EC%86%9F%EA%B0%92%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/maximin-of-numbers.java)|2026.05.19|
 |수들의 합 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%EC%9D%98%20%ED%95%A9%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/max-sum-of-numbers.java)|2026.05.19|
 |안전 지대|[링크](./Code_Tree/trail4/%EC%95%88%EC%A0%84%20%EC%A7%80%EB%8C%80/comfort-zone.java)|2026.05.20|

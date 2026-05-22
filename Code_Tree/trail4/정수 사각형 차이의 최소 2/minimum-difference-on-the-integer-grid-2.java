@@ -29,58 +29,49 @@ public class Main {
 
         int answer = INF;
 
-        for (int lowerBound = minValue; lowerBound <= maxValue; lowerBound++) {
-            int upperBound = solve(lowerBound);
+        for(int lowBound = minValue; lowBound <= maxValue; lowBound++){
+            int upperBound = solve(lowBound);
 
-            if (upperBound == INF) {
-                continue;
-            }
+            if(upperBound == INF) continue;
 
-            answer = Math.min(answer, upperBound - lowerBound);
+            answer = Math.min(answer, upperBound - lowBound);
         }
 
-        System.out.println(answer);
+        System.out.print(answer);
     }
 
-    static int solve(int lowerBound) {
-        for (int i = 0; i < N; i++) {
+    static int solve(int lowBound){
+        if(map[0][0] < lowBound) return INF;
+
+        for(int i = 0; i < N; i++) {
             Arrays.fill(dp[i], INF);
         }
 
-        if (map[0][0] < lowerBound) {
-            return INF;
-        }
-
         dp[0][0] = map[0][0];
-
-        for (int i = 1; i < N; i++) {
-            if (map[i][0] >= lowerBound && dp[i - 1][0] != INF) {
-                dp[i][0] = Math.max(dp[i - 1][0], map[i][0]);
+        
+        for(int i = 1; i < N; i++){
+            if(map[i][0] >= lowBound && map[i-1][0] != INF){
+                dp[i][0] = Math.max(dp[i-1][0], map[i][0]);
             }
         }
 
-        for (int j = 1; j < N; j++) {
-            if (map[0][j] >= lowerBound && dp[0][j - 1] != INF) {
-                dp[0][j] = Math.max(dp[0][j - 1], map[0][j]);
+        for(int j = 1; j < N; j++){
+            if(map[0][j] >= lowBound && map[0][j-1] != INF){
+                dp[0][j] = Math.max(dp[0][j-1], map[0][j]);
             }
         }
 
-        for (int i = 1; i < N; i++) {
-            for (int j = 1; j < N; j++) {
-                if (map[i][j] < lowerBound) {
-                    continue;
-                }
+        for(int i = 1; i < N; i++){
+            for(int j = 1; j < N; j++){
+                if(map[i][j] < lowBound) continue;
 
-                int bestPrev = Math.min(dp[i - 1][j], dp[i][j - 1]);
+                int min = Math.min(dp[i-1][j], dp[i][j-1]);
 
-                if (bestPrev == INF) {
-                    continue;
-                }
-
-                dp[i][j] = Math.max(bestPrev, map[i][j]);
+                if(min == INF) continue;
+                dp[i][j] = Math.max(min, map[i][j]);
             }
         }
 
-        return dp[N - 1][N - 1];
+        return dp[N-1][N-1];
     }
 }

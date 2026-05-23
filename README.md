@@ -45,6 +45,7 @@
 |정수 사각형 최소 합|[링크](./Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EC%86%8C%20%ED%95%A9/minimum-sum-path-in-square.java)|2026.05.22|
 |정수 사각형 최솟값의 최대|[링크](./Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EC%86%9F%EA%B0%92%EC%9D%98%20%EC%B5%9C%EB%8C%80/maximin-path-in-square.java)|2026.05.22|
 |정수 사각형 최장 증가 수열|[링크](./Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EC%9E%A5%20%EC%A6%9D%EA%B0%80%20%EC%88%98%EC%97%B4/lis-on-the-integer-grid.java)|2026.05.22|
+|최대 감소 부분 수열|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EA%B0%90%EC%86%8C%20%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4/longest-decreasing-subsequence.java)|2026.05.23|
 |최대 증가 부분 수열|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EC%A6%9D%EA%B0%80%20%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4/longest-increasing-subsequence.java)|2026.05.23|
 |최소 경로로 탈출 하기|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EA%B2%BD%EB%A1%9C%EB%A1%9C%20%ED%83%88%EC%B6%9C%20%ED%95%98%EA%B8%B0/escape-with-min-distance.java)|2026.05.21|
 |최소 점프 횟수|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%A0%90%ED%94%84%20%ED%9A%9F%EC%88%98/min-num-of-jumps.java)|2026.05.18|

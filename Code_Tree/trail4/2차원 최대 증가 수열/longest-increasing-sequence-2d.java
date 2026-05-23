@@ -25,42 +25,24 @@ public class Main {
         dp[0][0] = 1;
 
         int answer = 1;
-        PriorityQueue<Point> pq = new PriorityQueue<>();
-        pq.add(new Point(0, 0, 1));
 
-        while(!pq.isEmpty()){
-            Point cur = pq.poll();
+        for(int i =0 ; i < N; i++){
+            for(int j = 0; j < M; j++){
 
-            if(dp[cur.i][cur.j] > cur.cnt) continue;
+                for(int k = 0; k < i; k++){
+                    for(int l = 0; l < j; l++){
+                        if(dp[k][l] == Integer.MIN_VALUE) continue;
 
-            for(int i = cur.i+1; i < N; i++){
-                for(int j = cur.j+1; j < M; j++){
-                    if(arr[i][j] <= arr[cur.i][cur.j]) continue;
-
-                    if(dp[cur.i][cur.j]+1 <= dp[i][j]) continue;
-
-                    dp[i][j] = dp[cur.i][cur.j] + 1;
-                    answer = Math.max(dp[i][j], answer);
-                    pq.add(new Point(i, j, dp[i][j]));
+                        if(arr[k][l] < arr[i][j]){
+                            dp[i][j] = Math.max(dp[k][l] + 1, dp[i][j]);
+                        }
+                    }
                 }
+                answer = Math.max(answer, dp[i][j]);
             }
         }
 
         System.out.print(answer);
 
-    }
-
-    static class Point implements Comparable<Point>{
-        int i, j, cnt;
-
-        Point(int i, int j, int cnt){
-            this.i = i;
-            this.j = j;
-            this.cnt = cnt;
-        }
-
-        public int compareTo(Point o){
-            return o.cnt - this.cnt;
-        }
     }
 }

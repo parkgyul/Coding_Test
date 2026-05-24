@@ -30,6 +30,7 @@
 |두 방향 탈출 가능 여부 판별하기|[링크](./Code_Tree/trail4/%EB%91%90%20%EB%B0%A9%ED%96%A5%20%ED%83%88%EC%B6%9C%20%EA%B0%80%EB%8A%A5%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%B3%84%ED%95%98%EA%B8%B0/determine-escapableness-with-2-ways.java)|2026.05.20|
 |마을 구분하기|[링크](./Code_Tree/trail4/%EB%A7%88%EC%9D%84%20%EA%B5%AC%EB%B6%84%ED%95%98%EA%B8%B0/seperate-village.java)|2026.05.20|
 |방향에 맞춰 최대로 움직이기|[링크](./Code_Tree/trail4/%EB%B0%A9%ED%96%A5%EC%97%90%20%EB%A7%9E%EC%B6%B0%20%EC%B5%9C%EB%8C%80%EB%A1%9C%20%EC%9B%80%EC%A7%81%EC%9D%B4%EA%B8%B0/max-movements-with-direction.java)|2026.05.17|
+|부분 수열의 합|[링크](./Code_Tree/trail4/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9/the-sum-of-the-subsequences.java)|2026.05.24|
 |부분 수열의 합이 M|[링크](./Code_Tree/trail4/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9%EC%9D%B4%20M/the-sum-of-the-subsequences-is-m.java)|2026.05.24|
 |비를 피하기|[링크](./Code_Tree/trail4/%EB%B9%84%EB%A5%BC%20%ED%94%BC%ED%95%98%EA%B8%B0/stay-out-of-rain.java)|2026.05.21|
 |빙하|[링크](./Code_Tree/trail4/%EB%B9%99%ED%95%98/README.md)|2026.05.20|

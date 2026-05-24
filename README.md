@@ -18,6 +18,7 @@
 |가능한 수열 중 최솟값 구하기|[링크](./Code_Tree/trail4/%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%88%98%EC%97%B4%20%EC%A4%91%20%EC%B5%9C%EC%86%9F%EA%B0%92%20%EA%B5%AC%ED%95%98%EA%B8%B0/find-min-of-possible-series.java)|2026.05.18|
 |갈 수 있는 곳들|[링크](./Code_Tree/trail4/%EA%B0%88%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EA%B3%B3%EB%93%A4/places-can-go.java)|2026.05.20|
 |거꾸로 순열|[링크](./Code_Tree/trail4/%EA%B1%B0%EA%BE%B8%EB%A1%9C%20%EC%88%9C%EC%97%B4/backward-permutation.java)|2026.05.19|
+|겹치지 않게 선분 고르기 2|[링크](./Code_Tree/trail4/%EA%B2%B9%EC%B9%98%EC%A7%80%20%EC%95%8A%EA%B2%8C%20%EC%84%A0%EB%B6%84%20%EA%B3%A0%EB%A5%B4%EA%B8%B0%202/select-segments-without-overlap-2.java)|2026.05.24|
 |계단 오르기|[링크](./Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0/climbing-stairs.java)|2026.05.21|
 |그래프 탐색|[링크](./Code_Tree/trail4/%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%83%90%EC%83%89/README.md)|2026.05.19|
 |나이트|[링크](./Code_Tree/trail4/%EB%82%98%EC%9D%B4%ED%8A%B8/knight-movements.java)|2026.05.21|

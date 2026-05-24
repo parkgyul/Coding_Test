@@ -62,6 +62,7 @@
 |최대 증가 부분 수열|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EC%A6%9D%EA%B0%80%20%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4/longest-increasing-subsequence.java)|2026.05.23|
 |최소 경로로 탈출 하기|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EA%B2%BD%EB%A1%9C%EB%A1%9C%20%ED%83%88%EC%B6%9C%20%ED%95%98%EA%B8%B0/escape-with-min-distance.java)|2026.05.21|
 |최소 점프 횟수|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%A0%90%ED%94%84%20%ED%9A%9F%EC%88%98/min-num-of-jumps.java)|2026.05.18|
+|최소 차 분할|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%B0%A8%20%EB%B6%84%ED%95%A0/minimum-diff-partition.java)|2026.05.24|
 |크기가 N인 순열|[링크](./Code_Tree/trail4/%ED%81%AC%EA%B8%B0%EA%B0%80%20N%EC%9D%B8%20%EC%88%9C%EC%97%B4/n-permutation.java)|2026.05.19|
 |피보나치 수|[링크](./Code_Tree/trail4/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%20%EC%88%98/fibonacci-number.java)|2026.05.21|
 ### 🚀 SWEA

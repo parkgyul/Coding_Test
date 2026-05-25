@@ -22,6 +22,7 @@
 |겹치지 않게 선분 고르기 2|[링크](./Code_Tree/trail4/%EA%B2%B9%EC%B9%98%EC%A7%80%20%EC%95%8A%EA%B2%8C%20%EC%84%A0%EB%B6%84%20%EA%B3%A0%EB%A5%B4%EA%B8%B0%202/select-segments-without-overlap-2.java)|2026.05.24|
 |경험치를 빠르게 얻기|[링크](./Code_Tree/trail4/%EA%B2%BD%ED%97%98%EC%B9%98%EB%A5%BC%20%EB%B9%A0%EB%A5%B4%EA%B2%8C%20%EC%96%BB%EA%B8%B0/gain-exp-quickly.java)|2026.05.25|
 |계단 오르기|[링크](./Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0/climbing-stairs.java)|2026.05.21|
+|계단 오르기 2|[링크](./Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0%202/climbing-stairs-2.java)|2026.05.25|
 |그래프 탐색|[링크](./Code_Tree/trail4/%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%83%90%EC%83%89/README.md)|2026.05.19|
 |나이트|[링크](./Code_Tree/trail4/%EB%82%98%EC%9D%B4%ED%8A%B8/knight-movements.java)|2026.05.21|
 |네 방향 탈출 가능 여부 판별하기|[링크](./Code_Tree/trail4/%EB%84%A4%20%EB%B0%A9%ED%96%A5%20%ED%83%88%EC%B6%9C%20%EA%B0%80%EB%8A%A5%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%B3%84%ED%95%98%EA%B8%B0/determine-escapableness-with-4-ways.java)|2026.05.20|
@@ -49,6 +50,7 @@
 |수들의 합 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%EC%9D%98%20%ED%95%A9%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/max-sum-of-numbers.java)|2026.05.19|
 |안전 지대|[링크](./Code_Tree/trail4/%EC%95%88%EC%A0%84%20%EC%A7%80%EB%8C%80/comfort-zone.java)|2026.05.20|
 |알바로 부자 되기|[링크](./Code_Tree/trail4/%EC%95%8C%EB%B0%94%EB%A1%9C%20%EB%B6%80%EC%9E%90%20%EB%90%98%EA%B8%B0/being-rich-by-working-part-time.java)|2026.05.24|
+|연속 부분 합의 최댓값 구하기|[링크](./Code_Tree/trail4/%EC%97%B0%EC%86%8D%20%EB%B6%80%EB%B6%84%20%ED%95%A9%EC%9D%98%20%EC%B5%9C%EB%8C%93%EA%B0%92%20%EA%B5%AC%ED%95%98%EA%B8%B0/max-of-partial-sum.java)|2026.05.25|
 |외판원 순회|[링크](./Code_Tree/trail4/%EC%99%B8%ED%8C%90%EC%9B%90%20%EC%88%9C%ED%9A%8C/traveling-salesman-problem.java)|2026.05.19|
 |우리는 하나|[링크](./Code_Tree/trail4/%EC%9A%B0%EB%A6%AC%EB%8A%94%20%ED%95%98%EB%82%98/we-are-the-one.java)|2026.05.20|
 |정수 사각형 차이의 최소 2|[링크](./Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B0%A8%EC%9D%B4%EC%9D%98%20%EC%B5%9C%EC%86%8C%202/README.md)|2026.05.22|

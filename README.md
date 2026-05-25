@@ -61,6 +61,7 @@
 |최대 동전 거슬러주기|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EB%8F%99%EC%A0%84%20%EA%B1%B0%EC%8A%AC%EB%9F%AC%EC%A3%BC%EA%B8%B0/max-coin-change.java)|2026.05.24|
 |최대 점프 횟수|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EC%A0%90%ED%94%84%20%ED%9A%9F%EC%88%98/maximum-number-of-jumps.java)|2026.05.23|
 |최대 증가 부분 수열|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EC%A6%9D%EA%B0%80%20%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4/longest-increasing-subsequence.java)|2026.05.23|
+|최대 합 분할|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%ED%95%A9%20%EB%B6%84%ED%95%A0/maximum-sum-partition.java)|2026.05.25|
 |최소 경로로 탈출 하기|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EA%B2%BD%EB%A1%9C%EB%A1%9C%20%ED%83%88%EC%B6%9C%20%ED%95%98%EA%B8%B0/escape-with-min-distance.java)|2026.05.21|
 |최소 점프 횟수|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%A0%90%ED%94%84%20%ED%9A%9F%EC%88%98/min-num-of-jumps.java)|2026.05.18|
 |최소 차 분할|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%B0%A8%20%EB%B6%84%ED%95%A0/minimum-diff-partition.java)|2026.05.24|

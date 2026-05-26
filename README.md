@@ -48,6 +48,7 @@
 |서로 다른 BST 개수 세기|[링크](./Code_Tree/trail4/%EC%84%9C%EB%A1%9C%20%EB%8B%A4%EB%A5%B8%20BST%20%EA%B0%9C%EC%88%98%20%EC%84%B8%EA%B8%B0/number-of-unique-bst.java)|2026.05.22|
 |수들 중 최솟값 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%20%EC%A4%91%20%EC%B5%9C%EC%86%9F%EA%B0%92%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/maximin-of-numbers.java)|2026.05.19|
 |수들의 합 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%EC%9D%98%20%ED%95%A9%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/max-sum-of-numbers.java)|2026.05.19|
+|숫자 전쟁|[링크](./Code_Tree/trail4/%EC%88%AB%EC%9E%90%20%EC%A0%84%EC%9F%81/number-war.java)|2026.05.26|
 |안전 지대|[링크](./Code_Tree/trail4/%EC%95%88%EC%A0%84%20%EC%A7%80%EB%8C%80/comfort-zone.java)|2026.05.20|
 |알바로 부자 되기|[링크](./Code_Tree/trail4/%EC%95%8C%EB%B0%94%EB%A1%9C%20%EB%B6%80%EC%9E%90%20%EB%90%98%EA%B8%B0/being-rich-by-working-part-time.java)|2026.05.24|
 |연속 부분 합의 최댓값 구하기|[링크](./Code_Tree/trail4/%EC%97%B0%EC%86%8D%20%EB%B6%80%EB%B6%84%20%ED%95%A9%EC%9D%98%20%EC%B5%9C%EB%8C%93%EA%B0%92%20%EA%B5%AC%ED%95%98%EA%B8%B0/max-of-partial-sum.java)|2026.05.25|

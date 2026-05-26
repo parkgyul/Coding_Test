@@ -72,6 +72,7 @@
 |최소 차 분할|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%B0%A8%20%EB%B6%84%ED%95%A0/minimum-diff-partition.java)|2026.05.24|
 |크기가 N인 순열|[링크](./Code_Tree/trail4/%ED%81%AC%EA%B8%B0%EA%B0%80%20N%EC%9D%B8%20%EC%88%9C%EC%97%B4/n-permutation.java)|2026.05.19|
 |피보나치 수|[링크](./Code_Tree/trail4/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%20%EC%88%98/fibonacci-number.java)|2026.05.21|
+|행복한 수열의 개수|[링크](./Code_Tree/trail4/%ED%96%89%EB%B3%B5%ED%95%9C%20%EC%88%98%EC%97%B4%EC%9D%98%20%EA%B0%9C%EC%88%98/number-of-happy-sequence.java)|2026.05.26|
 ### 🚀 SWEA
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |

@@ -25,6 +25,7 @@
 |계단 오르기 2|[링크](./Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0%202/climbing-stairs-2.java)|2026.05.25|
 |그래프 탐색|[링크](./Code_Tree/trail4/%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%83%90%EC%83%89/README.md)|2026.05.19|
 |금 채굴하기|[링크](./Code_Tree/trail4/%EA%B8%88%20%EC%B1%84%EA%B5%B4%ED%95%98%EA%B8%B0/gold-mining.java)|2026.05.26|
+|기울어진 직사각형|[링크](./Code_Tree/trail4/%EA%B8%B0%EC%9A%B8%EC%96%B4%EC%A7%84%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95/slanted-rectangle.java)|2026.05.26|
 |나이트|[링크](./Code_Tree/trail4/%EB%82%98%EC%9D%B4%ED%8A%B8/knight-movements.java)|2026.05.21|
 |네 방향 탈출 가능 여부 판별하기|[링크](./Code_Tree/trail4/%EB%84%A4%20%EB%B0%A9%ED%96%A5%20%ED%83%88%EC%B6%9C%20%EA%B0%80%EB%8A%A5%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%B3%84%ED%95%98%EA%B8%B0/determine-escapableness-with-4-ways.java)|2026.05.20|
 |단순한 동전 챙기기|[링크](./Code_Tree/trail4/%EB%8B%A8%EC%88%9C%ED%95%9C%20%EB%8F%99%EC%A0%84%20%EC%B1%99%EA%B8%B0%EA%B8%B0/collect-coins-easy.java)|2026.05.18|

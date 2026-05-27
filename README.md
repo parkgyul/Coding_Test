@@ -53,6 +53,7 @@
 |숫자 전쟁|[링크](./Code_Tree/trail4/%EC%88%AB%EC%9E%90%20%EC%A0%84%EC%9F%81/number-war.java)|2026.05.26|
 |안전 지대|[링크](./Code_Tree/trail4/%EC%95%88%EC%A0%84%20%EC%A7%80%EB%8C%80/comfort-zone.java)|2026.05.20|
 |알바로 부자 되기|[링크](./Code_Tree/trail4/%EC%95%8C%EB%B0%94%EB%A1%9C%20%EB%B6%80%EC%9E%90%20%EB%90%98%EA%B8%B0/being-rich-by-working-part-time.java)|2026.05.24|
+|양수 직사각형의 최대 크기|[링크](./Code_Tree/trail4/%EC%96%91%EC%88%98%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EC%9D%98%20%EC%B5%9C%EB%8C%80%20%ED%81%AC%EA%B8%B0/max-area-of-positive-rectangle.java)|2026.05.27|
 |연속 부분 합의 최댓값 구하기|[링크](./Code_Tree/trail4/%EC%97%B0%EC%86%8D%20%EB%B6%80%EB%B6%84%20%ED%95%A9%EC%9D%98%20%EC%B5%9C%EB%8C%93%EA%B0%92%20%EA%B5%AC%ED%95%98%EA%B8%B0/max-of-partial-sum.java)|2026.05.25|
 |외판원 순회|[링크](./Code_Tree/trail4/%EC%99%B8%ED%8C%90%EC%9B%90%20%EC%88%9C%ED%9A%8C/traveling-salesman-problem.java)|2026.05.19|
 |우리는 하나|[링크](./Code_Tree/trail4/%EC%9A%B0%EB%A6%AC%EB%8A%94%20%ED%95%98%EB%82%98/we-are-the-one.java)|2026.05.20|

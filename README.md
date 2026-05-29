@@ -46,6 +46,7 @@
 |사각형 채우기|[링크](./Code_Tree/trail4/%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B1%84%EC%9A%B0%EA%B8%B0/README.md)|2026.05.21|
 |사각형 채우기 2|[링크](./Code_Tree/trail4/%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B1%84%EC%9A%B0%EA%B8%B0%202/rectangle-fill-2.java)|2026.05.22|
 |사각형 채우기 3|[링크](./Code_Tree/trail4/%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B1%84%EC%9A%B0%EA%B8%B0%203/README.md)|2026.05.21|
+|삼각형 컨베이어 벨트|[링크](./Code_Tree/trail4/%EC%82%BC%EA%B0%81%ED%98%95%20%EC%BB%A8%EB%B2%A0%EC%9D%B4%EC%96%B4%20%EB%B2%A8%ED%8A%B8/README.md)|2026.05.29|
 |상한 귤|[링크](./Code_Tree/trail4/%EC%83%81%ED%95%9C%20%EA%B7%A4/oranges-have-gone-bad.java)|2026.05.21|
 |서로 다른 BST 개수 세기|[링크](./Code_Tree/trail4/%EC%84%9C%EB%A1%9C%20%EB%8B%A4%EB%A5%B8%20BST%20%EA%B0%9C%EC%88%98%20%EC%84%B8%EA%B8%B0/number-of-unique-bst.java)|2026.05.22|
 |수들 중 최솟값 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%20%EC%A4%91%20%EC%B5%9C%EC%86%9F%EA%B0%92%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/maximin-of-numbers.java)|2026.05.19|

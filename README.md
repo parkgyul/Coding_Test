@@ -8,6 +8,7 @@
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
 |1, 2, 5 더하기|[링크](./Code_Tree/trail4/1%2C%202%2C%205%20%EB%8D%94%ED%95%98%EA%B8%B0/1-2-5-plus.java)|2026.05.24|
+|1차원 바람|[링크](./Code_Tree/trail4/1%EC%B0%A8%EC%9B%90%20%EB%B0%94%EB%9E%8C/The-1D-wind-blows.java)|2026.05.29|
 |2N개 중에 N개의 숫자를 적절하게 고르기|[링크](./Code_Tree/trail4/2N%EA%B0%9C%20%EC%A4%91%EC%97%90%20N%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90%EB%A5%BC%20%EC%A0%81%EC%A0%88%ED%95%98%EA%B2%8C%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/choose-n-out-of-2n-properly.java)|2026.05.18|
 |2차원 최대 증가 수열|[링크](./Code_Tree/trail4/2%EC%B0%A8%EC%9B%90%20%EC%B5%9C%EB%8C%80%20%EC%A6%9D%EA%B0%80%20%EC%88%98%EC%97%B4/longest-increasing-sequence-2d.java)|2026.05.23|
 |4가지 연산을 이용하여 1 만들기|[링크](./Code_Tree/trail4/4%EA%B0%80%EC%A7%80%20%EC%97%B0%EC%82%B0%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC%201%20%EB%A7%8C%EB%93%A4%EA%B8%B0/make-one-using-four-operations.java)|2026.05.21|

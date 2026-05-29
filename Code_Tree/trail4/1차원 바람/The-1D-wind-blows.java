@@ -2,95 +2,122 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    static int N, M;
+    static int N, M, Q;
     static int[][] arr;
-    public static void main(String[] args)throws IOException {
+
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
-        int Q = Integer.parseInt(st.nextToken());
+        Q = Integer.parseInt(st.nextToken());
 
         arr = new int[N][M];
 
-        for(int i =0 ; i < N; i++){
+        for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());
-            for(int j = 0; j < M; j++){
+            for (int j = 0; j < M; j++) {
                 arr[i][j] = Integer.parseInt(st.nextToken());
             }
         }
 
-        while(Q-- > 0){
+        while (Q-- > 0) {
             st = new StringTokenizer(br.readLine());
-            int row = Integer.parseInt(st.nextToken())-1;
-            char ch = st.nextToken().charAt(0);
 
-            if(ch == 'L') left(row);
-            else right(row);
+            int row = Integer.parseInt(st.nextToken()) - 1;
+            char dir = st.nextToken().charAt(0);
 
-            int up = row-1;
-            int down = row+1;
+            // 1. 현재 행 회전
+            rotate(row, dir);
 
-            while(true){
-                if(up >= 0){
-                    if(!check(up, up+1)){
-                        if(ch == 'L') right(up);
-                        else left(up);
-                    }else{ // 전파 끝
-                        up = -1;
-                    }
-                }
+            // 2. 위쪽 전파
+            spread(row, -1, opposite(dir));
 
-                if(down < N){
-                    if(!check(down, down-1)){
-                        if(ch == 'L') right(down);
-                        else left(down);
-                    }else{
-                        down = N;
-                    }
-                }
-
-                up--;
-                down++;
-                ch = (ch == 'L' ? 'R' : 'L');
-                if(up < 0 && down >= N) break;
-            }    
+            // 3. 아래쪽 전파
+            spread(row, 1, opposite(dir));
         }
 
-        for(int i =0 ; i < N; i++){
-            for(int j = 0; j < M; j++){
-                System.out.print(arr[i][j] + " ");
+        print();
+    }
+
+    // 전파 처리
+    static void spread(int startRow, int delta, char dir) {
+        int prev = startRow;
+        int cur = startRow + delta;
+
+        while (cur >= 0 && cur < N) {
+            // 이전 행과 현재 행에 같은 열의 같은 값이 없으면 전파 종료
+            if (!hasSameColumnValue(prev, cur)) {
+                break;
             }
-            System.out.println();
-        }
 
+            // 전파되면 현재 행을 회전
+            rotate(cur, dir);
+
+            // 다음 행으로 이동
+            prev = cur;
+            cur += delta;
+
+            // 방향 반전
+            dir = opposite(dir);
+        }
     }
 
-    static boolean check(int r1, int r2){
-        for(int j = 0; j < M; j++){
-            if(arr[r1][j] == arr[r2][j]) return false;
+    // 같은 열에 같은 값이 하나라도 있는지 확인
+    static boolean hasSameColumnValue(int r1, int r2) {
+        for (int j = 0; j < M; j++) {
+            if (arr[r1][j] == arr[r2][j]) {
+                return true;
+            }
         }
-
-        return true;
+        return false;
     }
 
-    static void left(int row){ // 왼쪽에서 바람 불어옴
-        int temp = arr[row][M-1];
-        for(int j = M-1 ; j >= 1; j--){
-            arr[row][j] = arr[row][j-1];
+    // L: 왼쪽에서 바람 → 오른쪽으로 이동
+    // R: 오른쪽에서 바람 → 왼쪽으로 이동
+    static void rotate(int row, char dir) {
+        if (dir == 'L') {
+            rotateRight(row);
+        } else {
+            rotateLeft(row);
+        }
+    }
+
+    static void rotateRight(int row) {
+        int temp = arr[row][M - 1];
+
+        for (int j = M - 1; j >= 1; j--) {
+            arr[row][j] = arr[row][j - 1];
         }
 
         arr[row][0] = temp;
     }
 
-    static void right(int row){
+    static void rotateLeft(int row) {
         int temp = arr[row][0];
-        for(int j = 1 ; j < M; j++){
-            arr[row][j-1] = arr[row][j];
+
+        for (int j = 0; j < M - 1; j++) {
+            arr[row][j] = arr[row][j + 1];
         }
 
-        arr[row][M-1] = temp;
+        arr[row][M - 1] = temp;
     }
 
+    static char opposite(char dir) {
+        return dir == 'L' ? 'R' : 'L';
+    }
+
+    static void print() {
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < M; j++) {
+                sb.append(arr[i][j]).append(" ");
+            }
+            sb.append('\n');
+        }
+
+        System.out.print(sb);
+    }
 }

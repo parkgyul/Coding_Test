@@ -25,7 +25,7 @@ public class Main {
         int c = Integer.parseInt(st.nextToken())-1;
 
         int num = burst(r, c);
-        pull(num, r, c);
+        gravity(c, num);
 
          for(int i = 0; i < N; i++){
             for(int j =0 ; j < N; j++){
@@ -52,30 +52,22 @@ public class Main {
         return num;
     }
 
-    static void pull(int num, int r, int c){
-        //가로
-        for(int j = 1; j <= num-1; j++){
-            if(c-j >= 0){
-                for(int i = r; i >= 1; i--){
-                    arr[i][c-j] = arr[i-1][c-j];
-                }
-                arr[0][c-j] = 0;
-            }
-            if(c+j < N){
-                for(int i = r; i >= 1; i--){
-                    arr[i][c+j] = arr[i-1][c+j];
-                }
-                arr[0][c+j] = 0;
-            }
-        }
+    static void gravity(int c, int num){
+        int left = Math.max(c - num +1, 0) ;
+        int right = Math.min(N-1, c+num -1);
 
-        int rDown = r+num-1 < N ? r+num-1 : N-1;
-        int rUp = r-num > 0 ? r-num : 0;
-        int gap = rDown - rUp;
+        for(int j = left; j <= right; j++){
+            int write = N-1;
 
-        for(int i = 0; i <= rUp; i++){
-            arr[rDown-i][c] = arr[rDown-i-gap][c];
-            arr[rDown-i-gap][c] = 0;
+            for(int i = N-1; i >= 0; i--){
+                if(arr[i][j] != 0){
+                    arr[write][j] = arr[i][j];
+                    if(write != i){
+                        arr[i][j] = 0;
+                    }
+                    write--;
+                }
+            }
         }
     }
 }

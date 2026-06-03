@@ -57,6 +57,7 @@
 |수들의 합 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%EC%9D%98%20%ED%95%A9%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/max-sum-of-numbers.java)|2026.05.19|
 |숫자 전쟁|[링크](./Code_Tree/trail4/%EC%88%AB%EC%9E%90%20%EC%A0%84%EC%9F%81/README.md)|2026.05.26|
 |숫자가 더 큰 인접한 곳으로 이동|[링크](./Code_Tree/trail4/%EC%88%AB%EC%9E%90%EA%B0%80%20%EB%8D%94%20%ED%81%B0%20%EC%9D%B8%EC%A0%91%ED%95%9C%20%EA%B3%B3%EC%9C%BC%EB%A1%9C%20%EC%9D%B4%EB%8F%99/README.md)|2026.05.30|
+|십자 모양 폭발|[링크](./Code_Tree/trail4/%EC%8B%AD%EC%9E%90%20%EB%AA%A8%EC%96%91%20%ED%8F%AD%EB%B0%9C/README.md)|2026.06.03|
 |안전 지대|[링크](./Code_Tree/trail4/%EC%95%88%EC%A0%84%20%EC%A7%80%EB%8C%80/comfort-zone.java)|2026.05.20|
 |알바로 부자 되기|[링크](./Code_Tree/trail4/%EC%95%8C%EB%B0%94%EB%A1%9C%20%EB%B6%80%EC%9E%90%20%EB%90%98%EA%B8%B0/README.md)|2026.05.24|
 |양수 직사각형의 최대 크기|[링크](./Code_Tree/trail4/%EC%96%91%EC%88%98%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EC%9D%98%20%EC%B5%9C%EB%8C%80%20%ED%81%AC%EA%B8%B0/README.md)|2026.05.27|

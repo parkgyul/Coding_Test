@@ -2,54 +2,69 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
+
+    static int N, M, endOfArray;
+    static int[] arr;
     public static void main(String[] args)throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int N = Integer.parseInt(st.nextToken());
-        int M = Integer.parseInt(st.nextToken());
+        
+        N = Integer.parseInt(st.nextToken());
+        M = Integer.parseInt(st.nextToken());
 
-        List<Integer> list = new ArrayList<>();
+        arr = new int[N];
 
         for(int i =0 ; i < N; i++){
-            int num = Integer.parseInt(br.readLine());
-            list.add(num);
+            arr[i] = Integer.parseInt(br.readLine());
         }
+        endOfArray = N;
 
-        boolean flag = true;
-        while(flag && !list.isEmpty()){
-            int temp = list.get(list.size() -1);
-            int idx = list.size() -1;
-            int cnt = 1;
-            flag = false;
-            for(int i = list.size() -2; i >= 0; i--){
-                if(temp == list.get(i)){
-                    cnt++;
-                    idx = i;
-                }else{
-                    if(cnt >= M){
-                        while(cnt-- > 0){
-                            list.remove(idx);
-                        }
-                        flag = true;
-                    }
+        boolean didExplode = true;
 
-                    temp = list.get(i);
-                    idx = i;
-                    cnt = 1;
+        while (didExplode) {
+            didExplode = false;
+            int currIdx = 0;
+
+            while (currIdx < endOfArray) {
+                int endIdx = getEndIdxOfExplosion(currIdx, arr[currIdx]);
+
+                if (endIdx - currIdx + 1 >= M) {
+                    cutArray(currIdx, endIdx);
+                    didExplode = true;
+                } else {
+                    currIdx++;
                 }
             }
+        }
 
-            if(cnt >= M){
-                while(cnt-- > 0){
-                    list.remove(idx);
-                 }
+        System.out.println(endOfArray);
+
+        for (int i = 0; i < endOfArray; i++) {
+            System.out.println(arr[i]);
+        }
+    }
+
+    public static int getEndIdxOfExplosion(int startIdx, int currNum) {
+        int endIdx = startIdx + 1;
+
+        while (endIdx < endOfArray) {
+            if (arr[endIdx] == currNum) {
+                endIdx++;
+            } else {
+                break;
             }
         }
+    
+        return endIdx - 1;
+    }
+    
+    public static void cutArray(int startIdx, int endIdx) {
+        int cutLen = endIdx - startIdx + 1;
 
-        System.out.println(list.size());
-        for(int num : list){
-            System.out.println(num);
+        for (int i = endIdx + 1; i < endOfArray; i++) {
+            arr[i - cutLen] = arr[i];
         }
-
+        
+        endOfArray -= cutLen;
     }
 }

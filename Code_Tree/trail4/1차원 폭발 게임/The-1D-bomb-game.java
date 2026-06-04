@@ -19,52 +19,48 @@ public class Main {
         }
         endOfArray = N;
 
-        boolean didExplode = true;
-
-        while (didExplode) {
+        boolean didExplode =true;
+        while(didExplode){
             didExplode = false;
-            int currIdx = 0;
+            int curIdx = 0;
 
-            while (currIdx < endOfArray) {
-                int endIdx = getEndIdxOfExplosion(currIdx, arr[currIdx]);
+            while(curIdx < endOfArray){
+                int endIdx = findEndIdx(curIdx, arr[curIdx]);
 
-                if (endIdx - currIdx + 1 >= M) {
-                    cutArray(currIdx, endIdx);
+                if(endIdx - curIdx + 1 >= M){
+                    cutArray(curIdx, endIdx);
                     didExplode = true;
-                } else {
-                    currIdx++;
+                }else{
+                    curIdx ++;
                 }
             }
         }
 
         System.out.println(endOfArray);
-
-        for (int i = 0; i < endOfArray; i++) {
+        for(int i =0 ; i < endOfArray; i++){
             System.out.println(arr[i]);
         }
     }
 
-    public static int getEndIdxOfExplosion(int startIdx, int currNum) {
-        int endIdx = startIdx + 1;
-
-        while (endIdx < endOfArray) {
-            if (arr[endIdx] == currNum) {
+    static int findEndIdx(int curIdx, int curNum){
+        int endIdx = curIdx +1;
+        while(endIdx < endOfArray){
+            if(arr[endIdx] == curNum){
                 endIdx++;
-            } else {
+            }else{
                 break;
             }
         }
-    
-        return endIdx - 1;
-    }
-    
-    public static void cutArray(int startIdx, int endIdx) {
-        int cutLen = endIdx - startIdx + 1;
 
-        for (int i = endIdx + 1; i < endOfArray; i++) {
-            arr[i - cutLen] = arr[i];
+        return endIdx-1;
+    }
+
+    static void cutArray(int curIdx, int endIdx){
+        int curLen = endIdx - curIdx + 1;
+
+        for(int i = endIdx+1; i < endOfArray; i++){
+            arr[i-curLen] = arr[i];
         }
-        
-        endOfArray -= cutLen;
+        endOfArray -= curLen;
     }
 }

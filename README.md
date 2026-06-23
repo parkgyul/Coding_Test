@@ -14,6 +14,7 @@
 |2N개 중에 N개의 숫자를 적절하게 고르기|[링크](./Code_Tree/trail4/2N%EA%B0%9C%20%EC%A4%91%EC%97%90%20N%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90%EB%A5%BC%20%EC%A0%81%EC%A0%88%ED%95%98%EA%B2%8C%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/README.md)|2026.05.18|
 |2차원 바람|[링크](./Code_Tree/trail4/2%EC%B0%A8%EC%9B%90%20%EB%B0%94%EB%9E%8C/README.md)|2026.05.31|
 |2차원 최대 증가 수열|[링크](./Code_Tree/trail4/2%EC%B0%A8%EC%9B%90%20%EC%B5%9C%EB%8C%80%20%EC%A6%9D%EA%B0%80%20%EC%88%98%EC%97%B4/longest-increasing-sequence-2d.java)|2026.05.23|
+|2차원 폭발 게임|[링크](./Code_Tree/trail4/2%EC%B0%A8%EC%9B%90%20%ED%8F%AD%EB%B0%9C%20%EA%B2%8C%EC%9E%84/README.md)|2026.06.23|
 |4가지 연산을 이용하여 1 만들기|[링크](./Code_Tree/trail4/4%EA%B0%80%EC%A7%80%20%EC%97%B0%EC%82%B0%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC%201%20%EB%A7%8C%EB%93%A4%EA%B8%B0/README.md)|2026.05.21|
 |K개의 벽 없애기|[링크](./Code_Tree/trail4/K%EA%B0%9C%EC%9D%98%20%EB%B2%BD%20%EC%97%86%EC%95%A0%EA%B8%B0/README.md)|2026.05.21|
 |K번 최댓값으로 이동하기|[링크](./Code_Tree/trail4/K%EB%B2%88%20%EC%B5%9C%EB%8C%93%EA%B0%92%EC%9C%BC%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0/README.md)|2026.05.20|

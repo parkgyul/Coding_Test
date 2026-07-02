@@ -37,6 +37,7 @@
 |네 방향 탈출 가능 여부 판별하기|[링크](./Code_Tree/trail4/%EB%84%A4%20%EB%B0%A9%ED%96%A5%20%ED%83%88%EC%B6%9C%20%EA%B0%80%EB%8A%A5%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%B3%84%ED%95%98%EA%B8%B0/README.md)|2026.05.20|
 |단 한 번의 2048 시도|[링크](./Code_Tree/trail4/%EB%8B%A8%20%ED%95%9C%20%EB%B2%88%EC%9D%98%202048%20%EC%8B%9C%EB%8F%84/README.md)|2026.06.22|
 |단순한 동전 챙기기|[링크](./Code_Tree/trail4/%EB%8B%A8%EC%88%9C%ED%95%9C%20%EB%8F%99%EC%A0%84%20%EC%B1%99%EA%B8%B0%EA%B8%B0/README.md)|2026.05.18|
+|대폭발|[링크](./Code_Tree/trail4/%EB%8C%80%ED%8F%AD%EB%B0%9C/README.md)|2026.07.02|
 |돌 잘 치우기|[링크](./Code_Tree/trail4/%EB%8F%8C%20%EC%9E%98%20%EC%B9%98%EC%9A%B0%EA%B8%B0/README.md)|2026.05.20|
 |동일하게 분할|[링크](./Code_Tree/trail4/%EB%8F%99%EC%9D%BC%ED%95%98%EA%B2%8C%20%EB%B6%84%ED%95%A0/README.md)|2026.05.25|
 |동전 거슬러주기|[링크](./Code_Tree/trail4/%EB%8F%99%EC%A0%84%20%EA%B1%B0%EC%8A%AC%EB%9F%AC%EC%A3%BC%EA%B8%B0/README.md)|2026.05.24|

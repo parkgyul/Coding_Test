@@ -12,7 +12,7 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         N = Integer.parseInt(st.nextToken());
-        int M = Integer.parseInt(st.nextToken()) -1;
+        M = Integer.parseInt(st.nextToken()) -1;
         int startR = Integer.parseInt(st.nextToken()) -1;
         int startC = Integer.parseInt(st.nextToken()) -1;
 

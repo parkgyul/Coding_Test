@@ -79,6 +79,7 @@
 |정수 사각형 최소 합|[링크](./Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EC%86%8C%20%ED%95%A9/README.md)|2026.05.22|
 |정수 사각형 최솟값의 최대|[링크](./Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EC%86%9F%EA%B0%92%EC%9D%98%20%EC%B5%9C%EB%8C%80/README.md)|2026.05.22|
 |정수 사각형 최장 증가 수열|[링크](./Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EC%9E%A5%20%EC%A6%9D%EA%B0%80%20%EC%88%98%EC%97%B4/README.md)|2026.05.22|
+|주사위 던지기|[링크](./Code_Tree/trail4/%EC%A3%BC%EC%82%AC%EC%9C%84%20%EB%8D%98%EC%A7%80%EA%B8%B0/README.md)|2026.07.02|
 |증가했다가 감소하는 부분 수열|[링크](./Code_Tree/trail4/%EC%A6%9D%EA%B0%80%ED%96%88%EB%8B%A4%EA%B0%80%20%EA%B0%90%EC%86%8C%ED%95%98%EB%8A%94%20%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4/README.md)|2026.05.24|
 |최고의 33위치|[링크](./Code_Tree/trail4/%EC%B5%9C%EA%B3%A0%EC%9D%98%2033%EC%9C%84%EC%B9%98/README.md)|2026.05.26|
 |최단 Run Length 인코딩|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8B%A8%20Run%20Length%20%EC%9D%B8%EC%BD%94%EB%94%A9/README.md)|2026.06.02|

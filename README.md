@@ -49,6 +49,7 @@
 |배낭 채우기|[링크](./Code_Tree/trail4/%EB%B0%B0%EB%82%AD%20%EC%B1%84%EC%9A%B0%EA%B8%B0/README.md)|2026.05.24|
 |배낭 채우기 2|[링크](./Code_Tree/trail4/%EB%B0%B0%EB%82%AD%20%EC%B1%84%EC%9A%B0%EA%B8%B0%202/knapsack-2.java)|2026.05.24|
 |벽 짚고 미로 탈출하기|[링크](./Code_Tree/trail4/%EB%B2%BD%20%EC%A7%9A%EA%B3%A0%20%EB%AF%B8%EB%A1%9C%20%ED%83%88%EC%B6%9C%ED%95%98%EA%B8%B0/README.md)|2026.07.02|
+|벽이 있는 충돌 실험|[링크](./Code_Tree/trail4/%EB%B2%BD%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EC%B6%A9%EB%8F%8C%20%EC%8B%A4%ED%97%98/README.md)|2026.07.03|
 |부분 수열의 합|[링크](./Code_Tree/trail4/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9/README.md)|2026.05.24|
 |부분 수열의 합이 M|[링크](./Code_Tree/trail4/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9%EC%9D%B4%20M/README.md)|2026.05.24|
 |비를 피하기|[링크](./Code_Tree/trail4/%EB%B9%84%EB%A5%BC%20%ED%94%BC%ED%95%98%EA%B8%B0/README.md)|2026.05.21|

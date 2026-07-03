@@ -69,6 +69,7 @@
 |숫자의 순차적 이동|[링크](./Code_Tree/trail4/%EC%88%AB%EC%9E%90%EC%9D%98%20%EC%88%9C%EC%B0%A8%EC%A0%81%20%EC%9D%B4%EB%8F%99/README.md)|2026.07.01|
 |십자 모양 폭발|[링크](./Code_Tree/trail4/%EC%8B%AD%EC%9E%90%20%EB%AA%A8%EC%96%91%20%ED%8F%AD%EB%B0%9C/README.md)|2026.06.03|
 |십자 모양의 지속적 폭발|[링크](./Code_Tree/trail4/%EC%8B%AD%EC%9E%90%20%EB%AA%A8%EC%96%91%EC%9D%98%20%EC%A7%80%EC%86%8D%EC%A0%81%20%ED%8F%AD%EB%B0%9C/README.md)|2026.06.23|
+|쌓인 숫자의 순차적 이동|[링크](./Code_Tree/trail4/%EC%8C%93%EC%9D%B8%20%EC%88%AB%EC%9E%90%EC%9D%98%20%EC%88%9C%EC%B0%A8%EC%A0%81%20%EC%9D%B4%EB%8F%99/sequential-movement-of-stacked-numbers.java)|2026.07.03|
 |안전 지대|[링크](./Code_Tree/trail4/%EC%95%88%EC%A0%84%20%EC%A7%80%EB%8C%80/README.md)|2026.05.20|
 |알바로 부자 되기|[링크](./Code_Tree/trail4/%EC%95%8C%EB%B0%94%EB%A1%9C%20%EB%B6%80%EC%9E%90%20%EB%90%98%EA%B8%B0/README.md)|2026.05.24|
 |양수 직사각형의 최대 크기|[링크](./Code_Tree/trail4/%EC%96%91%EC%88%98%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EC%9D%98%20%EC%B5%9C%EB%8C%80%20%ED%81%AC%EA%B8%B0/README.md)|2026.05.27|

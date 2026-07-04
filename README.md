@@ -29,6 +29,7 @@
 |경험치를 빠르게 얻기|[링크](./Code_Tree/trail4/%EA%B2%BD%ED%97%98%EC%B9%98%EB%A5%BC%20%EB%B9%A0%EB%A5%B4%EA%B2%8C%20%EC%96%BB%EA%B8%B0/README.md)|2026.05.25|
 |계단 오르기|[링크](./Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0/README.md)|2026.05.21|
 |계단 오르기 2|[링크](./Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0%202/README.md)|2026.05.25|
+|구슬의 이동|[링크](./Code_Tree/trail4/%EA%B5%AC%EC%8A%AC%EC%9D%98%20%EC%9D%B4%EB%8F%99/README.md)|2026.07.04|
 |그래프 탐색|[링크](./Code_Tree/trail4/%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%83%90%EC%83%89/README.md)|2026.05.19|
 |금 채굴하기|[링크](./Code_Tree/trail4/%EA%B8%88%20%EC%B1%84%EA%B5%B4%ED%95%98%EA%B8%B0/README.md)|2026.05.26|
 |기울어진 직사각형|[링크](./Code_Tree/trail4/%EA%B8%B0%EC%9A%B8%EC%96%B4%EC%A7%84%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95/README.md)|2026.05.26|

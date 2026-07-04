@@ -1,108 +1,105 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 public class Main {
+    static int T, N, M;
+    static int[][] map, count, dir;
+    static int remain;
+    static int[][] delta = {
+            {-1, -1},
+            {-1, 0},
+            {0, 1},
+            {1, 0},
+            {0, -1}
+    };
+
+    static boolean isValid(int row, int col) {
+        return (row>=0&&col>=0&&row<N&&col<N);
+    }
+
+    static void go() {
+        int time = 2 * N;
+
+        while (time-- > 0) {
+            for (int r=0;r<N;r++) {
+                for (int c=0;c<N;c++) {
+                    if (map[r][c] == 0) continue;
+
+                    int direction = map[r][c];
+                    int nextRow = r + delta[direction][0];
+                    int nextCol = c + delta[direction][1];
+
+                    if (!isValid(nextRow, nextCol)) {
+                        switch (direction) {
+                            case 1: direction = 3; break;
+                            case 2: direction = 4; break;
+                            case 3: direction = 1; break;
+                            case 4: direction = 2; break;
+                        }
+                        nextRow = r;
+                        nextCol = c;
+                    }
+
+                    count[nextRow][nextCol] += 1;
+                    dir[nextRow][nextCol] = direction;
+                }
+            }
+
+            for (int r=0;r<N;r++) {
+                for (int c=0;c<N;c++) {
+                    int num = count[r][c];
+                    int direction = dir[r][c];
+
+                    if (num > 1) {
+                        remain -= num;
+                        direction = 0;
+                    }
+
+                    map[r][c] = direction;
+                    count[r][c] = 0;
+                    dir[r][c] = 0;
+                }
+            }
+        }
+    }
+
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int T = Integer.parseInt(br.readLine().trim());
+        InputStreamReader isr = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(isr);
         StringTokenizer st;
 
-        int[] dx = {0, 0, -1, 1};
-        int[] dy = {-1, 1, 0, 0};
-
+        T = Integer.parseInt(br.readLine());
         StringBuilder sb = new StringBuilder();
-
-        while (T-- > 0) {
+        for (int t=0;t<T;t++) {
             st = new StringTokenizer(br.readLine());
-            int N = Integer.parseInt(st.nextToken());
-            int M = Integer.parseInt(st.nextToken());
+            N = Integer.parseInt(st.nextToken());
+            M = Integer.parseInt(st.nextToken());
+            remain = M;
+            map = new int[N][N];
+            count = new int[N][N];
+            dir = new int[N][N];
 
-            int[] bi = new int[M + 1];
-            int[] bj = new int[M + 1];
-            int[] bd = new int[M + 1];
-            boolean[] alive = new boolean[M + 1];
-
-            for (int k = 1; k <= M; k++) {
+            for (int i=0;i<M;i++) {
                 st = new StringTokenizer(br.readLine());
-                int i = Integer.parseInt(st.nextToken()) - 1;
-                int j = Integer.parseInt(st.nextToken()) - 1;
-                char c = st.nextToken().charAt(0);
+                int row = Integer.parseInt(st.nextToken()) - 1;
+                int col = Integer.parseInt(st.nextToken()) - 1;
+                String direction = st.nextToken();
 
-                int d = -1;
-                switch(c){
-                    case 'L' : d = 0; break;
-                    case 'R' : d = 1; break;
-                    case 'U' : d = 2; break;
-                    case 'D' : d = 3; break;
-                }
-                bi[k] = i; bj[k] = j; bd[k] = d;
-                alive[k] = true;
-            }
-
-            int[] board = new int[N * N]; // 1차원 보드, 전체 초기화 안 함
-            int[] ni = new int[M + 1];
-            int[] nj = new int[M + 1];
-            int[] used = new int[M + 1];  // 이번 라운드에 값을 쓴 칸 목록
-
-            int aliveCount = M;
-
-            // 2번: 공이 1개 이하면 더 이상 충돌 불가 -> 즉시 종료
-            for (int round = 0; round < 2 * N && aliveCount > 1; round++) {
-                int usedCnt = 0;
-
-                // 1단계: 이동 후 좌표 계산 + 벽 충돌 처리
-                for (int k = 1; k <= M; k++) {
-                    if (!alive[k]) continue;
-                    int dir = bd[k];
-                    int x = bi[k] + dx[dir];
-                    int y = bj[k] + dy[dir];
-                    if (x < 0 || y < 0 || x >= N || y >= N) {
-                        dir ^= 1;
-                        bd[k] = dir;
-                        x = bi[k];
-                        y = bj[k];
-                    }
-                    ni[k] = x;
-                    nj[k] = y;
-                }
-
-                // 2단계: 같은 칸에 도착한 공들끼리 충돌 처리
-                for (int k = 1; k <= M; k++) {
-                    if (!alive[k]) continue;
-                    int code = ni[k] * N + nj[k];
-                    int cur = board[code];
-
-                    if (cur == -1) {
-                        // 이미 그 칸에서 충돌 발생 -> 이 공도 제거
-                        alive[k] = false;
-                        aliveCount--;
-                    } else if (cur != 0) {
-                        alive[cur] = false;
-                        alive[k] = false;
-                        aliveCount -= 2;
-                        board[code] = -1; // 이 칸은 이미 used에 등록되어 있음
-                    } else {
-                        board[code] = k;
-                        used[usedCnt++] = code;
-                    }
-                }
-
-                // 3단계: 좌표 갱신
-                for (int k = 1; k <= M; k++) {
-                    if (alive[k]) {
-                        bi[k] = ni[k];
-                        bj[k] = nj[k];
-                    }
-                }
-
-                // 1번: 전체 fill 대신, 이번 라운드에 사용한 칸만 0으로 복구
-                for (int t = 0; t < usedCnt; t++) {
-                    board[used[t]] = 0;
+                switch (direction) {
+                    case "U": map[row][col] = 1;break;
+                    case "D": map[row][col] = 3;break;
+                    case "R": map[row][col] = 2;break;
+                    case "L": map[row][col] = 4;break;
                 }
             }
 
-            sb.append(aliveCount).append('\n');
+            go();
+
+            sb.append(remain).append("\n");
         }
-        System.out.print(sb);
+        System.out.print(sb.toString().trim());
     }
 }
+

@@ -19,23 +19,21 @@ public class Main {
             B[i] = Integer.parseInt(st.nextToken());
         }
 
-        // 초기화
-        for (int i = 0; i <= 2 * N; i++)
+        for(int i = 0; i <= 2*N; i++){
             Arrays.fill(dp[i], Integer.MIN_VALUE);
-        dp[0][0] = 0;
-
-        // DP
-        for (int i = 1; i <= 2 * N; i++) {
-            for (int j = 0; j <= Math.min(i, N); j++) {
-
-                if (dp[i - 1][j] != Integer.MIN_VALUE)
-                    dp[i][j] = Math.max(dp[i][j], dp[i - 1][j] + B[i]);
-
-                if (j > 0 && dp[i - 1][j - 1] != Integer.MIN_VALUE)
-                    dp[i][j] = Math.max(dp[i][j], dp[i - 1][j - 1] + R[i]);
-            }
         }
 
+        dp[0][0] = 0;
+
+        for(int i = 1; i <= 2*N; i++){
+            for(int j = 0; j <= Math.min(i, N); j++){
+                if(dp[i-1][j] != Integer.MIN_VALUE)
+                    dp[i][j] = Math.max(dp[i-1][j] + B[i], dp[i][j]);
+
+                if(j > 0 && dp[i-1][j-1] != Integer.MIN_VALUE)
+                    dp[i][j] = Math.max(dp[i-1][j-1] + R[i], dp[i][j]);
+            }
+        }
     
         System.out.print(dp[2*N][N]);
     }

@@ -44,6 +44,7 @@
 |동일하게 분할|[링크](./Code_Tree/trail4/%EB%8F%99%EC%9D%BC%ED%95%98%EA%B2%8C%20%EB%B6%84%ED%95%A0/README.md)|2026.05.25|
 |동전 거슬러주기|[링크](./Code_Tree/trail4/%EB%8F%99%EC%A0%84%20%EA%B1%B0%EC%8A%AC%EB%9F%AC%EC%A3%BC%EA%B8%B0/README.md)|2026.05.24|
 |두 방향 탈출 가능 여부 판별하기|[링크](./Code_Tree/trail4/%EB%91%90%20%EB%B0%A9%ED%96%A5%20%ED%83%88%EC%B6%9C%20%EA%B0%80%EB%8A%A5%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%B3%84%ED%95%98%EA%B8%B0/README.md)|2026.05.20|
+|둘 중 하나 잘 고르기|[링크](./Code_Tree/trail4/%EB%91%98%20%EC%A4%91%20%ED%95%98%EB%82%98%20%EC%9E%98%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/README.md)|2026.07.16|
 |떨어지는 1자 블록|[링크](./Code_Tree/trail4/%EB%96%A8%EC%96%B4%EC%A7%80%EB%8A%94%201%EC%9E%90%20%EB%B8%94%EB%A1%9D/README.md)|2026.06.20|
 |마을 구분하기|[링크](./Code_Tree/trail4/%EB%A7%88%EC%9D%84%20%EA%B5%AC%EB%B6%84%ED%95%98%EA%B8%B0/seperate-village.java)|2026.05.20|
 |막대기 나누기|[링크](./Code_Tree/trail4/%EB%A7%89%EB%8C%80%EA%B8%B0%20%EB%82%98%EB%88%84%EA%B8%B0/README.md)|2026.05.24|

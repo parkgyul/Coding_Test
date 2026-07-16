@@ -10,43 +10,32 @@ public class Main {
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken()) + OFFSET;
 
-        int[] arr = new int[N];
+        int[] arr = new int[N+1];
 
         st = new StringTokenizer(br.readLine());
 
-        for(int i =0 ; i < N; i++){
+        for(int i =1 ; i <= N; i++){
             arr[i] = Integer.parseInt(st.nextToken());
         }
 
-        long[][] dp = new long[N][41];
-        
-        dp[0][-arr[0] + OFFSET] += 1;
-        dp[0][arr[0] + OFFSET] += 1;
+        long[][] dp = new long[N+1][41];
+        dp[0][20] = 1;
 
-        
 
-        for(int i = 1; i < N; i++){
+        for(int i = 1; i <= N; i++){
             for(int num = 0; num < 41; num++){
-                if(dp[i-1][num] == 0) continue;
-
-                if(num - arr[i] >= 0){
-                    if(dp[i][num-arr[i]] > 0){
-                        dp[i][num-arr[i]] += dp[i-1][num];
-                    }else{
-                        dp[i][num-arr[i]] = dp[i-1][num];
-                    }
+                // i 번쨰 수는 빼는 경우
+                if(num + arr[i] <= 20 + OFFSET){
+                    dp[i][num] += dp[i-1][num + arr[i]];
                 }
 
-                if(num + arr[i] <= 40){
-                    if(dp[i][num+arr[i]] > 0){
-                        dp[i][num+arr[i]] += dp[i-1][num];
-                    }else{
-                        dp[i][num+arr[i]] = dp[i-1][num];
-                    }
+                // i 번째 수는 더하는 경우
+                if(num - arr[i] >= -20 + OFFSET){
+                    dp[i][num] += dp[i-1][num - arr[i]];
                 }
             }
         }
 
-        System.out.println(dp[N-1][M]);
+        System.out.println(dp[N][M]);
     }
 }

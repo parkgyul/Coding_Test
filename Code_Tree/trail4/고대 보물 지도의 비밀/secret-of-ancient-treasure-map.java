@@ -31,24 +31,25 @@ public class Main {
 
         int answer = arr[1];
 
-        for(int i = 2; i <= N; i++){
-            if(arr[i] >= 0){ //양수 일떄
-                dp[i][0] = Math.max(dp[i-1][0] + arr[i], arr[i]);
-                answer = Math.max(answer, dp[i][0]);
+        for(int i = 1; i <= N; i++){
+            for(int cnt = 0; cnt <= Math.min(K, i); cnt++){
+                if(arr[i] >= 0){// 양수 라면
+                    dp[i][0] = Math.max(dp[i][0], arr[i]);
+                    answer = Math.max(answer, dp[i][0]);
 
-                for(int j = 1; j <= K; j++){
-                    if(dp[i-1][j] == -INF ) continue;
-                    dp[i][j] = dp[i-1][j] + arr[i];
-                    answer = Math.max(answer, dp[i][j]);
-                }
-            }else{
-                dp[i][1] = Math.max(dp[i-1][0] + arr[i], arr[i]);
-                answer = Math.max(answer, dp[i][1]);
+                    if(dp[i-1][cnt] != -INF){
+                        dp[i][cnt] = Math.max(dp[i-1][cnt] + arr[i], dp[i][cnt]);
+                         answer = Math.max(answer, dp[i][cnt]);
+                    }
+                }else{ // 음수 라면
+                    dp[i][1] = Math.max(dp[i][1], arr[i]);
+                    answer = Math.max(answer, dp[i][1]);
 
-                for(int j = 2; j <= K; j++){
-                    if(dp[i-1][j-1] == -INF) continue;
-                    dp[i][j] = dp[i-1][j-1] + arr[i];
-                    answer = Math.max(answer, dp[i][j]);
+                    if(cnt >0 && dp[i-1][cnt-1] != -INF){
+                        dp[i][cnt] = Math.max(dp[i-1][cnt-1] + arr[i], dp[i][cnt]);
+                         answer = Math.max(answer, dp[i][cnt]);
+                    }
+
                 }
             }
         }

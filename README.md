@@ -29,6 +29,7 @@
 |겹쳐지지 않는 두 직사각형|[링크](./Code_Tree/trail4/%EA%B2%B9%EC%B3%90%EC%A7%80%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EB%91%90%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95/README.md)|2026.07.01|
 |겹치지 않게 선분 고르기 2|[링크](./Code_Tree/trail4/%EA%B2%B9%EC%B9%98%EC%A7%80%20%EC%95%8A%EA%B2%8C%20%EC%84%A0%EB%B6%84%20%EA%B3%A0%EB%A5%B4%EA%B8%B0%202/README.md)|2026.05.24|
 |경험치를 빠르게 얻기|[링크](./Code_Tree/trail4/%EA%B2%BD%ED%97%98%EC%B9%98%EB%A5%BC%20%EB%B9%A0%EB%A5%B4%EA%B2%8C%20%EC%96%BB%EA%B8%B0/README.md)|2026.05.25|
+|계단 수|[링크](./Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%88%98/stair-number.java)|2026.07.17|
 |계단 오르기|[링크](./Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0/README.md)|2026.05.21|
 |계단 오르기 2|[링크](./Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0%202/README.md)|2026.05.25|
 |고대 보물 지도의 비밀|[링크](./Code_Tree/trail4/%EA%B3%A0%EB%8C%80%20%EB%B3%B4%EB%AC%BC%20%EC%A7%80%EB%8F%84%EC%9D%98%20%EB%B9%84%EB%B0%80/README.md)|2026.07.16|

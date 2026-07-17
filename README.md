@@ -103,6 +103,7 @@
 |최소 점프 횟수|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%A0%90%ED%94%84%20%ED%9A%9F%EC%88%98/README.md)|2026.05.18|
 |최소 차 분할|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%B0%A8%20%EB%B6%84%ED%95%A0/README.md)|2026.05.24|
 |최적의 십자 모양 폭발|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%A0%81%EC%9D%98%20%EC%8B%AD%EC%9E%90%20%EB%AA%A8%EC%96%91%20%ED%8F%AD%EB%B0%9C/README.md)|2026.07.01|
+|축구와 야구|[링크](./Code_Tree/trail4/%EC%B6%95%EA%B5%AC%EC%99%80%20%EC%95%BC%EA%B5%AC/README.md)|2026.07.17|
 |컨베이어 벨트|[링크](./Code_Tree/trail4/%EC%BB%A8%EB%B2%A0%EC%9D%B4%EC%96%B4%20%EB%B2%A8%ED%8A%B8/README.md)|2026.05.28|
 |크기가 N인 순열|[링크](./Code_Tree/trail4/%ED%81%AC%EA%B8%B0%EA%B0%80%20N%EC%9D%B8%20%EC%88%9C%EC%97%B4/README.md)|2026.05.19|
 |트로미노|[링크](./Code_Tree/trail4/%ED%8A%B8%EB%A1%9C%EB%AF%B8%EB%85%B8/README.md)|2026.05.26|

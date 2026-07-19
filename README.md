@@ -115,6 +115,10 @@
 |핀볼게임|[링크](./Code_Tree/trail4/%ED%95%80%EB%B3%BC%EA%B2%8C%EC%9E%84/README.md)|2026.07.02|
 |합쳐지는 구슬들|[링크](./Code_Tree/trail4/%ED%95%A9%EC%B3%90%EC%A7%80%EB%8A%94%20%EA%B5%AC%EC%8A%AC%EB%93%A4/README.md)|2026.07.14|
 |행복한 수열의 개수|[링크](./Code_Tree/trail4/%ED%96%89%EB%B3%B5%ED%95%9C%20%EC%88%98%EC%97%B4%EC%9D%98%20%EA%B0%9C%EC%88%98/README.md)|2026.05.26|
+### 🚀 trail5
+| 문제번호 | 링크 | 푼 날짜 |
+| ----- | ----- | -------------- |
+|hashmap 기본|[링크](./Code_Tree/trail5/hashmap%20%EA%B8%B0%EB%B3%B8/README.md)|2026.07.19|
 ### 🚀 SWEA
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |

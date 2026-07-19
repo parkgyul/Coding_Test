@@ -11,11 +11,7 @@ public class Main {
         int B = Integer.parseInt(st.nextToken());
 
         int[] arr = new int[N+1];
-
-        for(int i = 1; i <= N; i++){
-            arr[i] = i;
-        }
-
+        
         for(int i = 0; i < B; i++){
             int num = Integer.parseInt(br.readLine());
             arr[num] = -1;

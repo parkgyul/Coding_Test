@@ -120,6 +120,7 @@
 | ----- | ----- | -------------- |
 |hashmap 기본|[링크](./Code_Tree/trail5/hashmap%20%EA%B8%B0%EB%B3%B8/README.md)|2026.07.19|
 |수 등장 횟수|[링크](./Code_Tree/trail5/%EC%88%98%20%EB%93%B1%EC%9E%A5%20%ED%9A%9F%EC%88%98/number-frequency.java)|2026.07.19|
+|정수 N개의 합 2|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9%202/README.md)|2026.07.19|
 ### 🚀 SWEA
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |

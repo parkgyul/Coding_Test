@@ -124,6 +124,7 @@
 |대응되는 수와 문자|[링크](./Code_Tree/trail5/%EB%8C%80%EC%9D%91%EB%90%98%EB%8A%94%20%EC%88%98%EC%99%80%20%EB%AC%B8%EC%9E%90/README.md)|2026.07.20|
 |돌의 소속|[링크](./Code_Tree/trail5/%EB%8F%8C%EC%9D%98%20%EC%86%8C%EC%86%8D/README.md)|2026.07.19|
 |범위 내에 있는 점의 수 2|[링크](./Code_Tree/trail5/%EB%B2%94%EC%9C%84%20%EB%82%B4%EC%97%90%20%EC%9E%88%EB%8A%94%20%EC%A0%90%EC%9D%98%20%EC%88%98%202/the-number-of-points-within-the-range-2.java)|2026.07.19|
+|별이 있는 숫자로만의 이동|[링크](./Code_Tree/trail5/%EB%B3%84%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EC%88%AB%EC%9E%90%EB%A1%9C%EB%A7%8C%EC%9D%98%20%EC%9D%B4%EB%8F%99/README.md)|2026.07.20|
 |부분 수열의 합이 K|[링크](./Code_Tree/trail5/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9%EC%9D%B4%20K/README.md)|2026.07.19|
 |수 등장 횟수|[링크](./Code_Tree/trail5/%EC%88%98%20%EB%93%B1%EC%9E%A5%20%ED%9A%9F%EC%88%98/number-frequency.java)|2026.07.19|
 |연속한 K개의 숫자|[링크](./Code_Tree/trail5/%EC%97%B0%EC%86%8D%ED%95%9C%20K%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/README.md)|2026.07.19|

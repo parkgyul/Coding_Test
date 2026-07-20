@@ -43,6 +43,7 @@ public class Main {
     static void dijkstra(int start){
         PriorityQueue<Node> pq = new PriorityQueue<>();
         pq.add(new Node(start, 0));
+        costs[start] = 0;
 
         while(!pq.isEmpty()){
             Node cur = pq.poll();

@@ -34,10 +34,13 @@ public class Main {
 
         dijkstra(K);
 
+        StringBuilder sb = new StringBuilder();
+
         for(int i = 1; i <= N; i++){
-            System.out.println(costs[i] == Integer.MAX_VALUE ? -1 : costs[i]);
+            sb.append(costs[i] == Integer.MAX_VALUE ? -1 : costs[i]).append("\n");
         }
 
+        System.out.print(sb);
     }
 
     static void dijkstra(int start){

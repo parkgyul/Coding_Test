@@ -144,6 +144,7 @@
 |정수 찾기|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EC%B0%BE%EA%B8%B0/README.md)|2026.07.21|
 |처음 등장하는 위치|[링크](./Code_Tree/trail5/%EC%B2%98%EC%9D%8C%20%EB%93%B1%EC%9E%A5%ED%95%98%EB%8A%94%20%EC%9C%84%EC%B9%98/README.md)|2026.07.21|
 |최단 거리 11|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%2011/shortest-distance-11.java)|2026.07.20|
+|최단 거리 3|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%203/README.md)|2026.07.21|
 |최단 거리 9|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%209/shortest-distance-9.java)|2026.07.20|
 |최대 직사각형 합|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8C%80%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%20%ED%95%A9/max-rect-sum-in-grid.java)|2026.07.19|
 ### 🚀 SWEA

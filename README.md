@@ -139,6 +139,7 @@
 |연속한 K개의 숫자|[링크](./Code_Tree/trail5/%EC%97%B0%EC%86%8D%ED%95%9C%20K%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/README.md)|2026.07.19|
 |정수 N개의 합 2|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9%202/README.md)|2026.07.19|
 |정수 N개의 합 3|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9%203/README.md)|2026.07.19|
+|정수 찾기|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EC%B0%BE%EA%B8%B0/README.md)|2026.07.21|
 |처음 등장하는 위치|[링크](./Code_Tree/trail5/%EC%B2%98%EC%9D%8C%20%EB%93%B1%EC%9E%A5%ED%95%98%EB%8A%94%20%EC%9C%84%EC%B9%98/README.md)|2026.07.21|
 |최단 거리 11|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%2011/shortest-distance-11.java)|2026.07.20|
 |최단 거리 9|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%209/shortest-distance-9.java)|2026.07.20|

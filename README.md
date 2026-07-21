@@ -130,6 +130,7 @@
 |범위 내에 있는 점의 수 2|[링크](./Code_Tree/trail5/%EB%B2%94%EC%9C%84%20%EB%82%B4%EC%97%90%20%EC%9E%88%EB%8A%94%20%EC%A0%90%EC%9D%98%20%EC%88%98%202/the-number-of-points-within-the-range-2.java)|2026.07.19|
 |별이 있는 숫자로만의 이동|[링크](./Code_Tree/trail5/%EB%B3%84%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EC%88%AB%EC%9E%90%EB%A1%9C%EB%A7%8C%EC%9D%98%20%EC%9D%B4%EB%8F%99/README.md)|2026.07.20|
 |부분 수열의 합이 K|[링크](./Code_Tree/trail5/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9%EC%9D%B4%20K/README.md)|2026.07.19|
+|비율 구하기|[링크](./Code_Tree/trail5/%EB%B9%84%EC%9C%A8%20%EA%B5%AC%ED%95%98%EA%B8%B0/README.md)|2026.07.21|
 |수 등장 횟수|[링크](./Code_Tree/trail5/%EC%88%98%20%EB%93%B1%EC%9E%A5%20%ED%9A%9F%EC%88%98/number-frequency.java)|2026.07.19|
 |연속한 K개의 숫자|[링크](./Code_Tree/trail5/%EC%97%B0%EC%86%8D%ED%95%9C%20K%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/README.md)|2026.07.19|
 |정수 N개의 합 2|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9%202/README.md)|2026.07.19|

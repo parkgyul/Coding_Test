@@ -7,146 +7,146 @@
 ### 🚀 trail4
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
-|1, 2, 5 더하기|[링크](./Code_Tree/trail4/1%2C%202%2C%205%20%EB%8D%94%ED%95%98%EA%B8%B0/README.md)|2026.05.24|
-|1차원 바람|[링크](./Code_Tree/trail4/1%EC%B0%A8%EC%9B%90%20%EB%B0%94%EB%9E%8C/README.md)|2026.05.29|
-|1차원 젠가|[링크](./Code_Tree/trail4/1%EC%B0%A8%EC%9B%90%20%EC%A0%A0%EA%B0%80/README.md)|2026.05.30|
+|1, 2, 5 더하기|[링크](./Code_Tree/trail4/1%2C%202%2C%205%20%EB%8D%94%ED%95%98%EA%B8%B0/1-2-5-plus.java)|2026.05.24|
+|1차원 바람|[링크](./Code_Tree/trail4/1%EC%B0%A8%EC%9B%90%20%EB%B0%94%EB%9E%8C/The-1D-wind-blows.java)|2026.05.29|
+|1차원 젠가|[링크](./Code_Tree/trail4/1%EC%B0%A8%EC%9B%90%20%EC%A0%A0%EA%B0%80/jenga-1d.java)|2026.05.30|
 |1차원 폭발 게임|[링크](./Code_Tree/trail4/1%EC%B0%A8%EC%9B%90%20%ED%8F%AD%EB%B0%9C%20%EA%B2%8C%EC%9E%84/The-1D-bomb-game.java)|2026.06.04|
-|2N개 중에 N개의 숫자를 적절하게 고르기|[링크](./Code_Tree/trail4/2N%EA%B0%9C%20%EC%A4%91%EC%97%90%20N%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90%EB%A5%BC%20%EC%A0%81%EC%A0%88%ED%95%98%EA%B2%8C%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/README.md)|2026.05.18|
-|2차원 바람|[링크](./Code_Tree/trail4/2%EC%B0%A8%EC%9B%90%20%EB%B0%94%EB%9E%8C/README.md)|2026.05.31|
-|2차원 최대 증가 수열|[링크](./Code_Tree/trail4/2%EC%B0%A8%EC%9B%90%20%EC%B5%9C%EB%8C%80%20%EC%A6%9D%EA%B0%80%20%EC%88%98%EC%97%B4/README.md)|2026.05.23|
-|2차원 폭발 게임|[링크](./Code_Tree/trail4/2%EC%B0%A8%EC%9B%90%20%ED%8F%AD%EB%B0%9C%20%EA%B2%8C%EC%9E%84/README.md)|2026.06.23|
-|4가지 연산을 이용하여 1 만들기|[링크](./Code_Tree/trail4/4%EA%B0%80%EC%A7%80%20%EC%97%B0%EC%82%B0%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC%201%20%EB%A7%8C%EB%93%A4%EA%B8%B0/README.md)|2026.05.21|
+|2N개 중에 N개의 숫자를 적절하게 고르기|[링크](./Code_Tree/trail4/2N%EA%B0%9C%20%EC%A4%91%EC%97%90%20N%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90%EB%A5%BC%20%EC%A0%81%EC%A0%88%ED%95%98%EA%B2%8C%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/choose-n-out-of-2n-properly.java)|2026.05.18|
+|2차원 바람|[링크](./Code_Tree/trail4/2%EC%B0%A8%EC%9B%90%20%EB%B0%94%EB%9E%8C/The-2D-wind-blows.java)|2026.05.31|
+|2차원 최대 증가 수열|[링크](./Code_Tree/trail4/2%EC%B0%A8%EC%9B%90%20%EC%B5%9C%EB%8C%80%20%EC%A6%9D%EA%B0%80%20%EC%88%98%EC%97%B4/longest-increasing-sequence-2d.java)|2026.05.23|
+|2차원 폭발 게임|[링크](./Code_Tree/trail4/2%EC%B0%A8%EC%9B%90%20%ED%8F%AD%EB%B0%9C%20%EA%B2%8C%EC%9E%84/The-2D-bomb-game.java)|2026.06.23|
+|4가지 연산을 이용하여 1 만들기|[링크](./Code_Tree/trail4/4%EA%B0%80%EC%A7%80%20%EC%97%B0%EC%82%B0%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC%201%20%EB%A7%8C%EB%93%A4%EA%B8%B0/make-one-using-four-operations.java)|2026.05.21|
 |K개의 벽 없애기|[링크](./Code_Tree/trail4/K%EA%B0%9C%EC%9D%98%20%EB%B2%BD%20%EC%97%86%EC%95%A0%EA%B8%B0/remove-k-walls.java)|2026.05.21|
-|K번 최댓값으로 이동하기|[링크](./Code_Tree/trail4/K%EB%B2%88%20%EC%B5%9C%EB%8C%93%EA%B0%92%EC%9C%BC%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0/README.md)|2026.05.20|
-|M개의 구간을 선택하기|[링크](./Code_Tree/trail4/M%EA%B0%9C%EC%9D%98%20%EA%B5%AC%EA%B0%84%EC%9D%84%20%EC%84%A0%ED%83%9D%ED%95%98%EA%B8%B0/README.md)|2026.07.17|
-|N개 중에 M개 뽑기|[링크](./Code_Tree/trail4/N%EA%B0%9C%20%EC%A4%91%EC%97%90%20M%EA%B0%9C%20%EB%BD%91%EA%B8%B0/README.md)|2026.05.18|
-|N개의 점 중 M개 고르기|[링크](./Code_Tree/trail4/N%EA%B0%9C%EC%9D%98%20%EC%A0%90%20%EC%A4%91%20M%EA%B0%9C%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/README.md)|2026.05.18|
+|K번 최댓값으로 이동하기|[링크](./Code_Tree/trail4/K%EB%B2%88%20%EC%B5%9C%EB%8C%93%EA%B0%92%EC%9C%BC%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0/move-to-max-k-times.java)|2026.05.20|
+|M개의 구간을 선택하기|[링크](./Code_Tree/trail4/M%EA%B0%9C%EC%9D%98%20%EA%B5%AC%EA%B0%84%EC%9D%84%20%EC%84%A0%ED%83%9D%ED%95%98%EA%B8%B0/select-m-sections.java)|2026.07.17|
+|N개 중에 M개 뽑기|[링크](./Code_Tree/trail4/N%EA%B0%9C%20%EC%A4%91%EC%97%90%20M%EA%B0%9C%20%EB%BD%91%EA%B8%B0/n-choose-m.java)|2026.05.18|
+|N개의 점 중 M개 고르기|[링크](./Code_Tree/trail4/N%EA%B0%9C%EC%9D%98%20%EC%A0%90%20%EC%A4%91%20M%EA%B0%9C%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/choose-m-out-of-n-points.java)|2026.05.18|
 |XOR 결과 최대 만들기|[링크](./Code_Tree/trail4/XOR%20%EA%B2%B0%EA%B3%BC%20%EC%B5%9C%EB%8C%80%20%EB%A7%8C%EB%93%A4%EA%B8%B0/max-of-xor.java)|2026.05.18|
-|가능한 수열 중 최솟값 구하기|[링크](./Code_Tree/trail4/%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%88%98%EC%97%B4%20%EC%A4%91%20%EC%B5%9C%EC%86%9F%EA%B0%92%20%EA%B5%AC%ED%95%98%EA%B8%B0/README.md)|2026.05.18|
+|가능한 수열 중 최솟값 구하기|[링크](./Code_Tree/trail4/%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%88%98%EC%97%B4%20%EC%A4%91%20%EC%B5%9C%EC%86%9F%EA%B0%92%20%EA%B5%AC%ED%95%98%EA%B8%B0/find-min-of-possible-series.java)|2026.05.18|
 |갈 수 있는 곳들|[링크](./Code_Tree/trail4/%EA%B0%88%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EA%B3%B3%EB%93%A4/README.md)|2026.05.20|
-|거꾸로 순열|[링크](./Code_Tree/trail4/%EA%B1%B0%EA%BE%B8%EB%A1%9C%20%EC%88%9C%EC%97%B4/README.md)|2026.05.19|
+|거꾸로 순열|[링크](./Code_Tree/trail4/%EA%B1%B0%EA%BE%B8%EB%A1%9C%20%EC%88%9C%EC%97%B4/backward-permutation.java)|2026.05.19|
 |게임 스튜디오에서 살아남기|[링크](./Code_Tree/trail4/%EA%B2%8C%EC%9E%84%20%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4%EC%97%90%EC%84%9C%20%EC%82%B4%EC%95%84%EB%82%A8%EA%B8%B0/README.md)|2026.07.16|
-|겹쳐지지 않는 두 직사각형|[링크](./Code_Tree/trail4/%EA%B2%B9%EC%B3%90%EC%A7%80%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EB%91%90%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95/README.md)|2026.07.01|
-|겹치지 않게 선분 고르기 2|[링크](./Code_Tree/trail4/%EA%B2%B9%EC%B9%98%EC%A7%80%20%EC%95%8A%EA%B2%8C%20%EC%84%A0%EB%B6%84%20%EA%B3%A0%EB%A5%B4%EA%B8%B0%202/README.md)|2026.05.24|
-|경험치를 빠르게 얻기|[링크](./Code_Tree/trail4/%EA%B2%BD%ED%97%98%EC%B9%98%EB%A5%BC%20%EB%B9%A0%EB%A5%B4%EA%B2%8C%20%EC%96%BB%EA%B8%B0/README.md)|2026.05.25|
+|겹쳐지지 않는 두 직사각형|[링크](./Code_Tree/trail4/%EA%B2%B9%EC%B3%90%EC%A7%80%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EB%91%90%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95/non-overlapping-two-rectangles.java)|2026.07.01|
+|겹치지 않게 선분 고르기 2|[링크](./Code_Tree/trail4/%EA%B2%B9%EC%B9%98%EC%A7%80%20%EC%95%8A%EA%B2%8C%20%EC%84%A0%EB%B6%84%20%EA%B3%A0%EB%A5%B4%EA%B8%B0%202/select-segments-without-overlap-2.java)|2026.05.24|
+|경험치를 빠르게 얻기|[링크](./Code_Tree/trail4/%EA%B2%BD%ED%97%98%EC%B9%98%EB%A5%BC%20%EB%B9%A0%EB%A5%B4%EA%B2%8C%20%EC%96%BB%EA%B8%B0/gain-exp-quickly.java)|2026.05.25|
 |계단 수|[링크](./Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%88%98/stair-number.java)|2026.07.17|
-|계단 오르기|[링크](./Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0/README.md)|2026.05.21|
-|계단 오르기 2|[링크](./Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0%202/README.md)|2026.05.25|
-|고대 보물 지도의 비밀|[링크](./Code_Tree/trail4/%EA%B3%A0%EB%8C%80%20%EB%B3%B4%EB%AC%BC%20%EC%A7%80%EB%8F%84%EC%9D%98%20%EB%B9%84%EB%B0%80/README.md)|2026.07.16|
-|구슬의 이동|[링크](./Code_Tree/trail4/%EA%B5%AC%EC%8A%AC%EC%9D%98%20%EC%9D%B4%EB%8F%99/README.md)|2026.07.04|
-|그래프 탐색|[링크](./Code_Tree/trail4/%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%83%90%EC%83%89/README.md)|2026.05.19|
+|계단 오르기|[링크](./Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0/climbing-stairs.java)|2026.05.21|
+|계단 오르기 2|[링크](./Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0%202/climbing-stairs-2.java)|2026.05.25|
+|고대 보물 지도의 비밀|[링크](./Code_Tree/trail4/%EA%B3%A0%EB%8C%80%20%EB%B3%B4%EB%AC%BC%20%EC%A7%80%EB%8F%84%EC%9D%98%20%EB%B9%84%EB%B0%80/secret-of-ancient-treasure-map.java)|2026.07.16|
+|구슬의 이동|[링크](./Code_Tree/trail4/%EA%B5%AC%EC%8A%AC%EC%9D%98%20%EC%9D%B4%EB%8F%99/marble-movement.java)|2026.07.04|
+|그래프 탐색|[링크](./Code_Tree/trail4/%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%83%90%EC%83%89/graph-traversal.java)|2026.05.19|
 |금 채굴하기|[링크](./Code_Tree/trail4/%EA%B8%88%20%EC%B1%84%EA%B5%B4%ED%95%98%EA%B8%B0/gold-mining.java)|2026.05.26|
 |기울어진 직사각형|[링크](./Code_Tree/trail4/%EA%B8%B0%EC%9A%B8%EC%96%B4%EC%A7%84%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95/README.md)|2026.05.26|
 |기울어진 직사각형의 회전|[링크](./Code_Tree/trail4/%EA%B8%B0%EC%9A%B8%EC%96%B4%EC%A7%84%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EC%9D%98%20%ED%9A%8C%EC%A0%84/rotate-slanted-rectangle.java)|2026.06.01|
-|나이트|[링크](./Code_Tree/trail4/%EB%82%98%EC%9D%B4%ED%8A%B8/README.md)|2026.05.21|
-|네 방향 탈출 가능 여부 판별하기|[링크](./Code_Tree/trail4/%EB%84%A4%20%EB%B0%A9%ED%96%A5%20%ED%83%88%EC%B6%9C%20%EA%B0%80%EB%8A%A5%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%B3%84%ED%95%98%EA%B8%B0/README.md)|2026.05.20|
-|단 한 번의 2048 시도|[링크](./Code_Tree/trail4/%EB%8B%A8%20%ED%95%9C%20%EB%B2%88%EC%9D%98%202048%20%EC%8B%9C%EB%8F%84/README.md)|2026.06.22|
-|단순한 동전 챙기기|[링크](./Code_Tree/trail4/%EB%8B%A8%EC%88%9C%ED%95%9C%20%EB%8F%99%EC%A0%84%20%EC%B1%99%EA%B8%B0%EA%B8%B0/README.md)|2026.05.18|
-|대폭발|[링크](./Code_Tree/trail4/%EB%8C%80%ED%8F%AD%EB%B0%9C/README.md)|2026.07.02|
-|도전! 369게임|[링크](./Code_Tree/trail4/%EB%8F%84%EC%A0%84%21%20369%EA%B2%8C%EC%9E%84/README.md)|2026.07.17|
-|돌 잘 치우기|[링크](./Code_Tree/trail4/%EB%8F%8C%20%EC%9E%98%20%EC%B9%98%EC%9A%B0%EA%B8%B0/README.md)|2026.05.20|
-|동일하게 분할|[링크](./Code_Tree/trail4/%EB%8F%99%EC%9D%BC%ED%95%98%EA%B2%8C%20%EB%B6%84%ED%95%A0/README.md)|2026.05.25|
+|나이트|[링크](./Code_Tree/trail4/%EB%82%98%EC%9D%B4%ED%8A%B8/knight-movements.java)|2026.05.21|
+|네 방향 탈출 가능 여부 판별하기|[링크](./Code_Tree/trail4/%EB%84%A4%20%EB%B0%A9%ED%96%A5%20%ED%83%88%EC%B6%9C%20%EA%B0%80%EB%8A%A5%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%B3%84%ED%95%98%EA%B8%B0/determine-escapableness-with-4-ways.java)|2026.05.20|
+|단 한 번의 2048 시도|[링크](./Code_Tree/trail4/%EB%8B%A8%20%ED%95%9C%20%EB%B2%88%EC%9D%98%202048%20%EC%8B%9C%EB%8F%84/one-trial-of-2048-game.java)|2026.06.22|
+|단순한 동전 챙기기|[링크](./Code_Tree/trail4/%EB%8B%A8%EC%88%9C%ED%95%9C%20%EB%8F%99%EC%A0%84%20%EC%B1%99%EA%B8%B0%EA%B8%B0/collect-coins-easy.java)|2026.05.18|
+|대폭발|[링크](./Code_Tree/trail4/%EB%8C%80%ED%8F%AD%EB%B0%9C/big-explosion.java)|2026.07.02|
+|도전! 369게임|[링크](./Code_Tree/trail4/%EB%8F%84%EC%A0%84%21%20369%EA%B2%8C%EC%9E%84/369-game-challenge.java)|2026.07.17|
+|돌 잘 치우기|[링크](./Code_Tree/trail4/%EB%8F%8C%20%EC%9E%98%20%EC%B9%98%EC%9A%B0%EA%B8%B0/clear-stones-well.java)|2026.05.20|
+|동일하게 분할|[링크](./Code_Tree/trail4/%EB%8F%99%EC%9D%BC%ED%95%98%EA%B2%8C%20%EB%B6%84%ED%95%A0/equal-partition.java)|2026.05.25|
 |동전 거슬러주기|[링크](./Code_Tree/trail4/%EB%8F%99%EC%A0%84%20%EA%B1%B0%EC%8A%AC%EB%9F%AC%EC%A3%BC%EA%B8%B0/coin-change.java)|2026.05.24|
-|두 방향 탈출 가능 여부 판별하기|[링크](./Code_Tree/trail4/%EB%91%90%20%EB%B0%A9%ED%96%A5%20%ED%83%88%EC%B6%9C%20%EA%B0%80%EB%8A%A5%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%B3%84%ED%95%98%EA%B8%B0/README.md)|2026.05.20|
-|둘 중 하나 잘 고르기|[링크](./Code_Tree/trail4/%EB%91%98%20%EC%A4%91%20%ED%95%98%EB%82%98%20%EC%9E%98%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/README.md)|2026.07.16|
-|떨어지는 1자 블록|[링크](./Code_Tree/trail4/%EB%96%A8%EC%96%B4%EC%A7%80%EB%8A%94%201%EC%9E%90%20%EB%B8%94%EB%A1%9D/README.md)|2026.06.20|
-|마을 구분하기|[링크](./Code_Tree/trail4/%EB%A7%88%EC%9D%84%20%EA%B5%AC%EB%B6%84%ED%95%98%EA%B8%B0/README.md)|2026.05.20|
+|두 방향 탈출 가능 여부 판별하기|[링크](./Code_Tree/trail4/%EB%91%90%20%EB%B0%A9%ED%96%A5%20%ED%83%88%EC%B6%9C%20%EA%B0%80%EB%8A%A5%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%B3%84%ED%95%98%EA%B8%B0/determine-escapableness-with-2-ways.java)|2026.05.20|
+|둘 중 하나 잘 고르기|[링크](./Code_Tree/trail4/%EB%91%98%20%EC%A4%91%20%ED%95%98%EB%82%98%20%EC%9E%98%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/choose-one-of-two-points.java)|2026.07.16|
+|떨어지는 1자 블록|[링크](./Code_Tree/trail4/%EB%96%A8%EC%96%B4%EC%A7%80%EB%8A%94%201%EC%9E%90%20%EB%B8%94%EB%A1%9D/falling-horizontal-block.java)|2026.06.20|
+|마을 구분하기|[링크](./Code_Tree/trail4/%EB%A7%88%EC%9D%84%20%EA%B5%AC%EB%B6%84%ED%95%98%EA%B8%B0/seperate-village.java)|2026.05.20|
 |막대기 나누기|[링크](./Code_Tree/trail4/%EB%A7%89%EB%8C%80%EA%B8%B0%20%EB%82%98%EB%88%84%EA%B8%B0/README.md)|2026.05.24|
-|방향에 맞춰 최대로 움직이기|[링크](./Code_Tree/trail4/%EB%B0%A9%ED%96%A5%EC%97%90%20%EB%A7%9E%EC%B6%B0%20%EC%B5%9C%EB%8C%80%EB%A1%9C%20%EC%9B%80%EC%A7%81%EC%9D%B4%EA%B8%B0/README.md)|2026.05.17|
-|배낭 채우기|[링크](./Code_Tree/trail4/%EB%B0%B0%EB%82%AD%20%EC%B1%84%EC%9A%B0%EA%B8%B0/README.md)|2026.05.24|
+|방향에 맞춰 최대로 움직이기|[링크](./Code_Tree/trail4/%EB%B0%A9%ED%96%A5%EC%97%90%20%EB%A7%9E%EC%B6%B0%20%EC%B5%9C%EB%8C%80%EB%A1%9C%20%EC%9B%80%EC%A7%81%EC%9D%B4%EA%B8%B0/max-movements-with-direction.java)|2026.05.17|
+|배낭 채우기|[링크](./Code_Tree/trail4/%EB%B0%B0%EB%82%AD%20%EC%B1%84%EC%9A%B0%EA%B8%B0/knapsack.java)|2026.05.24|
 |배낭 채우기 2|[링크](./Code_Tree/trail4/%EB%B0%B0%EB%82%AD%20%EC%B1%84%EC%9A%B0%EA%B8%B0%202/README.md)|2026.05.24|
 |뱀은 사과를 좋아해|[링크](./Code_Tree/trail4/%EB%B1%80%EC%9D%80%20%EC%82%AC%EA%B3%BC%EB%A5%BC%20%EC%A2%8B%EC%95%84%ED%95%B4/snake-loves-apples.java)|2026.07.15|
-|벽 짚고 미로 탈출하기|[링크](./Code_Tree/trail4/%EB%B2%BD%20%EC%A7%9A%EA%B3%A0%20%EB%AF%B8%EB%A1%9C%20%ED%83%88%EC%B6%9C%ED%95%98%EA%B8%B0/README.md)|2026.07.02|
+|벽 짚고 미로 탈출하기|[링크](./Code_Tree/trail4/%EB%B2%BD%20%EC%A7%9A%EA%B3%A0%20%EB%AF%B8%EB%A1%9C%20%ED%83%88%EC%B6%9C%ED%95%98%EA%B8%B0/escape-maze-with-wall-following.java)|2026.07.02|
 |벽이 있는 충돌 실험|[링크](./Code_Tree/trail4/%EB%B2%BD%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EC%B6%A9%EB%8F%8C%20%EC%8B%A4%ED%97%98/README.md)|2026.07.03|
-|부분 수열의 합|[링크](./Code_Tree/trail4/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9/the-sum-of-the-subsequences.java)|2026.05.24|
+|부분 수열의 합|[링크](./Code_Tree/trail4/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9/README.md)|2026.05.24|
 |부분 수열의 합이 M|[링크](./Code_Tree/trail4/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9%EC%9D%B4%20M/the-sum-of-the-subsequences-is-m.java)|2026.05.24|
 |비를 피하기|[링크](./Code_Tree/trail4/%EB%B9%84%EB%A5%BC%20%ED%94%BC%ED%95%98%EA%B8%B0/stay-out-of-rain.java)|2026.05.21|
 |빙하|[링크](./Code_Tree/trail4/%EB%B9%99%ED%95%98/README.md)|2026.05.20|
-|뿌요뿌요|[링크](./Code_Tree/trail4/%EB%BF%8C%EC%9A%94%EB%BF%8C%EC%9A%94/README.md)|2026.05.20|
+|뿌요뿌요|[링크](./Code_Tree/trail4/%EB%BF%8C%EC%9A%94%EB%BF%8C%EC%9A%94/puyo-puyo.java)|2026.05.20|
 |사각형 채우기|[링크](./Code_Tree/trail4/%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B1%84%EC%9A%B0%EA%B8%B0/rectangle-fill.java)|2026.05.21|
 |사각형 채우기 2|[링크](./Code_Tree/trail4/%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B1%84%EC%9A%B0%EA%B8%B0%202/README.md)|2026.05.22|
-|사각형 채우기 3|[링크](./Code_Tree/trail4/%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B1%84%EC%9A%B0%EA%B8%B0%203/README.md)|2026.05.21|
-|삼각형 컨베이어 벨트|[링크](./Code_Tree/trail4/%EC%82%BC%EA%B0%81%ED%98%95%20%EC%BB%A8%EB%B2%A0%EC%9D%B4%EC%96%B4%20%EB%B2%A8%ED%8A%B8/README.md)|2026.05.29|
+|사각형 채우기 3|[링크](./Code_Tree/trail4/%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B1%84%EC%9A%B0%EA%B8%B0%203/rectangle-fill-3.java)|2026.05.21|
+|삼각형 컨베이어 벨트|[링크](./Code_Tree/trail4/%EC%82%BC%EA%B0%81%ED%98%95%20%EC%BB%A8%EB%B2%A0%EC%9D%B4%EC%96%B4%20%EB%B2%A8%ED%8A%B8/conveyor-belt-triangle.java)|2026.05.29|
 |상한 귤|[링크](./Code_Tree/trail4/%EC%83%81%ED%95%9C%20%EA%B7%A4/README.md)|2026.05.21|
-|서로 다른 BST 개수 세기|[링크](./Code_Tree/trail4/%EC%84%9C%EB%A1%9C%20%EB%8B%A4%EB%A5%B8%20BST%20%EA%B0%9C%EC%88%98%20%EC%84%B8%EA%B8%B0/README.md)|2026.05.22|
-|수들 중 최솟값 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%20%EC%A4%91%20%EC%B5%9C%EC%86%9F%EA%B0%92%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/README.md)|2026.05.19|
+|서로 다른 BST 개수 세기|[링크](./Code_Tree/trail4/%EC%84%9C%EB%A1%9C%20%EB%8B%A4%EB%A5%B8%20BST%20%EA%B0%9C%EC%88%98%20%EC%84%B8%EA%B8%B0/number-of-unique-bst.java)|2026.05.22|
+|수들 중 최솟값 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%20%EC%A4%91%20%EC%B5%9C%EC%86%9F%EA%B0%92%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/maximin-of-numbers.java)|2026.05.19|
 |수들의 합 최대화하기|[링크](./Code_Tree/trail4/%EC%88%98%EB%93%A4%EC%9D%98%20%ED%95%A9%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/max-sum-of-numbers.java)|2026.05.19|
-|숫자 전쟁|[링크](./Code_Tree/trail4/%EC%88%AB%EC%9E%90%20%EC%A0%84%EC%9F%81/README.md)|2026.05.26|
+|숫자 전쟁|[링크](./Code_Tree/trail4/%EC%88%AB%EC%9E%90%20%EC%A0%84%EC%9F%81/number-war.java)|2026.05.26|
 |숫자가 가장 큰 인접한 곳으로 동시에 이동|[링크](./Code_Tree/trail4/%EC%88%AB%EC%9E%90%EA%B0%80%20%EA%B0%80%EC%9E%A5%20%ED%81%B0%20%EC%9D%B8%EC%A0%91%ED%95%9C%20%EA%B3%B3%EC%9C%BC%EB%A1%9C%20%EB%8F%99%EC%8B%9C%EC%97%90%20%EC%9D%B4%EB%8F%99/move-to-max-adjacent-cell-simultaneously.java)|2026.06.15|
-|숫자가 더 큰 인접한 곳으로 이동|[링크](./Code_Tree/trail4/%EC%88%AB%EC%9E%90%EA%B0%80%20%EB%8D%94%20%ED%81%B0%20%EC%9D%B8%EC%A0%91%ED%95%9C%20%EA%B3%B3%EC%9C%BC%EB%A1%9C%20%EC%9D%B4%EB%8F%99/README.md)|2026.05.30|
-|숫자의 순차적 이동|[링크](./Code_Tree/trail4/%EC%88%AB%EC%9E%90%EC%9D%98%20%EC%88%9C%EC%B0%A8%EC%A0%81%20%EC%9D%B4%EB%8F%99/README.md)|2026.07.01|
-|신전 탐험하기|[링크](./Code_Tree/trail4/%EC%8B%A0%EC%A0%84%20%ED%83%90%ED%97%98%ED%95%98%EA%B8%B0/README.md)|2026.07.17|
-|신전 탐험하기 2|[링크](./Code_Tree/trail4/%EC%8B%A0%EC%A0%84%20%ED%83%90%ED%97%98%ED%95%98%EA%B8%B0%202/README.md)|2026.07.17|
+|숫자가 더 큰 인접한 곳으로 이동|[링크](./Code_Tree/trail4/%EC%88%AB%EC%9E%90%EA%B0%80%20%EB%8D%94%20%ED%81%B0%20%EC%9D%B8%EC%A0%91%ED%95%9C%20%EA%B3%B3%EC%9C%BC%EB%A1%9C%20%EC%9D%B4%EB%8F%99/move-to-larger-adjacent-cell.java)|2026.05.30|
+|숫자의 순차적 이동|[링크](./Code_Tree/trail4/%EC%88%AB%EC%9E%90%EC%9D%98%20%EC%88%9C%EC%B0%A8%EC%A0%81%20%EC%9D%B4%EB%8F%99/sequential-movement-of-numbers.java)|2026.07.01|
+|신전 탐험하기|[링크](./Code_Tree/trail4/%EC%8B%A0%EC%A0%84%20%ED%83%90%ED%97%98%ED%95%98%EA%B8%B0/explore-temple.java)|2026.07.17|
+|신전 탐험하기 2|[링크](./Code_Tree/trail4/%EC%8B%A0%EC%A0%84%20%ED%83%90%ED%97%98%ED%95%98%EA%B8%B0%202/explore-temple-2.java)|2026.07.17|
 |십자 모양 폭발|[링크](./Code_Tree/trail4/%EC%8B%AD%EC%9E%90%20%EB%AA%A8%EC%96%91%20%ED%8F%AD%EB%B0%9C/cross-shape-bomb.java)|2026.06.03|
-|십자 모양의 지속적 폭발|[링크](./Code_Tree/trail4/%EC%8B%AD%EC%9E%90%20%EB%AA%A8%EC%96%91%EC%9D%98%20%EC%A7%80%EC%86%8D%EC%A0%81%20%ED%8F%AD%EB%B0%9C/README.md)|2026.06.23|
-|쌓인 숫자의 순차적 이동|[링크](./Code_Tree/trail4/%EC%8C%93%EC%9D%B8%20%EC%88%AB%EC%9E%90%EC%9D%98%20%EC%88%9C%EC%B0%A8%EC%A0%81%20%EC%9D%B4%EB%8F%99/README.md)|2026.07.03|
-|안전 지대|[링크](./Code_Tree/trail4/%EC%95%88%EC%A0%84%20%EC%A7%80%EB%8C%80/README.md)|2026.05.20|
-|알바로 부자 되기|[링크](./Code_Tree/trail4/%EC%95%8C%EB%B0%94%EB%A1%9C%20%EB%B6%80%EC%9E%90%20%EB%90%98%EA%B8%B0/README.md)|2026.05.24|
-|양수 직사각형의 최대 크기|[링크](./Code_Tree/trail4/%EC%96%91%EC%88%98%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EC%9D%98%20%EC%B5%9C%EB%8C%80%20%ED%81%AC%EA%B8%B0/README.md)|2026.05.27|
-|연속 부분 합의 최댓값 구하기|[링크](./Code_Tree/trail4/%EC%97%B0%EC%86%8D%20%EB%B6%80%EB%B6%84%20%ED%95%A9%EC%9D%98%20%EC%B5%9C%EB%8C%93%EA%B0%92%20%EA%B5%AC%ED%95%98%EA%B8%B0/README.md)|2026.05.25|
-|올바른 등식 만들기|[링크](./Code_Tree/trail4/%EC%98%AC%EB%B0%94%EB%A5%B8%20%EB%93%B1%EC%8B%9D%20%EB%A7%8C%EB%93%A4%EA%B8%B0/README.md)|2026.07.16|
+|십자 모양의 지속적 폭발|[링크](./Code_Tree/trail4/%EC%8B%AD%EC%9E%90%20%EB%AA%A8%EC%96%91%EC%9D%98%20%EC%A7%80%EC%86%8D%EC%A0%81%20%ED%8F%AD%EB%B0%9C/cross-shape-continuous-bomb.java)|2026.06.23|
+|쌓인 숫자의 순차적 이동|[링크](./Code_Tree/trail4/%EC%8C%93%EC%9D%B8%20%EC%88%AB%EC%9E%90%EC%9D%98%20%EC%88%9C%EC%B0%A8%EC%A0%81%20%EC%9D%B4%EB%8F%99/sequential-movement-of-stacked-numbers.java)|2026.07.03|
+|안전 지대|[링크](./Code_Tree/trail4/%EC%95%88%EC%A0%84%20%EC%A7%80%EB%8C%80/comfort-zone.java)|2026.05.20|
+|알바로 부자 되기|[링크](./Code_Tree/trail4/%EC%95%8C%EB%B0%94%EB%A1%9C%20%EB%B6%80%EC%9E%90%20%EB%90%98%EA%B8%B0/being-rich-by-working-part-time.java)|2026.05.24|
+|양수 직사각형의 최대 크기|[링크](./Code_Tree/trail4/%EC%96%91%EC%88%98%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EC%9D%98%20%EC%B5%9C%EB%8C%80%20%ED%81%AC%EA%B8%B0/max-area-of-positive-rectangle.java)|2026.05.27|
+|연속 부분 합의 최댓값 구하기|[링크](./Code_Tree/trail4/%EC%97%B0%EC%86%8D%20%EB%B6%80%EB%B6%84%20%ED%95%A9%EC%9D%98%20%EC%B5%9C%EB%8C%93%EA%B0%92%20%EA%B5%AC%ED%95%98%EA%B8%B0/max-of-partial-sum.java)|2026.05.25|
+|올바른 등식 만들기|[링크](./Code_Tree/trail4/%EC%98%AC%EB%B0%94%EB%A5%B8%20%EB%93%B1%EC%8B%9D%20%EB%A7%8C%EB%93%A4%EA%B8%B0/right-equality.java)|2026.07.16|
 |외판원 순회|[링크](./Code_Tree/trail4/%EC%99%B8%ED%8C%90%EC%9B%90%20%EC%88%9C%ED%9A%8C/traveling-salesman-problem.java)|2026.05.19|
-|우리는 하나|[링크](./Code_Tree/trail4/%EC%9A%B0%EB%A6%AC%EB%8A%94%20%ED%95%98%EB%82%98/README.md)|2026.05.20|
-|적절한 옷 고르기|[링크](./Code_Tree/trail4/%EC%A0%81%EC%A0%88%ED%95%9C%20%EC%98%B7%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/README.md)|2026.07.17|
+|우리는 하나|[링크](./Code_Tree/trail4/%EC%9A%B0%EB%A6%AC%EB%8A%94%20%ED%95%98%EB%82%98/we-are-the-one.java)|2026.05.20|
+|적절한 옷 고르기|[링크](./Code_Tree/trail4/%EC%A0%81%EC%A0%88%ED%95%9C%20%EC%98%B7%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/select-proper-clothes.java)|2026.07.17|
 |정수 사각형 차이의 최소 2|[링크](./Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B0%A8%EC%9D%B4%EC%9D%98%20%EC%B5%9C%EC%86%8C%202/minimum-difference-on-the-integer-grid-2.java)|2026.05.22|
 |정수 사각형 최대 합|[링크](./Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EB%8C%80%20%ED%95%A9/maximum-sum-path-in-square.java)|2026.05.22|
-|정수 사각형 최댓값의 최소|[링크](./Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EB%8C%93%EA%B0%92%EC%9D%98%20%EC%B5%9C%EC%86%8C/README.md)|2026.05.22|
+|정수 사각형 최댓값의 최소|[링크](./Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EB%8C%93%EA%B0%92%EC%9D%98%20%EC%B5%9C%EC%86%8C/minimax-path-in-square.java)|2026.05.22|
 |정수 사각형 최소 합|[링크](./Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EC%86%8C%20%ED%95%A9/README.md)|2026.05.22|
-|정수 사각형 최솟값의 최대|[링크](./Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EC%86%9F%EA%B0%92%EC%9D%98%20%EC%B5%9C%EB%8C%80/README.md)|2026.05.22|
+|정수 사각형 최솟값의 최대|[링크](./Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EC%86%9F%EA%B0%92%EC%9D%98%20%EC%B5%9C%EB%8C%80/maximin-path-in-square.java)|2026.05.22|
 |정수 사각형 최장 증가 수열|[링크](./Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EC%9E%A5%20%EC%A6%9D%EA%B0%80%20%EC%88%98%EC%97%B4/lis-on-the-integer-grid.java)|2026.05.22|
 |주사위 던지기|[링크](./Code_Tree/trail4/%EC%A3%BC%EC%82%AC%EC%9C%84%20%EB%8D%98%EC%A7%80%EA%B8%B0/roll-a-dice.java)|2026.07.02|
 |증가했다가 감소하는 부분 수열|[링크](./Code_Tree/trail4/%EC%A6%9D%EA%B0%80%ED%96%88%EB%8B%A4%EA%B0%80%20%EA%B0%90%EC%86%8C%ED%95%98%EB%8A%94%20%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4/increasing-and-descreasing-subsequence.java)|2026.05.24|
 |최고의 33위치|[링크](./Code_Tree/trail4/%EC%B5%9C%EA%B3%A0%EC%9D%98%2033%EC%9C%84%EC%B9%98/best-place-of-33.java)|2026.05.26|
-|최단 Run Length 인코딩|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8B%A8%20Run%20Length%20%EC%9D%B8%EC%BD%94%EB%94%A9/README.md)|2026.06.02|
+|최단 Run Length 인코딩|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8B%A8%20Run%20Length%20%EC%9D%B8%EC%BD%94%EB%94%A9/shortest-run-length-encoding.java)|2026.06.02|
 |최대 감소 부분 수열|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EA%B0%90%EC%86%8C%20%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4/longest-decreasing-subsequence.java)|2026.05.23|
-|최대 동전 거슬러주기|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EB%8F%99%EC%A0%84%20%EA%B1%B0%EC%8A%AC%EB%9F%AC%EC%A3%BC%EA%B8%B0/README.md)|2026.05.24|
-|최대 점프 횟수|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EC%A0%90%ED%94%84%20%ED%9A%9F%EC%88%98/README.md)|2026.05.23|
-|최대 증가 부분 수열|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EC%A6%9D%EA%B0%80%20%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4/README.md)|2026.05.23|
-|최대 합 분할|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%ED%95%A9%20%EB%B6%84%ED%95%A0/README.md)|2026.05.25|
+|최대 동전 거슬러주기|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EB%8F%99%EC%A0%84%20%EA%B1%B0%EC%8A%AC%EB%9F%AC%EC%A3%BC%EA%B8%B0/max-coin-change.java)|2026.05.24|
+|최대 점프 횟수|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EC%A0%90%ED%94%84%20%ED%9A%9F%EC%88%98/maximum-number-of-jumps.java)|2026.05.23|
+|최대 증가 부분 수열|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EC%A6%9D%EA%B0%80%20%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4/longest-increasing-subsequence.java)|2026.05.23|
+|최대 합 분할|[링크](./Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%ED%95%A9%20%EB%B6%84%ED%95%A0/maximum-sum-partition.java)|2026.05.25|
 |최소 경로로 탈출 하기|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EA%B2%BD%EB%A1%9C%EB%A1%9C%20%ED%83%88%EC%B6%9C%20%ED%95%98%EA%B8%B0/escape-with-min-distance.java)|2026.05.21|
-|최소 점프 횟수|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%A0%90%ED%94%84%20%ED%9A%9F%EC%88%98/README.md)|2026.05.18|
-|최소 차 분할|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%B0%A8%20%EB%B6%84%ED%95%A0/README.md)|2026.05.24|
-|최적의 십자 모양 폭발|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%A0%81%EC%9D%98%20%EC%8B%AD%EC%9E%90%20%EB%AA%A8%EC%96%91%20%ED%8F%AD%EB%B0%9C/README.md)|2026.07.01|
-|축구와 야구|[링크](./Code_Tree/trail4/%EC%B6%95%EA%B5%AC%EC%99%80%20%EC%95%BC%EA%B5%AC/README.md)|2026.07.17|
+|최소 점프 횟수|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%A0%90%ED%94%84%20%ED%9A%9F%EC%88%98/min-num-of-jumps.java)|2026.05.18|
+|최소 차 분할|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%B0%A8%20%EB%B6%84%ED%95%A0/minimum-diff-partition.java)|2026.05.24|
+|최적의 십자 모양 폭발|[링크](./Code_Tree/trail4/%EC%B5%9C%EC%A0%81%EC%9D%98%20%EC%8B%AD%EC%9E%90%20%EB%AA%A8%EC%96%91%20%ED%8F%AD%EB%B0%9C/best-cross-shape-bomb.java)|2026.07.01|
+|축구와 야구|[링크](./Code_Tree/trail4/%EC%B6%95%EA%B5%AC%EC%99%80%20%EC%95%BC%EA%B5%AC/soccer-and-baseball.java)|2026.07.17|
 |컨베이어 벨트|[링크](./Code_Tree/trail4/%EC%BB%A8%EB%B2%A0%EC%9D%B4%EC%96%B4%20%EB%B2%A8%ED%8A%B8/README.md)|2026.05.28|
-|크기가 N인 순열|[링크](./Code_Tree/trail4/%ED%81%AC%EA%B8%B0%EA%B0%80%20N%EC%9D%B8%20%EC%88%9C%EC%97%B4/README.md)|2026.05.19|
-|트로미노|[링크](./Code_Tree/trail4/%ED%8A%B8%EB%A1%9C%EB%AF%B8%EB%85%B8/README.md)|2026.05.26|
-|피보나치 수|[링크](./Code_Tree/trail4/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%20%EC%88%98/README.md)|2026.05.21|
-|핀볼게임|[링크](./Code_Tree/trail4/%ED%95%80%EB%B3%BC%EA%B2%8C%EC%9E%84/README.md)|2026.07.02|
-|합쳐지는 구슬들|[링크](./Code_Tree/trail4/%ED%95%A9%EC%B3%90%EC%A7%80%EB%8A%94%20%EA%B5%AC%EC%8A%AC%EB%93%A4/README.md)|2026.07.14|
-|행복한 수열의 개수|[링크](./Code_Tree/trail4/%ED%96%89%EB%B3%B5%ED%95%9C%20%EC%88%98%EC%97%B4%EC%9D%98%20%EA%B0%9C%EC%88%98/README.md)|2026.05.26|
+|크기가 N인 순열|[링크](./Code_Tree/trail4/%ED%81%AC%EA%B8%B0%EA%B0%80%20N%EC%9D%B8%20%EC%88%9C%EC%97%B4/n-permutation.java)|2026.05.19|
+|트로미노|[링크](./Code_Tree/trail4/%ED%8A%B8%EB%A1%9C%EB%AF%B8%EB%85%B8/tromino.java)|2026.05.26|
+|피보나치 수|[링크](./Code_Tree/trail4/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%20%EC%88%98/fibonacci-number.java)|2026.05.21|
+|핀볼게임|[링크](./Code_Tree/trail4/%ED%95%80%EB%B3%BC%EA%B2%8C%EC%9E%84/pinball-game.java)|2026.07.02|
+|합쳐지는 구슬들|[링크](./Code_Tree/trail4/%ED%95%A9%EC%B3%90%EC%A7%80%EB%8A%94%20%EA%B5%AC%EC%8A%AC%EB%93%A4/merge-marbles.java)|2026.07.14|
+|행복한 수열의 개수|[링크](./Code_Tree/trail4/%ED%96%89%EB%B3%B5%ED%95%9C%20%EC%88%98%EC%97%B4%EC%9D%98%20%EA%B0%9C%EC%88%98/number-of-happy-sequence.java)|2026.05.26|
 ### 🚀 trail5
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
-|hashmap 기본|[링크](./Code_Tree/trail5/hashmap%20%EA%B8%B0%EB%B3%B8/README.md)|2026.07.19|
-|hashset 기본|[링크](./Code_Tree/trail5/hashset%20%EA%B8%B0%EB%B3%B8/README.md)|2026.07.21|
+|hashmap 기본|[링크](./Code_Tree/trail5/hashmap%20%EA%B8%B0%EB%B3%B8/hashmap-basic.java)|2026.07.19|
+|hashset 기본|[링크](./Code_Tree/trail5/hashset%20%EA%B8%B0%EB%B3%B8/hashset-basic.java)|2026.07.21|
 |treemap 기본|[링크](./Code_Tree/trail5/treemap%20%EA%B8%B0%EB%B3%B8/README.md)|2026.07.21|
-|treeset 기본|[링크](./Code_Tree/trail5/treeset%20%EA%B8%B0%EB%B3%B8/README.md)|2026.07.22|
-|가장 많은 데이터|[링크](./Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EB%A7%8E%EC%9D%80%20%EB%8D%B0%EC%9D%B4%ED%84%B0/README.md)|2026.07.20|
+|treeset 기본|[링크](./Code_Tree/trail5/treeset%20%EA%B8%B0%EB%B3%B8/treeset-basic.java)|2026.07.22|
+|가장 많은 데이터|[링크](./Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EB%A7%8E%EC%9D%80%20%EB%8D%B0%EC%9D%B4%ED%84%B0/most-frequent-data.java)|2026.07.20|
 |가장 오래 걸리는 학생 2|[링크](./Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EC%98%A4%EB%9E%98%20%EA%B1%B8%EB%A6%AC%EB%8A%94%20%ED%95%99%EC%83%9D%202/longest-student-2.java)|2026.07.20|
-|각 정점까지의 최단 경로|[링크](./Code_Tree/trail5/%EA%B0%81%20%EC%A0%95%EC%A0%90%EA%B9%8C%EC%A7%80%EC%9D%98%20%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C/README.md)|2026.07.20|
-|각 정점까지의 최단 경로 3|[링크](./Code_Tree/trail5/%EA%B0%81%20%EC%A0%95%EC%A0%90%EA%B9%8C%EC%A7%80%EC%9D%98%20%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C%203/README.md)|2026.07.20|
-|구간에 속한 문자의 개수|[링크](./Code_Tree/trail5/%EA%B5%AC%EA%B0%84%EC%97%90%20%EC%86%8D%ED%95%9C%20%EB%AC%B8%EC%9E%90%EC%9D%98%20%EA%B0%9C%EC%88%98/README.md)|2026.07.19|
-|단어장|[링크](./Code_Tree/trail5/%EB%8B%A8%EC%96%B4%EC%9E%A5/README.md)|2026.07.21|
-|대응되는 수와 문자|[링크](./Code_Tree/trail5/%EB%8C%80%EC%9D%91%EB%90%98%EB%8A%94%20%EC%88%98%EC%99%80%20%EB%AC%B8%EC%9E%90/README.md)|2026.07.20|
-|대칭 차집합|[링크](./Code_Tree/trail5/%EB%8C%80%EC%B9%AD%20%EC%B0%A8%EC%A7%91%ED%95%A9/README.md)|2026.07.21|
-|데이터 비교|[링크](./Code_Tree/trail5/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B9%84%EA%B5%90/README.md)|2026.07.21|
-|돌의 소속|[링크](./Code_Tree/trail5/%EB%8F%8C%EC%9D%98%20%EC%86%8C%EC%86%8D/README.md)|2026.07.19|
-|범위 내에 있는 점의 수 2|[링크](./Code_Tree/trail5/%EB%B2%94%EC%9C%84%20%EB%82%B4%EC%97%90%20%EC%9E%88%EB%8A%94%20%EC%A0%90%EC%9D%98%20%EC%88%98%202/the-number-of-points-within-the-range-2.java)|2026.07.19|
-|별이 있는 숫자로만의 이동|[링크](./Code_Tree/trail5/%EB%B3%84%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EC%88%AB%EC%9E%90%EB%A1%9C%EB%A7%8C%EC%9D%98%20%EC%9D%B4%EB%8F%99/README.md)|2026.07.20|
-|부분 수열의 합이 K|[링크](./Code_Tree/trail5/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9%EC%9D%B4%20K/README.md)|2026.07.19|
-|비율 구하기|[링크](./Code_Tree/trail5/%EB%B9%84%EC%9C%A8%20%EA%B5%AC%ED%95%98%EA%B8%B0/README.md)|2026.07.21|
+|각 정점까지의 최단 경로|[링크](./Code_Tree/trail5/%EA%B0%81%20%EC%A0%95%EC%A0%90%EA%B9%8C%EC%A7%80%EC%9D%98%20%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C/shortest-path-to-each-vertex.java)|2026.07.20|
+|각 정점까지의 최단 경로 3|[링크](./Code_Tree/trail5/%EA%B0%81%20%EC%A0%95%EC%A0%90%EA%B9%8C%EC%A7%80%EC%9D%98%20%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C%203/shortest-path-to-each-vertex-3.java)|2026.07.20|
+|구간에 속한 문자의 개수|[링크](./Code_Tree/trail5/%EA%B5%AC%EA%B0%84%EC%97%90%20%EC%86%8D%ED%95%9C%20%EB%AC%B8%EC%9E%90%EC%9D%98%20%EA%B0%9C%EC%88%98/the-number-of-characters-in-the-interval.java)|2026.07.19|
+|단어장|[링크](./Code_Tree/trail5/%EB%8B%A8%EC%96%B4%EC%9E%A5/word-list.java)|2026.07.21|
+|대응되는 수와 문자|[링크](./Code_Tree/trail5/%EB%8C%80%EC%9D%91%EB%90%98%EB%8A%94%20%EC%88%98%EC%99%80%20%EB%AC%B8%EC%9E%90/corresponding-numbers-and-characters.java)|2026.07.20|
+|대칭 차집합|[링크](./Code_Tree/trail5/%EB%8C%80%EC%B9%AD%20%EC%B0%A8%EC%A7%91%ED%95%A9/symmetric-difference-set.java)|2026.07.21|
+|데이터 비교|[링크](./Code_Tree/trail5/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B9%84%EA%B5%90/data-comparison.java)|2026.07.21|
+|돌의 소속|[링크](./Code_Tree/trail5/%EB%8F%8C%EC%9D%98%20%EC%86%8C%EC%86%8D/belonging-to-a-rock.java)|2026.07.19|
+|범위 내에 있는 점의 수 2|[링크](./Code_Tree/trail5/%EB%B2%94%EC%9C%84%20%EB%82%B4%EC%97%90%20%EC%9E%88%EB%8A%94%20%EC%A0%90%EC%9D%98%20%EC%88%98%202/README.md)|2026.07.19|
+|별이 있는 숫자로만의 이동|[링크](./Code_Tree/trail5/%EB%B3%84%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EC%88%AB%EC%9E%90%EB%A1%9C%EB%A7%8C%EC%9D%98%20%EC%9D%B4%EB%8F%99/move-to-numbers-with-star.java)|2026.07.20|
+|부분 수열의 합이 K|[링크](./Code_Tree/trail5/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9%EC%9D%B4%20K/the-sum-of-the-subsequences-is-k.java)|2026.07.19|
+|비율 구하기|[링크](./Code_Tree/trail5/%EB%B9%84%EC%9C%A8%20%EA%B5%AC%ED%95%98%EA%B8%B0/find-proportions.java)|2026.07.21|
 |서로 다른 수의 개수|[링크](./Code_Tree/trail5/%EC%84%9C%EB%A1%9C%20%EB%8B%A4%EB%A5%B8%20%EC%88%98%EC%9D%98%20%EA%B0%9C%EC%88%98/distinct-numbers.java)|2026.07.21|
-|수 등장 횟수|[링크](./Code_Tree/trail5/%EC%88%98%20%EB%93%B1%EC%9E%A5%20%ED%9A%9F%EC%88%98/number-frequency.java)|2026.07.19|
-|연속한 K개의 숫자|[링크](./Code_Tree/trail5/%EC%97%B0%EC%86%8D%ED%95%9C%20K%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/README.md)|2026.07.19|
-|자리 바꾸기 2|[링크](./Code_Tree/trail5/%EC%9E%90%EB%A6%AC%20%EB%B0%94%EA%BE%B8%EA%B8%B0%202/README.md)|2026.07.21|
+|수 등장 횟수|[링크](./Code_Tree/trail5/%EC%88%98%20%EB%93%B1%EC%9E%A5%20%ED%9A%9F%EC%88%98/README.md)|2026.07.19|
+|연속한 K개의 숫자|[링크](./Code_Tree/trail5/%EC%97%B0%EC%86%8D%ED%95%9C%20K%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/k-numbers-in-a-row.java)|2026.07.19|
+|자리 바꾸기 2|[링크](./Code_Tree/trail5/%EC%9E%90%EB%A6%AC%20%EB%B0%94%EA%BE%B8%EA%B8%B0%202/changing-seats-2.java)|2026.07.21|
 |정수 N개의 합 2|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9%202/README.md)|2026.07.19|
-|정수 N개의 합 3|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9%203/README.md)|2026.07.19|
-|정수 찾기|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EC%B0%BE%EA%B8%B0/README.md)|2026.07.21|
-|처음 등장하는 위치|[링크](./Code_Tree/trail5/%EC%B2%98%EC%9D%8C%20%EB%93%B1%EC%9E%A5%ED%95%98%EB%8A%94%20%EC%9C%84%EC%B9%98/README.md)|2026.07.21|
+|정수 N개의 합 3|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9%203/sum-of-n-integers-3.java)|2026.07.19|
+|정수 찾기|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EC%B0%BE%EA%B8%B0/find-an-integer.java)|2026.07.21|
+|처음 등장하는 위치|[링크](./Code_Tree/trail5/%EC%B2%98%EC%9D%8C%20%EB%93%B1%EC%9E%A5%ED%95%98%EB%8A%94%20%EC%9C%84%EC%B9%98/first-appearing-position.java)|2026.07.21|
 |최단 거리 11|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%2011/shortest-distance-11.java)|2026.07.20|
-|최단 거리 3|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%203/README.md)|2026.07.21|
-|최단 거리 9|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%209/shortest-distance-9.java)|2026.07.20|
+|최단 거리 3|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%203/shortest-distance-3.java)|2026.07.21|
+|최단 거리 9|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%209/README.md)|2026.07.20|
 |최대 직사각형 합|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8C%80%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%20%ED%95%A9/max-rect-sum-in-grid.java)|2026.07.19|
 ### 🚀 SWEA
 | 문제번호 | 링크 | 푼 날짜 |
@@ -158,274 +158,275 @@
 ### 🚀 D4
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
-|1210. ［S／W 문제해결 기본］ 2일차 － Ladder1|[링크](./SWEA/D4/1210.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%852%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85Ladder1/README.md)|2026.03.13|
+|1210. ［S／W 문제해결 기본］ 2일차 － Ladder1|[링크](./SWEA/D4/1210.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%852%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85Ladder1/%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%852%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85Ladder1.java)|2026.03.13|
 |1218. ［S／W 문제해결 기본］ 4일차 － 괄호 짝짓기|[링크](./SWEA/D4/1218.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%854%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B4%84%ED%98%B8%E2%80%85%EC%A7%9D%EC%A7%93%EA%B8%B0/README.md)|2026.03.13|
 |1224. ［S／W 문제해결 기본］ 6일차 － 계산기3|[링크](./SWEA/D4/1224.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%856%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B3%84%EC%82%B0%EA%B8%B03/README.md)|2026.03.17|
-|1231. ［S／W 문제해결 기본］ 9일차 － 중위순회|[링크](./SWEA/D4/1231.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%859%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EC%A4%91%EC%9C%84%EC%88%9C%ED%9A%8C/README.md)|2026.03.17|
-|1861. 정사각형 방|[링크](./SWEA/D4/1861.%E2%80%85%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95%E2%80%85%EB%B0%A9/README.md)|2026.03.15|
-|2819. 격자판의 숫자 이어 붙이기|[링크](./SWEA/D4/2819.%E2%80%85%EA%B2%A9%EC%9E%90%ED%8C%90%EC%9D%98%E2%80%85%EC%88%AB%EC%9E%90%E2%80%85%EC%9D%B4%EC%96%B4%E2%80%85%EB%B6%99%EC%9D%B4%EA%B8%B0/README.md)|2026.03.16|
-|3124. 최소 스패닝 트리|[링크](./SWEA/D4/3124.%E2%80%85%EC%B5%9C%EC%86%8C%E2%80%85%EC%8A%A4%ED%8C%A8%EB%8B%9D%E2%80%85%ED%8A%B8%EB%A6%AC/README.md)|2026.03.18|
-|4408. 자기 방으로 돌아가기|[링크](./SWEA/D4/4408.%E2%80%85%EC%9E%90%EA%B8%B0%E2%80%85%EB%B0%A9%EC%9C%BC%EB%A1%9C%E2%80%85%EB%8F%8C%EC%95%84%EA%B0%80%EA%B8%B0/README.md)|2026.03.19|
+|1231. ［S／W 문제해결 기본］ 9일차 － 중위순회|[링크](./SWEA/D4/1231.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%859%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EC%A4%91%EC%9C%84%EC%88%9C%ED%9A%8C/%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%859%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EC%A4%91%EC%9C%84%EC%88%9C%ED%9A%8C.java)|2026.03.17|
+|1861. 정사각형 방|[링크](./SWEA/D4/1861.%E2%80%85%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95%E2%80%85%EB%B0%A9/%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95%E2%80%85%EB%B0%A9.java)|2026.03.15|
+|2819. 격자판의 숫자 이어 붙이기|[링크](./SWEA/D4/2819.%E2%80%85%EA%B2%A9%EC%9E%90%ED%8C%90%EC%9D%98%E2%80%85%EC%88%AB%EC%9E%90%E2%80%85%EC%9D%B4%EC%96%B4%E2%80%85%EB%B6%99%EC%9D%B4%EA%B8%B0/%EA%B2%A9%EC%9E%90%ED%8C%90%EC%9D%98%E2%80%85%EC%88%AB%EC%9E%90%E2%80%85%EC%9D%B4%EC%96%B4%E2%80%85%EB%B6%99%EC%9D%B4%EA%B8%B0.java)|2026.03.16|
+|3124. 최소 스패닝 트리|[링크](./SWEA/D4/3124.%E2%80%85%EC%B5%9C%EC%86%8C%E2%80%85%EC%8A%A4%ED%8C%A8%EB%8B%9D%E2%80%85%ED%8A%B8%EB%A6%AC/%EC%B5%9C%EC%86%8C%E2%80%85%EC%8A%A4%ED%8C%A8%EB%8B%9D%E2%80%85%ED%8A%B8%EB%A6%AC.java)|2026.03.18|
+|4408. 자기 방으로 돌아가기|[링크](./SWEA/D4/4408.%E2%80%85%EC%9E%90%EA%B8%B0%E2%80%85%EB%B0%A9%EC%9C%BC%EB%A1%9C%E2%80%85%EB%8F%8C%EC%95%84%EA%B0%80%EA%B8%B0/%EC%9E%90%EA%B8%B0%E2%80%85%EB%B0%A9%EC%9C%BC%EB%A1%9C%E2%80%85%EB%8F%8C%EC%95%84%EA%B0%80%EA%B8%B0.java)|2026.03.19|
 |4613. 러시아 국기 같은 깃발|[링크](./SWEA/D4/4613.%E2%80%85%EB%9F%AC%EC%8B%9C%EC%95%84%E2%80%85%EA%B5%AD%EA%B8%B0%E2%80%85%EA%B0%99%EC%9D%80%E2%80%85%EA%B9%83%EB%B0%9C/%EB%9F%AC%EC%8B%9C%EC%95%84%E2%80%85%EA%B5%AD%EA%B8%B0%E2%80%85%EA%B0%99%EC%9D%80%E2%80%85%EA%B9%83%EB%B0%9C.java)|2026.03.20|
-|5643. ［Professional］ 키 순서|[링크](./SWEA/D4/5643.%E2%80%85%EF%BC%BBProfessional%EF%BC%BD%E2%80%85%ED%82%A4%E2%80%85%EC%88%9C%EC%84%9C/README.md)|2026.03.18|
-|7465. 창용 마을 무리의 개수|[링크](./SWEA/D4/7465.%E2%80%85%EC%B0%BD%EC%9A%A9%E2%80%85%EB%A7%88%EC%9D%84%E2%80%85%EB%AC%B4%EB%A6%AC%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98/README.md)|2026.03.26|
+|5643. ［Professional］ 키 순서|[링크](./SWEA/D4/5643.%E2%80%85%EF%BC%BBProfessional%EF%BC%BD%E2%80%85%ED%82%A4%E2%80%85%EC%88%9C%EC%84%9C/%EF%BC%BBProfessional%EF%BC%BD%E2%80%85%ED%82%A4%E2%80%85%EC%88%9C%EC%84%9C.java)|2026.03.18|
+|7465. 창용 마을 무리의 개수|[링크](./SWEA/D4/7465.%E2%80%85%EC%B0%BD%EC%9A%A9%E2%80%85%EB%A7%88%EC%9D%84%E2%80%85%EB%AC%B4%EB%A6%AC%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98/%EC%B0%BD%EC%9A%A9%E2%80%85%EB%A7%88%EC%9D%84%E2%80%85%EB%AC%B4%EB%A6%AC%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98.java)|2026.03.26|
 ### 🚀 D5
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
 |1247. ［S／W 문제해결 응용］ 3일차 － 최적 경로|[링크](./SWEA/D5/1247.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EC%9D%91%EC%9A%A9%EF%BC%BD%E2%80%853%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EC%B5%9C%EC%A0%81%E2%80%85%EA%B2%BD%EB%A1%9C/README.md)|2026.03.20|
-|1248. ［S／W 문제해결 응용］ 3일차 － 공통조상|[링크](./SWEA/D5/1248.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EC%9D%91%EC%9A%A9%EF%BC%BD%E2%80%853%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B3%B5%ED%86%B5%EC%A1%B0%EC%83%81/README.md)|2026.03.20|
-|1259. ［S／W 문제해결 응용］ 7일차 － 금속막대|[링크](./SWEA/D5/1259.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EC%9D%91%EC%9A%A9%EF%BC%BD%E2%80%857%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B8%88%EC%86%8D%EB%A7%89%EB%8C%80/README.md)|2026.03.24|
+|1248. ［S／W 문제해결 응용］ 3일차 － 공통조상|[링크](./SWEA/D5/1248.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EC%9D%91%EC%9A%A9%EF%BC%BD%E2%80%853%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B3%B5%ED%86%B5%EC%A1%B0%EC%83%81/%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EC%9D%91%EC%9A%A9%EF%BC%BD%E2%80%853%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B3%B5%ED%86%B5%EC%A1%B0%EC%83%81.java)|2026.03.20|
+|1259. ［S／W 문제해결 응용］ 7일차 － 금속막대|[링크](./SWEA/D5/1259.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EC%9D%91%EC%9A%A9%EF%BC%BD%E2%80%857%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B8%88%EC%86%8D%EB%A7%89%EB%8C%80/%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EC%9D%91%EC%9A%A9%EF%BC%BD%E2%80%857%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B8%88%EC%86%8D%EB%A7%89%EB%8C%80.java)|2026.03.24|
 ## 📚 백준
 ### 🚀 Bronze
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
-|1000. A＋B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/README.md)|2025.03.14|
-|10998. A×B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10998.%E2%80%85A%C3%97B/README.md)|2025.03.14|
-|1157. 단어 공부|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1157.%E2%80%85%EB%8B%A8%EC%96%B4%E2%80%85%EA%B3%B5%EB%B6%80/README.md)|2026.03.01|
+|1000. A＋B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/A%EF%BC%8BB.java)|2025.03.14|
+|10998. A×B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10998.%E2%80%85A%C3%97B/A%C3%97B.java)|2025.03.14|
+|1157. 단어 공부|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1157.%E2%80%85%EB%8B%A8%EC%96%B4%E2%80%85%EA%B3%B5%EB%B6%80/%EB%8B%A8%EC%96%B4%E2%80%85%EA%B3%B5%EB%B6%80.java)|2026.03.01|
 |11720. 숫자의 합|[링크](./%EB%B0%B1%EC%A4%80/Bronze/11720.%E2%80%85%EC%88%AB%EC%9E%90%EC%9D%98%E2%80%85%ED%95%A9/README.md)||
-|1330. 두 수 비교하기|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1330.%E2%80%85%EB%91%90%E2%80%85%EC%88%98%E2%80%85%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0/README.md)||
-|19532. 수학은 비대면강의입니다|[링크](./%EB%B0%B1%EC%A4%80/Bronze/19532.%E2%80%85%EC%88%98%ED%95%99%EC%9D%80%E2%80%85%EB%B9%84%EB%8C%80%EB%A9%B4%EA%B0%95%EC%9D%98%EC%9E%85%EB%8B%88%EB%8B%A4/README.md)||
-|2557. Hello World|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2557.%E2%80%85Hello%E2%80%85World/README.md)||
-|2739. 구구단|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2739.%E2%80%85%EA%B5%AC%EA%B5%AC%EB%8B%A8/README.md)||
+|1330. 두 수 비교하기|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1330.%E2%80%85%EB%91%90%E2%80%85%EC%88%98%E2%80%85%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0/%EB%91%90%E2%80%85%EC%88%98%E2%80%85%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0.java)||
+|19532. 수학은 비대면강의입니다|[링크](./%EB%B0%B1%EC%A4%80/Bronze/19532.%E2%80%85%EC%88%98%ED%95%99%EC%9D%80%E2%80%85%EB%B9%84%EB%8C%80%EB%A9%B4%EA%B0%95%EC%9D%98%EC%9E%85%EB%8B%88%EB%8B%A4/%EC%88%98%ED%95%99%EC%9D%80%E2%80%85%EB%B9%84%EB%8C%80%EB%A9%B4%EA%B0%95%EC%9D%98%EC%9E%85%EB%8B%88%EB%8B%A4.java)||
+|2557. Hello World|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2557.%E2%80%85Hello%E2%80%85World/Hello%E2%80%85World.java)||
+|2739. 구구단|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2739.%E2%80%85%EA%B5%AC%EA%B5%AC%EB%8B%A8/%EA%B5%AC%EA%B5%AC%EB%8B%A8.java)||
 |2748. 피보나치 수 2|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2748.%E2%80%85%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%E2%80%85%EC%88%98%E2%80%852/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%E2%80%85%EC%88%98%E2%80%852.java)||
-|9046. 복호화|[링크](./%EB%B0%B1%EC%A4%80/Bronze/9046.%E2%80%85%EB%B3%B5%ED%98%B8%ED%99%94/README.md)||
+|9046. 복호화|[링크](./%EB%B0%B1%EC%A4%80/Bronze/9046.%E2%80%85%EB%B3%B5%ED%98%B8%ED%99%94/%EB%B3%B5%ED%98%B8%ED%99%94.java)||
 ### 🚀 Gold
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
-|10026. 적록색약|[링크](./%EB%B0%B1%EC%A4%80/Gold/10026.%E2%80%85%EC%A0%81%EB%A1%9D%EC%83%89%EC%95%BD/README.md)||
+|10026. 적록색약|[링크](./%EB%B0%B1%EC%A4%80/Gold/10026.%E2%80%85%EC%A0%81%EB%A1%9D%EC%83%89%EC%95%BD/%EC%A0%81%EB%A1%9D%EC%83%89%EC%95%BD.java)||
 |1043. 거짓말|[링크](./%EB%B0%B1%EC%A4%80/Gold/1043.%E2%80%85%EA%B1%B0%EC%A7%93%EB%A7%90/%EA%B1%B0%EC%A7%93%EB%A7%90.java)|2026.03.31|
-|11404. 플로이드|[링크](./%EB%B0%B1%EC%A4%80/Gold/11404.%E2%80%85%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C/README.md)|2026.03.30|
-|1197. 최소 스패닝 트리|[링크](./%EB%B0%B1%EC%A4%80/Gold/1197.%E2%80%85%EC%B5%9C%EC%86%8C%E2%80%85%EC%8A%A4%ED%8C%A8%EB%8B%9D%E2%80%85%ED%8A%B8%EB%A6%AC/README.md)|2026.03.22|
+|11404. 플로이드|[링크](./%EB%B0%B1%EC%A4%80/Gold/11404.%E2%80%85%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C/%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%93%9C.java)|2026.03.30|
+|1197. 최소 스패닝 트리|[링크](./%EB%B0%B1%EC%A4%80/Gold/1197.%E2%80%85%EC%B5%9C%EC%86%8C%E2%80%85%EC%8A%A4%ED%8C%A8%EB%8B%9D%E2%80%85%ED%8A%B8%EB%A6%AC/%EC%B5%9C%EC%86%8C%E2%80%85%EC%8A%A4%ED%8C%A8%EB%8B%9D%E2%80%85%ED%8A%B8%EB%A6%AC.java)|2026.03.22|
 |1202. 보석 도둑|[링크](./%EB%B0%B1%EC%A4%80/Gold/1202.%E2%80%85%EB%B3%B4%EC%84%9D%E2%80%85%EB%8F%84%EB%91%91/%EB%B3%B4%EC%84%9D%E2%80%85%EB%8F%84%EB%91%91.java)|2026.04.08|
-|12100. 2048 （Easy）|[링크](./%EB%B0%B1%EC%A4%80/Gold/12100.%E2%80%852048%E2%80%85%EF%BC%88Easy%EF%BC%89/README.md)|2026.04.07|
-|1238. 파티|[링크](./%EB%B0%B1%EC%A4%80/Gold/1238.%E2%80%85%ED%8C%8C%ED%8B%B0/README.md)|2026.03.28|
-|1253. 좋다|[링크](./%EB%B0%B1%EC%A4%80/Gold/1253.%E2%80%85%EC%A2%8B%EB%8B%A4/README.md)|2026.03.27|
-|12851. 숨바꼭질 2|[링크](./%EB%B0%B1%EC%A4%80/Gold/12851.%E2%80%85%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%88%E2%80%852/README.md)||
-|12865. 평범한 배낭|[링크](./%EB%B0%B1%EC%A4%80/Gold/12865.%E2%80%85%ED%8F%89%EB%B2%94%ED%95%9C%E2%80%85%EB%B0%B0%EB%82%AD/README.md)|2026.03.23|
+|12100. 2048 （Easy）|[링크](./%EB%B0%B1%EC%A4%80/Gold/12100.%E2%80%852048%E2%80%85%EF%BC%88Easy%EF%BC%89/2048%E2%80%85%EF%BC%88Easy%EF%BC%89.java)|2026.04.07|
+|1238. 파티|[링크](./%EB%B0%B1%EC%A4%80/Gold/1238.%E2%80%85%ED%8C%8C%ED%8B%B0/%ED%8C%8C%ED%8B%B0.java)|2026.03.28|
+|1253. 좋다|[링크](./%EB%B0%B1%EC%A4%80/Gold/1253.%E2%80%85%EC%A2%8B%EB%8B%A4/%EC%A2%8B%EB%8B%A4.java)|2026.03.27|
+|12851. 숨바꼭질 2|[링크](./%EB%B0%B1%EC%A4%80/Gold/12851.%E2%80%85%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%88%E2%80%852/%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%88%E2%80%852.java)||
+|12865. 평범한 배낭|[링크](./%EB%B0%B1%EC%A4%80/Gold/12865.%E2%80%85%ED%8F%89%EB%B2%94%ED%95%9C%E2%80%85%EB%B0%B0%EB%82%AD/%ED%8F%89%EB%B2%94%ED%95%9C%E2%80%85%EB%B0%B0%EB%82%AD.java)|2026.03.23|
 |12919. A와 B 2|[링크](./%EB%B0%B1%EC%A4%80/Gold/12919.%E2%80%85A%EC%99%80%E2%80%85B%E2%80%852/A%EC%99%80%E2%80%85B%E2%80%852.java)|2026.03.25|
-|13144. List of Unique Numbers|[링크](./%EB%B0%B1%EC%A4%80/Gold/13144.%E2%80%85List%E2%80%85of%E2%80%85Unique%E2%80%85Numbers/README.md)|2026.03.30|
-|13460. 구슬 탈출 2|[링크](./%EB%B0%B1%EC%A4%80/Gold/13460.%E2%80%85%EA%B5%AC%EC%8A%AC%E2%80%85%ED%83%88%EC%B6%9C%E2%80%852/README.md)|2026.04.07|
+|13144. List of Unique Numbers|[링크](./%EB%B0%B1%EC%A4%80/Gold/13144.%E2%80%85List%E2%80%85of%E2%80%85Unique%E2%80%85Numbers/List%E2%80%85of%E2%80%85Unique%E2%80%85Numbers.java)|2026.03.30|
+|13460. 구슬 탈출 2|[링크](./%EB%B0%B1%EC%A4%80/Gold/13460.%E2%80%85%EA%B5%AC%EC%8A%AC%E2%80%85%ED%83%88%EC%B6%9C%E2%80%852/%EA%B5%AC%EC%8A%AC%E2%80%85%ED%83%88%EC%B6%9C%E2%80%852.java)|2026.04.07|
 |13549. 숨바꼭질 3|[링크](./%EB%B0%B1%EC%A4%80/Gold/13549.%E2%80%85%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%88%E2%80%853/README.md)||
-|14226. 이모티콘|[링크](./%EB%B0%B1%EC%A4%80/Gold/14226.%E2%80%85%EC%9D%B4%EB%AA%A8%ED%8B%B0%EC%BD%98/README.md)||
+|14226. 이모티콘|[링크](./%EB%B0%B1%EC%A4%80/Gold/14226.%E2%80%85%EC%9D%B4%EB%AA%A8%ED%8B%B0%EC%BD%98/%EC%9D%B4%EB%AA%A8%ED%8B%B0%EC%BD%98.java)||
 |14500. 테트로미노|[링크](./%EB%B0%B1%EC%A4%80/Gold/14500.%E2%80%85%ED%85%8C%ED%8A%B8%EB%A1%9C%EB%AF%B8%EB%85%B8/%ED%85%8C%ED%8A%B8%EB%A1%9C%EB%AF%B8%EB%85%B8.java)|2026.03.16|
 |14502. 연구소|[링크](./%EB%B0%B1%EC%A4%80/Gold/14502.%E2%80%85%EC%97%B0%EA%B5%AC%EC%86%8C/README.md)|2026.03.17|
-|14503. 로봇 청소기|[링크](./%EB%B0%B1%EC%A4%80/Gold/14503.%E2%80%85%EB%A1%9C%EB%B4%87%E2%80%85%EC%B2%AD%EC%86%8C%EA%B8%B0/README.md)|2026.02.27|
-|14719. 빗물|[링크](./%EB%B0%B1%EC%A4%80/Gold/14719.%E2%80%85%EB%B9%97%EB%AC%BC/README.md)|2026.02.27|
-|14890. 경사로|[링크](./%EB%B0%B1%EC%A4%80/Gold/14890.%E2%80%85%EA%B2%BD%EC%82%AC%EB%A1%9C/README.md)|2026.04.07|
-|14891. 톱니바퀴|[링크](./%EB%B0%B1%EC%A4%80/Gold/14891.%E2%80%85%ED%86%B1%EB%8B%88%EB%B0%94%ED%80%B4/README.md)||
+|14503. 로봇 청소기|[링크](./%EB%B0%B1%EC%A4%80/Gold/14503.%E2%80%85%EB%A1%9C%EB%B4%87%E2%80%85%EC%B2%AD%EC%86%8C%EA%B8%B0/%EB%A1%9C%EB%B4%87%E2%80%85%EC%B2%AD%EC%86%8C%EA%B8%B0.java)|2026.02.27|
+|14719. 빗물|[링크](./%EB%B0%B1%EC%A4%80/Gold/14719.%E2%80%85%EB%B9%97%EB%AC%BC/%EB%B9%97%EB%AC%BC.java)|2026.02.27|
+|14890. 경사로|[링크](./%EB%B0%B1%EC%A4%80/Gold/14890.%E2%80%85%EA%B2%BD%EC%82%AC%EB%A1%9C/%EA%B2%BD%EC%82%AC%EB%A1%9C.java)|2026.04.07|
+|14891. 톱니바퀴|[링크](./%EB%B0%B1%EC%A4%80/Gold/14891.%E2%80%85%ED%86%B1%EB%8B%88%EB%B0%94%ED%80%B4/%ED%86%B1%EB%8B%88%EB%B0%94%ED%80%B4.java)||
 |1504. 특정한 최단 경로|[링크](./%EB%B0%B1%EC%A4%80/Gold/1504.%E2%80%85%ED%8A%B9%EC%A0%95%ED%95%9C%E2%80%85%EC%B5%9C%EB%8B%A8%E2%80%85%EA%B2%BD%EB%A1%9C/README.md)|2026.04.06|
-|1520. 내리막 길|[링크](./%EB%B0%B1%EC%A4%80/Gold/1520.%E2%80%85%EB%82%B4%EB%A6%AC%EB%A7%89%E2%80%85%EA%B8%B8/README.md)|2026.04.02|
+|1520. 내리막 길|[링크](./%EB%B0%B1%EC%A4%80/Gold/1520.%E2%80%85%EB%82%B4%EB%A6%AC%EB%A7%89%E2%80%85%EA%B8%B8/%EB%82%B4%EB%A6%AC%EB%A7%89%E2%80%85%EA%B8%B8.java)|2026.04.02|
 |15486. 퇴사 2|[링크](./%EB%B0%B1%EC%A4%80/Gold/15486.%E2%80%85%ED%87%B4%EC%82%AC%E2%80%852/%ED%87%B4%EC%82%AC%E2%80%852.java)||
-|15683. 감시|[링크](./%EB%B0%B1%EC%A4%80/Gold/15683.%E2%80%85%EA%B0%90%EC%8B%9C/README.md)|2026.04.07|
-|15684. 사다리 조작|[링크](./%EB%B0%B1%EC%A4%80/Gold/15684.%E2%80%85%EC%82%AC%EB%8B%A4%EB%A6%AC%E2%80%85%EC%A1%B0%EC%9E%91/README.md)|2026.04.08|
+|15683. 감시|[링크](./%EB%B0%B1%EC%A4%80/Gold/15683.%E2%80%85%EA%B0%90%EC%8B%9C/%EA%B0%90%EC%8B%9C.java)|2026.04.07|
+|15684. 사다리 조작|[링크](./%EB%B0%B1%EC%A4%80/Gold/15684.%E2%80%85%EC%82%AC%EB%8B%A4%EB%A6%AC%E2%80%85%EC%A1%B0%EC%9E%91/%EC%82%AC%EB%8B%A4%EB%A6%AC%E2%80%85%EC%A1%B0%EC%9E%91.java)|2026.04.08|
 |15686. 치킨 배달|[링크](./%EB%B0%B1%EC%A4%80/Gold/15686.%E2%80%85%EC%B9%98%ED%82%A8%E2%80%85%EB%B0%B0%EB%8B%AC/README.md)|2026.03.18|
-|1600. 말이 되고픈 원숭이|[링크](./%EB%B0%B1%EC%A4%80/Gold/1600.%E2%80%85%EB%A7%90%EC%9D%B4%E2%80%85%EB%90%98%EA%B3%A0%ED%94%88%E2%80%85%EC%9B%90%EC%88%AD%EC%9D%B4/README.md)||
-|16234. 인구 이동|[링크](./%EB%B0%B1%EC%A4%80/Gold/16234.%E2%80%85%EC%9D%B8%EA%B5%AC%E2%80%85%EC%9D%B4%EB%8F%99/README.md)|2026.03.19|
-|16235. 나무 재테크|[링크](./%EB%B0%B1%EC%A4%80/Gold/16235.%E2%80%85%EB%82%98%EB%AC%B4%E2%80%85%EC%9E%AC%ED%85%8C%ED%81%AC/README.md)|2026.04.08|
+|1600. 말이 되고픈 원숭이|[링크](./%EB%B0%B1%EC%A4%80/Gold/1600.%E2%80%85%EB%A7%90%EC%9D%B4%E2%80%85%EB%90%98%EA%B3%A0%ED%94%88%E2%80%85%EC%9B%90%EC%88%AD%EC%9D%B4/%EB%A7%90%EC%9D%B4%E2%80%85%EB%90%98%EA%B3%A0%ED%94%88%E2%80%85%EC%9B%90%EC%88%AD%EC%9D%B4.java)||
+|16234. 인구 이동|[링크](./%EB%B0%B1%EC%A4%80/Gold/16234.%E2%80%85%EC%9D%B8%EA%B5%AC%E2%80%85%EC%9D%B4%EB%8F%99/%EC%9D%B8%EA%B5%AC%E2%80%85%EC%9D%B4%EB%8F%99.java)|2026.03.19|
+|16235. 나무 재테크|[링크](./%EB%B0%B1%EC%A4%80/Gold/16235.%E2%80%85%EB%82%98%EB%AC%B4%E2%80%85%EC%9E%AC%ED%85%8C%ED%81%AC/%EB%82%98%EB%AC%B4%E2%80%85%EC%9E%AC%ED%85%8C%ED%81%AC.java)|2026.04.08|
 |16236. 아기 상어|[링크](./%EB%B0%B1%EC%A4%80/Gold/16236.%E2%80%85%EC%95%84%EA%B8%B0%E2%80%85%EC%83%81%EC%96%B4/%EC%95%84%EA%B8%B0%E2%80%85%EC%83%81%EC%96%B4.java)|2026.04.06|
 |16926. 배열 돌리기 1|[링크](./%EB%B0%B1%EC%A4%80/Gold/16926.%E2%80%85%EB%B0%B0%EC%97%B4%E2%80%85%EB%8F%8C%EB%A6%AC%EA%B8%B0%E2%80%851/%EB%B0%B0%EC%97%B4%E2%80%85%EB%8F%8C%EB%A6%AC%EA%B8%B0%E2%80%851.java)|2026.03.04|
-|16928. 뱀과 사다리 게임|[링크](./%EB%B0%B1%EC%A4%80/Gold/16928.%E2%80%85%EB%B1%80%EA%B3%BC%E2%80%85%EC%82%AC%EB%8B%A4%EB%A6%AC%E2%80%85%EA%B2%8C%EC%9E%84/README.md)|2026.03.25|
-|1700. 멀티탭 스케줄링|[링크](./%EB%B0%B1%EC%A4%80/Gold/1700.%E2%80%85%EB%A9%80%ED%8B%B0%ED%83%AD%E2%80%85%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81/README.md)|2026.02.24|
-|17070. 파이프 옮기기 1|[링크](./%EB%B0%B1%EC%A4%80/Gold/17070.%E2%80%85%ED%8C%8C%EC%9D%B4%ED%94%84%E2%80%85%EC%98%AE%EA%B8%B0%EA%B8%B0%E2%80%851/README.md)|2026.03.31|
-|17136. 색종이 붙이기|[링크](./%EB%B0%B1%EC%A4%80/Gold/17136.%E2%80%85%EC%83%89%EC%A2%85%EC%9D%B4%E2%80%85%EB%B6%99%EC%9D%B4%EA%B8%B0/README.md)||
-|17140. 이차원 배열과 연산|[링크](./%EB%B0%B1%EC%A4%80/Gold/17140.%E2%80%85%EC%9D%B4%EC%B0%A8%EC%9B%90%E2%80%85%EB%B0%B0%EC%97%B4%EA%B3%BC%E2%80%85%EC%97%B0%EC%82%B0/README.md)|2026.04.09|
-|17142. 연구소 3|[링크](./%EB%B0%B1%EC%A4%80/Gold/17142.%E2%80%85%EC%97%B0%EA%B5%AC%EC%86%8C%E2%80%853/README.md)|2026.04.08|
-|17143. 낚시왕|[링크](./%EB%B0%B1%EC%A4%80/Gold/17143.%E2%80%85%EB%82%9A%EC%8B%9C%EC%99%95/README.md)|2026.04.11|
+|16928. 뱀과 사다리 게임|[링크](./%EB%B0%B1%EC%A4%80/Gold/16928.%E2%80%85%EB%B1%80%EA%B3%BC%E2%80%85%EC%82%AC%EB%8B%A4%EB%A6%AC%E2%80%85%EA%B2%8C%EC%9E%84/%EB%B1%80%EA%B3%BC%E2%80%85%EC%82%AC%EB%8B%A4%EB%A6%AC%E2%80%85%EA%B2%8C%EC%9E%84.java)|2026.03.25|
+|1700. 멀티탭 스케줄링|[링크](./%EB%B0%B1%EC%A4%80/Gold/1700.%E2%80%85%EB%A9%80%ED%8B%B0%ED%83%AD%E2%80%85%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81/%EB%A9%80%ED%8B%B0%ED%83%AD%E2%80%85%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81.java)|2026.02.24|
+|17070. 파이프 옮기기 1|[링크](./%EB%B0%B1%EC%A4%80/Gold/17070.%E2%80%85%ED%8C%8C%EC%9D%B4%ED%94%84%E2%80%85%EC%98%AE%EA%B8%B0%EA%B8%B0%E2%80%851/%ED%8C%8C%EC%9D%B4%ED%94%84%E2%80%85%EC%98%AE%EA%B8%B0%EA%B8%B0%E2%80%851.java)|2026.03.31|
+|17136. 색종이 붙이기|[링크](./%EB%B0%B1%EC%A4%80/Gold/17136.%E2%80%85%EC%83%89%EC%A2%85%EC%9D%B4%E2%80%85%EB%B6%99%EC%9D%B4%EA%B8%B0/%EC%83%89%EC%A2%85%EC%9D%B4%E2%80%85%EB%B6%99%EC%9D%B4%EA%B8%B0.java)||
+|17140. 이차원 배열과 연산|[링크](./%EB%B0%B1%EC%A4%80/Gold/17140.%E2%80%85%EC%9D%B4%EC%B0%A8%EC%9B%90%E2%80%85%EB%B0%B0%EC%97%B4%EA%B3%BC%E2%80%85%EC%97%B0%EC%82%B0/%EC%9D%B4%EC%B0%A8%EC%9B%90%E2%80%85%EB%B0%B0%EC%97%B4%EA%B3%BC%E2%80%85%EC%97%B0%EC%82%B0.java)|2026.04.09|
+|17142. 연구소 3|[링크](./%EB%B0%B1%EC%A4%80/Gold/17142.%E2%80%85%EC%97%B0%EA%B5%AC%EC%86%8C%E2%80%853/%EC%97%B0%EA%B5%AC%EC%86%8C%E2%80%853.java)|2026.04.08|
+|17143. 낚시왕|[링크](./%EB%B0%B1%EC%A4%80/Gold/17143.%E2%80%85%EB%82%9A%EC%8B%9C%EC%99%95/%EB%82%9A%EC%8B%9C%EC%99%95.java)|2026.04.11|
 |1715. 카드 정렬하기|[링크](./%EB%B0%B1%EC%A4%80/Gold/1715.%E2%80%85%EC%B9%B4%EB%93%9C%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0/%EC%B9%B4%EB%93%9C%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0.java)||
-|1753. 최단경로|[링크](./%EB%B0%B1%EC%A4%80/Gold/1753.%E2%80%85%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C/README.md)|2026.03.15|
-|1759. 암호 만들기|[링크](./%EB%B0%B1%EC%A4%80/Gold/1759.%E2%80%85%EC%95%94%ED%98%B8%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0/README.md)|2026.04.01|
+|1753. 최단경로|[링크](./%EB%B0%B1%EC%A4%80/Gold/1753.%E2%80%85%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C/%EC%B5%9C%EB%8B%A8%EA%B2%BD%EB%A1%9C.java)|2026.03.15|
+|1759. 암호 만들기|[링크](./%EB%B0%B1%EC%A4%80/Gold/1759.%E2%80%85%EC%95%94%ED%98%B8%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0/%EC%95%94%ED%98%B8%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0.java)|2026.04.01|
 |1806. 부분합|[링크](./%EB%B0%B1%EC%A4%80/Gold/1806.%E2%80%85%EB%B6%80%EB%B6%84%ED%95%A9/%EB%B6%80%EB%B6%84%ED%95%A9.java)|2026.03.20|
-|1916. 최소비용 구하기|[링크](./%EB%B0%B1%EC%A4%80/Gold/1916.%E2%80%85%EC%B5%9C%EC%86%8C%EB%B9%84%EC%9A%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/README.md)|2026.03.14|
-|1918. 후위 표기식|[링크](./%EB%B0%B1%EC%A4%80/Gold/1918.%E2%80%85%ED%9B%84%EC%9C%84%E2%80%85%ED%91%9C%EA%B8%B0%EC%8B%9D/README.md)|2026.04.09|
-|19238. 스타트 택시|[링크](./%EB%B0%B1%EC%A4%80/Gold/19238.%E2%80%85%EC%8A%A4%ED%83%80%ED%8A%B8%E2%80%85%ED%83%9D%EC%8B%9C/README.md)|2026.04.10|
+|1916. 최소비용 구하기|[링크](./%EB%B0%B1%EC%A4%80/Gold/1916.%E2%80%85%EC%B5%9C%EC%86%8C%EB%B9%84%EC%9A%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/%EC%B5%9C%EC%86%8C%EB%B9%84%EC%9A%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0.java)|2026.03.14|
+|1918. 후위 표기식|[링크](./%EB%B0%B1%EC%A4%80/Gold/1918.%E2%80%85%ED%9B%84%EC%9C%84%E2%80%85%ED%91%9C%EA%B8%B0%EC%8B%9D/%ED%9B%84%EC%9C%84%E2%80%85%ED%91%9C%EA%B8%B0%EC%8B%9D.java)|2026.04.09|
+|19238. 스타트 택시|[링크](./%EB%B0%B1%EC%A4%80/Gold/19238.%E2%80%85%EC%8A%A4%ED%83%80%ED%8A%B8%E2%80%85%ED%83%9D%EC%8B%9C/%EC%8A%A4%ED%83%80%ED%8A%B8%E2%80%85%ED%83%9D%EC%8B%9C.java)|2026.04.10|
 |1931. 회의실 배정|[링크](./%EB%B0%B1%EC%A4%80/Gold/1931.%E2%80%85%ED%9A%8C%EC%9D%98%EC%8B%A4%E2%80%85%EB%B0%B0%EC%A0%95/README.md)||
-|1956. 운동|[링크](./%EB%B0%B1%EC%A4%80/Gold/1956.%E2%80%85%EC%9A%B4%EB%8F%99/README.md)|2026.03.30|
-|1976. 여행 가자|[링크](./%EB%B0%B1%EC%A4%80/Gold/1976.%E2%80%85%EC%97%AC%ED%96%89%E2%80%85%EA%B0%80%EC%9E%90/README.md)|2026.03.25|
-|1987. 알파벳|[링크](./%EB%B0%B1%EC%A4%80/Gold/1987.%E2%80%85%EC%95%8C%ED%8C%8C%EB%B2%B3/README.md)|2026.03.13|
+|1956. 운동|[링크](./%EB%B0%B1%EC%A4%80/Gold/1956.%E2%80%85%EC%9A%B4%EB%8F%99/%EC%9A%B4%EB%8F%99.java)|2026.03.30|
+|1976. 여행 가자|[링크](./%EB%B0%B1%EC%A4%80/Gold/1976.%E2%80%85%EC%97%AC%ED%96%89%E2%80%85%EA%B0%80%EC%9E%90/%EC%97%AC%ED%96%89%E2%80%85%EA%B0%80%EC%9E%90.java)|2026.03.25|
+|1987. 알파벳|[링크](./%EB%B0%B1%EC%A4%80/Gold/1987.%E2%80%85%EC%95%8C%ED%8C%8C%EB%B2%B3/%EC%95%8C%ED%8C%8C%EB%B2%B3.java)|2026.03.13|
 |20055. 컨베이어 벨트 위의 로봇|[링크](./%EB%B0%B1%EC%A4%80/Gold/20055.%E2%80%85%EC%BB%A8%EB%B2%A0%EC%9D%B4%EC%96%B4%E2%80%85%EB%B2%A8%ED%8A%B8%E2%80%85%EC%9C%84%EC%9D%98%E2%80%85%EB%A1%9C%EB%B4%87/README.md)|2026.04.09|
 |2023. 신기한 소수|[링크](./%EB%B0%B1%EC%A4%80/Gold/2023.%E2%80%85%EC%8B%A0%EA%B8%B0%ED%95%9C%E2%80%85%EC%86%8C%EC%88%98/%EC%8B%A0%EA%B8%B0%ED%95%9C%E2%80%85%EC%86%8C%EC%88%98.java)||
-|2110. 공유기 설치|[링크](./%EB%B0%B1%EC%A4%80/Gold/2110.%E2%80%85%EA%B3%B5%EC%9C%A0%EA%B8%B0%E2%80%85%EC%84%A4%EC%B9%98/README.md)|2026.03.21|
-|2138. 전구와 스위치|[링크](./%EB%B0%B1%EC%A4%80/Gold/2138.%E2%80%85%EC%A0%84%EA%B5%AC%EC%99%80%E2%80%85%EC%8A%A4%EC%9C%84%EC%B9%98/README.md)|2026.03.25|
-|21608. 상어 초등학교|[링크](./%EB%B0%B1%EC%A4%80/Gold/21608.%E2%80%85%EC%83%81%EC%96%B4%E2%80%85%EC%B4%88%EB%93%B1%ED%95%99%EA%B5%90/README.md)|2026.04.10|
-|2206. 벽 부수고 이동하기|[링크](./%EB%B0%B1%EC%A4%80/Gold/2206.%E2%80%85%EB%B2%BD%E2%80%85%EB%B6%80%EC%88%98%EA%B3%A0%E2%80%85%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0/README.md)|2026.03.29|
-|2294. 동전 2|[링크](./%EB%B0%B1%EC%A4%80/Gold/2294.%E2%80%85%EB%8F%99%EC%A0%84%E2%80%852/README.md)||
-|2447. 별 찍기 － 10|[링크](./%EB%B0%B1%EC%A4%80/Gold/2447.%E2%80%85%EB%B3%84%E2%80%85%EC%B0%8D%EA%B8%B0%E2%80%85%EF%BC%8D%E2%80%8510/README.md)|2025.05.05|
-|2467. 용액|[링크](./%EB%B0%B1%EC%A4%80/Gold/2467.%E2%80%85%EC%9A%A9%EC%95%A1/README.md)|2026.03.24|
-|2493. 탑|[링크](./%EB%B0%B1%EC%A4%80/Gold/2493.%E2%80%85%ED%83%91/README.md)|2026.03.23|
-|2573. 빙산|[링크](./%EB%B0%B1%EC%A4%80/Gold/2573.%E2%80%85%EB%B9%99%EC%82%B0/README.md)|2025.06.15|
-|2631. 줄세우기|[링크](./%EB%B0%B1%EC%A4%80/Gold/2631.%E2%80%85%EC%A4%84%EC%84%B8%EC%9A%B0%EA%B8%B0/README.md)|2026.04.08|
-|2638. 치즈|[링크](./%EB%B0%B1%EC%A4%80/Gold/2638.%E2%80%85%EC%B9%98%EC%A6%88/README.md)|2026.04.09|
-|2668. 숫자고르기|[링크](./%EB%B0%B1%EC%A4%80/Gold/2668.%E2%80%85%EC%88%AB%EC%9E%90%EA%B3%A0%EB%A5%B4%EA%B8%B0/README.md)|2026.03.27|
-|3055. 탈출|[링크](./%EB%B0%B1%EC%A4%80/Gold/3055.%E2%80%85%ED%83%88%EC%B6%9C/README.md)||
-|3109. 빵집|[링크](./%EB%B0%B1%EC%A4%80/Gold/3109.%E2%80%85%EB%B9%B5%EC%A7%91/README.md)|2026.04.09|
-|3190. 뱀|[링크](./%EB%B0%B1%EC%A4%80/Gold/3190.%E2%80%85%EB%B1%80/README.md)|2026.02.28|
-|4179. 불！|[링크](./%EB%B0%B1%EC%A4%80/Gold/4179.%E2%80%85%EB%B6%88%EF%BC%81/README.md)|2026.03.27|
-|4485. 녹색 옷 입은 애가 젤다지？|[링크](./%EB%B0%B1%EC%A4%80/Gold/4485.%E2%80%85%EB%85%B9%EC%83%89%E2%80%85%EC%98%B7%E2%80%85%EC%9E%85%EC%9D%80%E2%80%85%EC%95%A0%EA%B0%80%E2%80%85%EC%A0%A4%EB%8B%A4%EC%A7%80%EF%BC%9F/README.md)|2026.03.27|
+|2110. 공유기 설치|[링크](./%EB%B0%B1%EC%A4%80/Gold/2110.%E2%80%85%EA%B3%B5%EC%9C%A0%EA%B8%B0%E2%80%85%EC%84%A4%EC%B9%98/%EA%B3%B5%EC%9C%A0%EA%B8%B0%E2%80%85%EC%84%A4%EC%B9%98.java)|2026.03.21|
+|2138. 전구와 스위치|[링크](./%EB%B0%B1%EC%A4%80/Gold/2138.%E2%80%85%EC%A0%84%EA%B5%AC%EC%99%80%E2%80%85%EC%8A%A4%EC%9C%84%EC%B9%98/%EC%A0%84%EA%B5%AC%EC%99%80%E2%80%85%EC%8A%A4%EC%9C%84%EC%B9%98.java)|2026.03.25|
+|21608. 상어 초등학교|[링크](./%EB%B0%B1%EC%A4%80/Gold/21608.%E2%80%85%EC%83%81%EC%96%B4%E2%80%85%EC%B4%88%EB%93%B1%ED%95%99%EA%B5%90/%EC%83%81%EC%96%B4%E2%80%85%EC%B4%88%EB%93%B1%ED%95%99%EA%B5%90.java)|2026.04.10|
+|2206. 벽 부수고 이동하기|[링크](./%EB%B0%B1%EC%A4%80/Gold/2206.%E2%80%85%EB%B2%BD%E2%80%85%EB%B6%80%EC%88%98%EA%B3%A0%E2%80%85%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0/%EB%B2%BD%E2%80%85%EB%B6%80%EC%88%98%EA%B3%A0%E2%80%85%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0.java)|2026.03.29|
+|2294. 동전 2|[링크](./%EB%B0%B1%EC%A4%80/Gold/2294.%E2%80%85%EB%8F%99%EC%A0%84%E2%80%852/%EB%8F%99%EC%A0%84%E2%80%852.java)||
+|2447. 별 찍기 － 10|[링크](./%EB%B0%B1%EC%A4%80/Gold/2447.%E2%80%85%EB%B3%84%E2%80%85%EC%B0%8D%EA%B8%B0%E2%80%85%EF%BC%8D%E2%80%8510/%EB%B3%84%E2%80%85%EC%B0%8D%EA%B8%B0%E2%80%85%EF%BC%8D%E2%80%8510.java)|2025.05.05|
+|2467. 용액|[링크](./%EB%B0%B1%EC%A4%80/Gold/2467.%E2%80%85%EC%9A%A9%EC%95%A1/%EC%9A%A9%EC%95%A1.java)|2026.03.24|
+|2493. 탑|[링크](./%EB%B0%B1%EC%A4%80/Gold/2493.%E2%80%85%ED%83%91/%ED%83%91.java)|2026.03.23|
+|2573. 빙산|[링크](./%EB%B0%B1%EC%A4%80/Gold/2573.%E2%80%85%EB%B9%99%EC%82%B0/%EB%B9%99%EC%82%B0.java)|2025.06.15|
+|2631. 줄세우기|[링크](./%EB%B0%B1%EC%A4%80/Gold/2631.%E2%80%85%EC%A4%84%EC%84%B8%EC%9A%B0%EA%B8%B0/%EC%A4%84%EC%84%B8%EC%9A%B0%EA%B8%B0.java)|2026.04.08|
+|2638. 치즈|[링크](./%EB%B0%B1%EC%A4%80/Gold/2638.%E2%80%85%EC%B9%98%EC%A6%88/%EC%B9%98%EC%A6%88.java)|2026.04.09|
+|2668. 숫자고르기|[링크](./%EB%B0%B1%EC%A4%80/Gold/2668.%E2%80%85%EC%88%AB%EC%9E%90%EA%B3%A0%EB%A5%B4%EA%B8%B0/%EC%88%AB%EC%9E%90%EA%B3%A0%EB%A5%B4%EA%B8%B0.java)|2026.03.27|
+|3055. 탈출|[링크](./%EB%B0%B1%EC%A4%80/Gold/3055.%E2%80%85%ED%83%88%EC%B6%9C/%ED%83%88%EC%B6%9C.java)||
+|3109. 빵집|[링크](./%EB%B0%B1%EC%A4%80/Gold/3109.%E2%80%85%EB%B9%B5%EC%A7%91/%EB%B9%B5%EC%A7%91.java)|2026.04.09|
+|3190. 뱀|[링크](./%EB%B0%B1%EC%A4%80/Gold/3190.%E2%80%85%EB%B1%80/%EB%B1%80.java)|2026.02.28|
+|4179. 불！|[링크](./%EB%B0%B1%EC%A4%80/Gold/4179.%E2%80%85%EB%B6%88%EF%BC%81/%EB%B6%88%EF%BC%81.java)|2026.03.27|
+|4485. 녹색 옷 입은 애가 젤다지？|[링크](./%EB%B0%B1%EC%A4%80/Gold/4485.%E2%80%85%EB%85%B9%EC%83%89%E2%80%85%EC%98%B7%E2%80%85%EC%9E%85%EC%9D%80%E2%80%85%EC%95%A0%EA%B0%80%E2%80%85%EC%A0%A4%EB%8B%A4%EC%A7%80%EF%BC%9F/%EB%85%B9%EC%83%89%E2%80%85%EC%98%B7%E2%80%85%EC%9E%85%EC%9D%80%E2%80%85%EC%95%A0%EA%B0%80%E2%80%85%EC%A0%A4%EB%8B%A4%EC%A7%80%EF%BC%9F.java)|2026.03.27|
 |5430. AC|[링크](./%EB%B0%B1%EC%A4%80/Gold/5430.%E2%80%85AC/AC.java)|2026.04.02|
-|5972. 택배 배송|[링크](./%EB%B0%B1%EC%A4%80/Gold/5972.%E2%80%85%ED%83%9D%EB%B0%B0%E2%80%85%EB%B0%B0%EC%86%A1/README.md)|2026.03.25|
-|7490. 0 만들기|[링크](./%EB%B0%B1%EC%A4%80/Gold/7490.%E2%80%850%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0/README.md)|2026.03.31|
-|7569. 토마토|[링크](./%EB%B0%B1%EC%A4%80/Gold/7569.%E2%80%85%ED%86%A0%EB%A7%88%ED%86%A0/README.md)||
-|7576. 토마토|[링크](./%EB%B0%B1%EC%A4%80/Gold/7576.%E2%80%85%ED%86%A0%EB%A7%88%ED%86%A0/README.md)||
-|7662. 이중 우선순위 큐|[링크](./%EB%B0%B1%EC%A4%80/Gold/7662.%E2%80%85%EC%9D%B4%EC%A4%91%E2%80%85%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%E2%80%85%ED%81%90/README.md)|2026.04.01|
-|9205. 맥주 마시면서 걸어가기|[링크](./%EB%B0%B1%EC%A4%80/Gold/9205.%E2%80%85%EB%A7%A5%EC%A3%BC%E2%80%85%EB%A7%88%EC%8B%9C%EB%A9%B4%EC%84%9C%E2%80%85%EA%B1%B8%EC%96%B4%EA%B0%80%EA%B8%B0/README.md)||
-|9663. N－Queen|[링크](./%EB%B0%B1%EC%A4%80/Gold/9663.%E2%80%85N%EF%BC%8DQueen/README.md)||
-|9935. 문자열 폭발|[링크](./%EB%B0%B1%EC%A4%80/Gold/9935.%E2%80%85%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%ED%8F%AD%EB%B0%9C/README.md)|2026.03.24|
+|5972. 택배 배송|[링크](./%EB%B0%B1%EC%A4%80/Gold/5972.%E2%80%85%ED%83%9D%EB%B0%B0%E2%80%85%EB%B0%B0%EC%86%A1/%ED%83%9D%EB%B0%B0%E2%80%85%EB%B0%B0%EC%86%A1.java)|2026.03.25|
+|7490. 0 만들기|[링크](./%EB%B0%B1%EC%A4%80/Gold/7490.%E2%80%850%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0/0%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0.java)|2026.03.31|
+|7569. 토마토|[링크](./%EB%B0%B1%EC%A4%80/Gold/7569.%E2%80%85%ED%86%A0%EB%A7%88%ED%86%A0/%ED%86%A0%EB%A7%88%ED%86%A0.java)||
+|7576. 토마토|[링크](./%EB%B0%B1%EC%A4%80/Gold/7576.%E2%80%85%ED%86%A0%EB%A7%88%ED%86%A0/%ED%86%A0%EB%A7%88%ED%86%A0.java)||
+|7662. 이중 우선순위 큐|[링크](./%EB%B0%B1%EC%A4%80/Gold/7662.%E2%80%85%EC%9D%B4%EC%A4%91%E2%80%85%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%E2%80%85%ED%81%90/%EC%9D%B4%EC%A4%91%E2%80%85%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84%E2%80%85%ED%81%90.java)|2026.04.01|
+|9205. 맥주 마시면서 걸어가기|[링크](./%EB%B0%B1%EC%A4%80/Gold/9205.%E2%80%85%EB%A7%A5%EC%A3%BC%E2%80%85%EB%A7%88%EC%8B%9C%EB%A9%B4%EC%84%9C%E2%80%85%EA%B1%B8%EC%96%B4%EA%B0%80%EA%B8%B0/%EB%A7%A5%EC%A3%BC%E2%80%85%EB%A7%88%EC%8B%9C%EB%A9%B4%EC%84%9C%E2%80%85%EA%B1%B8%EC%96%B4%EA%B0%80%EA%B8%B0.java)||
+|9663. N－Queen|[링크](./%EB%B0%B1%EC%A4%80/Gold/9663.%E2%80%85N%EF%BC%8DQueen/N%EF%BC%8DQueen.java)||
+|9935. 문자열 폭발|[링크](./%EB%B0%B1%EC%A4%80/Gold/9935.%E2%80%85%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%ED%8F%AD%EB%B0%9C/%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%ED%8F%AD%EB%B0%9C.java)|2026.03.24|
 ### 🚀 Silver
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
 |1012. 유기농 배추|[링크](./%EB%B0%B1%EC%A4%80/Silver/1012.%E2%80%85%EC%9C%A0%EA%B8%B0%EB%86%8D%E2%80%85%EB%B0%B0%EC%B6%94/README.md)|2026.03.01|
-|10431. 줄세우기|[링크](./%EB%B0%B1%EC%A4%80/Silver/10431.%E2%80%85%EC%A4%84%EC%84%B8%EC%9A%B0%EA%B8%B0/README.md)|2026.03.02|
-|1051. 숫자 정사각형|[링크](./%EB%B0%B1%EC%A4%80/Silver/1051.%E2%80%85%EC%88%AB%EC%9E%90%E2%80%85%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95/%EC%88%AB%EC%9E%90%E2%80%85%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95.java)|2026.03.11|
-|10610. 30|[링크](./%EB%B0%B1%EC%A4%80/Silver/10610.%E2%80%8530/README.md)|2026.02.23|
-|1080. 행렬|[링크](./%EB%B0%B1%EC%A4%80/Silver/1080.%E2%80%85%ED%96%89%EB%A0%AC/README.md)||
-|10816. 숫자 카드 2|[링크](./%EB%B0%B1%EC%A4%80/Silver/10816.%E2%80%85%EC%88%AB%EC%9E%90%E2%80%85%EC%B9%B4%EB%93%9C%E2%80%852/README.md)||
-|11047. 동전 0|[링크](./%EB%B0%B1%EC%A4%80/Silver/11047.%E2%80%85%EB%8F%99%EC%A0%84%E2%80%850/README.md)||
-|11053. 가장 긴 증가하는 부분 수열|[링크](./%EB%B0%B1%EC%A4%80/Silver/11053.%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%EA%B8%B4%E2%80%85%EC%A6%9D%EA%B0%80%ED%95%98%EB%8A%94%E2%80%85%EB%B6%80%EB%B6%84%E2%80%85%EC%88%98%EC%97%B4/README.md)||
-|11055. 가장 큰 증가하는 부분 수열|[링크](./%EB%B0%B1%EC%A4%80/Silver/11055.%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%ED%81%B0%E2%80%85%EC%A6%9D%EA%B0%80%ED%95%98%EB%8A%94%E2%80%85%EB%B6%80%EB%B6%84%E2%80%85%EC%88%98%EC%97%B4/README.md)||
-|1138. 한 줄로 서기|[링크](./%EB%B0%B1%EC%A4%80/Silver/1138.%E2%80%85%ED%95%9C%E2%80%85%EC%A4%84%EB%A1%9C%E2%80%85%EC%84%9C%EA%B8%B0/README.md)||
-|11399. ATM|[링크](./%EB%B0%B1%EC%A4%80/Silver/11399.%E2%80%85ATM/README.md)||
+|10431. 줄세우기|[링크](./%EB%B0%B1%EC%A4%80/Silver/10431.%E2%80%85%EC%A4%84%EC%84%B8%EC%9A%B0%EA%B8%B0/%EC%A4%84%EC%84%B8%EC%9A%B0%EA%B8%B0.java)|2026.03.02|
+|1051. 숫자 정사각형|[링크](./%EB%B0%B1%EC%A4%80/Silver/1051.%E2%80%85%EC%88%AB%EC%9E%90%E2%80%85%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95/README.md)|2026.03.11|
+|10610. 30|[링크](./%EB%B0%B1%EC%A4%80/Silver/10610.%E2%80%8530/30.java)|2026.02.23|
+|1080. 행렬|[링크](./%EB%B0%B1%EC%A4%80/Silver/1080.%E2%80%85%ED%96%89%EB%A0%AC/%ED%96%89%EB%A0%AC.java)||
+|10816. 숫자 카드 2|[링크](./%EB%B0%B1%EC%A4%80/Silver/10816.%E2%80%85%EC%88%AB%EC%9E%90%E2%80%85%EC%B9%B4%EB%93%9C%E2%80%852/%EC%88%AB%EC%9E%90%E2%80%85%EC%B9%B4%EB%93%9C%E2%80%852.java)||
+|11047. 동전 0|[링크](./%EB%B0%B1%EC%A4%80/Silver/11047.%E2%80%85%EB%8F%99%EC%A0%84%E2%80%850/%EB%8F%99%EC%A0%84%E2%80%850.java)||
+|11053. 가장 긴 증가하는 부분 수열|[링크](./%EB%B0%B1%EC%A4%80/Silver/11053.%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%EA%B8%B4%E2%80%85%EC%A6%9D%EA%B0%80%ED%95%98%EB%8A%94%E2%80%85%EB%B6%80%EB%B6%84%E2%80%85%EC%88%98%EC%97%B4/%EA%B0%80%EC%9E%A5%E2%80%85%EA%B8%B4%E2%80%85%EC%A6%9D%EA%B0%80%ED%95%98%EB%8A%94%E2%80%85%EB%B6%80%EB%B6%84%E2%80%85%EC%88%98%EC%97%B4.java)||
+|11055. 가장 큰 증가하는 부분 수열|[링크](./%EB%B0%B1%EC%A4%80/Silver/11055.%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%ED%81%B0%E2%80%85%EC%A6%9D%EA%B0%80%ED%95%98%EB%8A%94%E2%80%85%EB%B6%80%EB%B6%84%E2%80%85%EC%88%98%EC%97%B4/%EA%B0%80%EC%9E%A5%E2%80%85%ED%81%B0%E2%80%85%EC%A6%9D%EA%B0%80%ED%95%98%EB%8A%94%E2%80%85%EB%B6%80%EB%B6%84%E2%80%85%EC%88%98%EC%97%B4.java)||
+|1138. 한 줄로 서기|[링크](./%EB%B0%B1%EC%A4%80/Silver/1138.%E2%80%85%ED%95%9C%E2%80%85%EC%A4%84%EB%A1%9C%E2%80%85%EC%84%9C%EA%B8%B0/%ED%95%9C%E2%80%85%EC%A4%84%EB%A1%9C%E2%80%85%EC%84%9C%EA%B8%B0.java)||
+|11399. ATM|[링크](./%EB%B0%B1%EC%A4%80/Silver/11399.%E2%80%85ATM/ATM.java)||
 |11403. 경로 찾기|[링크](./%EB%B0%B1%EC%A4%80/Silver/11403.%E2%80%85%EA%B2%BD%EB%A1%9C%E2%80%85%EC%B0%BE%EA%B8%B0/README.md)||
-|1141. 접두사|[링크](./%EB%B0%B1%EC%A4%80/Silver/1141.%E2%80%85%EC%A0%91%EB%91%90%EC%82%AC/README.md)||
+|1141. 접두사|[링크](./%EB%B0%B1%EC%A4%80/Silver/1141.%E2%80%85%EC%A0%91%EB%91%90%EC%82%AC/%EC%A0%91%EB%91%90%EC%82%AC.java)||
 |11501. 주식|[링크](./%EB%B0%B1%EC%A4%80/Silver/11501.%E2%80%85%EC%A3%BC%EC%8B%9D/%EC%A3%BC%EC%8B%9D.java)|2026.02.24|
-|11660. 구간 합 구하기 5|[링크](./%EB%B0%B1%EC%A4%80/Silver/11660.%E2%80%85%EA%B5%AC%EA%B0%84%E2%80%85%ED%95%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0%E2%80%855/README.md)|2026.04.04|
-|11722. 가장 긴 감소하는 부분 수열|[링크](./%EB%B0%B1%EC%A4%80/Silver/11722.%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%EA%B8%B4%E2%80%85%EA%B0%90%EC%86%8C%ED%95%98%EB%8A%94%E2%80%85%EB%B6%80%EB%B6%84%E2%80%85%EC%88%98%EC%97%B4/README.md)||
-|11723. 집합|[링크](./%EB%B0%B1%EC%A4%80/Silver/11723.%E2%80%85%EC%A7%91%ED%95%A9/README.md)||
+|11660. 구간 합 구하기 5|[링크](./%EB%B0%B1%EC%A4%80/Silver/11660.%E2%80%85%EA%B5%AC%EA%B0%84%E2%80%85%ED%95%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0%E2%80%855/%EA%B5%AC%EA%B0%84%E2%80%85%ED%95%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0%E2%80%855.java)|2026.04.04|
+|11722. 가장 긴 감소하는 부분 수열|[링크](./%EB%B0%B1%EC%A4%80/Silver/11722.%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%EA%B8%B4%E2%80%85%EA%B0%90%EC%86%8C%ED%95%98%EB%8A%94%E2%80%85%EB%B6%80%EB%B6%84%E2%80%85%EC%88%98%EC%97%B4/%EA%B0%80%EC%9E%A5%E2%80%85%EA%B8%B4%E2%80%85%EA%B0%90%EC%86%8C%ED%95%98%EB%8A%94%E2%80%85%EB%B6%80%EB%B6%84%E2%80%85%EC%88%98%EC%97%B4.java)||
+|11723. 집합|[링크](./%EB%B0%B1%EC%A4%80/Silver/11723.%E2%80%85%EC%A7%91%ED%95%A9/%EC%A7%91%ED%95%A9.java)||
 |11724. 연결 요소의 개수|[링크](./%EB%B0%B1%EC%A4%80/Silver/11724.%E2%80%85%EC%97%B0%EA%B2%B0%E2%80%85%EC%9A%94%EC%86%8C%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98/%EC%97%B0%EA%B2%B0%E2%80%85%EC%9A%94%EC%86%8C%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98.java)||
-|11726. 2×n 타일링|[링크](./%EB%B0%B1%EC%A4%80/Silver/11726.%E2%80%852%C3%97n%E2%80%85%ED%83%80%EC%9D%BC%EB%A7%81/README.md)||
+|11726. 2×n 타일링|[링크](./%EB%B0%B1%EC%A4%80/Silver/11726.%E2%80%852%C3%97n%E2%80%85%ED%83%80%EC%9D%BC%EB%A7%81/2%C3%97n%E2%80%85%ED%83%80%EC%9D%BC%EB%A7%81.java)||
 |11728. 배열 합치기|[링크](./%EB%B0%B1%EC%A4%80/Silver/11728.%E2%80%85%EB%B0%B0%EC%97%B4%E2%80%85%ED%95%A9%EC%B9%98%EA%B8%B0/README.md)|2025.03.24|
-|1182. 부분수열의 합|[링크](./%EB%B0%B1%EC%A4%80/Silver/1182.%E2%80%85%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4%EC%9D%98%E2%80%85%ED%95%A9/README.md)||
-|1244. 스위치 켜고 끄기|[링크](./%EB%B0%B1%EC%A4%80/Silver/1244.%E2%80%85%EC%8A%A4%EC%9C%84%EC%B9%98%E2%80%85%EC%BC%9C%EA%B3%A0%E2%80%85%EB%81%84%EA%B8%B0/README.md)|2026.03.03|
-|1260. DFS와 BFS|[링크](./%EB%B0%B1%EC%A4%80/Silver/1260.%E2%80%85DFS%EC%99%80%E2%80%85BFS/README.md)||
-|1283. 단축키 지정|[링크](./%EB%B0%B1%EC%A4%80/Silver/1283.%E2%80%85%EB%8B%A8%EC%B6%95%ED%82%A4%E2%80%85%EC%A7%80%EC%A0%95/README.md)|2025.03.14|
-|1303. 전쟁 － 전투|[링크](./%EB%B0%B1%EC%A4%80/Silver/1303.%E2%80%85%EC%A0%84%EC%9F%81%E2%80%85%EF%BC%8D%E2%80%85%EC%A0%84%ED%88%AC/README.md)||
+|1182. 부분수열의 합|[링크](./%EB%B0%B1%EC%A4%80/Silver/1182.%E2%80%85%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4%EC%9D%98%E2%80%85%ED%95%A9/%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4%EC%9D%98%E2%80%85%ED%95%A9.java)||
+|1244. 스위치 켜고 끄기|[링크](./%EB%B0%B1%EC%A4%80/Silver/1244.%E2%80%85%EC%8A%A4%EC%9C%84%EC%B9%98%E2%80%85%EC%BC%9C%EA%B3%A0%E2%80%85%EB%81%84%EA%B8%B0/%EC%8A%A4%EC%9C%84%EC%B9%98%E2%80%85%EC%BC%9C%EA%B3%A0%E2%80%85%EB%81%84%EA%B8%B0.java)|2026.03.03|
+|1260. DFS와 BFS|[링크](./%EB%B0%B1%EC%A4%80/Silver/1260.%E2%80%85DFS%EC%99%80%E2%80%85BFS/DFS%EC%99%80%E2%80%85BFS.java)||
+|1283. 단축키 지정|[링크](./%EB%B0%B1%EC%A4%80/Silver/1283.%E2%80%85%EB%8B%A8%EC%B6%95%ED%82%A4%E2%80%85%EC%A7%80%EC%A0%95/%EB%8B%A8%EC%B6%95%ED%82%A4%E2%80%85%EC%A7%80%EC%A0%95.java)|2025.03.14|
+|1303. 전쟁 － 전투|[링크](./%EB%B0%B1%EC%A4%80/Silver/1303.%E2%80%85%EC%A0%84%EC%9F%81%E2%80%85%EF%BC%8D%E2%80%85%EC%A0%84%ED%88%AC/%EC%A0%84%EC%9F%81%E2%80%85%EF%BC%8D%E2%80%85%EC%A0%84%ED%88%AC.java)||
 |13305. 주유소|[링크](./%EB%B0%B1%EC%A4%80/Silver/13305.%E2%80%85%EC%A3%BC%EC%9C%A0%EC%86%8C/%EC%A3%BC%EC%9C%A0%EC%86%8C.java)|2026.02.23|
-|1436. 영화감독 숌|[링크](./%EB%B0%B1%EC%A4%80/Silver/1436.%E2%80%85%EC%98%81%ED%99%94%EA%B0%90%EB%8F%85%E2%80%85%EC%88%8C/README.md)||
+|1436. 영화감독 숌|[링크](./%EB%B0%B1%EC%A4%80/Silver/1436.%E2%80%85%EC%98%81%ED%99%94%EA%B0%90%EB%8F%85%E2%80%85%EC%88%8C/%EC%98%81%ED%99%94%EA%B0%90%EB%8F%85%E2%80%85%EC%88%8C.java)||
 |1446. 지름길|[링크](./%EB%B0%B1%EC%A4%80/Silver/1446.%E2%80%85%EC%A7%80%EB%A6%84%EA%B8%B8/%EC%A7%80%EB%A6%84%EA%B8%B8.java)|2026.03.12|
-|14501. 퇴사|[링크](./%EB%B0%B1%EC%A4%80/Silver/14501.%E2%80%85%ED%87%B4%EC%82%AC/README.md)||
+|14501. 퇴사|[링크](./%EB%B0%B1%EC%A4%80/Silver/14501.%E2%80%85%ED%87%B4%EC%82%AC/%ED%87%B4%EC%82%AC.java)||
 |1463. 1로 만들기|[링크](./%EB%B0%B1%EC%A4%80/Silver/1463.%E2%80%851%EB%A1%9C%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0/README.md)||
-|14888. 연산자 끼워넣기|[링크](./%EB%B0%B1%EC%A4%80/Silver/14888.%E2%80%85%EC%97%B0%EC%82%B0%EC%9E%90%E2%80%85%EB%81%BC%EC%9B%8C%EB%84%A3%EA%B8%B0/README.md)||
+|14888. 연산자 끼워넣기|[링크](./%EB%B0%B1%EC%A4%80/Silver/14888.%E2%80%85%EC%97%B0%EC%82%B0%EC%9E%90%E2%80%85%EB%81%BC%EC%9B%8C%EB%84%A3%EA%B8%B0/%EC%97%B0%EC%82%B0%EC%9E%90%E2%80%85%EB%81%BC%EC%9B%8C%EB%84%A3%EA%B8%B0.java)||
 |14889. 스타트와 링크|[링크](./%EB%B0%B1%EC%A4%80/Silver/14889.%E2%80%85%EC%8A%A4%ED%83%80%ED%8A%B8%EC%99%80%E2%80%85%EB%A7%81%ED%81%AC/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%99%80%E2%80%85%EB%A7%81%ED%81%AC.java)||
-|14940. 쉬운 최단거리|[링크](./%EB%B0%B1%EC%A4%80/Silver/14940.%E2%80%85%EC%89%AC%EC%9A%B4%E2%80%85%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC/README.md)|2025.03.24|
+|14940. 쉬운 최단거리|[링크](./%EB%B0%B1%EC%A4%80/Silver/14940.%E2%80%85%EC%89%AC%EC%9A%B4%E2%80%85%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC/%EC%89%AC%EC%9A%B4%E2%80%85%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC.java)|2025.03.24|
 |1515. 수 이어 쓰기|[링크](./%EB%B0%B1%EC%A4%80/Silver/1515.%E2%80%85%EC%88%98%E2%80%85%EC%9D%B4%EC%96%B4%E2%80%85%EC%93%B0%EA%B8%B0/%EC%88%98%E2%80%85%EC%9D%B4%EC%96%B4%E2%80%85%EC%93%B0%EA%B8%B0.java)||
-|1541. 잃어버린 괄호|[링크](./%EB%B0%B1%EC%A4%80/Silver/1541.%E2%80%85%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0%E2%80%85%EA%B4%84%ED%98%B8/README.md)|2026.02.24|
+|1541. 잃어버린 괄호|[링크](./%EB%B0%B1%EC%A4%80/Silver/1541.%E2%80%85%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0%E2%80%85%EA%B4%84%ED%98%B8/%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0%E2%80%85%EA%B4%84%ED%98%B8.java)|2026.02.24|
 |15649. N과 M （1）|[링크](./%EB%B0%B1%EC%A4%80/Silver/15649.%E2%80%85N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%881%EF%BC%89/N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%881%EF%BC%89.java)||
-|15650. N과 M （2）|[링크](./%EB%B0%B1%EC%A4%80/Silver/15650.%E2%80%85N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%882%EF%BC%89/README.md)||
-|15651. N과 M （3）|[링크](./%EB%B0%B1%EC%A4%80/Silver/15651.%E2%80%85N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%883%EF%BC%89/N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%883%EF%BC%89.java)||
+|15650. N과 M （2）|[링크](./%EB%B0%B1%EC%A4%80/Silver/15650.%E2%80%85N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%882%EF%BC%89/N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%882%EF%BC%89.java)||
+|15651. N과 M （3）|[링크](./%EB%B0%B1%EC%A4%80/Silver/15651.%E2%80%85N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%883%EF%BC%89/README.md)||
 |15652. N과 M （4）|[링크](./%EB%B0%B1%EC%A4%80/Silver/15652.%E2%80%85N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%884%EF%BC%89/N%EA%B3%BC%E2%80%85M%E2%80%85%EF%BC%884%EF%BC%89.java)||
-|16953. A → B|[링크](./%EB%B0%B1%EC%A4%80/Silver/16953.%E2%80%85A%E2%80%85%E2%86%92%E2%80%85B/README.md)|2026.02.24|
+|16953. A → B|[링크](./%EB%B0%B1%EC%A4%80/Silver/16953.%E2%80%85A%E2%80%85%E2%86%92%E2%80%85B/A%E2%80%85%E2%86%92%E2%80%85B.java)|2026.02.24|
 |1697. 숨바꼭질|[링크](./%EB%B0%B1%EC%A4%80/Silver/1697.%E2%80%85%EC%88%A8%EB%B0%94%EA%BC%AD%EC%A7%88/README.md)||
-|17086. 아기 상어 2|[링크](./%EB%B0%B1%EC%A4%80/Silver/17086.%E2%80%85%EC%95%84%EA%B8%B0%E2%80%85%EC%83%81%EC%96%B4%E2%80%852/README.md)|2026.03.10|
-|1713. 후보 추천하기|[링크](./%EB%B0%B1%EC%A4%80/Silver/1713.%E2%80%85%ED%9B%84%EB%B3%B4%E2%80%85%EC%B6%94%EC%B2%9C%ED%95%98%EA%B8%B0/README.md)|2026.03.01|
-|17413. 단어 뒤집기 2|[링크](./%EB%B0%B1%EC%A4%80/Silver/17413.%E2%80%85%EB%8B%A8%EC%96%B4%E2%80%85%EB%92%A4%EC%A7%91%EA%B8%B0%E2%80%852/README.md)|2025.06.08|
-|1743. 음식물 피하기|[링크](./%EB%B0%B1%EC%A4%80/Silver/1743.%E2%80%85%EC%9D%8C%EC%8B%9D%EB%AC%BC%E2%80%85%ED%94%BC%ED%95%98%EA%B8%B0/README.md)||
+|17086. 아기 상어 2|[링크](./%EB%B0%B1%EC%A4%80/Silver/17086.%E2%80%85%EC%95%84%EA%B8%B0%E2%80%85%EC%83%81%EC%96%B4%E2%80%852/%EC%95%84%EA%B8%B0%E2%80%85%EC%83%81%EC%96%B4%E2%80%852.java)|2026.03.10|
+|1713. 후보 추천하기|[링크](./%EB%B0%B1%EC%A4%80/Silver/1713.%E2%80%85%ED%9B%84%EB%B3%B4%E2%80%85%EC%B6%94%EC%B2%9C%ED%95%98%EA%B8%B0/%ED%9B%84%EB%B3%B4%E2%80%85%EC%B6%94%EC%B2%9C%ED%95%98%EA%B8%B0.java)|2026.03.01|
+|17413. 단어 뒤집기 2|[링크](./%EB%B0%B1%EC%A4%80/Silver/17413.%E2%80%85%EB%8B%A8%EC%96%B4%E2%80%85%EB%92%A4%EC%A7%91%EA%B8%B0%E2%80%852/%EB%8B%A8%EC%96%B4%E2%80%85%EB%92%A4%EC%A7%91%EA%B8%B0%E2%80%852.java)|2025.06.08|
+|1743. 음식물 피하기|[링크](./%EB%B0%B1%EC%A4%80/Silver/1743.%E2%80%85%EC%9D%8C%EC%8B%9D%EB%AC%BC%E2%80%85%ED%94%BC%ED%95%98%EA%B8%B0/%EC%9D%8C%EC%8B%9D%EB%AC%BC%E2%80%85%ED%94%BC%ED%95%98%EA%B8%B0.java)||
 |17484. 진우의 달 여행 （Small）|[링크](./%EB%B0%B1%EC%A4%80/Silver/17484.%E2%80%85%EC%A7%84%EC%9A%B0%EC%9D%98%E2%80%85%EB%8B%AC%E2%80%85%EC%97%AC%ED%96%89%E2%80%85%EF%BC%88Small%EF%BC%89/%EC%A7%84%EC%9A%B0%EC%9D%98%E2%80%85%EB%8B%AC%E2%80%85%EC%97%AC%ED%96%89%E2%80%85%EF%BC%88Small%EF%BC%89.java)||
-|17615. 볼 모으기|[링크](./%EB%B0%B1%EC%A4%80/Silver/17615.%E2%80%85%EB%B3%BC%E2%80%85%EB%AA%A8%EC%9C%BC%EA%B8%B0/README.md)|2026.03.03|
-|1764. 듣보잡|[링크](./%EB%B0%B1%EC%A4%80/Silver/1764.%E2%80%85%EB%93%A3%EB%B3%B4%EC%9E%A1/README.md)||
+|17615. 볼 모으기|[링크](./%EB%B0%B1%EC%A4%80/Silver/17615.%E2%80%85%EB%B3%BC%E2%80%85%EB%AA%A8%EC%9C%BC%EA%B8%B0/%EB%B3%BC%E2%80%85%EB%AA%A8%EC%9C%BC%EA%B8%B0.java)|2026.03.03|
+|1764. 듣보잡|[링크](./%EB%B0%B1%EC%A4%80/Silver/1764.%E2%80%85%EB%93%A3%EB%B3%B4%EC%9E%A1/%EB%93%A3%EB%B3%B4%EC%9E%A1.java)||
 |1780. 종이의 개수|[링크](./%EB%B0%B1%EC%A4%80/Silver/1780.%E2%80%85%EC%A2%85%EC%9D%B4%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98/README.md)|2025.04.13|
-|1783. 병든 나이트|[링크](./%EB%B0%B1%EC%A4%80/Silver/1783.%E2%80%85%EB%B3%91%EB%93%A0%E2%80%85%EB%82%98%EC%9D%B4%ED%8A%B8/README.md)||
+|1783. 병든 나이트|[링크](./%EB%B0%B1%EC%A4%80/Silver/1783.%E2%80%85%EB%B3%91%EB%93%A0%E2%80%85%EB%82%98%EC%9D%B4%ED%8A%B8/%EB%B3%91%EB%93%A0%E2%80%85%EB%82%98%EC%9D%B4%ED%8A%B8.java)||
 |1913. 달팽이|[링크](./%EB%B0%B1%EC%A4%80/Silver/1913.%E2%80%85%EB%8B%AC%ED%8C%BD%EC%9D%B4/README.md)||
 |1920. 수 찾기|[링크](./%EB%B0%B1%EC%A4%80/Silver/1920.%E2%80%85%EC%88%98%E2%80%85%EC%B0%BE%EA%B8%B0/%EC%88%98%E2%80%85%EC%B0%BE%EA%B8%B0.java)||
-|1927. 최소 힙|[링크](./%EB%B0%B1%EC%A4%80/Silver/1927.%E2%80%85%EC%B5%9C%EC%86%8C%E2%80%85%ED%9E%99/README.md)|2026.03.03|
-|1992. 쿼드트리|[링크](./%EB%B0%B1%EC%A4%80/Silver/1992.%E2%80%85%EC%BF%BC%EB%93%9C%ED%8A%B8%EB%A6%AC/README.md)|2025.03.24|
+|1927. 최소 힙|[링크](./%EB%B0%B1%EC%A4%80/Silver/1927.%E2%80%85%EC%B5%9C%EC%86%8C%E2%80%85%ED%9E%99/%EC%B5%9C%EC%86%8C%E2%80%85%ED%9E%99.java)|2026.03.03|
+|1992. 쿼드트리|[링크](./%EB%B0%B1%EC%A4%80/Silver/1992.%E2%80%85%EC%BF%BC%EB%93%9C%ED%8A%B8%EB%A6%AC/%EC%BF%BC%EB%93%9C%ED%8A%B8%EB%A6%AC.java)|2025.03.24|
 |19941. 햄버거 분배|[링크](./%EB%B0%B1%EC%A4%80/Silver/19941.%E2%80%85%ED%96%84%EB%B2%84%EA%B1%B0%E2%80%85%EB%B6%84%EB%B0%B0/README.md)|2026.03.02|
-|20006. 랭킹전 대기열|[링크](./%EB%B0%B1%EC%A4%80/Silver/20006.%E2%80%85%EB%9E%AD%ED%82%B9%EC%A0%84%E2%80%85%EB%8C%80%EA%B8%B0%EC%97%B4/README.md)||
-|20300. 서강근육맨|[링크](./%EB%B0%B1%EC%A4%80/Silver/20300.%E2%80%85%EC%84%9C%EA%B0%95%EA%B7%BC%EC%9C%A1%EB%A7%A8/README.md)||
-|20310. 타노스|[링크](./%EB%B0%B1%EC%A4%80/Silver/20310.%E2%80%85%ED%83%80%EB%85%B8%EC%8A%A4/README.md)|2026.03.03|
-|20365. 블로그2|[링크](./%EB%B0%B1%EC%A4%80/Silver/20365.%E2%80%85%EB%B8%94%EB%A1%9C%EA%B7%B82/README.md)||
+|20006. 랭킹전 대기열|[링크](./%EB%B0%B1%EC%A4%80/Silver/20006.%E2%80%85%EB%9E%AD%ED%82%B9%EC%A0%84%E2%80%85%EB%8C%80%EA%B8%B0%EC%97%B4/%EB%9E%AD%ED%82%B9%EC%A0%84%E2%80%85%EB%8C%80%EA%B8%B0%EC%97%B4.java)||
+|20300. 서강근육맨|[링크](./%EB%B0%B1%EC%A4%80/Silver/20300.%E2%80%85%EC%84%9C%EA%B0%95%EA%B7%BC%EC%9C%A1%EB%A7%A8/%EC%84%9C%EA%B0%95%EA%B7%BC%EC%9C%A1%EB%A7%A8.java)||
+|20310. 타노스|[링크](./%EB%B0%B1%EC%A4%80/Silver/20310.%E2%80%85%ED%83%80%EB%85%B8%EC%8A%A4/%ED%83%80%EB%85%B8%EC%8A%A4.java)|2026.03.03|
+|20365. 블로그2|[링크](./%EB%B0%B1%EC%A4%80/Silver/20365.%E2%80%85%EB%B8%94%EB%A1%9C%EA%B7%B82/%EB%B8%94%EB%A1%9C%EA%B7%B82.java)||
 |2075. N번째 큰 수|[링크](./%EB%B0%B1%EC%A4%80/Silver/2075.%E2%80%85N%EB%B2%88%EC%A7%B8%E2%80%85%ED%81%B0%E2%80%85%EC%88%98/README.md)|2026.03.03|
-|20920. 영단어 암기는 괴로워|[링크](./%EB%B0%B1%EC%A4%80/Silver/20920.%E2%80%85%EC%98%81%EB%8B%A8%EC%96%B4%E2%80%85%EC%95%94%EA%B8%B0%EB%8A%94%E2%80%85%EA%B4%B4%EB%A1%9C%EC%9B%8C/README.md)||
-|20922. 겹치는 건 싫어|[링크](./%EB%B0%B1%EC%A4%80/Silver/20922.%E2%80%85%EA%B2%B9%EC%B9%98%EB%8A%94%E2%80%85%EA%B1%B4%E2%80%85%EC%8B%AB%EC%96%B4/README.md)|2026.03.27|
+|20920. 영단어 암기는 괴로워|[링크](./%EB%B0%B1%EC%A4%80/Silver/20920.%E2%80%85%EC%98%81%EB%8B%A8%EC%96%B4%E2%80%85%EC%95%94%EA%B8%B0%EB%8A%94%E2%80%85%EA%B4%B4%EB%A1%9C%EC%9B%8C/%EC%98%81%EB%8B%A8%EC%96%B4%E2%80%85%EC%95%94%EA%B8%B0%EB%8A%94%E2%80%85%EA%B4%B4%EB%A1%9C%EC%9B%8C.java)||
+|20922. 겹치는 건 싫어|[링크](./%EB%B0%B1%EC%A4%80/Silver/20922.%E2%80%85%EA%B2%B9%EC%B9%98%EB%8A%94%E2%80%85%EA%B1%B4%E2%80%85%EC%8B%AB%EC%96%B4/%EA%B2%B9%EC%B9%98%EB%8A%94%E2%80%85%EA%B1%B4%E2%80%85%EC%8B%AB%EC%96%B4.java)|2026.03.27|
 |2164. 카드2|[링크](./%EB%B0%B1%EC%A4%80/Silver/2164.%E2%80%85%EC%B9%B4%EB%93%9C2/README.md)|2025.03.24|
-|2178. 미로 탐색|[링크](./%EB%B0%B1%EC%A4%80/Silver/2178.%E2%80%85%EB%AF%B8%EB%A1%9C%E2%80%85%ED%83%90%EC%83%89/README.md)||
-|2304. 창고 다각형|[링크](./%EB%B0%B1%EC%A4%80/Silver/2304.%E2%80%85%EC%B0%BD%EA%B3%A0%E2%80%85%EB%8B%A4%EA%B0%81%ED%98%95/README.md)|2026.03.03|
+|2178. 미로 탐색|[링크](./%EB%B0%B1%EC%A4%80/Silver/2178.%E2%80%85%EB%AF%B8%EB%A1%9C%E2%80%85%ED%83%90%EC%83%89/%EB%AF%B8%EB%A1%9C%E2%80%85%ED%83%90%EC%83%89.java)||
+|2304. 창고 다각형|[링크](./%EB%B0%B1%EC%A4%80/Silver/2304.%E2%80%85%EC%B0%BD%EA%B3%A0%E2%80%85%EB%8B%A4%EA%B0%81%ED%98%95/%EC%B0%BD%EA%B3%A0%E2%80%85%EB%8B%A4%EA%B0%81%ED%98%95.java)|2026.03.03|
 |2468. 안전 영역|[링크](./%EB%B0%B1%EC%A4%80/Silver/2468.%E2%80%85%EC%95%88%EC%A0%84%E2%80%85%EC%98%81%EC%97%AD/README.md)||
-|2531. 회전 초밥|[링크](./%EB%B0%B1%EC%A4%80/Silver/2531.%E2%80%85%ED%9A%8C%EC%A0%84%E2%80%85%EC%B4%88%EB%B0%A5/README.md)|2026.03.30|
-|2578. 빙고|[링크](./%EB%B0%B1%EC%A4%80/Silver/2578.%E2%80%85%EB%B9%99%EA%B3%A0/README.md)||
-|2579. 계단 오르기|[링크](./%EB%B0%B1%EC%A4%80/Silver/2579.%E2%80%85%EA%B3%84%EB%8B%A8%E2%80%85%EC%98%A4%EB%A5%B4%EA%B8%B0/README.md)||
-|2583. 영역 구하기|[링크](./%EB%B0%B1%EC%A4%80/Silver/2583.%E2%80%85%EC%98%81%EC%97%AD%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/README.md)||
-|2606. 바이러스|[링크](./%EB%B0%B1%EC%A4%80/Silver/2606.%E2%80%85%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4/README.md)||
-|2607. 비슷한 단어|[링크](./%EB%B0%B1%EC%A4%80/Silver/2607.%E2%80%85%EB%B9%84%EC%8A%B7%ED%95%9C%E2%80%85%EB%8B%A8%EC%96%B4/README.md)|2026.03.02|
+|2531. 회전 초밥|[링크](./%EB%B0%B1%EC%A4%80/Silver/2531.%E2%80%85%ED%9A%8C%EC%A0%84%E2%80%85%EC%B4%88%EB%B0%A5/%ED%9A%8C%EC%A0%84%E2%80%85%EC%B4%88%EB%B0%A5.java)|2026.03.30|
+|2578. 빙고|[링크](./%EB%B0%B1%EC%A4%80/Silver/2578.%E2%80%85%EB%B9%99%EA%B3%A0/%EB%B9%99%EA%B3%A0.java)||
+|2579. 계단 오르기|[링크](./%EB%B0%B1%EC%A4%80/Silver/2579.%E2%80%85%EA%B3%84%EB%8B%A8%E2%80%85%EC%98%A4%EB%A5%B4%EA%B8%B0/%EA%B3%84%EB%8B%A8%E2%80%85%EC%98%A4%EB%A5%B4%EA%B8%B0.java)||
+|2583. 영역 구하기|[링크](./%EB%B0%B1%EC%A4%80/Silver/2583.%E2%80%85%EC%98%81%EC%97%AD%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/%EC%98%81%EC%97%AD%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0.java)||
+|2606. 바이러스|[링크](./%EB%B0%B1%EC%A4%80/Silver/2606.%E2%80%85%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4/%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4.java)||
+|2607. 비슷한 단어|[링크](./%EB%B0%B1%EC%A4%80/Silver/2607.%E2%80%85%EB%B9%84%EC%8A%B7%ED%95%9C%E2%80%85%EB%8B%A8%EC%96%B4/%EB%B9%84%EC%8A%B7%ED%95%9C%E2%80%85%EB%8B%A8%EC%96%B4.java)|2026.03.02|
 |2630. 색종이 만들기|[링크](./%EB%B0%B1%EC%A4%80/Silver/2630.%E2%80%85%EC%83%89%EC%A2%85%EC%9D%B4%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0/%EC%83%89%EC%A2%85%EC%9D%B4%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0.java)|2025.03.14|
-|2644. 촌수계산|[링크](./%EB%B0%B1%EC%A4%80/Silver/2644.%E2%80%85%EC%B4%8C%EC%88%98%EA%B3%84%EC%82%B0/README.md)|2025.06.08|
-|2667. 단지번호붙이기|[링크](./%EB%B0%B1%EC%A4%80/Silver/2667.%E2%80%85%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0/README.md)||
-|2785. 체인|[링크](./%EB%B0%B1%EC%A4%80/Silver/2785.%E2%80%85%EC%B2%B4%EC%9D%B8/README.md)|2026.02.23|
+|2644. 촌수계산|[링크](./%EB%B0%B1%EC%A4%80/Silver/2644.%E2%80%85%EC%B4%8C%EC%88%98%EA%B3%84%EC%82%B0/%EC%B4%8C%EC%88%98%EA%B3%84%EC%82%B0.java)|2025.06.08|
+|2667. 단지번호붙이기|[링크](./%EB%B0%B1%EC%A4%80/Silver/2667.%E2%80%85%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0/%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%EB%B6%99%EC%9D%B4%EA%B8%B0.java)||
+|2785. 체인|[링크](./%EB%B0%B1%EC%A4%80/Silver/2785.%E2%80%85%EC%B2%B4%EC%9D%B8/%EC%B2%B4%EC%9D%B8.java)|2026.02.23|
 |2805. 나무 자르기|[링크](./%EB%B0%B1%EC%A4%80/Silver/2805.%E2%80%85%EB%82%98%EB%AC%B4%E2%80%85%EC%9E%90%EB%A5%B4%EA%B8%B0/%EB%82%98%EB%AC%B4%E2%80%85%EC%9E%90%EB%A5%B4%EA%B8%B0.java)||
-|3273. 두 수의 합|[링크](./%EB%B0%B1%EC%A4%80/Silver/3273.%E2%80%85%EB%91%90%E2%80%85%EC%88%98%EC%9D%98%E2%80%85%ED%95%A9/README.md)|2026.04.04|
-|4375. 1|[링크](./%EB%B0%B1%EC%A4%80/Silver/4375.%E2%80%851/README.md)|2026.03.11|
+|3273. 두 수의 합|[링크](./%EB%B0%B1%EC%A4%80/Silver/3273.%E2%80%85%EB%91%90%E2%80%85%EC%88%98%EC%9D%98%E2%80%85%ED%95%A9/%EB%91%90%E2%80%85%EC%88%98%EC%9D%98%E2%80%85%ED%95%A9.java)|2026.04.04|
+|4375. 1|[링크](./%EB%B0%B1%EC%A4%80/Silver/4375.%E2%80%851/1.java)|2026.03.11|
 |4963. 섬의 개수|[링크](./%EB%B0%B1%EC%A4%80/Silver/4963.%E2%80%85%EC%84%AC%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98/%EC%84%AC%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98.java)||
-|6603. 로또|[링크](./%EB%B0%B1%EC%A4%80/Silver/6603.%E2%80%85%EB%A1%9C%EB%98%90/README.md)||
-|7562. 나이트의 이동|[링크](./%EB%B0%B1%EC%A4%80/Silver/7562.%E2%80%85%EB%82%98%EC%9D%B4%ED%8A%B8%EC%9D%98%E2%80%85%EC%9D%B4%EB%8F%99/README.md)|2026.03.03|
-|8979. 올림픽|[링크](./%EB%B0%B1%EC%A4%80/Silver/8979.%E2%80%85%EC%98%AC%EB%A6%BC%ED%94%BD/README.md)|2026.03.03|
+|6603. 로또|[링크](./%EB%B0%B1%EC%A4%80/Silver/6603.%E2%80%85%EB%A1%9C%EB%98%90/%EB%A1%9C%EB%98%90.java)||
+|7562. 나이트의 이동|[링크](./%EB%B0%B1%EC%A4%80/Silver/7562.%E2%80%85%EB%82%98%EC%9D%B4%ED%8A%B8%EC%9D%98%E2%80%85%EC%9D%B4%EB%8F%99/%EB%82%98%EC%9D%B4%ED%8A%B8%EC%9D%98%E2%80%85%EC%9D%B4%EB%8F%99.java)|2026.03.03|
+|8979. 올림픽|[링크](./%EB%B0%B1%EC%A4%80/Silver/8979.%E2%80%85%EC%98%AC%EB%A6%BC%ED%94%BD/%EC%98%AC%EB%A6%BC%ED%94%BD.java)|2026.03.03|
 |9017. 크로스 컨트리|[링크](./%EB%B0%B1%EC%A4%80/Silver/9017.%E2%80%85%ED%81%AC%EB%A1%9C%EC%8A%A4%E2%80%85%EC%BB%A8%ED%8A%B8%EB%A6%AC/%ED%81%AC%EB%A1%9C%EC%8A%A4%E2%80%85%EC%BB%A8%ED%8A%B8%EB%A6%AC.java)|2026.03.03|
 |9095. 1， 2， 3 더하기|[링크](./%EB%B0%B1%EC%A4%80/Silver/9095.%E2%80%851%EF%BC%8C%E2%80%852%EF%BC%8C%E2%80%853%E2%80%85%EB%8D%94%ED%95%98%EA%B8%B0/README.md)||
-|9655. 돌 게임|[링크](./%EB%B0%B1%EC%A4%80/Silver/9655.%E2%80%85%EB%8F%8C%E2%80%85%EA%B2%8C%EC%9E%84/README.md)|2026.03.02|
+|9655. 돌 게임|[링크](./%EB%B0%B1%EC%A4%80/Silver/9655.%E2%80%85%EB%8F%8C%E2%80%85%EA%B2%8C%EC%9E%84/%EB%8F%8C%E2%80%85%EA%B2%8C%EC%9E%84.java)|2026.03.02|
 ### 🚀 프로그래머스
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
 ### 🚀 1
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
-|133024. 인기있는 아이스크림|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/133024.%E2%80%85%EC%9D%B8%EA%B8%B0%EC%9E%88%EB%8A%94%E2%80%85%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC/README.md)|2026.05.28|
-|144853. 조건에 맞는 도서 리스트 출력하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/144853.%E2%80%85%EC%A1%B0%EA%B1%B4%EC%97%90%E2%80%85%EB%A7%9E%EB%8A%94%E2%80%85%EB%8F%84%EC%84%9C%E2%80%85%EB%A6%AC%EC%8A%A4%ED%8A%B8%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/README.md)|2026.05.28|
-|164673. 조건에 부합하는 중고거래 댓글 조회하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/164673.%E2%80%85%EC%A1%B0%EA%B1%B4%EC%97%90%E2%80%85%EB%B6%80%ED%95%A9%ED%95%98%EB%8A%94%E2%80%85%EC%A4%91%EA%B3%A0%EA%B1%B0%EB%9E%98%E2%80%85%EB%8C%93%EA%B8%80%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/README.md)|2026.05.28|
-|42576. 완주하지 못한 선수|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/42576.%E2%80%85%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%E2%80%85%EB%AA%BB%ED%95%9C%E2%80%85%EC%84%A0%EC%88%98/README.md)|2026.07.22|
+|133024. 인기있는 아이스크림|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/133024.%E2%80%85%EC%9D%B8%EA%B8%B0%EC%9E%88%EB%8A%94%E2%80%85%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC/%EC%9D%B8%EA%B8%B0%EC%9E%88%EB%8A%94%E2%80%85%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC.sql)|2026.05.28|
+|144853. 조건에 맞는 도서 리스트 출력하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/144853.%E2%80%85%EC%A1%B0%EA%B1%B4%EC%97%90%E2%80%85%EB%A7%9E%EB%8A%94%E2%80%85%EB%8F%84%EC%84%9C%E2%80%85%EB%A6%AC%EC%8A%A4%ED%8A%B8%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/%EC%A1%B0%EA%B1%B4%EC%97%90%E2%80%85%EB%A7%9E%EB%8A%94%E2%80%85%EB%8F%84%EC%84%9C%E2%80%85%EB%A6%AC%EC%8A%A4%ED%8A%B8%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.sql)|2026.05.28|
+|164673. 조건에 부합하는 중고거래 댓글 조회하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/164673.%E2%80%85%EC%A1%B0%EA%B1%B4%EC%97%90%E2%80%85%EB%B6%80%ED%95%A9%ED%95%98%EB%8A%94%E2%80%85%EC%A4%91%EA%B3%A0%EA%B1%B0%EB%9E%98%E2%80%85%EB%8C%93%EA%B8%80%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/%EC%A1%B0%EA%B1%B4%EC%97%90%E2%80%85%EB%B6%80%ED%95%A9%ED%95%98%EB%8A%94%E2%80%85%EC%A4%91%EA%B3%A0%EA%B1%B0%EB%9E%98%E2%80%85%EB%8C%93%EA%B8%80%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0.sql)|2026.05.28|
+|42576. 완주하지 못한 선수|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/42576.%E2%80%85%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%E2%80%85%EB%AA%BB%ED%95%9C%E2%80%85%EC%84%A0%EC%88%98/%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%E2%80%85%EB%AA%BB%ED%95%9C%E2%80%85%EC%84%A0%EC%88%98.java)|2026.07.22|
 ### 🚀 2
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
-|131120. 3월에 태어난 여성 회원 목록 출력하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/131120.%E2%80%853%EC%9B%94%EC%97%90%E2%80%85%ED%83%9C%EC%96%B4%EB%82%9C%E2%80%85%EC%97%AC%EC%84%B1%E2%80%85%ED%9A%8C%EC%9B%90%E2%80%85%EB%AA%A9%EB%A1%9D%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/README.md)|2026.05.28|
-|131533. 상품 별 오프라인 매출 구하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/131533.%E2%80%85%EC%83%81%ED%92%88%E2%80%85%EB%B3%84%E2%80%85%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8%E2%80%85%EB%A7%A4%EC%B6%9C%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/README.md)|2026.05.30|
-|132202. 진료과별 총 예약 횟수 출력하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/132202.%E2%80%85%EC%A7%84%EB%A3%8C%EA%B3%BC%EB%B3%84%E2%80%85%EC%B4%9D%E2%80%85%EC%98%88%EC%95%BD%E2%80%85%ED%9A%9F%EC%88%98%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/README.md)|2026.05.30|
-|133026. 성분으로 구분한 아이스크림 총 주문량|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/133026.%E2%80%85%EC%84%B1%EB%B6%84%EC%9C%BC%EB%A1%9C%E2%80%85%EA%B5%AC%EB%B6%84%ED%95%9C%E2%80%85%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC%E2%80%85%EC%B4%9D%E2%80%85%EC%A3%BC%EB%AC%B8%EB%9F%89/README.md)|2026.05.30|
+|131120. 3월에 태어난 여성 회원 목록 출력하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/131120.%E2%80%853%EC%9B%94%EC%97%90%E2%80%85%ED%83%9C%EC%96%B4%EB%82%9C%E2%80%85%EC%97%AC%EC%84%B1%E2%80%85%ED%9A%8C%EC%9B%90%E2%80%85%EB%AA%A9%EB%A1%9D%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/3%EC%9B%94%EC%97%90%E2%80%85%ED%83%9C%EC%96%B4%EB%82%9C%E2%80%85%EC%97%AC%EC%84%B1%E2%80%85%ED%9A%8C%EC%9B%90%E2%80%85%EB%AA%A9%EB%A1%9D%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.sql)|2026.05.28|
+|131533. 상품 별 오프라인 매출 구하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/131533.%E2%80%85%EC%83%81%ED%92%88%E2%80%85%EB%B3%84%E2%80%85%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8%E2%80%85%EB%A7%A4%EC%B6%9C%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/%EC%83%81%ED%92%88%E2%80%85%EB%B3%84%E2%80%85%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8%E2%80%85%EB%A7%A4%EC%B6%9C%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0.sql)|2026.05.30|
+|132202. 진료과별 총 예약 횟수 출력하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/132202.%E2%80%85%EC%A7%84%EB%A3%8C%EA%B3%BC%EB%B3%84%E2%80%85%EC%B4%9D%E2%80%85%EC%98%88%EC%95%BD%E2%80%85%ED%9A%9F%EC%88%98%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/%EC%A7%84%EB%A3%8C%EA%B3%BC%EB%B3%84%E2%80%85%EC%B4%9D%E2%80%85%EC%98%88%EC%95%BD%E2%80%85%ED%9A%9F%EC%88%98%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.sql)|2026.05.30|
+|133026. 성분으로 구분한 아이스크림 총 주문량|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/133026.%E2%80%85%EC%84%B1%EB%B6%84%EC%9C%BC%EB%A1%9C%E2%80%85%EA%B5%AC%EB%B6%84%ED%95%9C%E2%80%85%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC%E2%80%85%EC%B4%9D%E2%80%85%EC%A3%BC%EB%AC%B8%EB%9F%89/%EC%84%B1%EB%B6%84%EC%9C%BC%EB%A1%9C%E2%80%85%EA%B5%AC%EB%B6%84%ED%95%9C%E2%80%85%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC%E2%80%85%EC%B4%9D%E2%80%85%EC%A3%BC%EB%AC%B8%EB%9F%89.sql)|2026.05.30|
 |276034. 조건에 맞는 개발자 찾기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/276034.%E2%80%85%EC%A1%B0%EA%B1%B4%EC%97%90%E2%80%85%EB%A7%9E%EB%8A%94%E2%80%85%EA%B0%9C%EB%B0%9C%EC%9E%90%E2%80%85%EC%B0%BE%EA%B8%B0/%EC%A1%B0%EA%B1%B4%EC%97%90%E2%80%85%EB%A7%9E%EB%8A%94%E2%80%85%EA%B0%9C%EB%B0%9C%EC%9E%90%E2%80%85%EC%B0%BE%EA%B8%B0.sql)|2026.05.29|
-|284527. 조건에 맞는 사원 정보 조회하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/284527.%E2%80%85%EC%A1%B0%EA%B1%B4%EC%97%90%E2%80%85%EB%A7%9E%EB%8A%94%E2%80%85%EC%82%AC%EC%9B%90%E2%80%85%EC%A0%95%EB%B3%B4%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/README.md)|2026.05.30|
+|284527. 조건에 맞는 사원 정보 조회하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/284527.%E2%80%85%EC%A1%B0%EA%B1%B4%EC%97%90%E2%80%85%EB%A7%9E%EB%8A%94%E2%80%85%EC%82%AC%EC%9B%90%E2%80%85%EC%A0%95%EB%B3%B4%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/%EC%A1%B0%EA%B1%B4%EC%97%90%E2%80%85%EB%A7%9E%EB%8A%94%E2%80%85%EC%82%AC%EC%9B%90%E2%80%85%EC%A0%95%EB%B3%B4%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0.sql)|2026.05.30|
 |284531. 노선별 평균 역 사이 거리 조회하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/284531.%E2%80%85%EB%85%B8%EC%84%A0%EB%B3%84%E2%80%85%ED%8F%89%EA%B7%A0%E2%80%85%EC%97%AD%E2%80%85%EC%82%AC%EC%9D%B4%E2%80%85%EA%B1%B0%EB%A6%AC%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/%EB%85%B8%EC%84%A0%EB%B3%84%E2%80%85%ED%8F%89%EA%B7%A0%E2%80%85%EC%97%AD%E2%80%85%EC%82%AC%EC%9D%B4%E2%80%85%EA%B1%B0%EB%A6%AC%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0.sql)|2026.05.30|
-|293260. 월별 잡은 물고기 수 구하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/293260.%E2%80%85%EC%9B%94%EB%B3%84%E2%80%85%EC%9E%A1%EC%9D%80%E2%80%85%EB%AC%BC%EA%B3%A0%EA%B8%B0%E2%80%85%EC%88%98%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/README.md)|2026.05.30|
-|301647. 부모의 형질을 모두 가지는 대장균 찾기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/301647.%E2%80%85%EB%B6%80%EB%AA%A8%EC%9D%98%E2%80%85%ED%98%95%EC%A7%88%EC%9D%84%E2%80%85%EB%AA%A8%EB%91%90%E2%80%85%EA%B0%80%EC%A7%80%EB%8A%94%E2%80%85%EB%8C%80%EC%9E%A5%EA%B7%A0%E2%80%85%EC%B0%BE%EA%B8%B0/README.md)|2026.05.29|
-|42586. 기능개발|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42586.%E2%80%85%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C/README.md)|2026.05.12|
-|42747. H－Index|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42747.%E2%80%85H%EF%BC%8DIndex/README.md)|2026.05.01|
-|59041. 동명 동물 수 찾기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/59041.%E2%80%85%EB%8F%99%EB%AA%85%E2%80%85%EB%8F%99%EB%AC%BC%E2%80%85%EC%88%98%E2%80%85%EC%B0%BE%EA%B8%B0/README.md)|2026.05.30|
+|293260. 월별 잡은 물고기 수 구하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/293260.%E2%80%85%EC%9B%94%EB%B3%84%E2%80%85%EC%9E%A1%EC%9D%80%E2%80%85%EB%AC%BC%EA%B3%A0%EA%B8%B0%E2%80%85%EC%88%98%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/%EC%9B%94%EB%B3%84%E2%80%85%EC%9E%A1%EC%9D%80%E2%80%85%EB%AC%BC%EA%B3%A0%EA%B8%B0%E2%80%85%EC%88%98%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0.sql)|2026.05.30|
+|301647. 부모의 형질을 모두 가지는 대장균 찾기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/301647.%E2%80%85%EB%B6%80%EB%AA%A8%EC%9D%98%E2%80%85%ED%98%95%EC%A7%88%EC%9D%84%E2%80%85%EB%AA%A8%EB%91%90%E2%80%85%EA%B0%80%EC%A7%80%EB%8A%94%E2%80%85%EB%8C%80%EC%9E%A5%EA%B7%A0%E2%80%85%EC%B0%BE%EA%B8%B0/%EB%B6%80%EB%AA%A8%EC%9D%98%E2%80%85%ED%98%95%EC%A7%88%EC%9D%84%E2%80%85%EB%AA%A8%EB%91%90%E2%80%85%EA%B0%80%EC%A7%80%EB%8A%94%E2%80%85%EB%8C%80%EC%9E%A5%EA%B7%A0%E2%80%85%EC%B0%BE%EA%B8%B0.sql)|2026.05.29|
+|42586. 기능개발|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42586.%E2%80%85%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C/%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C.java)|2026.05.12|
+|42747. H－Index|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42747.%E2%80%85H%EF%BC%8DIndex/H%EF%BC%8DIndex.java)|2026.05.01|
+|59041. 동명 동물 수 찾기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/59041.%E2%80%85%EB%8F%99%EB%AA%85%E2%80%85%EB%8F%99%EB%AC%BC%E2%80%85%EC%88%98%E2%80%85%EC%B0%BE%EA%B8%B0/%EB%8F%99%EB%AA%85%E2%80%85%EB%8F%99%EB%AC%BC%E2%80%85%EC%88%98%E2%80%85%EC%B0%BE%EA%B8%B0.undefined)|2026.05.30|
 |59412. 입양 시각 구하기（1）|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/59412.%E2%80%85%EC%9E%85%EC%96%91%E2%80%85%EC%8B%9C%EA%B0%81%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0%EF%BC%881%EF%BC%89/%EC%9E%85%EC%96%91%E2%80%85%EC%8B%9C%EA%B0%81%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0%EF%BC%881%EF%BC%89.sql)|2026.05.30|
 |84512. 모음 사전|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/84512.%E2%80%85%EB%AA%A8%EC%9D%8C%E2%80%85%EC%82%AC%EC%A0%84/%EB%AA%A8%EC%9D%8C%E2%80%85%EC%82%AC%EC%A0%84.java)|2026.07.22|
+|86971. 전력망을 둘로 나누기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/86971.%E2%80%85%EC%A0%84%EB%A0%A5%EB%A7%9D%EC%9D%84%E2%80%85%EB%91%98%EB%A1%9C%E2%80%85%EB%82%98%EB%88%84%EA%B8%B0/README.md)|2026.07.23|
 ### 🚀 3
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
-|118669. 등산코스 정하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/118669.%E2%80%85%EB%93%B1%EC%82%B0%EC%BD%94%EC%8A%A4%E2%80%85%EC%A0%95%ED%95%98%EA%B8%B0/README.md)|2026.05.14|
+|118669. 등산코스 정하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/118669.%E2%80%85%EB%93%B1%EC%82%B0%EC%BD%94%EC%8A%A4%E2%80%85%EC%A0%95%ED%95%98%EA%B8%B0/%EB%93%B1%EC%82%B0%EC%BD%94%EC%8A%A4%E2%80%85%EC%A0%95%ED%95%98%EA%B8%B0.java)|2026.05.14|
 |12904. 가장 긴 팰린드롬|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/12904.%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%EA%B8%B4%E2%80%85%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC/README.md)|2026.05.06|
-|12907. 거스름돈|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/12907.%E2%80%85%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88/README.md)|2026.05.07|
+|12907. 거스름돈|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/12907.%E2%80%85%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88/%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88.java)|2026.05.07|
 |131123. 즐겨찾기가 가장 많은 식당 정보 출력하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/131123.%E2%80%85%EC%A6%90%EA%B2%A8%EC%B0%BE%EA%B8%B0%EA%B0%80%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%EB%A7%8E%EC%9D%80%E2%80%85%EC%8B%9D%EB%8B%B9%E2%80%85%EC%A0%95%EB%B3%B4%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/%EC%A6%90%EA%B2%A8%EC%B0%BE%EA%B8%B0%EA%B0%80%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%EB%A7%8E%EC%9D%80%E2%80%85%EC%8B%9D%EB%8B%B9%E2%80%85%EC%A0%95%EB%B3%B4%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.sql)|2026.05.30|
-|132266. 부대복귀|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/132266.%E2%80%85%EB%B6%80%EB%8C%80%EB%B3%B5%EA%B7%80/README.md)|2026.05.06|
+|132266. 부대복귀|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/132266.%E2%80%85%EB%B6%80%EB%8C%80%EB%B3%B5%EA%B7%80/%EB%B6%80%EB%8C%80%EB%B3%B5%EA%B7%80.java)|2026.05.06|
 |150365. 미로 탈출 명령어|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/150365.%E2%80%85%EB%AF%B8%EB%A1%9C%E2%80%85%ED%83%88%EC%B6%9C%E2%80%85%EB%AA%85%EB%A0%B9%EC%96%B4/README.md)|2026.05.02|
-|151139. 대여 횟수가 많은 자동차들의 월별 대여 횟수 구하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/151139.%E2%80%85%EB%8C%80%EC%97%AC%E2%80%85%ED%9A%9F%EC%88%98%EA%B0%80%E2%80%85%EB%A7%8E%EC%9D%80%E2%80%85%EC%9E%90%EB%8F%99%EC%B0%A8%EB%93%A4%EC%9D%98%E2%80%85%EC%9B%94%EB%B3%84%E2%80%85%EB%8C%80%EC%97%AC%E2%80%85%ED%9A%9F%EC%88%98%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/README.md)|2026.05.30|
-|152995. 인사고과|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/152995.%E2%80%85%EC%9D%B8%EC%82%AC%EA%B3%A0%EA%B3%BC/README.md)|2026.05.09|
-|157340. 자동차 대여 기록에서 대여중 ／ 대여 가능 여부 구분하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/157340.%E2%80%85%EC%9E%90%EB%8F%99%EC%B0%A8%E2%80%85%EB%8C%80%EC%97%AC%E2%80%85%EA%B8%B0%EB%A1%9D%EC%97%90%EC%84%9C%E2%80%85%EB%8C%80%EC%97%AC%EC%A4%91%E2%80%85%EF%BC%8F%E2%80%85%EB%8C%80%EC%97%AC%E2%80%85%EA%B0%80%EB%8A%A5%E2%80%85%EC%97%AC%EB%B6%80%E2%80%85%EA%B5%AC%EB%B6%84%ED%95%98%EA%B8%B0/README.md)|2026.05.30|
-|161988. 연속 펄스 부분 수열의 합|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/161988.%E2%80%85%EC%97%B0%EC%86%8D%E2%80%85%ED%8E%84%EC%8A%A4%E2%80%85%EB%B6%80%EB%B6%84%E2%80%85%EC%88%98%EC%97%B4%EC%9D%98%E2%80%85%ED%95%A9/README.md)|2026.05.06|
-|17678. ［1차］ 셔틀버스|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/17678.%E2%80%85%EF%BC%BB1%EC%B0%A8%EF%BC%BD%E2%80%85%EC%85%94%ED%8B%80%EB%B2%84%EC%8A%A4/README.md)|2026.05.08|
-|284529. 부서별 평균 연봉 조회하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/284529.%E2%80%85%EB%B6%80%EC%84%9C%EB%B3%84%E2%80%85%ED%8F%89%EA%B7%A0%E2%80%85%EC%97%B0%EB%B4%89%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/README.md)|2026.05.30|
+|151139. 대여 횟수가 많은 자동차들의 월별 대여 횟수 구하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/151139.%E2%80%85%EB%8C%80%EC%97%AC%E2%80%85%ED%9A%9F%EC%88%98%EA%B0%80%E2%80%85%EB%A7%8E%EC%9D%80%E2%80%85%EC%9E%90%EB%8F%99%EC%B0%A8%EB%93%A4%EC%9D%98%E2%80%85%EC%9B%94%EB%B3%84%E2%80%85%EB%8C%80%EC%97%AC%E2%80%85%ED%9A%9F%EC%88%98%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/%EB%8C%80%EC%97%AC%E2%80%85%ED%9A%9F%EC%88%98%EA%B0%80%E2%80%85%EB%A7%8E%EC%9D%80%E2%80%85%EC%9E%90%EB%8F%99%EC%B0%A8%EB%93%A4%EC%9D%98%E2%80%85%EC%9B%94%EB%B3%84%E2%80%85%EB%8C%80%EC%97%AC%E2%80%85%ED%9A%9F%EC%88%98%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0.sql)|2026.05.30|
+|152995. 인사고과|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/152995.%E2%80%85%EC%9D%B8%EC%82%AC%EA%B3%A0%EA%B3%BC/%EC%9D%B8%EC%82%AC%EA%B3%A0%EA%B3%BC.java)|2026.05.09|
+|157340. 자동차 대여 기록에서 대여중 ／ 대여 가능 여부 구분하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/157340.%E2%80%85%EC%9E%90%EB%8F%99%EC%B0%A8%E2%80%85%EB%8C%80%EC%97%AC%E2%80%85%EA%B8%B0%EB%A1%9D%EC%97%90%EC%84%9C%E2%80%85%EB%8C%80%EC%97%AC%EC%A4%91%E2%80%85%EF%BC%8F%E2%80%85%EB%8C%80%EC%97%AC%E2%80%85%EA%B0%80%EB%8A%A5%E2%80%85%EC%97%AC%EB%B6%80%E2%80%85%EA%B5%AC%EB%B6%84%ED%95%98%EA%B8%B0/%EC%9E%90%EB%8F%99%EC%B0%A8%E2%80%85%EB%8C%80%EC%97%AC%E2%80%85%EA%B8%B0%EB%A1%9D%EC%97%90%EC%84%9C%E2%80%85%EB%8C%80%EC%97%AC%EC%A4%91%E2%80%85%EF%BC%8F%E2%80%85%EB%8C%80%EC%97%AC%E2%80%85%EA%B0%80%EB%8A%A5%E2%80%85%EC%97%AC%EB%B6%80%E2%80%85%EA%B5%AC%EB%B6%84%ED%95%98%EA%B8%B0.sql)|2026.05.30|
+|161988. 연속 펄스 부분 수열의 합|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/161988.%E2%80%85%EC%97%B0%EC%86%8D%E2%80%85%ED%8E%84%EC%8A%A4%E2%80%85%EB%B6%80%EB%B6%84%E2%80%85%EC%88%98%EC%97%B4%EC%9D%98%E2%80%85%ED%95%A9/%EC%97%B0%EC%86%8D%E2%80%85%ED%8E%84%EC%8A%A4%E2%80%85%EB%B6%80%EB%B6%84%E2%80%85%EC%88%98%EC%97%B4%EC%9D%98%E2%80%85%ED%95%A9.java)|2026.05.06|
+|17678. ［1차］ 셔틀버스|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/17678.%E2%80%85%EF%BC%BB1%EC%B0%A8%EF%BC%BD%E2%80%85%EC%85%94%ED%8B%80%EB%B2%84%EC%8A%A4/%EF%BC%BB1%EC%B0%A8%EF%BC%BD%E2%80%85%EC%85%94%ED%8B%80%EB%B2%84%EC%8A%A4.java)|2026.05.08|
+|284529. 부서별 평균 연봉 조회하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/284529.%E2%80%85%EB%B6%80%EC%84%9C%EB%B3%84%E2%80%85%ED%8F%89%EA%B7%A0%E2%80%85%EC%97%B0%EB%B4%89%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/%EB%B6%80%EC%84%9C%EB%B3%84%E2%80%85%ED%8F%89%EA%B7%A0%E2%80%85%EC%97%B0%EB%B4%89%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0.sql)|2026.05.30|
 |298519. 특정 조건을 만족하는 물고기별 수와 최대 길이 구하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/298519.%E2%80%85%ED%8A%B9%EC%A0%95%E2%80%85%EC%A1%B0%EA%B1%B4%EC%9D%84%E2%80%85%EB%A7%8C%EC%A1%B1%ED%95%98%EB%8A%94%E2%80%85%EB%AC%BC%EA%B3%A0%EA%B8%B0%EB%B3%84%E2%80%85%EC%88%98%EC%99%80%E2%80%85%EC%B5%9C%EB%8C%80%E2%80%85%EA%B8%B8%EC%9D%B4%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/%ED%8A%B9%EC%A0%95%E2%80%85%EC%A1%B0%EA%B1%B4%EC%9D%84%E2%80%85%EB%A7%8C%EC%A1%B1%ED%95%98%EB%8A%94%E2%80%85%EB%AC%BC%EA%B3%A0%EA%B8%B0%EB%B3%84%E2%80%85%EC%88%98%EC%99%80%E2%80%85%EC%B5%9C%EB%8C%80%E2%80%85%EA%B8%B8%EC%9D%B4%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0.sql)|2026.05.30|
-|42892. 길 찾기 게임|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/42892.%E2%80%85%EA%B8%B8%E2%80%85%EC%B0%BE%EA%B8%B0%E2%80%85%EA%B2%8C%EC%9E%84/README.md)|2026.05.01|
-|59044. 오랜 기간 보호한 동물（1）|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/59044.%E2%80%85%EC%98%A4%EB%9E%9C%E2%80%85%EA%B8%B0%EA%B0%84%E2%80%85%EB%B3%B4%ED%98%B8%ED%95%9C%E2%80%85%EB%8F%99%EB%AC%BC%EF%BC%881%EF%BC%89/README.md)|2026.05.30|
+|42892. 길 찾기 게임|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/42892.%E2%80%85%EA%B8%B8%E2%80%85%EC%B0%BE%EA%B8%B0%E2%80%85%EA%B2%8C%EC%9E%84/%EA%B8%B8%E2%80%85%EC%B0%BE%EA%B8%B0%E2%80%85%EA%B2%8C%EC%9E%84.java)|2026.05.01|
+|59044. 오랜 기간 보호한 동물（1）|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/59044.%E2%80%85%EC%98%A4%EB%9E%9C%E2%80%85%EA%B8%B0%EA%B0%84%E2%80%85%EB%B3%B4%ED%98%B8%ED%95%9C%E2%80%85%EB%8F%99%EB%AC%BC%EF%BC%881%EF%BC%89/%EC%98%A4%EB%9E%9C%E2%80%85%EA%B8%B0%EA%B0%84%E2%80%85%EB%B3%B4%ED%98%B8%ED%95%9C%E2%80%85%EB%8F%99%EB%AC%BC%EF%BC%881%EF%BC%89.sql)|2026.05.30|
 |60063. 블록 이동하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/60063.%E2%80%85%EB%B8%94%EB%A1%9D%E2%80%85%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0/%EB%B8%94%EB%A1%9D%E2%80%85%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0.java)|2026.05.14|
-|68646. 풍선 터트리기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/68646.%E2%80%85%ED%92%8D%EC%84%A0%E2%80%85%ED%84%B0%ED%8A%B8%EB%A6%AC%EA%B8%B0/README.md)|2026.05.03|
-|77486. 다단계 칫솔 판매|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/77486.%E2%80%85%EB%8B%A4%EB%8B%A8%EA%B3%84%E2%80%85%EC%B9%AB%EC%86%94%E2%80%85%ED%8C%90%EB%A7%A4/README.md)|2026.05.07|
-|81303. 표 편집|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/81303.%E2%80%85%ED%91%9C%E2%80%85%ED%8E%B8%EC%A7%91/README.md)|2026.05.11|
-|92343. 양과 늑대|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/92343.%E2%80%85%EC%96%91%EA%B3%BC%E2%80%85%EB%8A%91%EB%8C%80/README.md)|2026.05.01|
-|92344. 파괴되지 않은 건물|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/92344.%E2%80%85%ED%8C%8C%EA%B4%B4%EB%90%98%EC%A7%80%E2%80%85%EC%95%8A%EC%9D%80%E2%80%85%EA%B1%B4%EB%AC%BC/README.md)|2026.05.03|
+|68646. 풍선 터트리기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/68646.%E2%80%85%ED%92%8D%EC%84%A0%E2%80%85%ED%84%B0%ED%8A%B8%EB%A6%AC%EA%B8%B0/%ED%92%8D%EC%84%A0%E2%80%85%ED%84%B0%ED%8A%B8%EB%A6%AC%EA%B8%B0.java)|2026.05.03|
+|77486. 다단계 칫솔 판매|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/77486.%E2%80%85%EB%8B%A4%EB%8B%A8%EA%B3%84%E2%80%85%EC%B9%AB%EC%86%94%E2%80%85%ED%8C%90%EB%A7%A4/%EB%8B%A4%EB%8B%A8%EA%B3%84%E2%80%85%EC%B9%AB%EC%86%94%E2%80%85%ED%8C%90%EB%A7%A4.java)|2026.05.07|
+|81303. 표 편집|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/81303.%E2%80%85%ED%91%9C%E2%80%85%ED%8E%B8%EC%A7%91/%ED%91%9C%E2%80%85%ED%8E%B8%EC%A7%91.java)|2026.05.11|
+|92343. 양과 늑대|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/92343.%E2%80%85%EC%96%91%EA%B3%BC%E2%80%85%EB%8A%91%EB%8C%80/%EC%96%91%EA%B3%BC%E2%80%85%EB%8A%91%EB%8C%80.java)|2026.05.01|
+|92344. 파괴되지 않은 건물|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/92344.%E2%80%85%ED%8C%8C%EA%B4%B4%EB%90%98%EC%A7%80%E2%80%85%EC%95%8A%EC%9D%80%E2%80%85%EA%B1%B4%EB%AC%BC/%ED%8C%8C%EA%B4%B4%EB%90%98%EC%A7%80%E2%80%85%EC%95%8A%EC%9D%80%E2%80%85%EA%B1%B4%EB%AC%BC.java)|2026.05.03|
 ### 🚀 4
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
-|131116. 식품분류별 가장 비싼 식품의 정보 조회하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/131116.%E2%80%85%EC%8B%9D%ED%92%88%EB%B6%84%EB%A5%98%EB%B3%84%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%EB%B9%84%EC%8B%BC%E2%80%85%EC%8B%9D%ED%92%88%EC%9D%98%E2%80%85%EC%A0%95%EB%B3%B4%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/README.md)|2026.05.30|
+|131116. 식품분류별 가장 비싼 식품의 정보 조회하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/131116.%E2%80%85%EC%8B%9D%ED%92%88%EB%B6%84%EB%A5%98%EB%B3%84%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%EB%B9%84%EC%8B%BC%E2%80%85%EC%8B%9D%ED%92%88%EC%9D%98%E2%80%85%EC%A0%95%EB%B3%B4%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/%EC%8B%9D%ED%92%88%EB%B6%84%EB%A5%98%EB%B3%84%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%EB%B9%84%EC%8B%BC%E2%80%85%EC%8B%9D%ED%92%88%EC%9D%98%E2%80%85%EC%A0%95%EB%B3%B4%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0.sql)|2026.05.30|
 |131117. 5월 식품들의 총매출 조회하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/131117.%E2%80%855%EC%9B%94%E2%80%85%EC%8B%9D%ED%92%88%EB%93%A4%EC%9D%98%E2%80%85%EC%B4%9D%EB%A7%A4%EC%B6%9C%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/5%EC%9B%94%E2%80%85%EC%8B%9D%ED%92%88%EB%93%A4%EC%9D%98%E2%80%85%EC%B4%9D%EB%A7%A4%EC%B6%9C%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0.sql)|2026.05.30|
 |131118. 서울에 위치한 식당 목록 출력하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/131118.%E2%80%85%EC%84%9C%EC%9A%B8%EC%97%90%E2%80%85%EC%9C%84%EC%B9%98%ED%95%9C%E2%80%85%EC%8B%9D%EB%8B%B9%E2%80%85%EB%AA%A9%EB%A1%9D%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/README.md)|2026.05.29|
-|131124. 그룹별 조건에 맞는 식당 목록 출력하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/131124.%E2%80%85%EA%B7%B8%EB%A3%B9%EB%B3%84%E2%80%85%EC%A1%B0%EA%B1%B4%EC%97%90%E2%80%85%EB%A7%9E%EB%8A%94%E2%80%85%EC%8B%9D%EB%8B%B9%E2%80%85%EB%AA%A9%EB%A1%9D%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/README.md)|2026.05.30|
-|131532. 년， 월， 성별 별 상품 구매 회원 수 구하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/131532.%E2%80%85%EB%85%84%EF%BC%8C%E2%80%85%EC%9B%94%EF%BC%8C%E2%80%85%EC%84%B1%EB%B3%84%E2%80%85%EB%B3%84%E2%80%85%EC%83%81%ED%92%88%E2%80%85%EA%B5%AC%EB%A7%A4%E2%80%85%ED%9A%8C%EC%9B%90%E2%80%85%EC%88%98%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/README.md)|2026.05.30|
-|131537. 오프라인／온라인 판매 데이터 통합하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/131537.%E2%80%85%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8%EF%BC%8F%EC%98%A8%EB%9D%BC%EC%9D%B8%E2%80%85%ED%8C%90%EB%A7%A4%E2%80%85%EB%8D%B0%EC%9D%B4%ED%84%B0%E2%80%85%ED%86%B5%ED%95%A9%ED%95%98%EA%B8%B0/README.md)|2026.05.28|
-|144856. 저자 별 카테고리 별 매출액 집계하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/144856.%E2%80%85%EC%A0%80%EC%9E%90%E2%80%85%EB%B3%84%E2%80%85%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%E2%80%85%EB%B3%84%E2%80%85%EB%A7%A4%EC%B6%9C%EC%95%A1%E2%80%85%EC%A7%91%EA%B3%84%ED%95%98%EA%B8%B0/README.md)|2026.05.30|
-|157339. 특정 기간동안 대여 가능한 자동차들의 대여비용 구하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/157339.%E2%80%85%ED%8A%B9%EC%A0%95%E2%80%85%EA%B8%B0%EA%B0%84%EB%8F%99%EC%95%88%E2%80%85%EB%8C%80%EC%97%AC%E2%80%85%EA%B0%80%EB%8A%A5%ED%95%9C%E2%80%85%EC%9E%90%EB%8F%99%EC%B0%A8%EB%93%A4%EC%9D%98%E2%80%85%EB%8C%80%EC%97%AC%EB%B9%84%EC%9A%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/README.md)|2026.05.30|
+|131124. 그룹별 조건에 맞는 식당 목록 출력하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/131124.%E2%80%85%EA%B7%B8%EB%A3%B9%EB%B3%84%E2%80%85%EC%A1%B0%EA%B1%B4%EC%97%90%E2%80%85%EB%A7%9E%EB%8A%94%E2%80%85%EC%8B%9D%EB%8B%B9%E2%80%85%EB%AA%A9%EB%A1%9D%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/%EA%B7%B8%EB%A3%B9%EB%B3%84%E2%80%85%EC%A1%B0%EA%B1%B4%EC%97%90%E2%80%85%EB%A7%9E%EB%8A%94%E2%80%85%EC%8B%9D%EB%8B%B9%E2%80%85%EB%AA%A9%EB%A1%9D%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.sql)|2026.05.30|
+|131532. 년， 월， 성별 별 상품 구매 회원 수 구하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/131532.%E2%80%85%EB%85%84%EF%BC%8C%E2%80%85%EC%9B%94%EF%BC%8C%E2%80%85%EC%84%B1%EB%B3%84%E2%80%85%EB%B3%84%E2%80%85%EC%83%81%ED%92%88%E2%80%85%EA%B5%AC%EB%A7%A4%E2%80%85%ED%9A%8C%EC%9B%90%E2%80%85%EC%88%98%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/%EB%85%84%EF%BC%8C%E2%80%85%EC%9B%94%EF%BC%8C%E2%80%85%EC%84%B1%EB%B3%84%E2%80%85%EB%B3%84%E2%80%85%EC%83%81%ED%92%88%E2%80%85%EA%B5%AC%EB%A7%A4%E2%80%85%ED%9A%8C%EC%9B%90%E2%80%85%EC%88%98%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0.sql)|2026.05.30|
+|131537. 오프라인／온라인 판매 데이터 통합하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/131537.%E2%80%85%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8%EF%BC%8F%EC%98%A8%EB%9D%BC%EC%9D%B8%E2%80%85%ED%8C%90%EB%A7%A4%E2%80%85%EB%8D%B0%EC%9D%B4%ED%84%B0%E2%80%85%ED%86%B5%ED%95%A9%ED%95%98%EA%B8%B0/%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8%EF%BC%8F%EC%98%A8%EB%9D%BC%EC%9D%B8%E2%80%85%ED%8C%90%EB%A7%A4%E2%80%85%EB%8D%B0%EC%9D%B4%ED%84%B0%E2%80%85%ED%86%B5%ED%95%A9%ED%95%98%EA%B8%B0.sql)|2026.05.28|
+|144856. 저자 별 카테고리 별 매출액 집계하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/144856.%E2%80%85%EC%A0%80%EC%9E%90%E2%80%85%EB%B3%84%E2%80%85%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%E2%80%85%EB%B3%84%E2%80%85%EB%A7%A4%EC%B6%9C%EC%95%A1%E2%80%85%EC%A7%91%EA%B3%84%ED%95%98%EA%B8%B0/%EC%A0%80%EC%9E%90%E2%80%85%EB%B3%84%E2%80%85%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%E2%80%85%EB%B3%84%E2%80%85%EB%A7%A4%EC%B6%9C%EC%95%A1%E2%80%85%EC%A7%91%EA%B3%84%ED%95%98%EA%B8%B0.sql)|2026.05.30|
+|157339. 특정 기간동안 대여 가능한 자동차들의 대여비용 구하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/157339.%E2%80%85%ED%8A%B9%EC%A0%95%E2%80%85%EA%B8%B0%EA%B0%84%EB%8F%99%EC%95%88%E2%80%85%EB%8C%80%EC%97%AC%E2%80%85%EA%B0%80%EB%8A%A5%ED%95%9C%E2%80%85%EC%9E%90%EB%8F%99%EC%B0%A8%EB%93%A4%EC%9D%98%E2%80%85%EB%8C%80%EC%97%AC%EB%B9%84%EC%9A%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/%ED%8A%B9%EC%A0%95%E2%80%85%EA%B8%B0%EA%B0%84%EB%8F%99%EC%95%88%E2%80%85%EB%8C%80%EC%97%AC%E2%80%85%EA%B0%80%EB%8A%A5%ED%95%9C%E2%80%85%EC%9E%90%EB%8F%99%EC%B0%A8%EB%93%A4%EC%9D%98%E2%80%85%EB%8C%80%EC%97%AC%EB%B9%84%EC%9A%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0.sql)|2026.05.30|
 |284528. 연간 평가점수에 해당하는 평가 등급 및 성과금 조회하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/284528.%E2%80%85%EC%97%B0%EA%B0%84%E2%80%85%ED%8F%89%EA%B0%80%EC%A0%90%EC%88%98%EC%97%90%E2%80%85%ED%95%B4%EB%8B%B9%ED%95%98%EB%8A%94%E2%80%85%ED%8F%89%EA%B0%80%E2%80%85%EB%93%B1%EA%B8%89%E2%80%85%EB%B0%8F%E2%80%85%EC%84%B1%EA%B3%BC%EA%B8%88%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0/%EC%97%B0%EA%B0%84%E2%80%85%ED%8F%89%EA%B0%80%EC%A0%90%EC%88%98%EC%97%90%E2%80%85%ED%95%B4%EB%8B%B9%ED%95%98%EB%8A%94%E2%80%85%ED%8F%89%EA%B0%80%E2%80%85%EB%93%B1%EA%B8%89%E2%80%85%EB%B0%8F%E2%80%85%EC%84%B1%EA%B3%BC%EA%B8%88%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0.sql)|2026.05.30|
-|301650. 특정 세대의 대장균 찾기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/301650.%E2%80%85%ED%8A%B9%EC%A0%95%E2%80%85%EC%84%B8%EB%8C%80%EC%9D%98%E2%80%85%EB%8C%80%EC%9E%A5%EA%B7%A0%E2%80%85%EC%B0%BE%EA%B8%B0/README.md)|2026.05.29|
-|59045. 보호소에서 중성화한 동물|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/59045.%E2%80%85%EB%B3%B4%ED%98%B8%EC%86%8C%EC%97%90%EC%84%9C%E2%80%85%EC%A4%91%EC%84%B1%ED%99%94%ED%95%9C%E2%80%85%EB%8F%99%EB%AC%BC/README.md)|2026.05.30|
-|59413. 입양 시각 구하기（2）|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/59413.%E2%80%85%EC%9E%85%EC%96%91%E2%80%85%EC%8B%9C%EA%B0%81%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0%EF%BC%882%EF%BC%89/README.md)|2026.05.30|
+|301650. 특정 세대의 대장균 찾기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/301650.%E2%80%85%ED%8A%B9%EC%A0%95%E2%80%85%EC%84%B8%EB%8C%80%EC%9D%98%E2%80%85%EB%8C%80%EC%9E%A5%EA%B7%A0%E2%80%85%EC%B0%BE%EA%B8%B0/%ED%8A%B9%EC%A0%95%E2%80%85%EC%84%B8%EB%8C%80%EC%9D%98%E2%80%85%EB%8C%80%EC%9E%A5%EA%B7%A0%E2%80%85%EC%B0%BE%EA%B8%B0.sql)|2026.05.29|
+|59045. 보호소에서 중성화한 동물|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/59045.%E2%80%85%EB%B3%B4%ED%98%B8%EC%86%8C%EC%97%90%EC%84%9C%E2%80%85%EC%A4%91%EC%84%B1%ED%99%94%ED%95%9C%E2%80%85%EB%8F%99%EB%AC%BC/%EB%B3%B4%ED%98%B8%EC%86%8C%EC%97%90%EC%84%9C%E2%80%85%EC%A4%91%EC%84%B1%ED%99%94%ED%95%9C%E2%80%85%EB%8F%99%EB%AC%BC.sql)|2026.05.30|
+|59413. 입양 시각 구하기（2）|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/59413.%E2%80%85%EC%9E%85%EC%96%91%E2%80%85%EC%8B%9C%EA%B0%81%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0%EF%BC%882%EF%BC%89/%EC%9E%85%EC%96%91%E2%80%85%EC%8B%9C%EA%B0%81%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0%EF%BC%882%EF%BC%89.sql)|2026.05.30|
 ### 🚀 5
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
-|131534. 상품을 구매한 회원 비율 구하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/5/131534.%E2%80%85%EC%83%81%ED%92%88%EC%9D%84%E2%80%85%EA%B5%AC%EB%A7%A4%ED%95%9C%E2%80%85%ED%9A%8C%EC%9B%90%E2%80%85%EB%B9%84%EC%9C%A8%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/README.md)|2026.05.30|
+|131534. 상품을 구매한 회원 비율 구하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/5/131534.%E2%80%85%EC%83%81%ED%92%88%EC%9D%84%E2%80%85%EA%B5%AC%EB%A7%A4%ED%95%9C%E2%80%85%ED%9A%8C%EC%9B%90%E2%80%85%EB%B9%84%EC%9C%A8%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/%EC%83%81%ED%92%88%EC%9D%84%E2%80%85%EA%B5%AC%EB%A7%A4%ED%95%9C%E2%80%85%ED%9A%8C%EC%9B%90%E2%80%85%EB%B9%84%EC%9C%A8%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0.sql)|2026.05.30|

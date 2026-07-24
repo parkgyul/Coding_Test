@@ -1,42 +1,40 @@
 import java.util.*;
+
 class Solution {
-    static List<Integer>[] edges;
-    static int[] infos;
-    static int max;
-    public int solution(int[] info, int[][] edgesInfo) {
-        int n = info.length;
-        infos = info;
-        edges = new ArrayList[n+1];
+    static int max = 1;
+    static List<Integer>[] list;
+    static int[] info;
+    public int solution(int[] inf, int[][] edges) {
+        info = inf;
         
-        for(int i = 0; i < n+1; i++){
-            edges[i] = new ArrayList<>();
+        list = new ArrayList[inf.length];
+        
+        for(int i = 0; i < inf.length; i++){
+             list[i] = new ArrayList<>();
         }
         
-        for(int[] edge : edgesInfo){
-            int p = edge[0];
-            int c = edge[1];
-            
-            edges[p].add(c);
+        for(int[] e : edges){
+            list[e[0]].add(e[1]);
         }
         
         List<Integer> list = new ArrayList<>();
         list.add(0);
-        max = Integer.MIN_VALUE;
         
         dfs(0, 0, list);
         
         return max;
     }
     
-    public void dfs(int sheep, int wolf, List<Integer> candidates){
+    static void dfs(int sheep, int wolf, List<Integer> candidates){
+        
         for(int next : candidates){
-            int newSheep = sheep;
-            int newWolf = wolf;
-            
-            if(infos[next] == 0){ // 양
-                newSheep ++;
+            int newSheep, newWolf;
+            if(info[next] == 0){
+                newSheep = sheep+1;
+                newWolf = wolf;
             }else{
-                newWolf++;
+                newSheep = sheep;
+                newWolf = wolf+1;
             }
             
             if(newSheep == newWolf) continue;
@@ -45,7 +43,7 @@ class Solution {
             
             List<Integer> newCandidates = new ArrayList<>(candidates);
             newCandidates.remove(Integer.valueOf(next));
-            newCandidates.addAll(edges[next]);
+            newCandidates.addAll(list[next]);
             
             dfs(newSheep, newWolf, newCandidates);
         }

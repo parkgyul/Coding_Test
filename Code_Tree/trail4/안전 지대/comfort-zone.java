@@ -38,7 +38,7 @@ public class Main {
                 for(int j = 0; j < M; j++){
                     if(visited[i][j] || map[i][j] <= K) continue;
                     visited[i][j] = true;
-                    bfs(i, j, K);
+                    dfs(i, j, K);
                     cnt++;
                 }
             }
@@ -51,23 +51,16 @@ public class Main {
 
         System.out.print(minK + " " + max);
     }
-    static void bfs(int si, int ei, int K){
-        Queue<Point> q = new LinkedList<>();
-        q.add(new Point(si, ei));
+    static void dfs(int i, int j, int K){
+        for(int dir = 0; dir < 4; dir++){
+            int ni = i + dx[dir];
+            int nj = j + dy[dir];
 
-        while(!q.isEmpty()){
-            Point cur = q.poll();
-            
-            for(int i = 0; i < 4; i++){
-                int ni = cur.i + dx[i];
-                int nj = cur.j + dy[i];
+            if(ni < 0 || ni >= N || nj < 0 || nj >= M) continue;
+            if(visited[ni][nj] || map[ni][nj] <= K) continue;
 
-                if(ni < 0 || ni >= N || nj < 0 || nj >= M) continue;
-                if(visited[ni][nj] || map[ni][nj] <= K) continue;
-
-                visited[ni][nj] = true;
-                q.add(new Point(ni, nj));
-            }
+            visited[ni][nj] = true;
+            dfs(ni, nj, K);
         }
     }
 

@@ -18,11 +18,10 @@ public class Main {
         for(int i = 0; i < N; i++){
             int num = Integer.parseInt(st.nextToken());
             set.add(num);
-            Integer high = set.higher(num);
             int low = set.lower(num);
 
-            if(high != null){
-               min = Math.min(min, high-num);
+            if(set.higher(num) != null){
+               min = Math.min(min, set.higher(num)-num);
             }
             sb.append(min = Math.min(min, num - low)).append("\n");
         }

@@ -158,6 +158,7 @@
 |최단 거리 9|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%209/README.md)|2026.07.20|
 |최대 숫자 구하기|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8C%80%20%EC%88%AB%EC%9E%90%20%EA%B5%AC%ED%95%98%EA%B8%B0/find-maximum-number.java)|2026.07.28|
 |최대 직사각형 합|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8C%80%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%20%ED%95%A9/max-rect-sum-in-grid.java)|2026.07.19|
+|최대로 연속한 숫자|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8C%80%EB%A1%9C%20%EC%97%B0%EC%86%8D%ED%95%9C%20%EC%88%AB%EC%9E%90/README.md)|2026.07.28|
 |친한 점|[링크](./Code_Tree/trail5/%EC%B9%9C%ED%95%9C%20%EC%A0%90/frendly-point.java)|2026.07.28|
 ### 🚀 SWEA
 | 문제번호 | 링크 | 푼 날짜 |

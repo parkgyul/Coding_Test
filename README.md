@@ -142,6 +142,7 @@
 |자리 바꾸기 2|[링크](./Code_Tree/trail5/%EC%9E%90%EB%A6%AC%20%EB%B0%94%EA%BE%B8%EA%B8%B0%202/changing-seats-2.java)|2026.07.21|
 |정수 N개의 합 2|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9%202/README.md)|2026.07.19|
 |정수 N개의 합 3|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9%203/sum-of-n-integers-3.java)|2026.07.19|
+|정수 명령어|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EB%AA%85%EB%A0%B9%EC%96%B4/Integer-command.java)|2026.07.28|
 |정수 찾기|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EC%B0%BE%EA%B8%B0/find-an-integer.java)|2026.07.21|
 |처음 등장하는 위치|[링크](./Code_Tree/trail5/%EC%B2%98%EC%9D%8C%20%EB%93%B1%EC%9E%A5%ED%95%98%EB%8A%94%20%EC%9C%84%EC%B9%98/first-appearing-position.java)|2026.07.21|
 |최단 거리 11|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%2011/shortest-distance-11.java)|2026.07.20|

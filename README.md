@@ -145,6 +145,7 @@
 |연속한 K개의 숫자|[링크](./Code_Tree/trail5/%EC%97%B0%EC%86%8D%ED%95%9C%20K%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/k-numbers-in-a-row.java)|2026.07.19|
 |자리 바꾸기 2|[링크](./Code_Tree/trail5/%EC%9E%90%EB%A6%AC%20%EB%B0%94%EA%BE%B8%EA%B8%B0%202/changing-seats-2.java)|2026.07.21|
 |자리 차지하기|[링크](./Code_Tree/trail5/%EC%9E%90%EB%A6%AC%20%EC%B0%A8%EC%A7%80%ED%95%98%EA%B8%B0/take-place.java)|2026.07.28|
+|작지만 큰 숫자|[링크](./Code_Tree/trail5/%EC%9E%91%EC%A7%80%EB%A7%8C%20%ED%81%B0%20%EC%88%AB%EC%9E%90/README.md)|2026.07.28|
 |점 빼기|[링크](./Code_Tree/trail5/%EC%A0%90%20%EB%B9%BC%EA%B8%B0/remove-point.java)|2026.07.28|
 |정수 N개의 합 2|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9%202/README.md)|2026.07.19|
 |정수 N개의 합 3|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9%203/sum-of-n-integers-3.java)|2026.07.19|

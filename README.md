@@ -150,6 +150,7 @@
 |점 빼기|[링크](./Code_Tree/trail5/%EC%A0%90%20%EB%B9%BC%EA%B8%B0/remove-point.java)|2026.07.28|
 |정수 N개의 합 2|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9%202/README.md)|2026.07.19|
 |정수 N개의 합 3|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9%203/sum-of-n-integers-3.java)|2026.07.19|
+|정수 명령 처리 6|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EB%AA%85%EB%A0%B9%20%EC%B2%98%EB%A6%AC%206/process-numeric-commands-6.java)|2026.07.29|
 |정수 명령어|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EB%AA%85%EB%A0%B9%EC%96%B4/Integer-command.java)|2026.07.28|
 |정수 찾기|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EC%B0%BE%EA%B8%B0/find-an-integer.java)|2026.07.21|
 |차이가 가장 작은 수|[링크](./Code_Tree/trail5/%EC%B0%A8%EC%9D%B4%EA%B0%80%20%EA%B0%80%EC%9E%A5%20%EC%9E%91%EC%9D%80%20%EC%88%98/the-number-with-the-smallest-difference.java)|2026.07.28|

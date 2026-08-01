@@ -159,6 +159,7 @@
 |정수 명령 처리 6|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EB%AA%85%EB%A0%B9%20%EC%B2%98%EB%A6%AC%206/process-numeric-commands-6.java)|2026.07.29|
 |정수 명령어|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EB%AA%85%EB%A0%B9%EC%96%B4/Integer-command.java)|2026.07.28|
 |정수 찾기|[링크](./Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EC%B0%BE%EA%B8%B0/find-an-integer.java)|2026.07.21|
+|정원 입장은 선착순|[링크](./Code_Tree/trail5/%EC%A0%95%EC%9B%90%20%EC%9E%85%EC%9E%A5%EC%9D%80%20%EC%84%A0%EC%B0%A9%EC%88%9C/admission-to-the-garden-is-on-a-first-come-first-served-basis.java)|2026.08.01|
 |중앙값|[링크](./Code_Tree/trail5/%EC%A4%91%EC%95%99%EA%B0%92/median.java)|2026.07.30|
 |차이가 가장 작은 수|[링크](./Code_Tree/trail5/%EC%B0%A8%EC%9D%B4%EA%B0%80%20%EA%B0%80%EC%9E%A5%20%EC%9E%91%EC%9D%80%20%EC%88%98/the-number-with-the-smallest-difference.java)|2026.07.28|
 |처음 등장하는 위치|[링크](./Code_Tree/trail5/%EC%B2%98%EC%9D%8C%20%EB%93%B1%EC%9E%A5%ED%95%98%EB%8A%94%20%EC%9C%84%EC%B9%98/first-appearing-position.java)|2026.07.21|

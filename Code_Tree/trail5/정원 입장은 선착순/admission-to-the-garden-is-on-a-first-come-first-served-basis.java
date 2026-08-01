@@ -22,32 +22,34 @@ public class Main {
 
         int max = 0;
 
-        int time = pq.peek().arrival;
+        int exitTime = 0;
 
         for(int i = 0; i < N; i++){
             Tuple top = pq.poll();
 
-            if(top.arrival > time) time = top.arrival;
-            wait.add(new Info(top.num, top.arrival, top.stay));
+            while(top.arrival > exitTime && !wait.isEmpty()){
+                Info wp = wait.poll();
 
-            if(!pq.isEmpty() && pq.peek().arrival <= time){
-                continue;
+                max = Math.max(max, exitTime - wp.arrival);
+
+                exitTime += wp.stay;
             }
 
-            while(!wait.isEmpty()){
-                Info w = wait.poll();
-
-                max = Math.max(time-w.arrival, max);
-
-                time += w.stay;
-
-                if(!pq.isEmpty() && pq.peek().arrival <= time){
-                    break;
-                }
-
+            if(top.arrival > exitTime){
+                exitTime = top.arrival + top.stay;
+            }else{
+                wait.add(new Info(top.num, top.arrival, top.stay));
             }
-
         }
+
+        while(!wait.isEmpty()){
+            Info wp = wait.poll();
+
+            max = Math.max(max, exitTime - wp.arrival);
+
+            exitTime += wp.stay;
+        }
+
 
         System.out.print(max);
 

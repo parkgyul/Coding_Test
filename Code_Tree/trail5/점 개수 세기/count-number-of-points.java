@@ -12,34 +12,32 @@ public class Main {
         TreeMap<Integer, Integer> map = new TreeMap<>();
 
         st = new StringTokenizer(br.readLine()); 
-        int[] arr = new int[N];
+        TreeSet<Integer> set = new TreeSet<>();
         for(int i = 0; i < N; i++){
             int num = Integer.parseInt(st.nextToken());
-            arr[i] = num;
+            set.add(num);
         }
 
-        Arrays.sort(arr);
+        set.add((int)(1000000001));
 
-        for(int i = 0; i < N; i++){
-            map.put(arr[i], i+1);
+        int cnt = 1;
+        for(int num : set){
+            map.put(num, cnt++);
         }
 
+    
         StringBuilder sb = new StringBuilder();
+        
         for(int i = 0; i < Q; i++){
-            st = new StringTokenizer(br.readLine()); 
-            int from  = Integer.parseInt(st.nextToken());
+            st = new StringTokenizer(br.readLine());
+            int from = Integer.parseInt(st.nextToken());
             int to = Integer.parseInt(st.nextToken());
-            Integer fk = map.floorKey(from);
-            Integer k1 = (fk == null) ? map.ceilingKey(from) : fk;
 
-            Integer ck = map.ceilingKey(to);
-            Integer k2 = (ck == null) ? map.floorKey(to) : ck;
+            int newFrom = map.get(set.ceiling(from));
+            int newTo = map.get(set.higher(to));
 
-            int offset = (k1 < from ? 1 : 0) + (k2 > to ? 1 : 0); 
-
-            sb.append(map.get(k2) - map.get(k1) + 1 - offset).append("\n");
+            sb.append(newTo - newFrom).append("\n");
         }
-
         System.out.print(sb);
     }
 }

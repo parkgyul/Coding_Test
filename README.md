@@ -152,6 +152,7 @@
 |숫자 빠르게 찾기 2|[링크](./Code_Tree/trail5/%EC%88%AB%EC%9E%90%20%EB%B9%A0%EB%A5%B4%EA%B2%8C%20%EC%B0%BE%EA%B8%B0%202/find-number-fast-2.java)|2026.07.28|
 |앞에서부터 삭제하기 2|[링크](./Code_Tree/trail5/%EC%95%9E%EC%97%90%EC%84%9C%EB%B6%80%ED%84%B0%20%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0%202/delete-it-from-the-beginning-2.java)|2026.07.29|
 |연속한 K개의 숫자|[링크](./Code_Tree/trail5/%EC%97%B0%EC%86%8D%ED%95%9C%20K%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/k-numbers-in-a-row.java)|2026.07.19|
+|인접하지 않은 3개의 숫자|[링크](./Code_Tree/trail5/%EC%9D%B8%EC%A0%91%ED%95%98%EC%A7%80%20%EC%95%8A%EC%9D%80%203%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/three-non-adjacent-numbers.java)|2026.08.03|
 |자리 바꾸기 2|[링크](./Code_Tree/trail5/%EC%9E%90%EB%A6%AC%20%EB%B0%94%EA%BE%B8%EA%B8%B0%202/changing-seats-2.java)|2026.07.21|
 |자리 차지하기|[링크](./Code_Tree/trail5/%EC%9E%90%EB%A6%AC%20%EC%B0%A8%EC%A7%80%ED%95%98%EA%B8%B0/take-place.java)|2026.07.28|
 |작지만 큰 숫자|[링크](./Code_Tree/trail5/%EC%9E%91%EC%A7%80%EB%A7%8C%20%ED%81%B0%20%EC%88%AB%EC%9E%90/README.md)|2026.07.28|

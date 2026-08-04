@@ -127,6 +127,7 @@
 |가까운 숫자|[링크](./Code_Tree/trail5/%EA%B0%80%EA%B9%8C%EC%9A%B4%20%EC%88%AB%EC%9E%90/nearest-number.java)|2026.07.28|
 |가장 가까운 점|[링크](./Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EA%B0%80%EA%B9%8C%EC%9A%B4%20%EC%A0%90/README.md)|2026.07.29|
 |가장 많은 데이터|[링크](./Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EB%A7%8E%EC%9D%80%20%EB%8D%B0%EC%9D%B4%ED%84%B0/most-frequent-data.java)|2026.07.20|
+|가장 많이 겹치는 구간|[링크](./Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EB%A7%8E%EC%9D%B4%20%EA%B2%B9%EC%B9%98%EB%8A%94%20%EA%B5%AC%EA%B0%84/section-with-maximum-overlap.java)|2026.08.04|
 |가장 오래 걸리는 학생 2|[링크](./Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EC%98%A4%EB%9E%98%20%EA%B1%B8%EB%A6%AC%EB%8A%94%20%ED%95%99%EC%83%9D%202/longest-student-2.java)|2026.07.20|
 |각 정점까지의 최단 경로|[링크](./Code_Tree/trail5/%EA%B0%81%20%EC%A0%95%EC%A0%90%EA%B9%8C%EC%A7%80%EC%9D%98%20%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C/shortest-path-to-each-vertex.java)|2026.07.20|
 |각 정점까지의 최단 경로 3|[링크](./Code_Tree/trail5/%EA%B0%81%20%EC%A0%95%EC%A0%90%EA%B9%8C%EC%A7%80%EC%9D%98%20%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C%203/shortest-path-to-each-vertex-3.java)|2026.07.20|

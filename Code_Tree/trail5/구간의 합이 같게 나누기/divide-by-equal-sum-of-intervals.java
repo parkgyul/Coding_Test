@@ -13,9 +13,12 @@ public class Main {
         long[] L = new long[N];
         long[] R = new long[N];
 
+        long sum = 0;
+
         st = new StringTokenizer(br.readLine());
         for(int i = 0; i < N; i++){
             arr[i] = Integer.parseInt(st.nextToken());
+            sum += arr[i];
         }
 
         L[0] = (long) arr[0];
@@ -31,7 +34,9 @@ public class Main {
         long answer =0;
 
         for(int k = 1; k <= N-3; k++){
-            if(L[k] != R[k+1]) continue;
+            if(L[k] != sum/2) continue;
+            if(R[k+1] != sum/2) continue;
+    
             int left = 0;
             int right = 0;
             for(int i = 0; i <= k-1; i++){

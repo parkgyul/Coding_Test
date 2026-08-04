@@ -16,38 +16,35 @@ public class Main {
             int x1 = Integer.parseInt(st.nextToken());
             int x2 = Integer.parseInt(st.nextToken());
 
-            list.add(new Point(x1, 1, i));
-            list.add(new Point(x2, -1, i));
+            list.add(new Point(x1, 1));
+            list.add(new Point(x2, -1));
         }
 
         Set<Integer> set = new HashSet<>();
         Collections.sort(list);
 
         int sum = 0;
+        int max = 0;
 
         for(int i = 0; i < 2*N; i++){
             Point p = list.get(i);
 
-            if(p.v == 1){
-                set.add(p.index);
-            }else{
-                if(sum < set.size()){
-                    sum = set.size();
-                }
-                set.remove(p.index);
+            sum += p.v;
+
+            if(sum > max){
+                max = sum;
             }
         }
 
-        System.out.print(sum);
+        System.out.print(max);
     }
 
     static class Point implements Comparable<Point>{
-        int x, v, index;
+        int x, v;
 
-        Point(int x, int v, int index){
+        Point(int x, int v){
             this.x = x;
             this.v = v;
-            this.index = index;
         }
 
         public int compareTo(Point o){

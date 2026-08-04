@@ -151,6 +151,7 @@
 |별이 있는 숫자로만의 이동|[링크](./Code_Tree/trail5/%EB%B3%84%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EC%88%AB%EC%9E%90%EB%A1%9C%EB%A7%8C%EC%9D%98%20%EC%9D%B4%EB%8F%99/move-to-numbers-with-star.java)|2026.07.20|
 |부분 수열의 합이 K|[링크](./Code_Tree/trail5/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9%EC%9D%B4%20K/the-sum-of-the-subsequences-is-k.java)|2026.07.19|
 |비율 구하기|[링크](./Code_Tree/trail5/%EB%B9%84%EC%9C%A8%20%EA%B5%AC%ED%95%98%EA%B8%B0/find-proportions.java)|2026.07.21|
+|서로 다른 구간의 수|[링크](./Code_Tree/trail5/%EC%84%9C%EB%A1%9C%20%EB%8B%A4%EB%A5%B8%20%EA%B5%AC%EA%B0%84%EC%9D%98%20%EC%88%98/number-of-distinct-segments.java)|2026.08.04|
 |서로 다른 수의 개수|[링크](./Code_Tree/trail5/%EC%84%9C%EB%A1%9C%20%EB%8B%A4%EB%A5%B8%20%EC%88%98%EC%9D%98%20%EA%B0%9C%EC%88%98/distinct-numbers.java)|2026.07.21|
 |수 등장 횟수|[링크](./Code_Tree/trail5/%EC%88%98%20%EB%93%B1%EC%9E%A5%20%ED%9A%9F%EC%88%98/README.md)|2026.07.19|
 |숫자 빠르게 찾기 2|[링크](./Code_Tree/trail5/%EC%88%AB%EC%9E%90%20%EB%B9%A0%EB%A5%B4%EA%B2%8C%20%EC%B0%BE%EA%B8%B0%202/find-number-fast-2.java)|2026.07.28|

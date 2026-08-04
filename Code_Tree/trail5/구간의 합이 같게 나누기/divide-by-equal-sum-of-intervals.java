@@ -21,33 +21,41 @@ public class Main {
             sum += arr[i];
         }
 
-        L[0] = (long) arr[0];
-        R[N-1] = (long) arr[N-1];
-        for(int i = 1 ; i < N; i++){
-            L[i] = L[i-1] + (long)arr[i];
+        long answer = 0;
+
+        if(sum % 4 != 0){
+            System.out.print(answer);
+            return;
         }
+
+        L[0] = 0;
+        int partSum = arr[0];
+        int cnt = (partSum == sum/4) ? 1: 0;
+        for(int i = 1 ; i < N; i++){
+           partSum += arr[i];
+
+           if(partSum == 2 * sum/4) L[i] = cnt;
+
+           if(partSum == sum/4) cnt++;
+        }
+
+        R[N-1] = 0;
+        partSum = arr[N-1];
+        cnt = (partSum == sum/4) ? 1: 0;
 
         for(int i = N-2; i >= 0; i--){
-            R[i] = R[i+1] + (long)arr[i];
+            partSum += arr[i];
+
+            if(partSum == 2 * sum/4){
+                R[i] = cnt;
+            }
+
+            if(partSum == sum/4) cnt++;
         }
 
-        long answer =0;
-
-        for(int k = 1; k <= N-3; k++){
-            if(L[k] != sum/2) continue;
-            if(R[k+1] != sum/2) continue;
-    
-            int left = 0;
-            int right = 0;
-            for(int i = 0; i <= k-1; i++){
-                if(2*L[i] == L[k]) left++;
-            }
-
-            for(int j = k+2; j <= N-1; j++){
-                if(2*R[j] == R[k+1]) right++;
-            }
-
-            answer +=(left*right);
+        long ans = 0;
+        for(int i = 1; i < N-1; i++){
+            answer += (long) L[i] * R[i+1];
         }
 
         System.out.print(answer);

@@ -133,6 +133,7 @@
 |겹치지 않는 선분|[링크](./Code_Tree/trail5/%EA%B2%B9%EC%B9%98%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EC%84%A0%EB%B6%84/README.md)|2026.08.04|
 |구간 외 최대 숫자|[링크](./Code_Tree/trail5/%EA%B5%AC%EA%B0%84%20%EC%99%B8%20%EC%B5%9C%EB%8C%80%20%EC%88%AB%EC%9E%90/max-num-outside-of-interval.java)|2026.08.03|
 |구간에 속한 문자의 개수|[링크](./Code_Tree/trail5/%EA%B5%AC%EA%B0%84%EC%97%90%20%EC%86%8D%ED%95%9C%20%EB%AC%B8%EC%9E%90%EC%9D%98%20%EA%B0%9C%EC%88%98/the-number-of-characters-in-the-interval.java)|2026.07.19|
+|구간의 합이 같게 나누기|[링크](./Code_Tree/trail5/%EA%B5%AC%EA%B0%84%EC%9D%98%20%ED%95%A9%EC%9D%B4%20%EA%B0%99%EA%B2%8C%20%EB%82%98%EB%88%84%EA%B8%B0/divide-by-equal-sum-of-intervals.java)|2026.08.04|
 |길이가 무한대인 수평선 트랙|[링크](./Code_Tree/trail5/%EA%B8%B8%EC%9D%B4%EA%B0%80%20%EB%AC%B4%ED%95%9C%EB%8C%80%EC%9D%B8%20%EC%88%98%ED%8F%89%EC%84%A0%20%ED%8A%B8%EB%9E%99/horizontal-track-with-infinite-length.java)|2026.07.28|
 |단어장|[링크](./Code_Tree/trail5/%EB%8B%A8%EC%96%B4%EC%9E%A5/word-list.java)|2026.07.21|
 |대응되는 수와 문자|[링크](./Code_Tree/trail5/%EB%8C%80%EC%9D%91%EB%90%98%EB%8A%94%20%EC%88%98%EC%99%80%20%EB%AC%B8%EC%9E%90/corresponding-numbers-and-characters.java)|2026.07.20|

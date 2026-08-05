@@ -186,6 +186,7 @@
 |최소 정수 출력|[링크](./Code_Tree/trail5/%EC%B5%9C%EC%86%8C%20%EC%A0%95%EC%88%98%20%EC%B6%9C%EB%A0%A5/min-integer-output.java)|2026.07.29|
 |최솟값 3개|[링크](./Code_Tree/trail5/%EC%B5%9C%EC%86%9F%EA%B0%92%203%EA%B0%9C/top-3-smallest-number.java)|2026.07.29|
 |친한 점|[링크](./Code_Tree/trail5/%EC%B9%9C%ED%95%9C%20%EC%A0%90/frendly-point.java)|2026.07.28|
+|컴퓨터 이용시간|[링크](./Code_Tree/trail5/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EC%9D%B4%EC%9A%A9%EC%8B%9C%EA%B0%84/README.md)|2026.08.05|
 |큰 숫자만 계속 고르기|[링크](./Code_Tree/trail5/%ED%81%B0%20%EC%88%AB%EC%9E%90%EB%A7%8C%20%EA%B3%84%EC%86%8D%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/keep-picking-the-big-number.java)|2026.07.29|
 ### 🚀 SWEA
 | 문제번호 | 링크 | 푼 날짜 |

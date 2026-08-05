@@ -156,6 +156,7 @@
 |비율 구하기|[링크](./Code_Tree/trail5/%EB%B9%84%EC%9C%A8%20%EA%B5%AC%ED%95%98%EA%B8%B0/find-proportions.java)|2026.07.21|
 |서로 다른 구간의 수|[링크](./Code_Tree/trail5/%EC%84%9C%EB%A1%9C%20%EB%8B%A4%EB%A5%B8%20%EA%B5%AC%EA%B0%84%EC%9D%98%20%EC%88%98/number-of-distinct-segments.java)|2026.08.04|
 |서로 다른 수의 개수|[링크](./Code_Tree/trail5/%EC%84%9C%EB%A1%9C%20%EB%8B%A4%EB%A5%B8%20%EC%88%98%EC%9D%98%20%EA%B0%9C%EC%88%98/distinct-numbers.java)|2026.07.21|
+|선분 바라보기 2|[링크](./Code_Tree/trail5/%EC%84%A0%EB%B6%84%20%EB%B0%94%EB%9D%BC%EB%B3%B4%EA%B8%B0%202/README.md)|2026.08.05|
 |수 등장 횟수|[링크](./Code_Tree/trail5/%EC%88%98%20%EB%93%B1%EC%9E%A5%20%ED%9A%9F%EC%88%98/README.md)|2026.07.19|
 |숫자 빠르게 찾기 2|[링크](./Code_Tree/trail5/%EC%88%AB%EC%9E%90%20%EB%B9%A0%EB%A5%B4%EA%B2%8C%20%EC%B0%BE%EA%B8%B0%202/find-number-fast-2.java)|2026.07.28|
 |씨 오 더블유|[링크](./Code_Tree/trail5/%EC%94%A8%20%EC%98%A4%20%EB%8D%94%EB%B8%94%EC%9C%A0/c-o-w.java)|2026.08.03|

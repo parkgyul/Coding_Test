@@ -24,7 +24,7 @@ public class Main {
         Collections.sort(list);
 
         Set<Integer> set = new HashSet<>();
-        TreeSet<Integer> waiting = new TreeSet<>();
+        PriorityQueue<Integer> waiting = new PriorityQueue<>();
 
         int[] computers = new int[N];
 
@@ -35,8 +35,7 @@ public class Main {
                 if(waiting.isEmpty()){
                     computers[p.index] = ++comp;
                 }else{
-                    computers[p.index] = waiting.first();
-                    waiting.remove(waiting.first());
+                    computers[p.index] = waiting.poll();
                 }
 
                 set.add(p.index);

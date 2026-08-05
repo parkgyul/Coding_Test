@@ -22,7 +22,7 @@ public class Main {
         }
 
         
-        boolean[] ended = new boolean[N];
+        TreeSet<Node> set = new TreeSet<>();
         boolean[] visible = new boolean[N];
 
         int cnt = 0;
@@ -31,20 +31,16 @@ public class Main {
 
         for(Point p : list){
             if(p.v == 1){
-                pq.add(new Node(p.y, p.index));
+                set.add(new Node(p.y, p.index));
             }else{
-                ended[p.index] = true;
+                set.remove(new Node(p.y, p.index));
             }
 
-            while(!pq.isEmpty() && ended[pq.peek().index]) pq.poll();
+            if(set.isEmpty()) continue;
 
-            if(!pq.isEmpty()){
-                int topIdx = pq.peek().index;
-                if(!visible[topIdx]){
-                    visible[topIdx] = true;
-                    cnt++;
-                }
-            }
+            int targetIndex = set.first().index;
+            if(!visible[targetIndex]) cnt++;
+            visible[targetIndex] = true;
         }
 
         System.out.print(cnt);

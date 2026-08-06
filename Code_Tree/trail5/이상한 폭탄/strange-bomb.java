@@ -14,24 +14,19 @@ public class Main {
             arr[i] = Integer.parseInt(br.readLine());
         }
 
-        int[] max = new int[N];
-        Arrays.fill(max, -1);
+        int[] prev = new int[1000001];
+        int max = -1;
+        Arrays.fill(prev, -1);
 
-        for(int i = N-2; i >= 0; i--){
-            max[i] = max[i+1];
-            
-            if(max[i+1] >= arr[i]){
-                continue;
+
+        for(int i = N-1; i >= 0; i--){
+            if(prev[arr[i]] != -1 && prev[arr[i]] - i <= K){
+                max = Math.max(arr[i], max);
             }
 
-            for(int j = i+1; j <= i+K && j <= N-1; j++){
-                if(arr[i] == arr[j]){
-                    max[i] = arr[i];
-                    break;
-                }
-            }
+            prev[arr[i]] = i;
         }
 
-        System.out.print(max[0]);
+        System.out.print(max);
     }
 }

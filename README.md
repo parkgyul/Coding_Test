@@ -187,6 +187,7 @@
 |최대 숫자 구하기|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8C%80%20%EC%88%AB%EC%9E%90%20%EA%B5%AC%ED%95%98%EA%B8%B0/find-maximum-number.java)|2026.07.28|
 |최대 직사각형 합|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8C%80%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%20%ED%95%A9/max-rect-sum-in-grid.java)|2026.07.19|
 |최대로 연속한 숫자|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8C%80%EB%A1%9C%20%EC%97%B0%EC%86%8D%ED%95%9C%20%EC%88%AB%EC%9E%90/README.md)|2026.07.28|
+|최소 에너지 비용|[링크](./Code_Tree/trail5/%EC%B5%9C%EC%86%8C%20%EC%97%90%EB%84%88%EC%A7%80%20%EB%B9%84%EC%9A%A9/minimum-energy-cost.java)|2026.08.06|
 |최소 정수 출력|[링크](./Code_Tree/trail5/%EC%B5%9C%EC%86%8C%20%EC%A0%95%EC%88%98%20%EC%B6%9C%EB%A0%A5/min-integer-output.java)|2026.07.29|
 |최솟값 3개|[링크](./Code_Tree/trail5/%EC%B5%9C%EC%86%9F%EA%B0%92%203%EA%B0%9C/top-3-smallest-number.java)|2026.07.29|
 |친한 점|[링크](./Code_Tree/trail5/%EC%B9%9C%ED%95%9C%20%EC%A0%90/frendly-point.java)|2026.07.28|

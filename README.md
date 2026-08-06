@@ -163,6 +163,7 @@
 |씨 오 더블유|[링크](./Code_Tree/trail5/%EC%94%A8%20%EC%98%A4%20%EB%8D%94%EB%B8%94%EC%9C%A0/c-o-w.java)|2026.08.03|
 |앞에서부터 삭제하기 2|[링크](./Code_Tree/trail5/%EC%95%9E%EC%97%90%EC%84%9C%EB%B6%80%ED%84%B0%20%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0%202/delete-it-from-the-beginning-2.java)|2026.07.29|
 |연속한 K개의 숫자|[링크](./Code_Tree/trail5/%EC%97%B0%EC%86%8D%ED%95%9C%20K%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/k-numbers-in-a-row.java)|2026.07.19|
+|이상한 폭탄|[링크](./Code_Tree/trail5/%EC%9D%B4%EC%83%81%ED%95%9C%20%ED%8F%AD%ED%83%84/strange-bomb.java)|2026.08.06|
 |인접하지 않은 3개의 숫자|[링크](./Code_Tree/trail5/%EC%9D%B8%EC%A0%91%ED%95%98%EC%A7%80%20%EC%95%8A%EC%9D%80%203%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/three-non-adjacent-numbers.java)|2026.08.03|
 |자리 바꾸기 2|[링크](./Code_Tree/trail5/%EC%9E%90%EB%A6%AC%20%EB%B0%94%EA%BE%B8%EA%B8%B0%202/changing-seats-2.java)|2026.07.21|
 |자리 차지하기|[링크](./Code_Tree/trail5/%EC%9E%90%EB%A6%AC%20%EC%B0%A8%EC%A7%80%ED%95%98%EA%B8%B0/take-place.java)|2026.07.28|

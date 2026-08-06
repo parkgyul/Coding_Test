@@ -134,6 +134,7 @@
 |각 정점까지의 최단 경로 3|[링크](./Code_Tree/trail5/%EA%B0%81%20%EC%A0%95%EC%A0%90%EA%B9%8C%EC%A7%80%EC%9D%98%20%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C%203/shortest-path-to-each-vertex-3.java)|2026.07.20|
 |겹치는 선분들|[링크](./Code_Tree/trail5/%EA%B2%B9%EC%B9%98%EB%8A%94%20%EC%84%A0%EB%B6%84%EB%93%A4/README.md)|2026.08.05|
 |겹치지 않는 선분|[링크](./Code_Tree/trail5/%EA%B2%B9%EC%B9%98%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EC%84%A0%EB%B6%84/README.md)|2026.08.04|
+|괄호 쌍 만들어주기|[링크](./Code_Tree/trail5/%EA%B4%84%ED%98%B8%20%EC%8C%8D%20%EB%A7%8C%EB%93%A4%EC%96%B4%EC%A3%BC%EA%B8%B0/README.md)|2026.08.06|
 |구간 외 최대 숫자|[링크](./Code_Tree/trail5/%EA%B5%AC%EA%B0%84%20%EC%99%B8%20%EC%B5%9C%EB%8C%80%20%EC%88%AB%EC%9E%90/max-num-outside-of-interval.java)|2026.08.03|
 |구간 크기의 합|[링크](./Code_Tree/trail5/%EA%B5%AC%EA%B0%84%20%ED%81%AC%EA%B8%B0%EC%9D%98%20%ED%95%A9/sum-of-interval-sizes.java)|2026.08.05|
 |구간에 속한 문자의 개수|[링크](./Code_Tree/trail5/%EA%B5%AC%EA%B0%84%EC%97%90%20%EC%86%8D%ED%95%9C%20%EB%AC%B8%EC%9E%90%EC%9D%98%20%EA%B0%9C%EC%88%98/the-number-of-characters-in-the-interval.java)|2026.07.19|

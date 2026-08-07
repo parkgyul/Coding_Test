@@ -130,6 +130,7 @@
 |가장 많이 겹치는 구간|[링크](./Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EB%A7%8E%EC%9D%B4%20%EA%B2%B9%EC%B9%98%EB%8A%94%20%EA%B5%AC%EA%B0%84/section-with-maximum-overlap.java)|2026.08.04|
 |가장 많이 겹치는 구간 2|[링크](./Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EB%A7%8E%EC%9D%B4%20%EA%B2%B9%EC%B9%98%EB%8A%94%20%EA%B5%AC%EA%B0%84%202/section-with-maximum-overlap-2.java)|2026.08.04|
 |가장 오래 걸리는 학생 2|[링크](./Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EC%98%A4%EB%9E%98%20%EA%B1%B8%EB%A6%AC%EB%8A%94%20%ED%95%99%EC%83%9D%202/longest-student-2.java)|2026.07.20|
+|가장 짧은 부분합|[링크](./Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EC%A7%A7%EC%9D%80%20%EB%B6%80%EB%B6%84%ED%95%A9/shortest-subtotal.java)|2026.08.07|
 |각 정점까지의 최단 경로|[링크](./Code_Tree/trail5/%EA%B0%81%20%EC%A0%95%EC%A0%90%EA%B9%8C%EC%A7%80%EC%9D%98%20%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C/shortest-path-to-each-vertex.java)|2026.07.20|
 |각 정점까지의 최단 경로 3|[링크](./Code_Tree/trail5/%EA%B0%81%20%EC%A0%95%EC%A0%90%EA%B9%8C%EC%A7%80%EC%9D%98%20%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C%203/shortest-path-to-each-vertex-3.java)|2026.07.20|
 |겹치는 선분들|[링크](./Code_Tree/trail5/%EA%B2%B9%EC%B9%98%EB%8A%94%20%EC%84%A0%EB%B6%84%EB%93%A4/README.md)|2026.08.05|

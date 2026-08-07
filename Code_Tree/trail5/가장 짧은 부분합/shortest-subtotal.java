@@ -21,14 +21,14 @@ public class Main {
         long sum = 0;
         int j = 0;
         for(int i = 1; i <= N; i++){
-            while(j+1 <= N && sum + arr[j+1] < K){
+            while(j+1 <= N && sum < K){
                 sum += arr[j+1];
                 j++;
             }
 
-            if(j+1 <= N && sum + arr[j + 1] >= K){
-                min = Math.min(min, j-i+2);
-            }
+            if(sum < K) break;
+
+            min = Math.min(min, j-i+1);
 
             sum -= arr[i];
         }

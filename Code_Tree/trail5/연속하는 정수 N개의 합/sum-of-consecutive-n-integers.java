@@ -13,20 +13,24 @@ public class Main {
 
         st = new StringTokenizer(br.readLine());
         for(int i = 1; i <= N; i++){
-            sum[i] = sum[i-1] + (long) Integer.parseInt(st.nextToken());
+            sum[i] = (long) Integer.parseInt(st.nextToken());
         }
 
-        int left = 0;
+        int right = 0;
+        int sumVal = 0;
         int cnt = 0;
-        for(int right = 1; right <= N; right++){
+        for(int left = 1; left <= N; left++){
 
-            if(sum[right] - sum[left] < M) continue;
-
-            while(left < right && sum[right] - sum[left] > M){
-                left++;
+            while(right+1 <= N && sumVal < M){
+                sumVal += sum[right+1];
+                right++;
             }
 
-            if(sum[right]-sum[left] == M) cnt ++;
+            if(sumVal == M){
+                cnt++;
+            }
+
+            sumVal -= sum[left];
         }
 
         System.out.print(cnt);

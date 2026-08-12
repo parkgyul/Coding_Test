@@ -126,6 +126,7 @@
 |treemap 기본|[링크](./Code_Tree/trail5/treemap%20%EA%B8%B0%EB%B3%B8/README.md)|2026.07.21|
 |treeset 기본|[링크](./Code_Tree/trail5/treeset%20%EA%B8%B0%EB%B3%B8/treeset-basic.java)|2026.07.22|
 |가까운 숫자|[링크](./Code_Tree/trail5/%EA%B0%80%EA%B9%8C%EC%9A%B4%20%EC%88%AB%EC%9E%90/nearest-number.java)|2026.07.28|
+|가장 가까운 거리의 최댓값|[링크](./Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EA%B0%80%EA%B9%8C%EC%9A%B4%20%EA%B1%B0%EB%A6%AC%EC%9D%98%20%EC%B5%9C%EB%8C%93%EA%B0%92/maximum-of-nearest-distance.java)|2026.08.12|
 |가장 가까운 점|[링크](./Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EA%B0%80%EA%B9%8C%EC%9A%B4%20%EC%A0%90/README.md)|2026.07.29|
 |가장 많은 데이터|[링크](./Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EB%A7%8E%EC%9D%80%20%EB%8D%B0%EC%9D%B4%ED%84%B0/most-frequent-data.java)|2026.07.20|
 |가장 많이 겹치는 구간|[링크](./Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EB%A7%8E%EC%9D%B4%20%EA%B2%B9%EC%B9%98%EB%8A%94%20%EA%B5%AC%EA%B0%84/section-with-maximum-overlap.java)|2026.08.04|

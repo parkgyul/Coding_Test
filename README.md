@@ -118,6 +118,7 @@
 ### 🚀 trail5
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
+|0에 가장 가까운 합|[링크](./Code_Tree/trail5/0%EC%97%90%20%EA%B0%80%EC%9E%A5%20%EA%B0%80%EA%B9%8C%EC%9A%B4%20%ED%95%A9/sum-closest-to-zero.java)|2026.08.12|
 |K번째로 작은 쌍의 합|[링크](./Code_Tree/trail5/K%EB%B2%88%EC%A7%B8%EB%A1%9C%20%EC%9E%91%EC%9D%80%20%EC%8C%8D%EC%9D%98%20%ED%95%A9/README.md)|2026.07.31|
 |hashmap 기본|[링크](./Code_Tree/trail5/hashmap%20%EA%B8%B0%EB%B3%B8/hashmap-basic.java)|2026.07.19|
 |hashset 기본|[링크](./Code_Tree/trail5/hashset%20%EA%B8%B0%EB%B3%B8/hashset-basic.java)|2026.07.21|

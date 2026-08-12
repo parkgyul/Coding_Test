@@ -14,24 +14,24 @@ public class Main {
             arr[i] = Integer.parseInt(st.nextToken());
         }
 
-        int left = 0; 
-        int right = N-1;
+    
         int min = Integer.MAX_VALUE;
 
         Arrays.sort(arr);
 
-        while(left < right){
+        int right = N-1;
 
-            int diff = arr[right] + arr[left];
-            min = Math.min(min, Math.abs(diff));
-            if(min == 0) break;
+        for(int left = 0; left < N; left++){
+            if(left < right){
+                min = Math.min(min, Math.abs(arr[right] + arr[left]));
+            }
 
-            if(diff > 0){
-                right--;
-            }else if(diff < 0){
-                left++;
+            while(left < right-1 && arr[right] + arr[left] > 0){
+                right --;
+                min = Math.min(min, Math.abs(arr[right] + arr[left]));
             }
         }
+        
 
         System.out.print(min);
 

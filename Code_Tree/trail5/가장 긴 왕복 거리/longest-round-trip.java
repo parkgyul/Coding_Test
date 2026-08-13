@@ -3,13 +3,7 @@ import java.util.*;
 
 public class Main {
     static int N, M, X;
-
     static int max = Integer.MIN_VALUE;
-
-    static List<Node>[] nodes;
-
-    static int[] dx = {1, 0, -1, 0};
-    static int[] dy = {0, 1, 0, -1};
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -18,10 +12,12 @@ public class Main {
         M = Integer.parseInt(st.nextToken());
         X = Integer.parseInt(st.nextToken());
 
-        nodes = new ArrayList[N+1];
+        List<Node>[] nodes = new ArrayList[N+1];
+        List<Node>[] reverseNodes = new ArrayList[N+1];
 
         for(int i = 1; i <= N; i++){
             nodes[i] = new ArrayList<>();
+            reverseNodes[i] = new ArrayList<>();
         }
 
         for(int i = 0; i < M; i++){
@@ -31,20 +27,24 @@ public class Main {
             int c = Integer.parseInt(st.nextToken());
 
             nodes[a].add(new Node(b, c));
+            reverseNodes[b].add(new Node(a, c));
         }
 
         int max = Integer.MIN_VALUE;
 
+        int[] costs = dijkstra(X, nodes);
+        int[] reverseCosts =  dijkstra(X, reverseNodes);
+
         for(int i = 1; i <= N; i++){
             if(i == X) continue;
 
-            max = Math.max(max, bfs(X, i) + bfs(i, X));
+            max = Math.max(max, costs[i] + reverseCosts[i]);
         }
 
         System.out.print(max);
     }
 
-    static int bfs(int start, int target){
+    static int[] dijkstra(int start, List<Node>[] nodes){
         PriorityQueue<Node> pq = new PriorityQueue<>();
         pq.add(new Node(start, 0));
 
@@ -57,8 +57,6 @@ public class Main {
 
             if(cur.c > costs[cur.n]) continue;
 
-            if(cur.n == target) return cur.c;
-
             for(Node next : nodes[cur.n]){
                 int nextCost = next.c + cur.c;
 
@@ -69,7 +67,7 @@ public class Main {
             }
         }
 
-        return -1;
+        return costs;
     }
 
     static class Node implements Comparable<Node>{

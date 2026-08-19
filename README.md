@@ -180,6 +180,7 @@
 |자리 바꾸기 2|[링크](./Code_Tree/trail5/%EC%9E%90%EB%A6%AC%20%EB%B0%94%EA%BE%B8%EA%B8%B0%202/README.md)|2026.07.21|
 |자리 차지하기|[링크](./Code_Tree/trail5/%EC%9E%90%EB%A6%AC%20%EC%B0%A8%EC%A7%80%ED%95%98%EA%B8%B0/README.md)|2026.07.28|
 |작지만 큰 숫자|[링크](./Code_Tree/trail5/%EC%9E%91%EC%A7%80%EB%A7%8C%20%ED%81%B0%20%EC%88%AB%EC%9E%90/small-but-big-number.java)|2026.07.28|
+|저렴한 모임|[링크](./Code_Tree/trail5/%EC%A0%80%EB%A0%B4%ED%95%9C%20%EB%AA%A8%EC%9E%84/README.md)|2026.08.19|
 |점 개수 세기|[링크](./Code_Tree/trail5/%EC%A0%90%20%EA%B0%9C%EC%88%98%20%EC%84%B8%EA%B8%B0/count-number-of-points.java)|2026.08.01|
 |점 개수 세기 3|[링크](./Code_Tree/trail5/%EC%A0%90%20%EA%B0%9C%EC%88%98%20%EC%84%B8%EA%B8%B0%203/README.md)|2026.08.01|
 |점 빼기|[링크](./Code_Tree/trail5/%EC%A0%90%20%EB%B9%BC%EA%B8%B0/remove-point.java)|2026.07.28|

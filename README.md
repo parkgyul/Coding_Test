@@ -206,6 +206,7 @@
 |최솟값 3개|[링크](./Code_Tree/trail5/%EC%B5%9C%EC%86%9F%EA%B0%92%203%EA%B0%9C/top-3-smallest-number.java)|2026.07.29|
 |친한 점|[링크](./Code_Tree/trail5/%EC%B9%9C%ED%95%9C%20%EC%A0%90/README.md)|2026.07.28|
 |컴퓨터 이용시간|[링크](./Code_Tree/trail5/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EC%9D%B4%EC%9A%A9%EC%8B%9C%EA%B0%84/computer-hours.java)|2026.08.05|
+|크기 비교|[링크](./Code_Tree/trail5/%ED%81%AC%EA%B8%B0%20%EB%B9%84%EA%B5%90/README.md)|2026.08.19|
 |큰 숫자만 계속 고르기|[링크](./Code_Tree/trail5/%ED%81%B0%20%EC%88%AB%EC%9E%90%EB%A7%8C%20%EA%B3%84%EC%86%8D%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/README.md)|2026.07.29|
 |행렬로 주어진 간선|[링크](./Code_Tree/trail5/%ED%96%89%EB%A0%AC%EB%A1%9C%20%EC%A3%BC%EC%96%B4%EC%A7%84%20%EA%B0%84%EC%84%A0/edge-given-by-matrix.java)|2026.08.19|
 |호텔 예약|[링크](./Code_Tree/trail5/%ED%98%B8%ED%85%94%20%EC%98%88%EC%95%BD/README.md)|2026.08.05|

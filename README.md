@@ -175,6 +175,7 @@
 |앞에서부터 삭제하기 2|[링크](./Code_Tree/trail5/%EC%95%9E%EC%97%90%EC%84%9C%EB%B6%80%ED%84%B0%20%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0%202/README.md)|2026.07.29|
 |연속하는 정수 N개의 합|[링크](./Code_Tree/trail5/%EC%97%B0%EC%86%8D%ED%95%98%EB%8A%94%20%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9/sum-of-consecutive-n-integers.java)|2026.08.12|
 |연속한 K개의 숫자|[링크](./Code_Tree/trail5/%EC%97%B0%EC%86%8D%ED%95%9C%20K%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/k-numbers-in-a-row.java)|2026.07.19|
+|이동 가능한 점들의 쌍|[링크](./Code_Tree/trail5/%EC%9D%B4%EB%8F%99%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%A0%90%EB%93%A4%EC%9D%98%20%EC%8C%8D/README.md)|2026.08.19|
 |이상한 폭탄|[링크](./Code_Tree/trail5/%EC%9D%B4%EC%83%81%ED%95%9C%20%ED%8F%AD%ED%83%84/strange-bomb.java)|2026.08.06|
 |인접하지 않은 3개의 숫자|[링크](./Code_Tree/trail5/%EC%9D%B8%EC%A0%91%ED%95%98%EC%A7%80%20%EC%95%8A%EC%9D%80%203%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/three-non-adjacent-numbers.java)|2026.08.03|
 |자리 바꾸기 2|[링크](./Code_Tree/trail5/%EC%9E%90%EB%A6%AC%20%EB%B0%94%EA%BE%B8%EA%B8%B0%202/README.md)|2026.07.21|

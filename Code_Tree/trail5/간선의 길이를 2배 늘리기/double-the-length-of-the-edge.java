@@ -5,8 +5,7 @@ public class Main {
     static int N, M;
     static int[][] distance;
     static final int INF = Integer.MAX_VALUE;
-
-    static int[] storeFrom, storeTo;
+    static int[] path;
 
     public static void main(String[] args)throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,8 +20,7 @@ public class Main {
             Arrays.fill(distance[i], INF);
         }
 
-        storeFrom = new int[M];
-        storeTo = new int[M];
+        path = new int[N+1];
     
         for(int i = 0; i < M; i++){
             st = new StringTokenizer(br.readLine());
@@ -32,33 +30,37 @@ public class Main {
 
             distance[fr][to] = co;
             distance[to][fr] = co;
-
-            storeFrom[i] = fr;
-            storeTo[i] = to;
         }
 
         int max = Integer.MIN_VALUE;
 
         int first = dijkstra();
 
-        for(int i = 0; i < M; i++){
-            int fr = storeFrom[i];
-            int to = storeTo[i];
+        int idx = N;
+        ArrayList<Integer> vertices = new ArrayList<>();
+        vertices.add(idx);
+        while(idx != 1){
+            idx = path[idx];
+            vertices.add(idx);
+        }
+
+        for(int i = vertices.size()-1; i >= 1; i--){
+            int fr = vertices.get(i);
+            int to = vertices.get(i-1);
 
             distance[fr][to] *= 2;
             distance[to][fr] *= 2;
 
             int value = dijkstra();
 
-            max = Math.max(max, value-first);
+            max = Math.max(max, value - first);
 
             distance[fr][to] /= 2;
             distance[to][fr] /= 2;
         }
-        
+
 
         System.out.print(max);
-        
     }
 
     static int dijkstra(){
@@ -84,6 +86,7 @@ public class Main {
                 if(nextCost >= costs[next]) continue;
 
                 costs[next] = nextCost;
+                path[next] = cur.node;
                 pq.add(new Node(next, nextCost));
             }
         }

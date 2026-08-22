@@ -2,122 +2,93 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-
-    static class Edge {
-        int to;
-        int l;
-        int c;
-
-        Edge(int to, int l, int c) {
-            this.to = to;
-            this.l = l;
-            this.c = c;
-        }
-    }
-
-    static class Node implements Comparable<Node> {
-        int node;
-        long cost;
-
-        Node(int node, long cost) {
-            this.node = node;
-            this.cost = cost;
-        }
-
-        @Override
-        public int compareTo(Node o) {
-            return Long.compare(this.cost, o.cost);
-        }
-    }
-
+    static int X;
+    static List<Node>[] nodes;
+    static int[] costs;
     static int N, M;
-    static long X;
-    static List<Edge>[] graph;
 
-    static long dijkstra(int minC) {
-        long[] dist = new long[N + 1];
-        Arrays.fill(dist, Long.MAX_VALUE);
-
-        PriorityQueue<Node> pq = new PriorityQueue<>();
-
-        dist[1] = 0;
-        pq.offer(new Node(1, 0));
-
-        while (!pq.isEmpty()) {
-            Node cur = pq.poll();
-
-            if (cur.cost != dist[cur.node]) {
-                continue;
-            }
-
-            for (Edge edge : graph[cur.node]) {
-
-                if (edge.c < minC) {
-                    continue;
-                }
-
-                long nextCost = cur.cost + edge.l;
-
-                if (nextCost < dist[edge.to]) {
-                    dist[edge.to] = nextCost;
-                    pq.offer(new Node(edge.to, nextCost));
-                }
-            }
-        }
-
-        return dist[N];
-    }
-
-    public static void main(String[] args) throws IOException {
-
-        BufferedReader br =
-                new BufferedReader(new InputStreamReader(System.in));
-
-        StringTokenizer st =
-                new StringTokenizer(br.readLine());
+    public static void main(String[] args)throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
 
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
-        X = Long.parseLong(st.nextToken());
+        X = Integer.parseInt(st.nextToken());
 
-        graph = new ArrayList[N + 1];
+        nodes = new ArrayList[N+1];
 
-        for (int i = 1; i <= N; i++) {
-            graph[i] = new ArrayList<>();
+        for(int i = 0; i <= N; i++){
+            nodes[i] = new ArrayList<>();
         }
 
-        TreeSet<Integer> cValues = new TreeSet<>();
+        Set<Integer> cSet = new HashSet<>();
 
-        for (int i = 0; i < M; i++) {
-
+        for(int i = 0; i < M; i++){
             st = new StringTokenizer(br.readLine());
-
             int I = Integer.parseInt(st.nextToken());
             int J = Integer.parseInt(st.nextToken());
             int L = Integer.parseInt(st.nextToken());
             int C = Integer.parseInt(st.nextToken());
 
-            graph[I].add(new Edge(J, L, C));
-            graph[J].add(new Edge(I, L, C));
+            nodes[I].add(new Node(J, L, C, 0));
+            nodes[J].add(new Node(I, L, C, 0));
 
-            cValues.add(C);
+            cSet.add(C);
         }
 
-        long answer = Long.MAX_VALUE;
+        int result = Integer.MAX_VALUE;
 
-        for (int minC : cValues) {
-
-            long B = dijkstra(minC);
-
-            if (B == Long.MAX_VALUE) {
-                continue;
-            }
-
-            long time = B + X / minC;
-
-            answer = Math.min(answer, time);
+        for(int minC : cSet){
+            dijkstra(minC);
+            result = Math.min(result, costs[N]);
         }
 
-        System.out.println(answer);
+        System.out.print(result);
     }
+
+    static void dijkstra(int minC){
+        PriorityQueue<Node> pq = new PriorityQueue<>();
+        costs = new int[N+1];
+        Arrays.fill(costs, Integer.MAX_VALUE);
+        costs[1] = 0;
+
+        pq.add(new Node(1, 0, Integer.MAX_VALUE, 0));
+
+        while(!pq.isEmpty()){
+            Node cur = pq.poll();
+
+            if(costs[cur.node] < cur.cost) continue;
+
+            for(Node next : nodes[cur.node]){
+                if(next.C > minC) continue;
+
+                int nextL = next.L + cur.L; //B
+                int nextC = Math.min(cur.C, next.C);  //A
+
+                int nextCost = nextL + (X / nextC);
+        
+                if(nextCost >= costs[next.node]) continue;
+
+                costs[next.node] = nextCost;
+                pq.add(new Node(next.node, nextL, nextC, nextCost));
+            }
+        }
+    }
+
+    static class Node implements Comparable<Node>{
+        int node, L, C;
+        int cost;
+
+        Node(int node, int L, int C, int cost){
+            this.node = node;
+            this.L = L;
+            this.C = C;
+            this.cost = cost;
+        }
+
+        public int compareTo(Node o){
+            return Integer.compare(this.cost, o.cost) ;
+        }
+    }
+
 }

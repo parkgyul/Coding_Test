@@ -169,6 +169,7 @@
 |부분 수열의 합이 K|[링크](./Code_Tree/trail5/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9%EC%9D%B4%20K/README.md)|2026.07.19|
 |부분수열 여부 판단하기|[링크](./Code_Tree/trail5/%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%8B%A8%ED%95%98%EA%B8%B0/README.md)|2026.08.12|
 |비율 구하기|[링크](./Code_Tree/trail5/%EB%B9%84%EC%9C%A8%20%EA%B5%AC%ED%95%98%EA%B8%B0/README.md)|2026.07.21|
+|빽 투더 블랙 닷 2|[링크](./Code_Tree/trail5/%EB%B9%BD%20%ED%88%AC%EB%8D%94%20%EB%B8%94%EB%9E%99%20%EB%8B%B7%202/README.md)|2026.08.22|
 |서로 다른 구간의 수|[링크](./Code_Tree/trail5/%EC%84%9C%EB%A1%9C%20%EB%8B%A4%EB%A5%B8%20%EA%B5%AC%EA%B0%84%EC%9D%98%20%EC%88%98/number-of-distinct-segments.java)|2026.08.04|
 |서로 다른 수의 개수|[링크](./Code_Tree/trail5/%EC%84%9C%EB%A1%9C%20%EB%8B%A4%EB%A5%B8%20%EC%88%98%EC%9D%98%20%EA%B0%9C%EC%88%98/README.md)|2026.07.21|
 |선분 바라보기 2|[링크](./Code_Tree/trail5/%EC%84%A0%EB%B6%84%20%EB%B0%94%EB%9D%BC%EB%B3%B4%EA%B8%B0%202/looking-at-the-line-segment-2.java)|2026.08.05|

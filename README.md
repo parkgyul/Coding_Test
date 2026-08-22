@@ -151,6 +151,7 @@
 |다른 경로로 이동|[링크](./Code_Tree/trail5/%EB%8B%A4%EB%A5%B8%20%EA%B2%BD%EB%A1%9C%EB%A1%9C%20%EC%9D%B4%EB%8F%99/move-with-different-path.java)|2026.08.21|
 |다른 괄호로 이동하기|[링크](./Code_Tree/trail5/%EB%8B%A4%EB%A5%B8%20%EA%B4%84%ED%98%B8%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0/move-to-another-parenthesis.java)|2026.08.13|
 |단어장|[링크](./Code_Tree/trail5/%EB%8B%A8%EC%96%B4%EC%9E%A5/README.md)|2026.07.21|
+|닷 투더 닷|[링크](./Code_Tree/trail5/%EB%8B%B7%20%ED%88%AC%EB%8D%94%20%EB%8B%B7/dot-to-the-dot.java)|2026.08.22|
 |대응되는 수와 문자|[링크](./Code_Tree/trail5/%EB%8C%80%EC%9D%91%EB%90%98%EB%8A%94%20%EC%88%98%EC%99%80%20%EB%AC%B8%EC%9E%90/corresponding-numbers-and-characters.java)|2026.07.20|
 |대칭 차집합|[링크](./Code_Tree/trail5/%EB%8C%80%EC%B9%AD%20%EC%B0%A8%EC%A7%91%ED%95%A9/README.md)|2026.07.21|
 |데이터 비교|[링크](./Code_Tree/trail5/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B9%84%EA%B5%90/README.md)|2026.07.21|

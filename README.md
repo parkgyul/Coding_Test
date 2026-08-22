@@ -201,6 +201,7 @@
 |중앙값|[링크](./Code_Tree/trail5/%EC%A4%91%EC%95%99%EA%B0%92/README.md)|2026.07.30|
 |차이가 가장 작은 수|[링크](./Code_Tree/trail5/%EC%B0%A8%EC%9D%B4%EA%B0%80%20%EA%B0%80%EC%9E%A5%20%EC%9E%91%EC%9D%80%20%EC%88%98/the-number-with-the-smallest-difference.java)|2026.07.28|
 |처음 등장하는 위치|[링크](./Code_Tree/trail5/%EC%B2%98%EC%9D%8C%20%EB%93%B1%EC%9E%A5%ED%95%98%EB%8A%94%20%EC%9C%84%EC%B9%98/first-appearing-position.java)|2026.07.21|
+|천 개의 정거장|[링크](./Code_Tree/trail5/%EC%B2%9C%20%EA%B0%9C%EC%9D%98%20%EC%A0%95%EA%B1%B0%EC%9E%A5/thousand-stops.java)|2026.08.22|
 |최단 거리|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC/shortest-distance.java)|2026.08.19|
 |최단 거리 11|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%2011/README.md)|2026.07.20|
 |최단 거리 3|[링크](./Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%203/README.md)|2026.07.21|

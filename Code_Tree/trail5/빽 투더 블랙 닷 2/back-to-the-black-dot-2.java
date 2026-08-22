@@ -62,17 +62,13 @@ public class Main {
             
             if(i == red1 || i == red2) continue;
 
-            if(red1Costs[i] != INF && red1Costs[red2] != INF && red2Costs[i] != INF){
-                result = Math.min(result, red1Costs[i] + red1Costs[red2] + red2Costs[i]);
-            }
-
-            if(red2Costs[i] != INF && red2Costs[red1] != INF && red1Costs[i] != INF){
-                result = Math.min(result, red2Costs[i] + red2Costs[red1] + red1Costs[i]);
-            }
+            result = Math.min(result, red1Costs[i] + red2Costs[i]);
         }
+
+        result += red1Costs[red2];
         
 
-        System.out.print(result == INF ? -1 : result);
+        System.out.print(result > INF ? -1 : result);
     }
 
     

@@ -1,111 +1,47 @@
-import java.io.*;
-import java.util.*;
+import java.util.Scanner;
+import java.util.HashMap;
 
 public class Main {
+    public static final int MAX_N = 5000;
+    
+    // 변수 선언
+    public static int n, k;
+    public static int[] arr = new int[MAX_N+1];
+    public static HashMap<Integer, Integer> freq = new HashMap<>();
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        // 입력:
+        n = sc.nextInt();
+        k = sc.nextInt();
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        int ans = 0;
 
-        int N = Integer.parseInt(st.nextToken());
-        long K = Long.parseLong(st.nextToken());
-
-        Map<Long, Long> map = new HashMap<>();
-
-        st = new StringTokenizer(br.readLine());
-
-        for (int i = 0; i < N; i++) {
-            long num = Long.parseLong(st.nextToken());
-            map.put(num, map.getOrDefault(num, 0L) + 1);
+        // 각 숫자가 몇 번씩 나왔는지를
+        // hashmap에 기록해줍니다.
+        for(int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+            if(!freq.containsKey(arr[i]))
+                freq.put(arr[i], 1);
+            else
+                freq.put(arr[i], freq.get(arr[i]) + 1);
         }
 
-        List<Long> list = new ArrayList<>(map.keySet());
-        Collections.sort(list);
+        // 배열을 앞에서부터 순회하며 쌍을 만들어줍니다.
+        for(int i = 0; i < n; i++) {
+            // 이미 순회한 적이 있는 숫자는 빼 버림으로서
+            // 같은 조합이 여러번 세어지는 걸 방지합니다.
+            if(freq.containsKey(arr[i]))
+                freq.put(arr[i], freq.get(arr[i]) - 1);
 
-        long answer = 0;
-
-        for (int i = 0; i < list.size() - 1; i++) {
-            for (int j = i + 1; j < list.size(); j++) {
-
-                long a = list.get(i);
-                long b = list.get(j);
-                long c = K - a - b;
-
-                if (!map.containsKey(c)) {
-                    continue;
-                }
-
-                // c가 b보다 작거나 같으면 이미 다른 경우에서 처리됨
-                if (c <= b) {
-                    continue;
-                }
-
-                long countA = map.get(a);
-                long countB = map.get(b);
-                long countC = map.get(c);
-
-                answer += countA * countB * countC;
+            for(int j = 0; j < i; j++) {
+                // 전처리를 해주었기 때문에 이미 순회한 적 있는 값은 hashmap에 없습니다.
+                // 이와 같은 방식으로 같은 조합이 중복되어 세어지는 걸 방지할 수 있습니다.
+                if(freq.containsKey(k - arr[i] - arr[j]))
+                    ans += freq.get(k - arr[i] - arr[j]);
             }
         }
 
-        // a = b인 경우
-        for (int i = 0; i < list.size(); i++) {
-
-            long a = list.get(i);
-            long b = K - 2 * a;
-
-            if (b <= a) {
-                continue;
-            }
-
-            if (!map.containsKey(b)) {
-                continue;
-            }
-
-            long countA = map.get(a);
-
-            if (countA >= 2) {
-                answer += countA * (countA - 1) / 2 * map.get(b);
-            }
-        }
-
-        // a < b = c인 경우
-        for (int i = 0; i < list.size(); i++) {
-
-            long b = list.get(i);
-            long a = K - 2 * b;
-
-            if (a >= b) {
-                continue;
-            }
-
-            if (!map.containsKey(a)) {
-                continue;
-            }
-
-            long countB = map.get(b);
-
-            if (countB >= 2) {
-                answer += map.get(a) * countB * (countB - 1) / 2;
-            }
-        }
-
-        // a = b = c인 경우
-        if (K % 3 == 0) {
-
-            long a = K / 3;
-
-            if (map.containsKey(a)) {
-
-                long count = map.get(a);
-
-                if (count >= 3) {
-                    answer += count * (count - 1) * (count - 2) / 6;
-                }
-            }
-        }
-
-        System.out.println(answer);
+        System.out.print(ans);
     }
 }

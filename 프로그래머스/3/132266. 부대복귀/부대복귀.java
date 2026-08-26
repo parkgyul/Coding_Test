@@ -1,66 +1,50 @@
 import java.util.*;
+
 class Solution {
+    static int[] costs;
+    static List<Integer>[] list;
     public int[] solution(int n, int[][] roads, int[] sources, int destination) {
-        int[] answer = new int[sources.length];
+        costs = new int[n+1];
+        list = new ArrayList[n+1];
         
-        List<Integer>[] roadInfos = new ArrayList[n+1];
+        Arrays.fill(costs, -1);
         
-        for(int i =1 ; i <= n; i++){
-            roadInfos[i] = new ArrayList<>();
+        for(int i = 1; i <= n; i++){
+            list[i] = new ArrayList<>();
         }
         
         for(int[] road : roads){
-            int from = road[0];
-            int to = road[1];
-            
-            roadInfos[from].add(to);
-            roadInfos[to].add(from);
+            list[road[0]].add(road[1]);
+            list[road[1]].add(road[0]);
         }
         
+        bfs(destination);
         
-        int[] costs = dijkstra(roadInfos, n, destination);
-        
+        int[] result = new int[sources.length];
         for(int i = 0; i < sources.length; i++){
-            answer[i] = costs[sources[i]] == Integer.MAX_VALUE ? -1 : costs[sources[i]];
+            result[i] = costs[sources[i]];
         }
         
-        return answer;
+        return result;
     }
     
-    public static int[] dijkstra(List<Integer>[] roadInfos, int n, int start){
-        Queue<Road> q = new LinkedList<>();
-        q.add(new Road(start, 0));
-        int[] costs = new int[n+1];
-        Arrays.fill(costs, Integer.MAX_VALUE);
+    static void bfs(int des){
+        Queue<int[]> q = new LinkedList<>();
+        costs[des] = 0;
+        q.add(new int[]{des, 0});
         
         while(!q.isEmpty()){
-            Road cur = q.poll();
+            int[] cur = q.poll();
             
-            if(costs[cur.node] < cur.cnt)
-                continue;
+            if(costs[cur[0]] < cur[1]) continue;
             
-            costs[cur.node] = cur.cnt;
             
-            for(int next : roadInfos[cur.node]){
-                int nextCost = cur.cnt + 1;
+            for(int next : list[cur[0]]){
+                if(costs[next] != -1 && costs[next] <= cur[1] + 1) continue;
                 
-                if(costs[next] <= nextCost)
-                    continue;
-                
-                q.add(new Road(next, nextCost));   
-            }  
-        }
-    
-        return costs;
-    }
-    
-    
-    public static class Road{
-        int node, cnt;
-        
-        public Road(int node, int cnt){
-            this.node = node;
-            this.cnt = cnt;
+                costs[next] = cur[1] + 1;
+                q.add(new int[]{next, cur[1] + 1});
+            }
         }
     }
 }

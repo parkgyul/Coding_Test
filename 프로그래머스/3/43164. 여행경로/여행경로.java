@@ -1,48 +1,51 @@
 import java.util.*;
 
 class Solution {
-    static String[] path;
-    static int n;
-    static boolean flag = false;
-    static boolean[] visited;
-    
+    static Map<String, List<String>> graph = new HashMap<>();
+    static List<String> path = new ArrayList<>();
+    static int totalTickets;
+
     public String[] solution(String[][] tickets) {
-        String[] answer = {};
-        
-        n = tickets.length;
-        
-        Arrays.sort(tickets, (a, b) -> {
-           if(a[0].equals(b[0])) return a[1].compareTo(b[1]);
-              return a[0].compareTo(b[0]);
-        });
-        
-        visited = new boolean[n];
-    
-        path = new String[n+1];
-        path[0] = "ICN";
-        
-        dfs(0, "ICN", tickets);
-    
-        return path;
+        totalTickets = tickets.length;
+
+        // 1. 그래프 생성
+        for (String[] ticket : tickets) {
+            graph.putIfAbsent(ticket[0], new ArrayList<>());
+            graph.get(ticket[0]).add(ticket[1]);
+        }
+
+        // 2. 도착지 목록을 사전순(알파벳순)으로 정렬
+        for (List<String> destinations : graph.values()) {
+            Collections.sort(destinations);
+        }
+
+        // 3. ICN 출발 DFS
+        dfs("ICN");
+
+        return path.toArray(new String[0]);
     }
-    
-    static void dfs(int depth, String city, String[][] tickets){
-        if(depth == n){
-            flag = true;
-            return;
+
+    private boolean dfs(String current) {
+       path.add(current);
+        
+        if(path.size() == totalTickets + 1){
+            return true;
         }
         
-        if(flag) return;
+        List<String> destinations = graph.get(current);
         
-        for(int i = 0; i < n; i++){
-            if(visited[i] || !tickets[i][0].equals(city)) continue;
-            
-            visited[i] = true;
-            path[depth+1] = tickets[i][1];
-            dfs(depth+1, tickets[i][1], tickets);
-            
-            if(flag) return;
-            visited[i] = false;
+        if(destinations != null){
+            for(int i = 0; i < destinations.size(); i++){
+                String next = destinations.get(i);
+                destinations.remove(i);
+                
+                if(dfs(next)) return true;
+                
+                destinations.add(i, next);
+            }
         }
+        
+        path.remove(path.size() -1);
+        return false;
     }
 }

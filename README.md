@@ -226,8 +226,17 @@
 ### 🚀 LeetCode
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
-|0787-cheapest-flights-within-k-stops|[링크](./LeetCode/0787-cheapest-flights-within-k-stops/0787-cheapest-flights-within-k-stops.java)|2026.09.05|
-|2402-meeting-rooms-iii|[링크](./LeetCode/2402-meeting-rooms-iii/2402-meeting-rooms-iii.java)|2026.09.05|
+|Easy|[링크](./LeetCode/Easy/.DS_Store)|2026.09.05|
+|Hard|[링크](./LeetCode/Hard/.DS_Store)|2026.09.05|
+### 🚀 Hard
+| 문제번호 | 링크 | 푼 날짜 |
+| ----- | ----- | -------------- |
+|2402-meeting-rooms-iii|[링크](./LeetCode/Hard/2402-meeting-rooms-iii/2402-meeting-rooms-iii.java)|2026.09.05|
+|Medium|[링크](./LeetCode/Medium/.DS_Store)|2026.09.05|
+### 🚀 Medium
+| 문제번호 | 링크 | 푼 날짜 |
+| ----- | ----- | -------------- |
+|0787-cheapest-flights-within-k-stops|[링크](./LeetCode/Medium/0787-cheapest-flights-within-k-stops/0787-cheapest-flights-within-k-stops.java)|2026.09.05|
 ### 🚀 SWEA
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |

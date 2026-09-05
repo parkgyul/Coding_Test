@@ -2,13 +2,18 @@
 """
 알고리즘 풀이 저장소의 README.md를 자동 생성한다.
 
-- 푼 날짜는 git 히스토리에서 "그 문제 폴더가 처음 커밋된 시점"을 가져온다.
-- 폴더를 git mv 로 옮겨도 폴더 이름만 같으면 최초 날짜가 그대로 유지된다.
-- 플랫폼/난이도 폴더 깊이가 달라도 알아서 문제 폴더를 찾아낸다.
+푼 날짜 결정 순서
+  1. .solved_dates.json 에 이미 기록된 값 (한 번 정해지면 다시 안 바뀜)
+  2. git 히스토리에서 그 문제 폴더가 처음 추가된 커밋 날짜
+  3. 둘 다 없으면 오늘 (새로 푼 문제)
+
+주의: git 히스토리가 shallow clone 이면 2번이 전부 같은 날짜가 된다.
+      GitHub Actions 라면 actions/checkout 에 fetch-depth: 0 을 꼭 넣을 것.
 """
 
 from __future__ import annotations
 
+import json
 import re
 import subprocess
 from collections import defaultdict
@@ -17,6 +22,8 @@ from pathlib import Path
 from urllib.parse import quote
 
 README_FILE = "README.md"
+DATE_CACHE_FILE = ".solved_dates.json"
+LINKS_FILE = "links.json"   # 자동으로 못 만드는 링크를 직접 채워두는 파일
 
 SKIP_DIRS = {
     ".git", ".github", ".idea", ".vscode", "images", "img",
@@ -31,9 +38,15 @@ LANGUAGES = {
     ".swift": "Swift", ".sql": "SQL", ".sh": "Shell",
 }
 
+# 문제 폴더 README 에서 원본 링크를 주워올 때 신뢰할 도메인
+KNOWN_HOSTS = (
+    "acmicpc.net", "programmers.co.kr", "swexpertacademy.com",
+    "leetcode.com", "codetree.ai",
+)
+
 
 # --------------------------------------------------------------------------
-# 플랫폼 설정: 여기만 고치면 플랫폼을 추가/변경할 수 있다
+# 플랫폼 설정
 # --------------------------------------------------------------------------
 
 def boj_url(problem: str) -> str | None:
@@ -49,12 +62,23 @@ def programmers_url(problem: str) -> str | None:
 
 
 def leetcode_url(problem: str) -> str | None:
-    # 0001-two-sum → two-sum
     m = re.match(r"\d+[-._ ]+(.+)", problem)
     if not m:
         return None
     slug = re.sub(r"[^a-z0-9]+", "-", m.group(1).lower()).strip("-")
     return f"https://leetcode.com/problems/{slug}/"
+
+
+def swea_url(problem: str) -> str | None:
+    # SWEA 는 문제 번호가 아니라 contestProbId 라는 내부 ID 로 접근해서
+    # 번호만으로 URL 을 만들 수 없다. 폴더 안 README 의 링크를 대신 쓴다.
+    return None
+
+
+def codetree_url(problem: str) -> str | None:
+    # 코드트리도 영문 slug 기반이라 한글 폴더명에서 URL 을 만들 수 없다.
+    # links.json 이나 폴더 안 README 링크로 채운다.
+    return None
 
 
 PLATFORMS = [
@@ -74,11 +98,26 @@ PLATFORMS = [
         "url": programmers_url,
     },
     {
+        "dirs": ["SWEA", "swea", "SW Expert Academy"],
+        "title": "SW Expert Academy",
+        "emoji": "🎯",
+        "tier_order": ["D1", "D2", "D3", "D4", "D5", "D6"],
+        "url": swea_url,
+    },
+    {
         "dirs": ["LeetCode", "leetcode"],
         "title": "LeetCode",
         "emoji": "⚡",
         "tier_order": ["Easy", "Medium", "Hard"],
         "url": leetcode_url,
+    },
+    {
+        "dirs": ["Code_Tree", "CodeTree", "codetree", "코드트리"],
+        "title": "코드트리",
+        "emoji": "🌳",
+        "tier_order": ["Trail", "쉬움", "보통", "어려움",
+                       "Novice", "Intermediate", "Advanced", "Expert"],
+        "url": codetree_url,
     },
 ]
 
@@ -87,34 +126,49 @@ PLATFORMS = [
 # git
 # --------------------------------------------------------------------------
 
+def git(root: Path, *args: str) -> str:
+    out = subprocess.run(
+        ["git", "-c", "core.quotePath=false", "-C", str(root), *args],
+        capture_output=True, text=True, encoding="utf-8", check=True,
+    )
+    return out.stdout
+
+
 def repo_root() -> Path:
     try:
-        out = subprocess.run(
-            ["git", "rev-parse", "--show-toplevel"],
-            capture_output=True, text=True, check=True,
-        )
-        return Path(out.stdout.strip())
+        return Path(git(Path.cwd(), "rev-parse", "--show-toplevel").strip())
     except Exception:
         return Path.cwd()
 
 
-def collect_commit_dates(root: Path) -> dict[str, str]:
-    """폴더 이름 → 그 폴더의 파일이 처음 커밋된 날짜.
-
-    전체 히스토리를 한 번만 훑어서 dict 를 만든다. 파일마다 git 을 부르는 것보다
-    훨씬 빠르고, 폴더 이름으로 묶기 때문에 경로가 바뀌어도 최초 날짜가 살아남는다.
-    """
-    marker = "__COMMIT__"
-    cmd = [
-        "git", "-c", "core.quotePath=false", "-C", str(root), "log",
-        "--reverse", "--no-renames", "--date=short",
-        f"--pretty=format:{marker}%ad", "--name-only",
-    ]
+def warn_if_shallow(root: Path) -> None:
     try:
-        out = subprocess.run(cmd, capture_output=True, text=True,
-                             encoding="utf-8", check=True).stdout
+        shallow = git(root, "rev-parse", "--is-shallow-repository").strip()
+        count = int(git(root, "rev-list", "--count", "HEAD").strip())
+    except Exception:
+        return
+    if shallow == "true":
+        print("[warn] shallow clone 입니다. 모든 문제가 같은 날짜로 기록됩니다.")
+        print("       로컬이면   git fetch --unshallow")
+        print("       Actions 면 actions/checkout 에 fetch-depth: 0 추가")
+    elif count <= 2:
+        print(f"[warn] 커밋이 {count}개뿐이라 날짜를 구분할 수 없습니다.")
+
+
+def collect_commit_dates(root: Path) -> dict[str, str]:
+    """폴더 이름 → 그 폴더의 파일이 처음 '추가'된 커밋 날짜.
+
+    전체 히스토리를 한 번만 훑는다. 경로가 아니라 폴더 이름을 키로 쓰기 때문에
+    git mv 로 폴더를 옮겨도 최초 날짜가 유지된다.
+    """
+    marker = "__C__"
+    try:
+        out = git(
+            root, "log", "--reverse", "--no-renames", "--diff-filter=A",
+            "--date=short", f"--pretty=format:{marker}%ad", "--name-only",
+        )
     except Exception as e:
-        print(f"[warn] git log 실패, 날짜를 오늘로 채웁니다: {e}")
+        print(f"[warn] git log 실패: {e}")
         return {}
 
     dates: dict[str, str] = {}
@@ -130,8 +184,7 @@ def collect_commit_dates(root: Path) -> dict[str, str]:
             continue
         parent = Path(line).parent.name
         if parent:
-            # --reverse 라서 먼저 등장한 쪽이 가장 오래된 커밋이다
-            dates.setdefault(parent, current)
+            dates.setdefault(parent, current)  # --reverse 라 첫 등장이 가장 오래됨
     return dates
 
 
@@ -140,48 +193,57 @@ def collect_commit_dates(root: Path) -> dict[str, str]:
 # --------------------------------------------------------------------------
 
 def find_platform(name: str) -> dict | None:
-    for p in PLATFORMS:
-        if name in p["dirs"]:
-            return p
-    return None
+    return next((p for p in PLATFORMS if name in p["dirs"]), None)
 
 
 def solution_files(directory: Path) -> list[Path]:
-    files = [
+    return [
         f for f in sorted(directory.iterdir())
-        if f.is_file()
-        and f.name not in SKIP_FILES
-        and f.suffix in LANGUAGES
+        if f.is_file() and f.name not in SKIP_FILES and f.suffix in LANGUAGES
     ]
-    return files
+
+
+def url_from_readme(directory: Path) -> str | None:
+    """BaekjoonHub 이 문제 폴더에 만들어둔 README 에서 원본 문제 링크를 뽑는다."""
+    for name in ("README.md", "readme.md"):
+        f = directory / name
+        if not f.exists():
+            continue
+        try:
+            text = f.read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            continue
+        for url in re.findall(r"https?://[^\s)\]\"'>]+", text):
+            if any(host in url for host in KNOWN_HOSTS):
+                return url.rstrip(".,")
+    return None
 
 
 def scan_platform(platform_dir: Path) -> list[dict]:
-    """플랫폼 폴더 아래에서 '코드 파일을 직접 담고 있는 폴더'를 문제로 본다."""
+    """코드 파일을 직접 담고 있는 폴더 하나를 문제 하나로 본다."""
     problems = []
     for directory in sorted(platform_dir.rglob("*")):
-        if not directory.is_dir():
-            continue
-        if any(part in SKIP_DIRS for part in directory.parts):
+        if not directory.is_dir() or any(p in SKIP_DIRS for p in directory.parts):
             continue
         files = solution_files(directory)
         if not files:
             continue
         rel = directory.relative_to(platform_dir).parts
-        tier = rel[-2] if len(rel) >= 2 else "미분류"
         problems.append({
             "problem": directory.name,
-            "tier": tier,
+            # 플랫폼 바로 아래 첫 폴더를 난이도/분류로 본다.
+            # (Trail4/챕터/문제/코드 처럼 중간 폴더가 껴 있어도 Trail4 로 묶임)
+            "tier": rel[0] if len(rel) >= 2 else "미분류",
             "path": directory,
             "files": files,
+            "url": url_from_readme(directory),
             "languages": sorted({LANGUAGES[f.suffix] for f in files}),
         })
     return problems
 
 
 def natural_key(text: str):
-    return [int(t) if t.isdigit() else t.lower()
-            for t in re.split(r"(\d+)", text)]
+    return [int(t) if t.isdigit() else t.lower() for t in re.split(r"(\d+)", text)]
 
 
 def tier_key(tier: str, order: list[str]):
@@ -196,18 +258,18 @@ def tier_key(tier: str, order: list[str]):
 # 렌더링
 # --------------------------------------------------------------------------
 
-def link(path: Path, root: Path) -> str:
+def rel_link(path: Path, root: Path) -> str:
     return quote(str(path.relative_to(root)).replace("\\", "/"))
 
 
-def render(root: Path, data: list[tuple[dict, list[dict]]], dates: dict) -> str:
+def render(root: Path, data: list[tuple[dict, list[dict]]]) -> str:
     today = date.today().strftime("%Y.%m.%d")
     total = sum(len(p) for _, p in data)
 
     lines = [
         "# 🗂 Algorithm Solutions",
         "",
-        "백준 · 프로그래머스 · LeetCode 풀이를 자동으로 정리한 저장소입니다.",
+        "백준 · 프로그래머스 · SWEA · LeetCode 풀이 기록입니다.",
         "",
         f"**총 {total}문제** · 마지막 업데이트 {today}",
         "",
@@ -219,10 +281,7 @@ def render(root: Path, data: list[tuple[dict, list[dict]]], dates: dict) -> str:
     lines.append("")
 
     for platform, problems in data:
-        if not problems:
-            continue
-        lines += ["---", "",
-                  f"## {platform['emoji']} {platform['title']}", ""]
+        lines += ["---", "", f"## {platform['emoji']} {platform['title']}", ""]
 
         by_tier = defaultdict(list)
         for p in problems:
@@ -238,14 +297,12 @@ def render(root: Path, data: list[tuple[dict, list[dict]]], dates: dict) -> str:
                 "| :--- | :---: | :---: | :---: |",
             ]
             for p in rows:
-                url = platform["url"](p["problem"])
-                title = f"[{p['problem']}]({url})" if url else p["problem"]
+                title = f"[{p['problem']}]({p['url']})" if p["url"] else p["problem"]
                 langs = ", ".join(p["languages"])
                 code = " · ".join(
-                    f"[{f.suffix.lstrip('.')}]({link(f, root)})" for f in p["files"]
+                    f"[{f.suffix.lstrip('.')}]({rel_link(f, root)})" for f in p["files"]
                 )
-                when = dates.get(p["problem"], today).replace("-", ".")
-                lines.append(f"| {title} | {langs} | {code} | {when} |")
+                lines.append(f"| {title} | {langs} | {code} | {p['solved']} |")
             lines += ["", "</details>", ""]
 
     return "\n".join(lines).rstrip() + "\n"
@@ -255,24 +312,68 @@ def render(root: Path, data: list[tuple[dict, list[dict]]], dates: dict) -> str:
 
 def main() -> None:
     root = repo_root()
-    dates = collect_commit_dates(root)
+    warn_if_shallow(root)
 
+    cache_path = root / DATE_CACHE_FILE
+    try:
+        cache = json.loads(cache_path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        cache = {}
+
+    git_dates = collect_commit_dates(root)
+    today = date.today().strftime("%Y.%m.%d")
+
+    try:
+        links = json.loads((root / LINKS_FILE).read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        links = {}
+
+    missing_links = []
     data = []
-    for child in sorted(root.iterdir()):
-        if not child.is_dir() or child.name in SKIP_DIRS:
-            continue
-        platform = find_platform(child.name)
-        if platform is None:
+    for platform in PLATFORMS:  # README 에 찍히는 순서 = 여기 정의된 순서
+        child = next((root / d for d in platform["dirs"] if (root / d).is_dir()), None)
+        if child is None:
             continue
         problems = scan_platform(child)
-        if problems:
-            data.append((platform, problems))
-            print(f"{platform['title']}: {len(problems)}문제")
+        if not problems:
+            continue
+
+        for p in problems:
+            key = f"{platform['title']}/{p['problem']}"
+
+            # 링크: links.json > 문제 폴더 README > 번호로 생성
+            p["url"] = links.get(key) or p["url"] or platform["url"](p["problem"])
+            if not p["url"]:
+                missing_links.append(key)
+
+            if key in cache:
+                p["solved"] = cache[key]
+            else:
+                p["solved"] = git_dates.get(p["problem"], today).replace("-", ".")
+                cache[key] = p["solved"]
+
+        data.append((platform, problems))
+        print(f"{platform['title']}: {len(problems)}문제")
 
     if not data:
-        print("[warn] 플랫폼 폴더를 못 찾았습니다. PLATFORMS 설정을 확인하세요.")
+        print("[warn] 플랫폼 폴더를 못 찾았습니다. PLATFORMS 의 dirs 를 확인하세요.")
+        return
 
-    (root / README_FILE).write_text(render(root, data, dates), encoding="utf-8")
+    (root / README_FILE).write_text(render(root, data), encoding="utf-8")
+    cache_path.write_text(
+        json.dumps(cache, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+
+    if missing_links:
+        # 링크를 못 만든 문제는 links.json 틀을 만들어 두고 직접 채우게 한다
+        template = {**{k: "" for k in missing_links}, **links}
+        (root / LINKS_FILE).write_text(
+            json.dumps(template, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+            encoding="utf-8",
+        )
+        print(f"[info] 링크 없는 문제 {len(missing_links)}개 → {LINKS_FILE} 에 채워주세요")
+
     print(f"완료 → {root / README_FILE}")
 
 

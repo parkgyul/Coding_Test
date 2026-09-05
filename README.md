@@ -223,6 +223,11 @@
 |큰 숫자만 계속 고르기|[링크](./Code_Tree/trail5/%ED%81%B0%20%EC%88%AB%EC%9E%90%EB%A7%8C%20%EA%B3%84%EC%86%8D%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/keep-picking-the-big-number.java)|2026.07.29|
 |행렬로 주어진 간선|[링크](./Code_Tree/trail5/%ED%96%89%EB%A0%AC%EB%A1%9C%20%EC%A3%BC%EC%96%B4%EC%A7%84%20%EA%B0%84%EC%84%A0/edge-given-by-matrix.java)|2026.08.19|
 |호텔 예약|[링크](./Code_Tree/trail5/%ED%98%B8%ED%85%94%20%EC%98%88%EC%95%BD/reserve-hotel.java)|2026.08.05|
+### 🚀 LeetCode
+| 문제번호 | 링크 | 푼 날짜 |
+| ----- | ----- | -------------- |
+|0787-cheapest-flights-within-k-stops|[링크](./LeetCode/0787-cheapest-flights-within-k-stops/0787-cheapest-flights-within-k-stops.java)|2026.09.05|
+|2402-meeting-rooms-iii|[링크](./LeetCode/2402-meeting-rooms-iii/2402-meeting-rooms-iii.java)|2026.09.05|
 ### 🚀 SWEA
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |

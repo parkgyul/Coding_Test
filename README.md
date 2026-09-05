@@ -529,3 +529,31 @@
 | 문제번호 | 링크 | 푼 날짜 |
 | ----- | ----- | -------------- |
 |131534. 상품을 구매한 회원 비율 구하기|[링크](./%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/5/131534.%E2%80%85%EC%83%81%ED%92%88%EC%9D%84%E2%80%85%EA%B5%AC%EB%A7%A4%ED%95%9C%E2%80%85%ED%9A%8C%EC%9B%90%E2%80%85%EB%B9%84%EC%9C%A8%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/%EC%83%81%ED%92%88%EC%9D%84%E2%80%85%EA%B5%AC%EB%A7%A4%ED%95%9C%E2%80%85%ED%9A%8C%EC%9B%90%E2%80%85%EB%B9%84%EC%9C%A8%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0.sql)|2026.05.30|
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Dynamic Programming
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/parkgyul/Coding_Test/tree/master/0787-cheapest-flights-within-k-stops) |
+## Depth-First Search
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/parkgyul/Coding_Test/tree/master/0787-cheapest-flights-within-k-stops) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/parkgyul/Coding_Test/tree/master/0787-cheapest-flights-within-k-stops) |
+## Graph Theory
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/parkgyul/Coding_Test/tree/master/0787-cheapest-flights-within-k-stops) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/parkgyul/Coding_Test/tree/master/0787-cheapest-flights-within-k-stops) |
+## Shortest Path
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/parkgyul/Coding_Test/tree/master/0787-cheapest-flights-within-k-stops) |
+<!---LeetCode Topics End-->

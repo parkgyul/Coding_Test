@@ -1,36 +1,16 @@
 # 🗂 Algorithm Solutions
 
-백준 · 프로그래머스 · LeetCode 풀이를 자동으로 정리한 저장소입니다.
+백준 · 프로그래머스 · SWEA · LeetCode 풀이 기록입니다.
 
-**총 253문제** · 마지막 업데이트 2026.09.05
+**총 481문제** · 마지막 업데이트 2026.09.05
 
 | 플랫폼 | 문제 수 |
 | :--- | ---: |
-| ⚡ LeetCode | 2 |
 | 🐢 백준 | 175 |
 | 🧩 프로그래머스 | 76 |
-
----
-
-## ⚡ LeetCode
-
-<details>
-<summary><b>Medium</b> — 1문제</summary>
-
-| 문제 | 언어 | 풀이 | 푼 날짜 |
-| :--- | :---: | :---: | :---: |
-| [0787-cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Java | [java](LeetCode/Medium/0787-cheapest-flights-within-k-stops/0787-cheapest-flights-within-k-stops.java) | 2026.09.05 |
-
-</details>
-
-<details>
-<summary><b>Hard</b> — 1문제</summary>
-
-| 문제 | 언어 | 풀이 | 푼 날짜 |
-| :--- | :---: | :---: | :---: |
-| [2402-meeting-rooms-iii](https://leetcode.com/problems/meeting-rooms-iii/) | Java | [java](LeetCode/Hard/2402-meeting-rooms-iii/2402-meeting-rooms-iii.java) | 2026.09.05 |
-
-</details>
+| 🎯 SW Expert Academy | 15 |
+| ⚡ LeetCode | 2 |
+| 🌳 코드트리 | 213 |
 
 ---
 
@@ -352,5 +332,303 @@
 | 문제 | 언어 | 풀이 | 푼 날짜 |
 | :--- | :---: | :---: | :---: |
 | [131534. 상품을 구매한 회원 비율 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131534) | SQL | [sql](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/5/131534.%E2%80%85%EC%83%81%ED%92%88%EC%9D%84%E2%80%85%EA%B5%AC%EB%A7%A4%ED%95%9C%E2%80%85%ED%9A%8C%EC%9B%90%E2%80%85%EB%B9%84%EC%9C%A8%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0/%EC%83%81%ED%92%88%EC%9D%84%E2%80%85%EA%B5%AC%EB%A7%A4%ED%95%9C%E2%80%85%ED%9A%8C%EC%9B%90%E2%80%85%EB%B9%84%EC%9C%A8%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0.sql) | 2026.09.05 |
+
+</details>
+
+---
+
+## 🎯 SW Expert Academy
+
+<details>
+<summary><b>D3</b> — 1문제</summary>
+
+| 문제 | 언어 | 풀이 | 푼 날짜 |
+| :--- | :---: | :---: | :---: |
+| [2805. 농작물 수확하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GLXqKAWYDFAXB) | Java | [java](SWEA/D3/2805.%E2%80%85%EB%86%8D%EC%9E%91%EB%AC%BC%E2%80%85%EC%88%98%ED%99%95%ED%95%98%EA%B8%B0/%EB%86%8D%EC%9E%91%EB%AC%BC%E2%80%85%EC%88%98%ED%99%95%ED%95%98%EA%B8%B0.java) | 2026.09.05 |
+
+</details>
+
+<details>
+<summary><b>D4</b> — 11문제</summary>
+
+| 문제 | 언어 | 풀이 | 푼 날짜 |
+| :--- | :---: | :---: | :---: |
+| [1210. ［S／W 문제해결 기본］ 2일차 － Ladder1](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14ABYKADACFAYh) | Java | [java](SWEA/D4/1210.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%852%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85Ladder1/%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%852%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85Ladder1.java) | 2026.09.05 |
+| [1218. ［S／W 문제해결 기본］ 4일차 － 괄호 짝짓기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14eWb6AAkCFAYD) | Java | [java](SWEA/D4/1218.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%854%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B4%84%ED%98%B8%E2%80%85%EC%A7%9D%EC%A7%93%EA%B8%B0/%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%854%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B4%84%ED%98%B8%E2%80%85%EC%A7%9D%EC%A7%93%EA%B8%B0.java) | 2026.09.05 |
+| [1224. ［S／W 문제해결 기본］ 6일차 － 계산기3](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14tDX6AFgCFAYD) | Java | [java](SWEA/D4/1224.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%856%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B3%84%EC%82%B0%EA%B8%B03/%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%856%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B3%84%EC%82%B0%EA%B8%B03.java) | 2026.09.05 |
+| [1231. ［S／W 문제해결 기본］ 9일차 － 중위순회](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV140YnqAIECFAYD) | Java | [java](SWEA/D4/1231.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%859%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EC%A4%91%EC%9C%84%EC%88%9C%ED%9A%8C/%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%859%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EC%A4%91%EC%9C%84%EC%88%9C%ED%9A%8C.java) | 2026.09.05 |
+| [1861. 정사각형 방](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LtJYKDzsDFAXc) | Java | [java](SWEA/D4/1861.%E2%80%85%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95%E2%80%85%EB%B0%A9/%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95%E2%80%85%EB%B0%A9.java) | 2026.09.05 |
+| [2819. 격자판의 숫자 이어 붙이기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7I5fgqEogDFAXB) | Java | [java](SWEA/D4/2819.%E2%80%85%EA%B2%A9%EC%9E%90%ED%8C%90%EC%9D%98%E2%80%85%EC%88%AB%EC%9E%90%E2%80%85%EC%9D%B4%EC%96%B4%E2%80%85%EB%B6%99%EC%9D%B4%EA%B8%B0/%EA%B2%A9%EC%9E%90%ED%8C%90%EC%9D%98%E2%80%85%EC%88%AB%EC%9E%90%E2%80%85%EC%9D%B4%EC%96%B4%E2%80%85%EB%B6%99%EC%9D%B4%EA%B8%B0.java) | 2026.09.05 |
+| [3124. 최소 스패닝 트리](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV_mSnmKUckDFAWb) | Java | [java](SWEA/D4/3124.%E2%80%85%EC%B5%9C%EC%86%8C%E2%80%85%EC%8A%A4%ED%8C%A8%EB%8B%9D%E2%80%85%ED%8A%B8%EB%A6%AC/%EC%B5%9C%EC%86%8C%E2%80%85%EC%8A%A4%ED%8C%A8%EB%8B%9D%E2%80%85%ED%8A%B8%EB%A6%AC.java) | 2026.09.05 |
+| [4408. 자기 방으로 돌아가기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWNcJ2sapZMDFAV8) | Java | [java](SWEA/D4/4408.%E2%80%85%EC%9E%90%EA%B8%B0%E2%80%85%EB%B0%A9%EC%9C%BC%EB%A1%9C%E2%80%85%EB%8F%8C%EC%95%84%EA%B0%80%EA%B8%B0/%EC%9E%90%EA%B8%B0%E2%80%85%EB%B0%A9%EC%9C%BC%EB%A1%9C%E2%80%85%EB%8F%8C%EC%95%84%EA%B0%80%EA%B8%B0.java) | 2026.09.05 |
+| [4613. 러시아 국기 같은 깃발](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWQl9TIK8qoDFAXj) | Java | [java](SWEA/D4/4613.%E2%80%85%EB%9F%AC%EC%8B%9C%EC%95%84%E2%80%85%EA%B5%AD%EA%B8%B0%E2%80%85%EA%B0%99%EC%9D%80%E2%80%85%EA%B9%83%EB%B0%9C/%EB%9F%AC%EC%8B%9C%EC%95%84%E2%80%85%EA%B5%AD%EA%B8%B0%E2%80%85%EA%B0%99%EC%9D%80%E2%80%85%EA%B9%83%EB%B0%9C.java) | 2026.09.05 |
+| [5643. ［Professional］ 키 순서](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXQsLWKd5cDFAUo) | Java | [java](SWEA/D4/5643.%E2%80%85%EF%BC%BBProfessional%EF%BC%BD%E2%80%85%ED%82%A4%E2%80%85%EC%88%9C%EC%84%9C/%EF%BC%BBProfessional%EF%BC%BD%E2%80%85%ED%82%A4%E2%80%85%EC%88%9C%EC%84%9C.java) | 2026.09.05 |
+| [7465. 창용 마을 무리의 개수](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWngfZVa9XwDFAQU) | Java | [java](SWEA/D4/7465.%E2%80%85%EC%B0%BD%EC%9A%A9%E2%80%85%EB%A7%88%EC%9D%84%E2%80%85%EB%AC%B4%EB%A6%AC%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98/%EC%B0%BD%EC%9A%A9%E2%80%85%EB%A7%88%EC%9D%84%E2%80%85%EB%AC%B4%EB%A6%AC%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98.java) | 2026.09.05 |
+
+</details>
+
+<details>
+<summary><b>D5</b> — 3문제</summary>
+
+| 문제 | 언어 | 풀이 | 푼 날짜 |
+| :--- | :---: | :---: | :---: |
+| [1247. ［S／W 문제해결 응용］ 3일차 － 최적 경로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15OZ4qAPICFAYD) | Java | [java](SWEA/D5/1247.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EC%9D%91%EC%9A%A9%EF%BC%BD%E2%80%853%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EC%B5%9C%EC%A0%81%E2%80%85%EA%B2%BD%EB%A1%9C/%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EC%9D%91%EC%9A%A9%EF%BC%BD%E2%80%853%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EC%B5%9C%EC%A0%81%E2%80%85%EA%B2%BD%EB%A1%9C.java) | 2026.09.05 |
+| [1248. ［S／W 문제해결 응용］ 3일차 － 공통조상](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15PTkqAPYCFAYD) | Java | [java](SWEA/D5/1248.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EC%9D%91%EC%9A%A9%EF%BC%BD%E2%80%853%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B3%B5%ED%86%B5%EC%A1%B0%EC%83%81/%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EC%9D%91%EC%9A%A9%EF%BC%BD%E2%80%853%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B3%B5%ED%86%B5%EC%A1%B0%EC%83%81.java) | 2026.09.05 |
+| [1259. ［S／W 문제해결 응용］ 7일차 － 금속막대](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV18NaZqIt8CFAZN) | Java | [java](SWEA/D5/1259.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EC%9D%91%EC%9A%A9%EF%BC%BD%E2%80%857%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B8%88%EC%86%8D%EB%A7%89%EB%8C%80/%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EC%9D%91%EC%9A%A9%EF%BC%BD%E2%80%857%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EA%B8%88%EC%86%8D%EB%A7%89%EB%8C%80.java) | 2026.09.05 |
+
+</details>
+
+---
+
+## ⚡ LeetCode
+
+<details>
+<summary><b>Medium</b> — 1문제</summary>
+
+| 문제 | 언어 | 풀이 | 푼 날짜 |
+| :--- | :---: | :---: | :---: |
+| [0787-cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) | Java | [java](LeetCode/Medium/0787-cheapest-flights-within-k-stops/0787-cheapest-flights-within-k-stops.java) | 2026.09.05 |
+
+</details>
+
+<details>
+<summary><b>Hard</b> — 1문제</summary>
+
+| 문제 | 언어 | 풀이 | 푼 날짜 |
+| :--- | :---: | :---: | :---: |
+| [2402-meeting-rooms-iii](https://leetcode.com/problems/meeting-rooms-iii) | Java | [java](LeetCode/Hard/2402-meeting-rooms-iii/2402-meeting-rooms-iii.java) | 2026.09.05 |
+
+</details>
+
+---
+
+## 🌳 코드트리
+
+<details>
+<summary><b>trail4</b> — 110문제</summary>
+
+| 문제 | 언어 | 풀이 | 푼 날짜 |
+| :--- | :---: | :---: | :---: |
+| [1, 2, 5 더하기](https://www.codetree.ai/trails/complete/curated-cards/challenge-1-2-5-plus) | Java | [java](Code_Tree/trail4/1%2C%202%2C%205%20%EB%8D%94%ED%95%98%EA%B8%B0/1-2-5-plus.java) | 2026.09.05 |
+| [1차원 바람](https://www.codetree.ai/trails/complete/curated-cards/challenge-The-1D-wind-blows) | Java | [java](Code_Tree/trail4/1%EC%B0%A8%EC%9B%90%20%EB%B0%94%EB%9E%8C/The-1D-wind-blows.java) | 2026.09.05 |
+| [1차원 젠가](https://www.codetree.ai/trails/complete/curated-cards/intro-jenga-1d) | Java | [java](Code_Tree/trail4/1%EC%B0%A8%EC%9B%90%20%EC%A0%A0%EA%B0%80/jenga-1d.java) | 2026.09.05 |
+| [1차원 폭발 게임](https://www.codetree.ai/trails/complete/curated-cards/challenge-The-1D-bomb-game) | Java | [java](Code_Tree/trail4/1%EC%B0%A8%EC%9B%90%20%ED%8F%AD%EB%B0%9C%20%EA%B2%8C%EC%9E%84/The-1D-bomb-game.java) | 2026.09.05 |
+| [2N개 중에 N개의 숫자를 적절하게 고르기](https://www.codetree.ai/trails/complete/curated-cards/challenge-choose-n-out-of-2n-properly) | Java | [java](Code_Tree/trail4/2N%EA%B0%9C%20%EC%A4%91%EC%97%90%20N%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90%EB%A5%BC%20%EC%A0%81%EC%A0%88%ED%95%98%EA%B2%8C%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/choose-n-out-of-2n-properly.java) | 2026.09.05 |
+| [2차원 바람](https://www.codetree.ai/trails/complete/curated-cards/challenge-The-2D-wind-blows) | Java | [java](Code_Tree/trail4/2%EC%B0%A8%EC%9B%90%20%EB%B0%94%EB%9E%8C/The-2D-wind-blows.java) | 2026.09.05 |
+| [2차원 최대 증가 수열](https://www.codetree.ai/trails/complete/curated-cards/challenge-longest-increasing-sequence-2d) | Java | [java](Code_Tree/trail4/2%EC%B0%A8%EC%9B%90%20%EC%B5%9C%EB%8C%80%20%EC%A6%9D%EA%B0%80%20%EC%88%98%EC%97%B4/longest-increasing-sequence-2d.java) | 2026.09.05 |
+| [2차원 폭발 게임](https://www.codetree.ai/trails/complete/curated-cards/challenge-The-2D-bomb-game) | Java | [java](Code_Tree/trail4/2%EC%B0%A8%EC%9B%90%20%ED%8F%AD%EB%B0%9C%20%EA%B2%8C%EC%9E%84/The-2D-bomb-game.java) | 2026.09.05 |
+| [4가지 연산을 이용하여 1 만들기](https://www.codetree.ai/trails/complete/curated-cards/challenge-make-one-using-four-operations) | Java | [java](Code_Tree/trail4/4%EA%B0%80%EC%A7%80%20%EC%97%B0%EC%82%B0%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC%201%20%EB%A7%8C%EB%93%A4%EA%B8%B0/make-one-using-four-operations.java) | 2026.09.05 |
+| [K개의 벽 없애기](https://www.codetree.ai/trails/complete/curated-cards/challenge-remove-k-walls) | Java | [java](Code_Tree/trail4/K%EA%B0%9C%EC%9D%98%20%EB%B2%BD%20%EC%97%86%EC%95%A0%EA%B8%B0/remove-k-walls.java) | 2026.09.05 |
+| [K번 최댓값으로 이동하기](https://www.codetree.ai/trails/complete/curated-cards/challenge-move-to-max-k-times) | Java | [java](Code_Tree/trail4/K%EB%B2%88%20%EC%B5%9C%EB%8C%93%EA%B0%92%EC%9C%BC%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0/move-to-max-k-times.java) | 2026.09.05 |
+| [M개의 구간을 선택하기](https://www.codetree.ai/trails/complete/curated-cards/challenge-select-m-sections) | Java | [java](Code_Tree/trail4/M%EA%B0%9C%EC%9D%98%20%EA%B5%AC%EA%B0%84%EC%9D%84%20%EC%84%A0%ED%83%9D%ED%95%98%EA%B8%B0/select-m-sections.java) | 2026.09.05 |
+| [N개 중에 M개 뽑기](https://www.codetree.ai/trails/complete/curated-cards/intro-n-choose-m) | Java | [java](Code_Tree/trail4/N%EA%B0%9C%20%EC%A4%91%EC%97%90%20M%EA%B0%9C%20%EB%BD%91%EA%B8%B0/n-choose-m.java) | 2026.09.05 |
+| [N개의 점 중 M개 고르기](https://www.codetree.ai/trails/complete/curated-cards/test-choose-m-out-of-n-points) | Java | [java](Code_Tree/trail4/N%EA%B0%9C%EC%9D%98%20%EC%A0%90%20%EC%A4%91%20M%EA%B0%9C%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/choose-m-out-of-n-points.java) | 2026.09.05 |
+| [XOR 결과 최대 만들기](https://www.codetree.ai/trails/complete/curated-cards/challenge-max-of-xor) | Java | [java](Code_Tree/trail4/XOR%20%EA%B2%B0%EA%B3%BC%20%EC%B5%9C%EB%8C%80%20%EB%A7%8C%EB%93%A4%EA%B8%B0/max-of-xor.java) | 2026.09.05 |
+| [가능한 수열 중 최솟값 구하기](https://www.codetree.ai/trails/complete/curated-cards/challenge-find-min-of-possible-series) | Java | [java](Code_Tree/trail4/%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%88%98%EC%97%B4%20%EC%A4%91%20%EC%B5%9C%EC%86%9F%EA%B0%92%20%EA%B5%AC%ED%95%98%EA%B8%B0/find-min-of-possible-series.java) | 2026.09.05 |
+| [갈 수 있는 곳들](https://www.codetree.ai/trails/complete/curated-cards/challenge-places-can-go) | Java | [java](Code_Tree/trail4/%EA%B0%88%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EA%B3%B3%EB%93%A4/places-can-go.java) | 2026.09.05 |
+| [거꾸로 순열](https://www.codetree.ai/trails/complete/curated-cards/challenge-backward-permutation) | Java | [java](Code_Tree/trail4/%EA%B1%B0%EA%BE%B8%EB%A1%9C%20%EC%88%9C%EC%97%B4/backward-permutation.java) | 2026.09.05 |
+| [게임 스튜디오에서 살아남기](https://www.codetree.ai/trails/complete/curated-cards/challenge-surviving-in-a-game-studio) | Java | [java](Code_Tree/trail4/%EA%B2%8C%EC%9E%84%20%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4%EC%97%90%EC%84%9C%20%EC%82%B4%EC%95%84%EB%82%A8%EA%B8%B0/surviving-in-a-game-studio.java) | 2026.09.05 |
+| [겹쳐지지 않는 두 직사각형](https://www.codetree.ai/trails/complete/curated-cards/challenge-non-overlapping-two-rectangles) | Java | [java](Code_Tree/trail4/%EA%B2%B9%EC%B3%90%EC%A7%80%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EB%91%90%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95/non-overlapping-two-rectangles.java) | 2026.09.05 |
+| [겹치지 않게 선분 고르기 2](https://www.codetree.ai/trails/complete/curated-cards/challenge-select-segments-without-overlap-2) | Java | [java](Code_Tree/trail4/%EA%B2%B9%EC%B9%98%EC%A7%80%20%EC%95%8A%EA%B2%8C%20%EC%84%A0%EB%B6%84%20%EA%B3%A0%EB%A5%B4%EA%B8%B0%202/select-segments-without-overlap-2.java) | 2026.09.05 |
+| [경험치를 빠르게 얻기](https://www.codetree.ai/trails/complete/curated-cards/challenge-gain-exp-quickly) | Java | [java](Code_Tree/trail4/%EA%B2%BD%ED%97%98%EC%B9%98%EB%A5%BC%20%EB%B9%A0%EB%A5%B4%EA%B2%8C%20%EC%96%BB%EA%B8%B0/gain-exp-quickly.java) | 2026.09.05 |
+| [계단 수](https://www.codetree.ai/trails/complete/curated-cards/challenge-stair-number) | Java | [java](Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%88%98/stair-number.java) | 2026.09.05 |
+| [계단 오르기](https://www.codetree.ai/trails/complete/curated-cards/challenge-climbing-stairs) | Java | [java](Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0/climbing-stairs.java) | 2026.09.05 |
+| [계단 오르기 2](https://www.codetree.ai/trails/complete/curated-cards/intro-climbing-stairs-2) | Java | [java](Code_Tree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0%202/climbing-stairs-2.java) | 2026.09.05 |
+| [고대 보물 지도의 비밀](https://www.codetree.ai/trails/complete/curated-cards/challenge-secret-of-ancient-treasure-map) | Java | [java](Code_Tree/trail4/%EA%B3%A0%EB%8C%80%20%EB%B3%B4%EB%AC%BC%20%EC%A7%80%EB%8F%84%EC%9D%98%20%EB%B9%84%EB%B0%80/secret-of-ancient-treasure-map.java) | 2026.09.05 |
+| [구슬의 이동](https://www.codetree.ai/trails/complete/curated-cards/challenge-marble-movement) | Java | [java](Code_Tree/trail4/%EA%B5%AC%EC%8A%AC%EC%9D%98%20%EC%9D%B4%EB%8F%99/marble-movement.java) | 2026.09.05 |
+| [그래프 탐색](https://www.codetree.ai/trails/complete/curated-cards/intro-graph-traversal) | Java | [java](Code_Tree/trail4/%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%83%90%EC%83%89/graph-traversal.java) | 2026.09.05 |
+| [금 채굴하기](https://www.codetree.ai/trails/complete/curated-cards/challenge-gold-mining) | Java | [java](Code_Tree/trail4/%EA%B8%88%20%EC%B1%84%EA%B5%B4%ED%95%98%EA%B8%B0/gold-mining.java) | 2026.09.05 |
+| [기울어진 직사각형](https://www.codetree.ai/trails/complete/curated-cards/challenge-slanted-rectangle) | Java | [java](Code_Tree/trail4/%EA%B8%B0%EC%9A%B8%EC%96%B4%EC%A7%84%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95/slanted-rectangle.java) | 2026.09.05 |
+| [기울어진 직사각형의 회전](https://www.codetree.ai/trails/complete/curated-cards/challenge-rotate-slanted-rectangle) | Java | [java](Code_Tree/trail4/%EA%B8%B0%EC%9A%B8%EC%96%B4%EC%A7%84%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EC%9D%98%20%ED%9A%8C%EC%A0%84/rotate-slanted-rectangle.java) | 2026.09.05 |
+| [나이트](https://www.codetree.ai/trails/complete/curated-cards/challenge-knight-movements) | Java | [java](Code_Tree/trail4/%EB%82%98%EC%9D%B4%ED%8A%B8/knight-movements.java) | 2026.09.05 |
+| [네 방향 탈출 가능 여부 판별하기](https://www.codetree.ai/trails/complete/curated-cards/intro-determine-escapableness-with-4-ways) | Java | [java](Code_Tree/trail4/%EB%84%A4%20%EB%B0%A9%ED%96%A5%20%ED%83%88%EC%B6%9C%20%EA%B0%80%EB%8A%A5%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%B3%84%ED%95%98%EA%B8%B0/determine-escapableness-with-4-ways.java) | 2026.09.05 |
+| [단 한 번의 2048 시도](https://www.codetree.ai/trails/complete/curated-cards/challenge-one-trial-of-2048-game) | Java | [java](Code_Tree/trail4/%EB%8B%A8%20%ED%95%9C%20%EB%B2%88%EC%9D%98%202048%20%EC%8B%9C%EB%8F%84/one-trial-of-2048-game.java) | 2026.09.05 |
+| [단순한 동전 챙기기](https://www.codetree.ai/trails/complete/curated-cards/challenge-collect-coins-easy) | Java | [java](Code_Tree/trail4/%EB%8B%A8%EC%88%9C%ED%95%9C%20%EB%8F%99%EC%A0%84%20%EC%B1%99%EA%B8%B0%EA%B8%B0/collect-coins-easy.java) | 2026.09.05 |
+| [대폭발](https://www.codetree.ai/trails/complete/curated-cards/challenge-big-explosion) | Java | [java](Code_Tree/trail4/%EB%8C%80%ED%8F%AD%EB%B0%9C/big-explosion.java) | 2026.09.05 |
+| [도전! 369게임](https://www.codetree.ai/trails/complete/curated-cards/challenge-369-game-challenge) | Java | [java](Code_Tree/trail4/%EB%8F%84%EC%A0%84%21%20369%EA%B2%8C%EC%9E%84/369-game-challenge.java) | 2026.09.05 |
+| [돌 잘 치우기](https://www.codetree.ai/trails/complete/curated-cards/challenge-clear-stones-well) | Java | [java](Code_Tree/trail4/%EB%8F%8C%20%EC%9E%98%20%EC%B9%98%EC%9A%B0%EA%B8%B0/clear-stones-well.java) | 2026.09.05 |
+| [동일하게 분할](https://www.codetree.ai/trails/complete/curated-cards/test-equal-partition) | Java | [java](Code_Tree/trail4/%EB%8F%99%EC%9D%BC%ED%95%98%EA%B2%8C%20%EB%B6%84%ED%95%A0/equal-partition.java) | 2026.09.05 |
+| [동전 거슬러주기](https://www.codetree.ai/trails/complete/curated-cards/intro-coin-change) | Java | [java](Code_Tree/trail4/%EB%8F%99%EC%A0%84%20%EA%B1%B0%EC%8A%AC%EB%9F%AC%EC%A3%BC%EA%B8%B0/coin-change.java) | 2026.09.05 |
+| [두 방향 탈출 가능 여부 판별하기](https://www.codetree.ai/trails/complete/curated-cards/intro-determine-escapableness-with-2-ways) | Java | [java](Code_Tree/trail4/%EB%91%90%20%EB%B0%A9%ED%96%A5%20%ED%83%88%EC%B6%9C%20%EA%B0%80%EB%8A%A5%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%B3%84%ED%95%98%EA%B8%B0/determine-escapableness-with-2-ways.java) | 2026.09.05 |
+| [둘 중 하나 잘 고르기](https://www.codetree.ai/trails/complete/curated-cards/challenge-choose-one-of-two-points) | Java | [java](Code_Tree/trail4/%EB%91%98%20%EC%A4%91%20%ED%95%98%EB%82%98%20%EC%9E%98%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/choose-one-of-two-points.java) | 2026.09.05 |
+| [떨어지는 1자 블록](https://www.codetree.ai/trails/complete/curated-cards/challenge-falling-horizontal-block) | Java | [java](Code_Tree/trail4/%EB%96%A8%EC%96%B4%EC%A7%80%EB%8A%94%201%EC%9E%90%20%EB%B8%94%EB%A1%9D/falling-horizontal-block.java) | 2026.09.05 |
+| [마을 구분하기](https://www.codetree.ai/trails/complete/curated-cards/challenge-seperate-village) | Java | [java](Code_Tree/trail4/%EB%A7%88%EC%9D%84%20%EA%B5%AC%EB%B6%84%ED%95%98%EA%B8%B0/seperate-village.java) | 2026.09.05 |
+| [막대기 나누기](https://www.codetree.ai/trails/complete/curated-cards/challenge-rod-cutting) | Java | [java](Code_Tree/trail4/%EB%A7%89%EB%8C%80%EA%B8%B0%20%EB%82%98%EB%88%84%EA%B8%B0/rod-cutting.java) | 2026.09.05 |
+| [방향에 맞춰 최대로 움직이기](https://www.codetree.ai/trails/complete/curated-cards/challenge-max-movements-with-direction) | Java | [java](Code_Tree/trail4/%EB%B0%A9%ED%96%A5%EC%97%90%20%EB%A7%9E%EC%B6%B0%20%EC%B5%9C%EB%8C%80%EB%A1%9C%20%EC%9B%80%EC%A7%81%EC%9D%B4%EA%B8%B0/max-movements-with-direction.java) | 2026.09.05 |
+| [배낭 채우기](https://www.codetree.ai/trails/complete/curated-cards/challenge-knapsack) | Java | [java](Code_Tree/trail4/%EB%B0%B0%EB%82%AD%20%EC%B1%84%EC%9A%B0%EA%B8%B0/knapsack.java) | 2026.09.05 |
+| [배낭 채우기 2](https://www.codetree.ai/trails/complete/curated-cards/challenge-knapsack-2) | Java | [java](Code_Tree/trail4/%EB%B0%B0%EB%82%AD%20%EC%B1%84%EC%9A%B0%EA%B8%B0%202/knapsack-2.java) | 2026.09.05 |
+| [뱀은 사과를 좋아해](https://www.codetree.ai/trails/complete/curated-cards/challenge-snake-loves-apples) | Java | [java](Code_Tree/trail4/%EB%B1%80%EC%9D%80%20%EC%82%AC%EA%B3%BC%EB%A5%BC%20%EC%A2%8B%EC%95%84%ED%95%B4/snake-loves-apples.java) | 2026.09.05 |
+| [벽 짚고 미로 탈출하기](https://www.codetree.ai/trails/complete/curated-cards/challenge-escape-maze-with-wall-following) | Java | [java](Code_Tree/trail4/%EB%B2%BD%20%EC%A7%9A%EA%B3%A0%20%EB%AF%B8%EB%A1%9C%20%ED%83%88%EC%B6%9C%ED%95%98%EA%B8%B0/escape-maze-with-wall-following.java) | 2026.09.05 |
+| [벽이 있는 충돌 실험](https://www.codetree.ai/trails/complete/curated-cards/challenge-collision-experiment-with-wall) | Java | [java](Code_Tree/trail4/%EB%B2%BD%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EC%B6%A9%EB%8F%8C%20%EC%8B%A4%ED%97%98/collision-experiment-with-wall.java) | 2026.09.05 |
+| [부분 수열의 합](https://www.codetree.ai/trails/complete/curated-cards/challenge-the-sum-of-the-subsequences) | Java | [java](Code_Tree/trail4/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9/the-sum-of-the-subsequences.java) | 2026.09.05 |
+| [부분 수열의 합이 M](https://www.codetree.ai/trails/complete/curated-cards/intro-the-sum-of-the-subsequences-is-m) | Java | [java](Code_Tree/trail4/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9%EC%9D%B4%20M/the-sum-of-the-subsequences-is-m.java) | 2026.09.05 |
+| [비를 피하기](https://www.codetree.ai/trails/complete/curated-cards/challenge-stay-out-of-rain) | Java | [java](Code_Tree/trail4/%EB%B9%84%EB%A5%BC%20%ED%94%BC%ED%95%98%EA%B8%B0/stay-out-of-rain.java) | 2026.09.05 |
+| [빙하](https://www.codetree.ai/trails/complete/curated-cards/challenge-glacier) | Java | [java](Code_Tree/trail4/%EB%B9%99%ED%95%98/glacier.java) | 2026.09.05 |
+| [뿌요뿌요](https://www.codetree.ai/trails/complete/curated-cards/test-puyo-puyo) | Java | [java](Code_Tree/trail4/%EB%BF%8C%EC%9A%94%EB%BF%8C%EC%9A%94/puyo-puyo.java) | 2026.09.05 |
+| [사각형 채우기](https://www.codetree.ai/trails/complete/curated-cards/challenge-rectangle-fill) | Java | [java](Code_Tree/trail4/%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B1%84%EC%9A%B0%EA%B8%B0/rectangle-fill.java) | 2026.09.05 |
+| [사각형 채우기 2](https://www.codetree.ai/trails/complete/curated-cards/test-rectangle-fill-2) | Java | [java](Code_Tree/trail4/%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B1%84%EC%9A%B0%EA%B8%B0%202/rectangle-fill-2.java) | 2026.09.05 |
+| [사각형 채우기 3](https://www.codetree.ai/trails/complete/curated-cards/challenge-rectangle-fill-3) | Java | [java](Code_Tree/trail4/%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B1%84%EC%9A%B0%EA%B8%B0%203/rectangle-fill-3.java) | 2026.09.05 |
+| [삼각형 컨베이어 벨트](https://www.codetree.ai/trails/complete/curated-cards/challenge-conveyor-belt-triangle) | Java | [java](Code_Tree/trail4/%EC%82%BC%EA%B0%81%ED%98%95%20%EC%BB%A8%EB%B2%A0%EC%9D%B4%EC%96%B4%20%EB%B2%A8%ED%8A%B8/conveyor-belt-triangle.java) | 2026.09.05 |
+| [상한 귤](https://www.codetree.ai/trails/complete/curated-cards/test-oranges-have-gone-bad) | Java | [java](Code_Tree/trail4/%EC%83%81%ED%95%9C%20%EA%B7%A4/oranges-have-gone-bad.java) | 2026.09.05 |
+| [서로 다른 BST 개수 세기](https://www.codetree.ai/trails/complete/curated-cards/challenge-number-of-unique-bst) | Java | [java](Code_Tree/trail4/%EC%84%9C%EB%A1%9C%20%EB%8B%A4%EB%A5%B8%20BST%20%EA%B0%9C%EC%88%98%20%EC%84%B8%EA%B8%B0/number-of-unique-bst.java) | 2026.09.05 |
+| [수들 중 최솟값 최대화하기](https://www.codetree.ai/trails/complete/curated-cards/test-maximin-of-numbers) | Java | [java](Code_Tree/trail4/%EC%88%98%EB%93%A4%20%EC%A4%91%20%EC%B5%9C%EC%86%9F%EA%B0%92%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/maximin-of-numbers.java) | 2026.09.05 |
+| [수들의 합 최대화하기](https://www.codetree.ai/trails/complete/curated-cards/challenge-max-sum-of-numbers) | Java | [java](Code_Tree/trail4/%EC%88%98%EB%93%A4%EC%9D%98%20%ED%95%A9%20%EC%B5%9C%EB%8C%80%ED%99%94%ED%95%98%EA%B8%B0/max-sum-of-numbers.java) | 2026.09.05 |
+| [수정 수집하기](https://www.codetree.ai/trails/complete/curated-cards/challenge-collect-crystals) | Java | [java](Code_Tree/trail4/%EC%88%98%EC%A0%95%20%EC%88%98%EC%A7%91%ED%95%98%EA%B8%B0/collect-crystals.java) | 2026.09.05 |
+| [숫자 전쟁](https://www.codetree.ai/trails/complete/curated-cards/challenge-number-war) | Java | [java](Code_Tree/trail4/%EC%88%AB%EC%9E%90%20%EC%A0%84%EC%9F%81/number-war.java) | 2026.09.05 |
+| [숫자가 가장 큰 인접한 곳으로 동시에 이동](https://www.codetree.ai/trails/complete/curated-cards/intro-move-to-max-adjacent-cell-simultaneously) | Java | [java](Code_Tree/trail4/%EC%88%AB%EC%9E%90%EA%B0%80%20%EA%B0%80%EC%9E%A5%20%ED%81%B0%20%EC%9D%B8%EC%A0%91%ED%95%9C%20%EA%B3%B3%EC%9C%BC%EB%A1%9C%20%EB%8F%99%EC%8B%9C%EC%97%90%20%EC%9D%B4%EB%8F%99/move-to-max-adjacent-cell-simultaneously.java) | 2026.09.05 |
+| [숫자가 더 큰 인접한 곳으로 이동](https://www.codetree.ai/trails/complete/curated-cards/intro-move-to-larger-adjacent-cell) | Java | [java](Code_Tree/trail4/%EC%88%AB%EC%9E%90%EA%B0%80%20%EB%8D%94%20%ED%81%B0%20%EC%9D%B8%EC%A0%91%ED%95%9C%20%EA%B3%B3%EC%9C%BC%EB%A1%9C%20%EC%9D%B4%EB%8F%99/move-to-larger-adjacent-cell.java) | 2026.09.05 |
+| [숫자의 순차적 이동](https://www.codetree.ai/trails/complete/curated-cards/challenge-sequential-movement-of-numbers) | Java | [java](Code_Tree/trail4/%EC%88%AB%EC%9E%90%EC%9D%98%20%EC%88%9C%EC%B0%A8%EC%A0%81%20%EC%9D%B4%EB%8F%99/sequential-movement-of-numbers.java) | 2026.09.05 |
+| [신전 탐험하기](https://www.codetree.ai/trails/complete/curated-cards/challenge-explore-temple) | Java | [java](Code_Tree/trail4/%EC%8B%A0%EC%A0%84%20%ED%83%90%ED%97%98%ED%95%98%EA%B8%B0/explore-temple.java) | 2026.09.05 |
+| [신전 탐험하기 2](https://www.codetree.ai/trails/complete/curated-cards/challenge-explore-temple-2) | Java | [java](Code_Tree/trail4/%EC%8B%A0%EC%A0%84%20%ED%83%90%ED%97%98%ED%95%98%EA%B8%B0%202/explore-temple-2.java) | 2026.09.05 |
+| [십자 모양 폭발](https://www.codetree.ai/trails/complete/curated-cards/challenge-cross-shape-bomb) | Java | [java](Code_Tree/trail4/%EC%8B%AD%EC%9E%90%20%EB%AA%A8%EC%96%91%20%ED%8F%AD%EB%B0%9C/cross-shape-bomb.java) | 2026.09.05 |
+| [십자 모양의 지속적 폭발](https://www.codetree.ai/trails/complete/curated-cards/challenge-cross-shape-continuous-bomb) | Java | [java](Code_Tree/trail4/%EC%8B%AD%EC%9E%90%20%EB%AA%A8%EC%96%91%EC%9D%98%20%EC%A7%80%EC%86%8D%EC%A0%81%20%ED%8F%AD%EB%B0%9C/cross-shape-continuous-bomb.java) | 2026.09.05 |
+| [쌓인 숫자의 순차적 이동](https://www.codetree.ai/trails/complete/curated-cards/challenge-sequential-movement-of-stacked-numbers) | Java | [java](Code_Tree/trail4/%EC%8C%93%EC%9D%B8%20%EC%88%AB%EC%9E%90%EC%9D%98%20%EC%88%9C%EC%B0%A8%EC%A0%81%20%EC%9D%B4%EB%8F%99/sequential-movement-of-stacked-numbers.java) | 2026.09.05 |
+| [안전 지대](https://www.codetree.ai/trails/complete/curated-cards/challenge-comfort-zone) | Java | [java](Code_Tree/trail4/%EC%95%88%EC%A0%84%20%EC%A7%80%EB%8C%80/comfort-zone.java) | 2026.09.05 |
+| [알바로 부자 되기](https://www.codetree.ai/trails/complete/curated-cards/test-being-rich-by-working-part-time) | Java | [java](Code_Tree/trail4/%EC%95%8C%EB%B0%94%EB%A1%9C%20%EB%B6%80%EC%9E%90%20%EB%90%98%EA%B8%B0/being-rich-by-working-part-time.java) | 2026.09.05 |
+| [양수 직사각형의 최대 크기](https://www.codetree.ai/trails/complete/curated-cards/test-max-area-of-positive-rectangle) | Java | [java](Code_Tree/trail4/%EC%96%91%EC%88%98%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EC%9D%98%20%EC%B5%9C%EB%8C%80%20%ED%81%AC%EA%B8%B0/max-area-of-positive-rectangle.java) | 2026.09.05 |
+| [연속 부분 합의 최댓값 구하기](https://www.codetree.ai/trails/complete/curated-cards/intro-max-of-partial-sum) | Java | [java](Code_Tree/trail4/%EC%97%B0%EC%86%8D%20%EB%B6%80%EB%B6%84%20%ED%95%A9%EC%9D%98%20%EC%B5%9C%EB%8C%93%EA%B0%92%20%EA%B5%AC%ED%95%98%EA%B8%B0/max-of-partial-sum.java) | 2026.09.05 |
+| [올바른 등식 만들기](https://www.codetree.ai/trails/complete/curated-cards/challenge-right-equality) | Java | [java](Code_Tree/trail4/%EC%98%AC%EB%B0%94%EB%A5%B8%20%EB%93%B1%EC%8B%9D%20%EB%A7%8C%EB%93%A4%EA%B8%B0/right-equality.java) | 2026.09.05 |
+| [외판원 순회](https://www.codetree.ai/trails/complete/curated-cards/challenge-traveling-salesman-problem) | Java | [java](Code_Tree/trail4/%EC%99%B8%ED%8C%90%EC%9B%90%20%EC%88%9C%ED%9A%8C/traveling-salesman-problem.java) | 2026.09.05 |
+| [우리는 하나](https://www.codetree.ai/trails/complete/curated-cards/test-we-are-the-one) | Java | [java](Code_Tree/trail4/%EC%9A%B0%EB%A6%AC%EB%8A%94%20%ED%95%98%EB%82%98/we-are-the-one.java) | 2026.09.05 |
+| [적절하게 정수를 변경하기](https://www.codetree.ai/trails/complete/curated-cards/challenge-change-number-properly) | Java | [java](Code_Tree/trail4/%EC%A0%81%EC%A0%88%ED%95%98%EA%B2%8C%20%EC%A0%95%EC%88%98%EB%A5%BC%20%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0/change-number-properly.java) | 2026.09.05 |
+| [적절한 옷 고르기](https://www.codetree.ai/trails/complete/curated-cards/intro-select-proper-clothes) | Java | [java](Code_Tree/trail4/%EC%A0%81%EC%A0%88%ED%95%9C%20%EC%98%B7%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/select-proper-clothes.java) | 2026.09.05 |
+| [정수 사각형 차이의 최소 2](https://www.codetree.ai/trails/complete/curated-cards/challenge-minimum-difference-on-the-integer-grid-2) | Java | [java](Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B0%A8%EC%9D%B4%EC%9D%98%20%EC%B5%9C%EC%86%8C%202/minimum-difference-on-the-integer-grid-2.java) | 2026.09.05 |
+| [정수 사각형 최대 합](https://www.codetree.ai/trails/complete/curated-cards/intro-maximum-sum-path-in-square) | Java | [java](Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EB%8C%80%20%ED%95%A9/maximum-sum-path-in-square.java) | 2026.09.05 |
+| [정수 사각형 최댓값의 최소](https://www.codetree.ai/trails/complete/curated-cards/test-minimax-path-in-square) | Java | [java](Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EB%8C%93%EA%B0%92%EC%9D%98%20%EC%B5%9C%EC%86%8C/minimax-path-in-square.java) | 2026.09.05 |
+| [정수 사각형 최소 합](https://www.codetree.ai/trails/complete/curated-cards/challenge-minimum-sum-path-in-square) | Java | [java](Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EC%86%8C%20%ED%95%A9/minimum-sum-path-in-square.java) | 2026.09.05 |
+| [정수 사각형 최솟값의 최대](https://www.codetree.ai/trails/complete/curated-cards/challenge-maximin-path-in-square) | Java | [java](Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EC%86%9F%EA%B0%92%EC%9D%98%20%EC%B5%9C%EB%8C%80/maximin-path-in-square.java) | 2026.09.05 |
+| [정수 사각형 최장 증가 수열](https://www.codetree.ai/trails/complete/curated-cards/challenge-lis-on-the-integer-grid) | Java | [java](Code_Tree/trail4/%EC%A0%95%EC%88%98%20%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B5%9C%EC%9E%A5%20%EC%A6%9D%EA%B0%80%20%EC%88%98%EC%97%B4/lis-on-the-integer-grid.java) | 2026.09.05 |
+| [주사위 던지기](https://www.codetree.ai/trails/complete/curated-cards/challenge-roll-a-dice) | Java | [java](Code_Tree/trail4/%EC%A3%BC%EC%82%AC%EC%9C%84%20%EB%8D%98%EC%A7%80%EA%B8%B0/roll-a-dice.java) | 2026.09.05 |
+| [증가했다가 감소하는 부분 수열](https://www.codetree.ai/trails/complete/curated-cards/challenge-increasing-and-descreasing-subsequence) | Java | [java](Code_Tree/trail4/%EC%A6%9D%EA%B0%80%ED%96%88%EB%8B%A4%EA%B0%80%20%EA%B0%90%EC%86%8C%ED%95%98%EB%8A%94%20%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4/increasing-and-descreasing-subsequence.java) | 2026.09.05 |
+| [최고의 33위치](https://www.codetree.ai/trails/complete/curated-cards/intro-best-place-of-33) | Java | [java](Code_Tree/trail4/%EC%B5%9C%EA%B3%A0%EC%9D%98%2033%EC%9C%84%EC%B9%98/best-place-of-33.java) | 2026.09.05 |
+| [최단 Run Length 인코딩](https://www.codetree.ai/trails/complete/curated-cards/test-shortest-run-length-encoding) | Java | [java](Code_Tree/trail4/%EC%B5%9C%EB%8B%A8%20Run%20Length%20%EC%9D%B8%EC%BD%94%EB%94%A9/shortest-run-length-encoding.java) | 2026.09.05 |
+| [최대 감소 부분 수열](https://www.codetree.ai/trails/complete/curated-cards/challenge-longest-decreasing-subsequence) | Java | [java](Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EA%B0%90%EC%86%8C%20%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4/longest-decreasing-subsequence.java) | 2026.09.05 |
+| [최대 동전 거슬러주기](https://www.codetree.ai/trails/complete/curated-cards/challenge-max-coin-change) | Java | [java](Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EB%8F%99%EC%A0%84%20%EA%B1%B0%EC%8A%AC%EB%9F%AC%EC%A3%BC%EA%B8%B0/max-coin-change.java) | 2026.09.05 |
+| [최대 점프 횟수](https://www.codetree.ai/trails/complete/curated-cards/challenge-maximum-number-of-jumps) | Java | [java](Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EC%A0%90%ED%94%84%20%ED%9A%9F%EC%88%98/maximum-number-of-jumps.java) | 2026.09.05 |
+| [최대 증가 부분 수열](https://www.codetree.ai/trails/complete/curated-cards/intro-longest-increasing-subsequence) | Java | [java](Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%EC%A6%9D%EA%B0%80%20%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4/longest-increasing-subsequence.java) | 2026.09.05 |
+| [최대 합 분할](https://www.codetree.ai/trails/complete/curated-cards/challenge-maximum-sum-partition) | Java | [java](Code_Tree/trail4/%EC%B5%9C%EB%8C%80%20%ED%95%A9%20%EB%B6%84%ED%95%A0/maximum-sum-partition.java) | 2026.09.05 |
+| [최소 경로로 탈출 하기](https://www.codetree.ai/trails/complete/curated-cards/intro-escape-with-min-distance) | Java | [java](Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EA%B2%BD%EB%A1%9C%EB%A1%9C%20%ED%83%88%EC%B6%9C%20%ED%95%98%EA%B8%B0/escape-with-min-distance.java) | 2026.09.05 |
+| [최소 점프 횟수](https://www.codetree.ai/trails/complete/curated-cards/test-min-num-of-jumps) | Java | [java](Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%A0%90%ED%94%84%20%ED%9A%9F%EC%88%98/min-num-of-jumps.java) | 2026.09.05 |
+| [최소 차 분할](https://www.codetree.ai/trails/complete/curated-cards/challenge-minimum-diff-partition) | Java | [java](Code_Tree/trail4/%EC%B5%9C%EC%86%8C%20%EC%B0%A8%20%EB%B6%84%ED%95%A0/minimum-diff-partition.java) | 2026.09.05 |
+| [최적의 십자 모양 폭발](https://www.codetree.ai/trails/complete/curated-cards/test-best-cross-shape-bomb) | Java | [java](Code_Tree/trail4/%EC%B5%9C%EC%A0%81%EC%9D%98%20%EC%8B%AD%EC%9E%90%20%EB%AA%A8%EC%96%91%20%ED%8F%AD%EB%B0%9C/best-cross-shape-bomb.java) | 2026.09.05 |
+| [축구와 야구](https://www.codetree.ai/trails/complete/curated-cards/test-soccer-and-baseball) | Java | [java](Code_Tree/trail4/%EC%B6%95%EA%B5%AC%EC%99%80%20%EC%95%BC%EA%B5%AC/soccer-and-baseball.java) | 2026.09.05 |
+| [컨베이어 벨트](https://www.codetree.ai/trails/complete/curated-cards/intro-conveyor-belt) | Java | [java](Code_Tree/trail4/%EC%BB%A8%EB%B2%A0%EC%9D%B4%EC%96%B4%20%EB%B2%A8%ED%8A%B8/conveyor-belt.java) | 2026.09.05 |
+| [크기가 N인 순열](https://www.codetree.ai/trails/complete/curated-cards/intro-n-permutation) | Java | [java](Code_Tree/trail4/%ED%81%AC%EA%B8%B0%EA%B0%80%20N%EC%9D%B8%20%EC%88%9C%EC%97%B4/n-permutation.java) | 2026.09.05 |
+| [트로미노](https://www.codetree.ai/trails/complete/curated-cards/challenge-tromino) | Java | [java](Code_Tree/trail4/%ED%8A%B8%EB%A1%9C%EB%AF%B8%EB%85%B8/tromino.java) | 2026.09.05 |
+| [피보나치 수](https://www.codetree.ai/trails/complete/curated-cards/intro-fibonacci-number) | Java | [java](Code_Tree/trail4/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%20%EC%88%98/fibonacci-number.java) | 2026.09.05 |
+| [핀볼게임](https://www.codetree.ai/trails/complete/curated-cards/test-pinball-game) | Java | [java](Code_Tree/trail4/%ED%95%80%EB%B3%BC%EA%B2%8C%EC%9E%84/pinball-game.java) | 2026.09.05 |
+| [합쳐지는 구슬들](https://www.codetree.ai/trails/complete/curated-cards/test-merge-marbles) | Java | [java](Code_Tree/trail4/%ED%95%A9%EC%B3%90%EC%A7%80%EB%8A%94%20%EA%B5%AC%EC%8A%AC%EB%93%A4/merge-marbles.java) | 2026.09.05 |
+| [행복한 수열의 개수](https://www.codetree.ai/trails/complete/curated-cards/challenge-number-of-happy-sequence) | Java | [java](Code_Tree/trail4/%ED%96%89%EB%B3%B5%ED%95%9C%20%EC%88%98%EC%97%B4%EC%9D%98%20%EA%B0%9C%EC%88%98/number-of-happy-sequence.java) | 2026.09.05 |
+
+</details>
+
+<details>
+<summary><b>trail5</b> — 103문제</summary>
+
+| 문제 | 언어 | 풀이 | 푼 날짜 |
+| :--- | :---: | :---: | :---: |
+| [0에 가장 가까운 합](https://www.codetree.ai/trails/complete/curated-cards/challenge-sum-closest-to-zero) | Java | [java](Code_Tree/trail5/0%EC%97%90%20%EA%B0%80%EC%9E%A5%20%EA%B0%80%EA%B9%8C%EC%9A%B4%20%ED%95%A9/sum-closest-to-zero.java) | 2026.09.05 |
+| [hashmap 기본](https://www.codetree.ai/trails/complete/curated-cards/intro-hashmap-basic) | Java | [java](Code_Tree/trail5/hashmap%20%EA%B8%B0%EB%B3%B8/hashmap-basic.java) | 2026.09.05 |
+| [hashset 기본](https://www.codetree.ai/trails/complete/curated-cards/intro-hashset-basic) | Java | [java](Code_Tree/trail5/hashset%20%EA%B8%B0%EB%B3%B8/hashset-basic.java) | 2026.09.05 |
+| [K번째로 작은 쌍의 합](https://www.codetree.ai/trails/complete/curated-cards/challenge-sum-of-kth-smallest-pair) | Java | [java](Code_Tree/trail5/K%EB%B2%88%EC%A7%B8%EB%A1%9C%20%EC%9E%91%EC%9D%80%20%EC%8C%8D%EC%9D%98%20%ED%95%A9/sum-of-kth-smallest-pair.java) | 2026.09.05 |
+| [top K 숫자](https://www.codetree.ai/trails/complete/curated-cards/challenge-top-k-elements) | Java | [java](Code_Tree/trail5/top%20K%20%EC%88%AB%EC%9E%90/top-k-elements.java) | 2026.09.05 |
+| [treemap 기본](https://www.codetree.ai/trails/complete/curated-cards/intro-treemap-basic) | Java | [java](Code_Tree/trail5/treemap%20%EA%B8%B0%EB%B3%B8/treemap-basic.java) | 2026.09.05 |
+| [treeset 기본](https://www.codetree.ai/trails/complete/curated-cards/intro-treeset-basic) | Java | [java](Code_Tree/trail5/treeset%20%EA%B8%B0%EB%B3%B8/treeset-basic.java) | 2026.09.05 |
+| [가까운 숫자](https://www.codetree.ai/trails/complete/curated-cards/intro-nearest-number) | Java | [java](Code_Tree/trail5/%EA%B0%80%EA%B9%8C%EC%9A%B4%20%EC%88%AB%EC%9E%90/nearest-number.java) | 2026.09.05 |
+| [가장 가까운 거리의 최댓값](https://www.codetree.ai/trails/complete/curated-cards/challenge-maximum-of-nearest-distance) | Java | [java](Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EA%B0%80%EA%B9%8C%EC%9A%B4%20%EA%B1%B0%EB%A6%AC%EC%9D%98%20%EC%B5%9C%EB%8C%93%EA%B0%92/maximum-of-nearest-distance.java) | 2026.09.05 |
+| [가장 가까운 점](https://www.codetree.ai/trails/complete/curated-cards/intro-nearest-point) | Java | [java](Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EA%B0%80%EA%B9%8C%EC%9A%B4%20%EC%A0%90/nearest-point.java) | 2026.09.05 |
+| [가장 긴 왕복 거리](https://www.codetree.ai/trails/complete/curated-cards/challenge-longest-round-trip) | Java | [java](Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EA%B8%B4%20%EC%99%95%EB%B3%B5%20%EA%B1%B0%EB%A6%AC/longest-round-trip.java) | 2026.09.05 |
+| [가장 많은 데이터](https://www.codetree.ai/trails/complete/curated-cards/intro-most-frequent-data) | Java | [java](Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EB%A7%8E%EC%9D%80%20%EB%8D%B0%EC%9D%B4%ED%84%B0/most-frequent-data.java) | 2026.09.05 |
+| [가장 많이 겹치는 구간](https://www.codetree.ai/trails/complete/curated-cards/intro-section-with-maximum-overlap) | Java | [java](Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EB%A7%8E%EC%9D%B4%20%EA%B2%B9%EC%B9%98%EB%8A%94%20%EA%B5%AC%EA%B0%84/section-with-maximum-overlap.java) | 2026.09.05 |
+| [가장 많이 겹치는 구간 2](https://www.codetree.ai/trails/complete/curated-cards/challenge-section-with-maximum-overlap-2) | Java | [java](Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EB%A7%8E%EC%9D%B4%20%EA%B2%B9%EC%B9%98%EB%8A%94%20%EA%B5%AC%EA%B0%84%202/section-with-maximum-overlap-2.java) | 2026.09.05 |
+| [가장 오래 걸리는 학생](https://www.codetree.ai/trails/complete/curated-cards/test-longest-student) | Java | [java](Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EC%98%A4%EB%9E%98%20%EA%B1%B8%EB%A6%AC%EB%8A%94%20%ED%95%99%EC%83%9D/longest-student.java) | 2026.09.05 |
+| [가장 오래 걸리는 학생 2](https://www.codetree.ai/trails/complete/curated-cards/intro-longest-student-2) | Java | [java](Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EC%98%A4%EB%9E%98%20%EA%B1%B8%EB%A6%AC%EB%8A%94%20%ED%95%99%EC%83%9D%202/longest-student-2.java) | 2026.09.05 |
+| [가장 짧은 부분합](https://www.codetree.ai/trails/complete/curated-cards/intro-shortest-subtotal) | Java | [java](Code_Tree/trail5/%EA%B0%80%EC%9E%A5%20%EC%A7%A7%EC%9D%80%20%EB%B6%80%EB%B6%84%ED%95%A9/shortest-subtotal.java) | 2026.09.05 |
+| [각 정점까지의 최단 경로](https://www.codetree.ai/trails/complete/curated-cards/intro-shortest-path-to-each-vertex) | Java | [java](Code_Tree/trail5/%EA%B0%81%20%EC%A0%95%EC%A0%90%EA%B9%8C%EC%A7%80%EC%9D%98%20%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C/shortest-path-to-each-vertex.java) | 2026.09.05 |
+| [각 정점까지의 최단 경로 2](https://www.codetree.ai/trails/complete/curated-cards/intro-shortest-path-to-each-vertex-2) | Java | [java](Code_Tree/trail5/%EA%B0%81%20%EC%A0%95%EC%A0%90%EA%B9%8C%EC%A7%80%EC%9D%98%20%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C%202/shortest-path-to-each-vertex-2.java) | 2026.09.05 |
+| [각 정점까지의 최단 경로 3](https://www.codetree.ai/trails/complete/curated-cards/intro-shortest-path-to-each-vertex-3) | Java | [java](Code_Tree/trail5/%EA%B0%81%20%EC%A0%95%EC%A0%90%EA%B9%8C%EC%A7%80%EC%9D%98%20%EC%B5%9C%EB%8B%A8%20%EA%B2%BD%EB%A1%9C%203/shortest-path-to-each-vertex-3.java) | 2026.09.05 |
+| [간선 없애기](https://www.codetree.ai/trails/complete/curated-cards/challenge-eliminate-edges) | Java | [java](Code_Tree/trail5/%EA%B0%84%EC%84%A0%20%EC%97%86%EC%95%A0%EA%B8%B0/eliminate-edges.java) | 2026.09.05 |
+| [간선의 길이를 2배 늘리기](https://www.codetree.ai/trails/complete/curated-cards/challenge-double-the-length-of-the-edge) | Java | [java](Code_Tree/trail5/%EA%B0%84%EC%84%A0%EC%9D%98%20%EA%B8%B8%EC%9D%B4%EB%A5%BC%202%EB%B0%B0%20%EB%8A%98%EB%A6%AC%EA%B8%B0/double-the-length-of-the-edge.java) | 2026.09.05 |
+| [겹치는 선분들](https://www.codetree.ai/trails/complete/curated-cards/challenge-overlapping-lines) | Java | [java](Code_Tree/trail5/%EA%B2%B9%EC%B9%98%EB%8A%94%20%EC%84%A0%EB%B6%84%EB%93%A4/overlapping-lines.java) | 2026.09.05 |
+| [겹치는 숫자가 없는 최대 구간](https://www.codetree.ai/trails/complete/curated-cards/intro-max-interval-without-overlapping-numbers) | Java | [java](Code_Tree/trail5/%EA%B2%B9%EC%B9%98%EB%8A%94%20%EC%88%AB%EC%9E%90%EA%B0%80%20%EC%97%86%EB%8A%94%20%EC%B5%9C%EB%8C%80%20%EA%B5%AC%EA%B0%84/max-interval-without-overlapping-numbers.java) | 2026.09.05 |
+| [겹치지 않는 선분](https://www.codetree.ai/trails/complete/curated-cards/challenge-line-segments-that-do-not-overlap) | Java | [java](Code_Tree/trail5/%EA%B2%B9%EC%B9%98%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EC%84%A0%EB%B6%84/line-segments-that-do-not-overlap.java) | 2026.09.05 |
+| [괄호 쌍 만들어주기](https://www.codetree.ai/trails/complete/curated-cards/intro-pair-parentheses) | Java | [java](Code_Tree/trail5/%EA%B4%84%ED%98%B8%20%EC%8C%8D%20%EB%A7%8C%EB%93%A4%EC%96%B4%EC%A3%BC%EA%B8%B0/pair-parentheses.java) | 2026.09.05 |
+| [구간 외 최대 숫자](https://www.codetree.ai/trails/complete/curated-cards/test-max-num-outside-of-interval) | Java | [java](Code_Tree/trail5/%EA%B5%AC%EA%B0%84%20%EC%99%B8%20%EC%B5%9C%EB%8C%80%20%EC%88%AB%EC%9E%90/max-num-outside-of-interval.java) | 2026.09.05 |
+| [구간 크기의 합](https://www.codetree.ai/trails/complete/curated-cards/challenge-sum-of-interval-sizes) | Java | [java](Code_Tree/trail5/%EA%B5%AC%EA%B0%84%20%ED%81%AC%EA%B8%B0%EC%9D%98%20%ED%95%A9/sum-of-interval-sizes.java) | 2026.09.05 |
+| [구간에 속한 문자의 개수](https://www.codetree.ai/trails/complete/curated-cards/challenge-the-number-of-characters-in-the-interval) | Java | [java](Code_Tree/trail5/%EA%B5%AC%EA%B0%84%EC%97%90%20%EC%86%8D%ED%95%9C%20%EB%AC%B8%EC%9E%90%EC%9D%98%20%EA%B0%9C%EC%88%98/the-number-of-characters-in-the-interval.java) | 2026.09.05 |
+| [구간의 합이 같게 나누기](https://www.codetree.ai/trails/complete/curated-cards/challenge-divide-by-equal-sum-of-intervals) | Java | [java](Code_Tree/trail5/%EA%B5%AC%EA%B0%84%EC%9D%98%20%ED%95%A9%EC%9D%B4%20%EA%B0%99%EA%B2%8C%20%EB%82%98%EB%88%84%EA%B8%B0/divide-by-equal-sum-of-intervals.java) | 2026.09.05 |
+| [길이가 무한대인 수평선 트랙](https://www.codetree.ai/trails/complete/curated-cards/challenge-horizontal-track-with-infinite-length) | Java | [java](Code_Tree/trail5/%EA%B8%B8%EC%9D%B4%EA%B0%80%20%EB%AC%B4%ED%95%9C%EB%8C%80%EC%9D%B8%20%EC%88%98%ED%8F%89%EC%84%A0%20%ED%8A%B8%EB%9E%99/horizontal-track-with-infinite-length.java) | 2026.09.05 |
+| [다른 경로로 이동](https://www.codetree.ai/trails/complete/curated-cards/challenge-move-with-different-path) | Java | [java](Code_Tree/trail5/%EB%8B%A4%EB%A5%B8%20%EA%B2%BD%EB%A1%9C%EB%A1%9C%20%EC%9D%B4%EB%8F%99/move-with-different-path.java) | 2026.09.05 |
+| [다른 괄호로 이동하기](https://www.codetree.ai/trails/complete/curated-cards/challenge-move-to-another-parenthesis) | Java | [java](Code_Tree/trail5/%EB%8B%A4%EB%A5%B8%20%EA%B4%84%ED%98%B8%EB%A1%9C%20%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0/move-to-another-parenthesis.java) | 2026.09.05 |
+| [단어장](https://www.codetree.ai/trails/complete/curated-cards/test-word-list) | Java | [java](Code_Tree/trail5/%EB%8B%A8%EC%96%B4%EC%9E%A5/word-list.java) | 2026.09.05 |
+| [닷 투더 닷](https://www.codetree.ai/trails/complete/curated-cards/challenge-dot-to-the-dot) | Java | [java](Code_Tree/trail5/%EB%8B%B7%20%ED%88%AC%EB%8D%94%20%EB%8B%B7/dot-to-the-dot.java) | 2026.09.05 |
+| [대응되는 수와 문자](https://www.codetree.ai/trails/complete/curated-cards/challenge-corresponding-numbers-and-characters) | Java | [java](Code_Tree/trail5/%EB%8C%80%EC%9D%91%EB%90%98%EB%8A%94%20%EC%88%98%EC%99%80%20%EB%AC%B8%EC%9E%90/corresponding-numbers-and-characters.java) | 2026.09.05 |
+| [대칭 차집합](https://www.codetree.ai/trails/complete/curated-cards/test-symmetric-difference-set) | Java | [java](Code_Tree/trail5/%EB%8C%80%EC%B9%AD%20%EC%B0%A8%EC%A7%91%ED%95%A9/symmetric-difference-set.java) | 2026.09.05 |
+| [데이터 비교](https://www.codetree.ai/trails/complete/curated-cards/intro-data-comparison) | Java | [java](Code_Tree/trail5/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%B9%84%EA%B5%90/data-comparison.java) | 2026.09.05 |
+| [돌의 소속](https://www.codetree.ai/trails/complete/curated-cards/test-belonging-to-a-rock) | Java | [java](Code_Tree/trail5/%EB%8F%8C%EC%9D%98%20%EC%86%8C%EC%86%8D/belonging-to-a-rock.java) | 2026.09.05 |
+| [동전 더하기](https://www.codetree.ai/trails/complete/curated-cards/intro-add-coins) | Java | [java](Code_Tree/trail5/%EB%8F%99%EC%A0%84%20%EB%8D%94%ED%95%98%EA%B8%B0/add-coins.java) | 2026.09.05 |
+| [마라톤 중간에 택시타기](https://www.codetree.ai/trails/complete/curated-cards/intro-taking-a-taxi-in-the-middle-of-the-marathon) | Java | [java](Code_Tree/trail5/%EB%A7%88%EB%9D%BC%ED%86%A4%20%EC%A4%91%EA%B0%84%EC%97%90%20%ED%83%9D%EC%8B%9C%ED%83%80%EA%B8%B0/taking-a-taxi-in-the-middle-of-the-marathon.java) | 2026.09.05 |
+| [마지막으로 남은 숫자](https://www.codetree.ai/trails/complete/curated-cards/challenge-last-remaining-number) | Java | [java](Code_Tree/trail5/%EB%A7%88%EC%A7%80%EB%A7%89%EC%9C%BC%EB%A1%9C%20%EB%82%A8%EC%9D%80%20%EC%88%AB%EC%9E%90/last-remaining-number.java) | 2026.09.05 |
+| [문제 추천 시스템 1](https://www.codetree.ai/trails/complete/curated-cards/challenge-problem-recommendation-system-1) | Java | [java](Code_Tree/trail5/%EB%AC%B8%EC%A0%9C%20%EC%B6%94%EC%B2%9C%20%EC%8B%9C%EC%8A%A4%ED%85%9C%201/problem-recommendation-system-1.java) | 2026.09.05 |
+| [미래가 보이는 가위바위보](https://www.codetree.ai/trails/complete/curated-cards/challenge-rock-paper-scissors-to-see-the-future) | Java | [java](Code_Tree/trail5/%EB%AF%B8%EB%9E%98%EA%B0%80%20%EB%B3%B4%EC%9D%B4%EB%8A%94%20%EA%B0%80%EC%9C%84%EB%B0%94%EC%9C%84%EB%B3%B4/rock-paper-scissors-to-see-the-future.java) | 2026.09.05 |
+| [바구니 안의 사탕](https://www.codetree.ai/trails/complete/curated-cards/challenge-candy-in-the-basket) | Java | [java](Code_Tree/trail5/%EB%B0%94%EA%B5%AC%EB%8B%88%20%EC%95%88%EC%9D%98%20%EC%82%AC%ED%83%95/candy-in-the-basket.java) | 2026.09.05 |
+| [배열 추출](https://www.codetree.ai/trails/complete/curated-cards/challenge-array-extraction) | Java | [java](Code_Tree/trail5/%EB%B0%B0%EC%97%B4%20%EC%B6%94%EC%B6%9C/array-extraction.java) | 2026.09.05 |
+| [배열 추출 2](https://www.codetree.ai/trails/complete/curated-cards/challenge-array-extraction-2) | Java | [java](Code_Tree/trail5/%EB%B0%B0%EC%97%B4%20%EC%B6%94%EC%B6%9C%202/array-extraction-2.java) | 2026.09.05 |
+| [범위 내에 있는 점의 수 2](https://www.codetree.ai/trails/complete/curated-cards/challenge-the-number-of-points-within-the-range-2) | Java | [java](Code_Tree/trail5/%EB%B2%94%EC%9C%84%20%EB%82%B4%EC%97%90%20%EC%9E%88%EB%8A%94%20%EC%A0%90%EC%9D%98%20%EC%88%98%202/the-number-of-points-within-the-range-2.java) | 2026.09.05 |
+| [별이 있는 숫자로만의 이동](https://www.codetree.ai/trails/complete/curated-cards/challenge-move-to-numbers-with-star) | Java | [java](Code_Tree/trail5/%EB%B3%84%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EC%88%AB%EC%9E%90%EB%A1%9C%EB%A7%8C%EC%9D%98%20%EC%9D%B4%EB%8F%99/move-to-numbers-with-star.java) | 2026.09.05 |
+| [부분 수열의 합이 K](https://www.codetree.ai/trails/complete/curated-cards/challenge-the-sum-of-the-subsequences-is-k) | Java | [java](Code_Tree/trail5/%EB%B6%80%EB%B6%84%20%EC%88%98%EC%97%B4%EC%9D%98%20%ED%95%A9%EC%9D%B4%20K/the-sum-of-the-subsequences-is-k.java) | 2026.09.05 |
+| [부분수열 여부 판단하기](https://www.codetree.ai/trails/complete/curated-cards/intro-determine-subsequence) | Java | [java](Code_Tree/trail5/%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%8B%A8%ED%95%98%EA%B8%B0/determine-subsequence.java) | 2026.09.05 |
+| [비율 구하기](https://www.codetree.ai/trails/complete/curated-cards/intro-find-proportions) | Java | [java](Code_Tree/trail5/%EB%B9%84%EC%9C%A8%20%EA%B5%AC%ED%95%98%EA%B8%B0/find-proportions.java) | 2026.09.05 |
+| [빽 투더 블랙 닷 2](https://www.codetree.ai/trails/complete/curated-cards/challenge-back-to-the-black-dot-2) | Java | [java](Code_Tree/trail5/%EB%B9%BD%20%ED%88%AC%EB%8D%94%20%EB%B8%94%EB%9E%99%20%EB%8B%B7%202/back-to-the-black-dot-2.java) | 2026.09.05 |
+| [서로 다른 구간의 수](https://www.codetree.ai/trails/complete/curated-cards/intro-number-of-distinct-segments) | Java | [java](Code_Tree/trail5/%EC%84%9C%EB%A1%9C%20%EB%8B%A4%EB%A5%B8%20%EA%B5%AC%EA%B0%84%EC%9D%98%20%EC%88%98/number-of-distinct-segments.java) | 2026.09.05 |
+| [서로 다른 수의 개수](https://www.codetree.ai/trails/complete/curated-cards/challenge-distinct-numbers) | Java | [java](Code_Tree/trail5/%EC%84%9C%EB%A1%9C%20%EB%8B%A4%EB%A5%B8%20%EC%88%98%EC%9D%98%20%EA%B0%9C%EC%88%98/distinct-numbers.java) | 2026.09.05 |
+| [선분 바라보기 2](https://www.codetree.ai/trails/complete/curated-cards/challenge-looking-at-the-line-segment-2) | Java | [java](Code_Tree/trail5/%EC%84%A0%EB%B6%84%20%EB%B0%94%EB%9D%BC%EB%B3%B4%EA%B8%B0%202/looking-at-the-line-segment-2.java) | 2026.09.05 |
+| [세 수의 합](https://www.codetree.ai/trails/complete/curated-cards/challenge-sum-of-three-num) | Java | [java](Code_Tree/trail5/%EC%84%B8%20%EC%88%98%EC%9D%98%20%ED%95%A9/sum-of-three-num.java) | 2026.09.05 |
+| [수 등장 횟수](https://www.codetree.ai/trails/complete/curated-cards/intro-number-frequency) | Java | [java](Code_Tree/trail5/%EC%88%98%20%EB%93%B1%EC%9E%A5%20%ED%9A%9F%EC%88%98/number-frequency.java) | 2026.09.05 |
+| [숫자 빠르게 찾기 2](https://www.codetree.ai/trails/complete/curated-cards/intro-find-number-fast-2) | Java | [java](Code_Tree/trail5/%EC%88%AB%EC%9E%90%20%EB%B9%A0%EB%A5%B4%EA%B2%8C%20%EC%B0%BE%EA%B8%B0%202/find-number-fast-2.java) | 2026.09.05 |
+| [숫자들의 합이 7의 배수](https://www.codetree.ai/trails/complete/curated-cards/test-the-sum-of-the-numbers-is-a-multiple-of-7) | Java | [java](Code_Tree/trail5/%EC%88%AB%EC%9E%90%EB%93%A4%EC%9D%98%20%ED%95%A9%EC%9D%B4%207%EC%9D%98%20%EB%B0%B0%EC%88%98/the-sum-of-the-numbers-is-a-multiple-of-7.java) | 2026.09.05 |
+| [씨 오 더블유](https://www.codetree.ai/trails/complete/curated-cards/challenge-c-o-w) | Java | [java](Code_Tree/trail5/%EC%94%A8%20%EC%98%A4%20%EB%8D%94%EB%B8%94%EC%9C%A0/c-o-w.java) | 2026.09.05 |
+| [앞에서부터 삭제하기 2](https://www.codetree.ai/trails/complete/curated-cards/challenge-delete-it-from-the-beginning-2) | Java | [java](Code_Tree/trail5/%EC%95%9E%EC%97%90%EC%84%9C%EB%B6%80%ED%84%B0%20%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0%202/delete-it-from-the-beginning-2.java) | 2026.09.05 |
+| [연속하는 정수 N개의 합](https://www.codetree.ai/trails/complete/curated-cards/challenge-sum-of-consecutive-n-integers) | Java | [java](Code_Tree/trail5/%EC%97%B0%EC%86%8D%ED%95%98%EB%8A%94%20%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9/sum-of-consecutive-n-integers.java) | 2026.09.05 |
+| [연속한 K개의 숫자](https://www.codetree.ai/trails/complete/curated-cards/challenge-k-numbers-in-a-row) | Java | [java](Code_Tree/trail5/%EC%97%B0%EC%86%8D%ED%95%9C%20K%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/k-numbers-in-a-row.java) | 2026.09.05 |
+| [이동 가능한 점들의 쌍](https://www.codetree.ai/trails/complete/curated-cards/challenge-pair-of-points-that-can-be-moved) | Java | [java](Code_Tree/trail5/%EC%9D%B4%EB%8F%99%20%EA%B0%80%EB%8A%A5%ED%95%9C%20%EC%A0%90%EB%93%A4%EC%9D%98%20%EC%8C%8D/pair-of-points-that-can-be-moved.java) | 2026.09.05 |
+| [이상한 폭탄](https://www.codetree.ai/trails/complete/curated-cards/challenge-strange-bomb) | Java | [java](Code_Tree/trail5/%EC%9D%B4%EC%83%81%ED%95%9C%20%ED%8F%AD%ED%83%84/strange-bomb.java) | 2026.09.05 |
+| [인접하지 않은 3개의 숫자](https://www.codetree.ai/trails/complete/curated-cards/challenge-three-non-adjacent-numbers) | Java | [java](Code_Tree/trail5/%EC%9D%B8%EC%A0%91%ED%95%98%EC%A7%80%20%EC%95%8A%EC%9D%80%203%EA%B0%9C%EC%9D%98%20%EC%88%AB%EC%9E%90/three-non-adjacent-numbers.java) | 2026.09.05 |
+| [자리 바꾸기 2](https://www.codetree.ai/trails/complete/curated-cards/challenge-changing-seats-2) | Java | [java](Code_Tree/trail5/%EC%9E%90%EB%A6%AC%20%EB%B0%94%EA%BE%B8%EA%B8%B0%202/changing-seats-2.java) | 2026.09.05 |
+| [자리 차지하기](https://www.codetree.ai/trails/complete/curated-cards/challenge-take-place) | Java | [java](Code_Tree/trail5/%EC%9E%90%EB%A6%AC%20%EC%B0%A8%EC%A7%80%ED%95%98%EA%B8%B0/take-place.java) | 2026.09.05 |
+| [작지만 큰 숫자](https://www.codetree.ai/trails/complete/curated-cards/test-small-but-big-number) | Java | [java](Code_Tree/trail5/%EC%9E%91%EC%A7%80%EB%A7%8C%20%ED%81%B0%20%EC%88%AB%EC%9E%90/small-but-big-number.java) | 2026.09.05 |
+| [저렴한 모임](https://www.codetree.ai/trails/complete/curated-cards/challenge-cheapest-meeting) | Java | [java](Code_Tree/trail5/%EC%A0%80%EB%A0%B4%ED%95%9C%20%EB%AA%A8%EC%9E%84/cheapest-meeting.java) | 2026.09.05 |
+| [점 개수 세기](https://www.codetree.ai/trails/complete/curated-cards/test-count-number-of-points) | Java | [java](Code_Tree/trail5/%EC%A0%90%20%EA%B0%9C%EC%88%98%20%EC%84%B8%EA%B8%B0/count-number-of-points.java) | 2026.09.05 |
+| [점 개수 세기 3](https://www.codetree.ai/trails/complete/curated-cards/intro-count-number-of-points-3) | Java | [java](Code_Tree/trail5/%EC%A0%90%20%EA%B0%9C%EC%88%98%20%EC%84%B8%EA%B8%B0%203/count-number-of-points-3.java) | 2026.09.05 |
+| [점 빼기](https://www.codetree.ai/trails/complete/curated-cards/challenge-remove-point) | Java | [java](Code_Tree/trail5/%EC%A0%90%20%EB%B9%BC%EA%B8%B0/remove-point.java) | 2026.09.05 |
+| [정수 N개의 합 2](https://www.codetree.ai/trails/complete/curated-cards/intro-sum-of-n-integers-2) | Java | [java](Code_Tree/trail5/%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9%202/sum-of-n-integers-2.java) | 2026.09.05 |
+| [정수 N개의 합 3](https://www.codetree.ai/trails/complete/curated-cards/intro-sum-of-n-integers-3) | Java | [java](Code_Tree/trail5/%EC%A0%95%EC%88%98%20N%EA%B0%9C%EC%9D%98%20%ED%95%A9%203/sum-of-n-integers-3.java) | 2026.09.05 |
+| [정수 두 개의 합 2](https://www.codetree.ai/trails/complete/curated-cards/challenge-sum-of-two-integers-2) | Java | [java](Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EB%91%90%20%EA%B0%9C%EC%9D%98%20%ED%95%A9%202/sum-of-two-integers-2.java) | 2026.09.05 |
+| [정수 명령 처리 6](https://www.codetree.ai/trails/complete/curated-cards/intro-process-numeric-commands-6) | Java | [java](Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EB%AA%85%EB%A0%B9%20%EC%B2%98%EB%A6%AC%206/process-numeric-commands-6.java) | 2026.09.05 |
+| [정수 명령어](https://www.codetree.ai/trails/complete/curated-cards/intro-Integer-command) | Java | [java](Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EB%AA%85%EB%A0%B9%EC%96%B4/Integer-command.java) | 2026.09.05 |
+| [정수 찾기](https://www.codetree.ai/trails/complete/curated-cards/challenge-find-an-integer) | Java | [java](Code_Tree/trail5/%EC%A0%95%EC%88%98%20%EC%B0%BE%EA%B8%B0/find-an-integer.java) | 2026.09.05 |
+| [정원 입장은 선착순](https://www.codetree.ai/trails/complete/curated-cards/challenge-admission-to-the-garden-is-on-a-first-come-first-served-basis) | Java | [java](Code_Tree/trail5/%EC%A0%95%EC%9B%90%20%EC%9E%85%EC%9E%A5%EC%9D%80%20%EC%84%A0%EC%B0%A9%EC%88%9C/admission-to-the-garden-is-on-a-first-come-first-served-basis.java) | 2026.09.05 |
+| [중앙값](https://www.codetree.ai/trails/complete/curated-cards/challenge-median) | Java | [java](Code_Tree/trail5/%EC%A4%91%EC%95%99%EA%B0%92/median.java) | 2026.09.05 |
+| [차이가 가장 작은 수](https://www.codetree.ai/trails/complete/curated-cards/challenge-the-number-with-the-smallest-difference) | Java | [java](Code_Tree/trail5/%EC%B0%A8%EC%9D%B4%EA%B0%80%20%EA%B0%80%EC%9E%A5%20%EC%9E%91%EC%9D%80%20%EC%88%98/the-number-with-the-smallest-difference.java) | 2026.09.05 |
+| [처음 등장하는 위치](https://www.codetree.ai/trails/complete/curated-cards/challenge-first-appearing-position) | Java | [java](Code_Tree/trail5/%EC%B2%98%EC%9D%8C%20%EB%93%B1%EC%9E%A5%ED%95%98%EB%8A%94%20%EC%9C%84%EC%B9%98/first-appearing-position.java) | 2026.09.05 |
+| [천 개의 정거장](https://www.codetree.ai/trails/complete/curated-cards/challenge-thousand-stops) | Java | [java](Code_Tree/trail5/%EC%B2%9C%20%EA%B0%9C%EC%9D%98%20%EC%A0%95%EA%B1%B0%EC%9E%A5/thousand-stops.java) | 2026.09.05 |
+| [최단 거리](https://www.codetree.ai/trails/complete/curated-cards/challenge-shortest-distance) | Java | [java](Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC/shortest-distance.java) | 2026.09.05 |
+| [최단 거리 3](https://www.codetree.ai/trails/complete/curated-cards/challenge-shortest-distance-3) | Java | [java](Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%203/shortest-distance-3.java) | 2026.09.05 |
+| [최단 거리 9](https://www.codetree.ai/trails/complete/curated-cards/intro-shortest-distance-9) | Java | [java](Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%209/shortest-distance-9.java) | 2026.09.05 |
+| [최단 거리 11](https://www.codetree.ai/trails/complete/curated-cards/intro-shortest-distance-11) | Java | [java](Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EA%B1%B0%EB%A6%AC%2011/shortest-distance-11.java) | 2026.09.05 |
+| [최단 왕복](https://www.codetree.ai/trails/complete/curated-cards/test-shortest-round-trip) | Java | [java](Code_Tree/trail5/%EC%B5%9C%EB%8B%A8%20%EC%99%95%EB%B3%B5/shortest-round-trip.java) | 2026.09.05 |
+| [최대 구간의 크기](https://www.codetree.ai/trails/complete/curated-cards/challenge-size-of-largest-interval) | Java | [java](Code_Tree/trail5/%EC%B5%9C%EB%8C%80%20%EA%B5%AC%EA%B0%84%EC%9D%98%20%ED%81%AC%EA%B8%B0/size-of-largest-interval.java) | 2026.09.05 |
+| [최대 숫자 구하기](https://www.codetree.ai/trails/complete/curated-cards/intro-find-maximum-number) | Java | [java](Code_Tree/trail5/%EC%B5%9C%EB%8C%80%20%EC%88%AB%EC%9E%90%20%EA%B5%AC%ED%95%98%EA%B8%B0/find-maximum-number.java) | 2026.09.05 |
+| [최대 직사각형 합](https://www.codetree.ai/trails/complete/curated-cards/challenge-max-rect-sum-in-grid) | Java | [java](Code_Tree/trail5/%EC%B5%9C%EB%8C%80%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%20%ED%95%A9/max-rect-sum-in-grid.java) | 2026.09.05 |
+| [최대로 연속한 숫자](https://www.codetree.ai/trails/complete/curated-cards/challenge-maximum-consecutive-number) | Java | [java](Code_Tree/trail5/%EC%B5%9C%EB%8C%80%EB%A1%9C%20%EC%97%B0%EC%86%8D%ED%95%9C%20%EC%88%AB%EC%9E%90/maximum-consecutive-number.java) | 2026.09.05 |
+| [최소 에너지 비용](https://www.codetree.ai/trails/complete/curated-cards/challenge-minimum-energy-cost) | Java | [java](Code_Tree/trail5/%EC%B5%9C%EC%86%8C%20%EC%97%90%EB%84%88%EC%A7%80%20%EB%B9%84%EC%9A%A9/minimum-energy-cost.java) | 2026.09.05 |
+| [최소 정수 출력](https://www.codetree.ai/trails/complete/curated-cards/intro-min-integer-output) | Java | [java](Code_Tree/trail5/%EC%B5%9C%EC%86%8C%20%EC%A0%95%EC%88%98%20%EC%B6%9C%EB%A0%A5/min-integer-output.java) | 2026.09.05 |
+| [최솟값 3개](https://www.codetree.ai/trails/complete/curated-cards/test-top-3-smallest-number) | Java | [java](Code_Tree/trail5/%EC%B5%9C%EC%86%9F%EA%B0%92%203%EA%B0%9C/top-3-smallest-number.java) | 2026.09.05 |
+| [친한 점](https://www.codetree.ai/trails/complete/curated-cards/intro-frendly-point) | Java | [java](Code_Tree/trail5/%EC%B9%9C%ED%95%9C%20%EC%A0%90/frendly-point.java) | 2026.09.05 |
+| [컴퓨터 이용시간](https://www.codetree.ai/trails/complete/curated-cards/challenge-computer-hours) | Java | [java](Code_Tree/trail5/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EC%9D%B4%EC%9A%A9%EC%8B%9C%EA%B0%84/computer-hours.java) | 2026.09.05 |
+| [크기 비교](https://www.codetree.ai/trails/complete/curated-cards/challenge-size-comparison) | Java | [java](Code_Tree/trail5/%ED%81%AC%EA%B8%B0%20%EB%B9%84%EA%B5%90/size-comparison.java) | 2026.09.05 |
+| [큰 숫자만 계속 고르기](https://www.codetree.ai/trails/complete/curated-cards/intro-keep-picking-the-big-number) | Java | [java](Code_Tree/trail5/%ED%81%B0%20%EC%88%AB%EC%9E%90%EB%A7%8C%20%EA%B3%84%EC%86%8D%20%EA%B3%A0%EB%A5%B4%EA%B8%B0/keep-picking-the-big-number.java) | 2026.09.05 |
+| [행렬로 주어진 간선](https://www.codetree.ai/trails/complete/curated-cards/intro-edge-given-by-matrix) | Java | [java](Code_Tree/trail5/%ED%96%89%EB%A0%AC%EB%A1%9C%20%EC%A3%BC%EC%96%B4%EC%A7%84%20%EA%B0%84%EC%84%A0/edge-given-by-matrix.java) | 2026.09.05 |
+| [호텔 예약](https://www.codetree.ai/trails/complete/curated-cards/test-reserve-hotel) | Java | [java](Code_Tree/trail5/%ED%98%B8%ED%85%94%20%EC%98%88%EC%95%BD/reserve-hotel.java) | 2026.09.05 |
 
 </details>

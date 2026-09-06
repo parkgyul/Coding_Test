@@ -2,14 +2,14 @@
 
 백준 · 프로그래머스 · SWEA · LeetCode 풀이 기록입니다.
 
-**총 481문제** · 마지막 업데이트 2026.09.05
+**총 482문제** · 마지막 업데이트 2026.09.06
 
 | 플랫폼 | 문제 수 |
 | :--- | ---: |
 | 🐢 백준 | 175 |
 | 🧩 프로그래머스 | 76 |
 | 🎯 SW Expert Academy | 15 |
-| ⚡ LeetCode | 2 |
+| ⚡ LeetCode | 3 |
 | 🌳 코드트리 | 213 |
 
 ---
@@ -383,10 +383,11 @@
 ## ⚡ LeetCode
 
 <details>
-<summary><b>Medium</b> — 1문제</summary>
+<summary><b>Medium</b> — 2문제</summary>
 
 | 문제 | 언어 | 풀이 | 푼 날짜 |
 | :--- | :---: | :---: | :---: |
+| [0402-remove-k-digits](https://leetcode.com/problems/remove-k-digits) | Java | [java](LeetCode/Medium/0402-remove-k-digits/0402-remove-k-digits-09-06-2026-09-38-23.java) | 2026.09.06 |
 | [0787-cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) | Java | [java](LeetCode/Medium/0787-cheapest-flights-within-k-stops/0787-cheapest-flights-within-k-stops.java) | 2026.09.05 |
 
 </details>
@@ -632,23 +633,3 @@
 | [호텔 예약](https://www.codetree.ai/trails/complete/curated-cards/test-reserve-hotel) | Java | [java](Code_Tree/trail5/%ED%98%B8%ED%85%94%20%EC%98%88%EC%95%BD/reserve-hotel.java) | 2026.09.05 |
 
 </details>
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-|  |
-| ------- |
-| [0402-remove-k-digits](https://github.com/parkgyul/Coding_Test/tree/master/0402-remove-k-digits) |
-## Stack
-|  |
-| ------- |
-| [0402-remove-k-digits](https://github.com/parkgyul/Coding_Test/tree/master/0402-remove-k-digits) |
-## Greedy
-|  |
-| ------- |
-| [0402-remove-k-digits](https://github.com/parkgyul/Coding_Test/tree/master/0402-remove-k-digits) |
-## Monotonic Stack
-|  |
-| ------- |
-| [0402-remove-k-digits](https://github.com/parkgyul/Coding_Test/tree/master/0402-remove-k-digits) |
-<!---LeetCode Topics End-->

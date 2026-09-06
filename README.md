@@ -636,19 +636,19 @@
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0402-remove-k-digits](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0402-remove-k-digits/) | Medium |
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/parkgyul/Coding_Test/tree/master/0402-remove-k-digits) |
 ## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0402-remove-k-digits](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0402-remove-k-digits/) | Medium |
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/parkgyul/Coding_Test/tree/master/0402-remove-k-digits) |
 ## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0402-remove-k-digits](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0402-remove-k-digits/) | Medium |
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/parkgyul/Coding_Test/tree/master/0402-remove-k-digits) |
 ## Monotonic Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0402-remove-k-digits](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0402-remove-k-digits/) | Medium |
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/parkgyul/Coding_Test/tree/master/0402-remove-k-digits) |
 <!---LeetCode Topics End-->

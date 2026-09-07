@@ -2,14 +2,14 @@
 
 백준 · 프로그래머스 · SWEA · LeetCode 풀이 기록입니다.
 
-**총 482문제** · 마지막 업데이트 2026.09.06
+**총 483문제** · 마지막 업데이트 2026.09.07
 
 | 플랫폼 | 문제 수 |
 | :--- | ---: |
 | 🐢 백준 | 175 |
 | 🧩 프로그래머스 | 76 |
 | 🎯 SW Expert Academy | 15 |
-| ⚡ LeetCode | 3 |
+| ⚡ LeetCode | 4 |
 | 🌳 코드트리 | 213 |
 
 ---
@@ -383,12 +383,13 @@
 ## ⚡ LeetCode
 
 <details>
-<summary><b>Medium</b> — 2문제</summary>
+<summary><b>Medium</b> — 3문제</summary>
 
 | 문제 | 언어 | 풀이 | 푼 날짜 |
 | :--- | :---: | :---: | :---: |
 | [0402-remove-k-digits](https://leetcode.com/problems/remove-k-digits) | Java | [java](LeetCode/Medium/0402-remove-k-digits/0402-remove-k-digits-09-06-2026-09-38-23.java) | 2026.09.06 |
 | [0787-cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) | Java | [java](LeetCode/Medium/0787-cheapest-flights-within-k-stops/0787-cheapest-flights-within-k-stops.java) | 2026.09.05 |
+| [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps) | Java | [java](LeetCode/Medium/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps-09-07-2026-21-45-39.java) | 2026.09.07 |
 
 </details>
 
@@ -633,19 +634,3 @@
 | [호텔 예약](https://www.codetree.ai/trails/complete/curated-cards/test-reserve-hotel) | Java | [java](Code_Tree/trail5/%ED%98%B8%ED%85%94%20%EC%98%88%EC%95%BD/reserve-hotel.java) | 2026.09.05 |
 
 </details>
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/) | Medium |
-## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/) | Medium |
-## Combinatorics
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/) | Medium |
-<!---LeetCode Topics End-->

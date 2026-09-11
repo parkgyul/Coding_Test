@@ -635,3 +635,23 @@
 | [호텔 예약](https://www.codetree.ai/trails/complete/curated-cards/test-reserve-hotel) | Java | [java](Code_Tree/trail5/%ED%98%B8%ED%85%94%20%EC%98%88%EC%95%BD/reserve-hotel.java) | 2026.09.05 |
 
 </details>
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/2434-using-a-robot-to-print-the-lexicographically-smallest-string/) | Medium |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/2434-using-a-robot-to-print-the-lexicographically-smallest-string/) | Medium |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/2434-using-a-robot-to-print-the-lexicographically-smallest-string/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/2434-using-a-robot-to-print-the-lexicographically-smallest-string/) | Medium |
+<!---LeetCode Topics End-->

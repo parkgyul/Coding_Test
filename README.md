@@ -638,15 +638,15 @@
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Math
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/) | Medium |
+|  |
+| ------- |
+| [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://github.com/parkgyul/Coding_Test/tree/master/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps) |
 ## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/) | Medium |
+|  |
+| ------- |
+| [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://github.com/parkgyul/Coding_Test/tree/master/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps) |
 ## Combinatorics
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/) | Medium |
+|  |
+| ------- |
+| [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://github.com/parkgyul/Coding_Test/tree/master/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps) |
 <!---LeetCode Topics End-->

@@ -2,14 +2,14 @@
 
 백준 · 프로그래머스 · SWEA · LeetCode 풀이 기록입니다.
 
-**총 484문제** · 마지막 업데이트 2026.09.11
+**총 485문제** · 마지막 업데이트 2026.09.11
 
 | 플랫폼 | 문제 수 |
 | :--- | ---: |
 | 🐢 백준 | 175 |
 | 🧩 프로그래머스 | 76 |
 | 🎯 SW Expert Academy | 15 |
-| ⚡ LeetCode | 5 |
+| ⚡ LeetCode | 6 |
 | 🌳 코드트리 | 213 |
 
 ---
@@ -383,7 +383,7 @@
 ## ⚡ LeetCode
 
 <details>
-<summary><b>Medium</b> — 4문제</summary>
+<summary><b>Medium</b> — 5문제</summary>
 
 | 문제 | 언어 | 풀이 | 푼 날짜 |
 | :--- | :---: | :---: | :---: |
@@ -391,6 +391,7 @@
 | [0402-remove-k-digits](https://leetcode.com/problems/remove-k-digits) | Java | [java](LeetCode/Medium/0402-remove-k-digits/0402-remove-k-digits.java) | 2026.09.06 |
 | [0787-cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) | Java | [java](LeetCode/Medium/0787-cheapest-flights-within-k-stops/0787-cheapest-flights-within-k-stops.java) | 2026.09.05 |
 | [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps) | Java | [java](LeetCode/Medium/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps.java) | 2026.09.07 |
+| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/) | Java | [java](LeetCode/Medium/2434-using-a-robot-to-print-the-lexicographically-smallest-string/2434-using-a-robot-to-print-the-lexicographically-smallest-string-09-11-2026-23-03-39.java) · [java](LeetCode/Medium/2434-using-a-robot-to-print-the-lexicographically-smallest-string/2434-using-a-robot-to-print-the-lexicographically-smallest-string-09-11-2026-23-03-42.java) | 2026.09.11 |
 
 </details>
 
@@ -635,23 +636,3 @@
 | [호텔 예약](https://www.codetree.ai/trails/complete/curated-cards/test-reserve-hotel) | Java | [java](Code_Tree/trail5/%ED%98%B8%ED%85%94%20%EC%98%88%EC%95%BD/reserve-hotel.java) | 2026.09.05 |
 
 </details>
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/2434-using-a-robot-to-print-the-lexicographically-smallest-string/) | Medium |
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/2434-using-a-robot-to-print-the-lexicographically-smallest-string/) | Medium |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/2434-using-a-robot-to-print-the-lexicographically-smallest-string/) | Medium |
-## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/2434-using-a-robot-to-print-the-lexicographically-smallest-string/) | Medium |
-<!---LeetCode Topics End-->

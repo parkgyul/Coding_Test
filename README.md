@@ -2,7 +2,7 @@
 
 백준 · 프로그래머스 · SWEA · LeetCode 풀이 기록입니다.
 
-**총 483문제** · 마지막 업데이트 2026.09.07
+**총 483문제** · 마지막 업데이트 2026.09.11
 
 | 플랫폼 | 문제 수 |
 | :--- | ---: |
@@ -634,19 +634,3 @@
 | [호텔 예약](https://www.codetree.ai/trails/complete/curated-cards/test-reserve-hotel) | Java | [java](Code_Tree/trail5/%ED%98%B8%ED%85%94%20%EC%98%88%EC%95%BD/reserve-hotel.java) | 2026.09.05 |
 
 </details>
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Math
-|  |
-| ------- |
-| [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://github.com/parkgyul/Coding_Test/tree/master/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps) |
-## Dynamic Programming
-|  |
-| ------- |
-| [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://github.com/parkgyul/Coding_Test/tree/master/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps) |
-## Combinatorics
-|  |
-| ------- |
-| [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://github.com/parkgyul/Coding_Test/tree/master/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps) |
-<!---LeetCode Topics End-->

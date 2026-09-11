@@ -2,14 +2,14 @@
 
 백준 · 프로그래머스 · SWEA · LeetCode 풀이 기록입니다.
 
-**총 483문제** · 마지막 업데이트 2026.09.11
+**총 484문제** · 마지막 업데이트 2026.09.11
 
 | 플랫폼 | 문제 수 |
 | :--- | ---: |
 | 🐢 백준 | 175 |
 | 🧩 프로그래머스 | 76 |
 | 🎯 SW Expert Academy | 15 |
-| ⚡ LeetCode | 4 |
+| ⚡ LeetCode | 5 |
 | 🌳 코드트리 | 213 |
 
 ---
@@ -383,13 +383,14 @@
 ## ⚡ LeetCode
 
 <details>
-<summary><b>Medium</b> — 3문제</summary>
+<summary><b>Medium</b> — 4문제</summary>
 
 | 문제 | 언어 | 풀이 | 푼 날짜 |
 | :--- | :---: | :---: | :---: |
-| [0402-remove-k-digits](https://leetcode.com/problems/remove-k-digits) | Java | [java](LeetCode/Medium/0402-remove-k-digits/0402-remove-k-digits-09-06-2026-09-38-23.java) | 2026.09.06 |
+| [0152-maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray/) | Java | [java](LeetCode/Medium/0152-maximum-product-subarray/0152-maximum-product-subarray.java) | 2026.09.11 |
+| [0402-remove-k-digits](https://leetcode.com/problems/remove-k-digits) | Java | [java](LeetCode/Medium/0402-remove-k-digits/0402-remove-k-digits.java) | 2026.09.06 |
 | [0787-cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) | Java | [java](LeetCode/Medium/0787-cheapest-flights-within-k-stops/0787-cheapest-flights-within-k-stops.java) | 2026.09.05 |
-| [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps) | Java | [java](LeetCode/Medium/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps-09-07-2026-21-45-39.java) | 2026.09.07 |
+| [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps) | Java | [java](LeetCode/Medium/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps.java) | 2026.09.07 |
 
 </details>
 

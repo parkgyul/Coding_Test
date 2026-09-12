@@ -2,14 +2,14 @@
 
 백준 · 프로그래머스 · SWEA · LeetCode 풀이 기록입니다.
 
-**총 485문제** · 마지막 업데이트 2026.09.11
+**총 486문제** · 마지막 업데이트 2026.09.12
 
 | 플랫폼 | 문제 수 |
 | :--- | ---: |
 | 🐢 백준 | 175 |
 | 🧩 프로그래머스 | 76 |
 | 🎯 SW Expert Academy | 15 |
-| ⚡ LeetCode | 6 |
+| ⚡ LeetCode | 7 |
 | 🌳 코드트리 | 213 |
 
 ---
@@ -396,10 +396,11 @@
 </details>
 
 <details>
-<summary><b>Hard</b> — 1문제</summary>
+<summary><b>Hard</b> — 2문제</summary>
 
 | 문제 | 언어 | 풀이 | 푼 날짜 |
 | :--- | :---: | :---: | :---: |
+| [2141-maximum-running-time-of-n-computers](https://leetcode.com/problems/maximum-running-time-of-n-computers) | Java | [java](LeetCode/Hard/2141-maximum-running-time-of-n-computers/2141-maximum-running-time-of-n-computers-09-12-2026-14-50-26.java) | 2026.09.12 |
 | [2402-meeting-rooms-iii](https://leetcode.com/problems/meeting-rooms-iii) | Java | [java](LeetCode/Hard/2402-meeting-rooms-iii/2402-meeting-rooms-iii.java) | 2026.09.05 |
 
 </details>
@@ -636,23 +637,3 @@
 | [호텔 예약](https://www.codetree.ai/trails/complete/curated-cards/test-reserve-hotel) | Java | [java](Code_Tree/trail5/%ED%98%B8%ED%85%94%20%EC%98%88%EC%95%BD/reserve-hotel.java) | 2026.09.05 |
 
 </details>
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2141-maximum-running-time-of-n-computers](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Hard/2141-maximum-running-time-of-n-computers/) | Hard |
-## Binary Search
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2141-maximum-running-time-of-n-computers](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Hard/2141-maximum-running-time-of-n-computers/) | Hard |
-## Greedy
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2141-maximum-running-time-of-n-computers](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Hard/2141-maximum-running-time-of-n-computers/) | Hard |
-## Sorting
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [2141-maximum-running-time-of-n-computers](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Hard/2141-maximum-running-time-of-n-computers/) | Hard |
-<!---LeetCode Topics End-->

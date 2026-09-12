@@ -2,14 +2,14 @@
 
 백준 · 프로그래머스 · SWEA · LeetCode 풀이 기록입니다.
 
-**총 486문제** · 마지막 업데이트 2026.09.12
+**총 487문제** · 마지막 업데이트 2026.09.12
 
 | 플랫폼 | 문제 수 |
 | :--- | ---: |
 | 🐢 백준 | 175 |
 | 🧩 프로그래머스 | 76 |
 | 🎯 SW Expert Academy | 15 |
-| ⚡ LeetCode | 7 |
+| ⚡ LeetCode | 8 |
 | 🌳 코드트리 | 213 |
 
 ---
@@ -383,10 +383,11 @@
 ## ⚡ LeetCode
 
 <details>
-<summary><b>Medium</b> — 5문제</summary>
+<summary><b>Medium</b> — 6문제</summary>
 
 | 문제 | 언어 | 풀이 | 푼 날짜 |
 | :--- | :---: | :---: | :---: |
+| [0091-decode-ways](https://leetcode.com/problems/decode-ways) | Java | [java](LeetCode/Medium/0091-decode-ways/0091-decode-ways-09-12-2026-18-46-22.java) | 2026.09.12 |
 | [0152-maximum-product-subarray](https://leetcode.com/problems/maximum-product-subarray/) | Java | [java](LeetCode/Medium/0152-maximum-product-subarray/0152-maximum-product-subarray.java) | 2026.09.11 |
 | [0402-remove-k-digits](https://leetcode.com/problems/remove-k-digits) | Java | [java](LeetCode/Medium/0402-remove-k-digits/0402-remove-k-digits.java) | 2026.09.06 |
 | [0787-cheapest-flights-within-k-stops](https://leetcode.com/problems/cheapest-flights-within-k-stops) | Java | [java](LeetCode/Medium/0787-cheapest-flights-within-k-stops/0787-cheapest-flights-within-k-stops.java) | 2026.09.05 |
@@ -637,15 +638,3 @@
 | [호텔 예약](https://www.codetree.ai/trails/complete/curated-cards/test-reserve-hotel) | Java | [java](Code_Tree/trail5/%ED%98%B8%ED%85%94%20%EC%98%88%EC%95%BD/reserve-hotel.java) | 2026.09.05 |
 
 </details>
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0091-decode-ways](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0091-decode-ways/) | Medium |
-## Dynamic Programming
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0091-decode-ways](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0091-decode-ways/) | Medium |
-<!---LeetCode Topics End-->

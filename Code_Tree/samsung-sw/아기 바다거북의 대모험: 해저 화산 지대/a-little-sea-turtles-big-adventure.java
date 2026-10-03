@@ -101,7 +101,7 @@ public class Main {
         for(int i = 0; i < M; i++){
             if(turtle[i] != 0) continue; // 움직일 필요가 없는 거북이들
 
-            int[][] dist = bfs(i); // 최단 거리 찾기
+            int[][] dist = bfs(); // 최단 거리 찾기
             int dir = -1; // 거북이가 갈 방향
             int shortest = Integer.MAX_VALUE; // 최단 거리
             //현재 거북이 위치
@@ -144,7 +144,7 @@ public class Main {
         }
     }
 
-    static int[][] bfs(int turtleNum){
+    static int[][] bfs(){
         int[][] dist = new int[N][N];
         for(int i = 0; i < N; i++){
             Arrays.fill(dist[i], Integer.MAX_VALUE);
@@ -152,7 +152,7 @@ public class Main {
 
         dist[N-1][N-1] = 0;
 
-        Queue<int[]> q = new LinkedList<>();
+        Queue<int[]> q = new ArrayDeque<>();
         q.add(new int[]{N-1, N-1, 0});
 
         while(!q.isEmpty()){
@@ -185,7 +185,7 @@ public class Main {
     }
 
     static void burst(){
-        eruptedVol = new LinkedList<>();
+        eruptedVol = new ArrayDeque<>();
         Arrays.fill(erupted, false);
 
         // 처음에 분출될 화산들 찾기

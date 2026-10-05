@@ -37,14 +37,14 @@ public class Main {
 
         while(K -- > 0){
             // 1. 탐사 진행
-            explore();
+            if(!explore()) break;
             print("탐사 진행");
         }
 
         System.out.print(result);
     }
 
-    static void explore(){
+    static boolean explore(){
         /**
             // 회전 하기
             1. 유물 1차 획득 가치 최대
@@ -72,7 +72,7 @@ public class Main {
             }
         }
 
-        if(bestV == 0) return;
+        if(bestV == 0) return false;
 
         map = rotate(bestR, bestC, bestD);
         int sum = 0;
@@ -85,6 +85,7 @@ public class Main {
 
 
         result.append(sum).append(" ");
+        return true;
     }
 
     static int[][] fillCells(int[][] arr){

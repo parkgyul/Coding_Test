@@ -49,7 +49,6 @@ public class Main {
             // 2. 점심 시간
             List<Group> groups = makeGroups();
             // print("점심 시간 1 ");
-            divideB(groups);
             print("점심 시간 2 ");
 
             // 3. 저녁 시간
@@ -153,34 +152,9 @@ public class Main {
         });
     }
 
-    static void divideB(List<Group> groups){
-        for(Group group : groups){
-            int bestB = group.bestB;
-            int bestR = group.bestR;
-            int bestC = group.bestC;
-
-            List<int[]> people = group.people;
-            
-            // 대표자의 신앙심이 (그룹크기-1) 만큼 올라감.
-            group.setBestB(bestB + people.size()-1);
-            B[bestR][bestC] += (people.size()-1);
-
-            for(int[] person : people){
-                // 대표자는 제외.
-                if(person[0] == bestR && person[1] == bestC){
-                    continue;
-                }
-
-                // 대표자 제외 신앙심 -1.
-                B[person[0]][person[1]] -= 1;
-            }
-        
-        }
-    }
-
     static List<Group> makeGroups(){
         List<Group> list = new ArrayList<>();
-        // Group : 그룹 우선 순위(단일, 이중, 삼중), 대표자 신앙심, 사람들(List<int[]>)
+        // Group : 그룹 우선 순위(단일, 이중, 삼중), 대표자 신앙심
 
         boolean[][] visited = new boolean[N][N];
         for(int i = 0; i < N; i++){
@@ -198,19 +172,17 @@ public class Main {
     static Group findGroup(int r, int c, boolean[][] visited){
         // 신봉하는 음식
         int f = F[r][c]; 
-
-        // 같은 그룹 사람들 위치 저장
-        List<int[]> locs = new ArrayList<>();
-        locs.add(new int[]{r, c});
         visited[r][c] = true;
 
         Queue<int[]> q = new ArrayDeque<>();
         q.add(new int[]{r, c});
 
         // 대표자 찾기 위함.
+        B[r][c] -= 1;  
         int bestB = B[r][c]; // 가장 큰 신앙심
         int bestR = r;
         int bestC = c;
+        int size = 1;
 
         while(!q.isEmpty()){
             int[] cur = q.poll();
@@ -235,13 +207,16 @@ public class Main {
                 if(isOutside(nr, nc)) continue;
                 if(visited[nr][nc] || f != F[nr][nc]) continue;
                 
-                locs.add(new int[]{nr, nc});
+                B[nr][nc] -= 1;
+                size++;
                 visited[nr][nc] = true;
                 q.add(new int[]{nr, nc});
             }
         }
 
-        return new Group(getPriority(f), bestB, bestR, bestC, locs);
+        B[bestR][bestC] += size;
+
+        return new Group(getPriority(f), B[bestR][bestC] , bestR, bestC);
     }
 
     static int getPriority(int f){
@@ -256,14 +231,12 @@ public class Main {
 
     static class Group{
         int priority, bestB, bestR, bestC;
-        List<int[]> people;
 
-        Group(int priority, int bestB, int bestR, int bestC, List<int[]> people){
+        Group(int priority, int bestB, int bestR, int bestC){
             this.priority = priority;
             this.bestB = bestB;
             this.bestR = bestR;
             this.bestC = bestC;
-            this.people = people;
         }
 
         public void setBestB(int bestB){

@@ -73,9 +73,10 @@ public class Main {
         }
 
         if(bestV == 0) return false;
-
         map = rotate(bestR, bestC, bestD);
+
         int sum = 0;
+        // 유물 획득을 못 할때까지 돌린다.
         while(true){
             int v = collect(map, true);
             if(v == 0) break;
@@ -83,12 +84,11 @@ public class Main {
             fillCells(map);
         }
 
-
         result.append(sum).append(" ");
         return true;
     }
-
-    static int[][] fillCells(int[][] arr){
+    
+    static void fillCells(int[][] arr){
         for(int j = 0; j < 5; j++){
             for(int i = 4; i >= 0; i--){
                 if(arr[i][j] == 0){
@@ -96,8 +96,6 @@ public class Main {
                 }
             }
         }
-
-        return arr;
     }
 
     // r,c 기준으로 degree 만큼 돌림.
@@ -169,7 +167,6 @@ public class Main {
                 }
             }
         }
-
 
         return value;
     }

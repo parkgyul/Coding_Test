@@ -39,6 +39,8 @@ public class Main {
             // 1. 탐사 진행
             if(!explore()) break;
             print("탐사 진행");
+
+            getValue();
         }
 
         System.out.print(result);
@@ -73,8 +75,12 @@ public class Main {
         }
 
         if(bestV == 0) return false;
+        
         map = rotate(bestR, bestC, bestD);
+        return true;
+    }
 
+    static void getValue(){
         int sum = 0;
         // 유물 획득을 못 할때까지 돌린다.
         while(true){
@@ -85,7 +91,6 @@ public class Main {
         }
 
         result.append(sum).append(" ");
-        return true;
     }
     
     static void fillCells(int[][] arr){

@@ -2,10 +2,20 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    static boolean DEBUG = false;
+    static boolean DEBUG = true;
     static int N, M;
-    static List<Box> boxes;
     static int[][] map;
+    static List<Box> boxes;
+    static class Box{
+        int k, r, c, h, w;
+        Box(int k, int r, int c, int h, int w){
+            this.k = k;
+            this.r = r;
+            this.c = c;
+            this.h = h;
+            this.w = w;
+        }
+    }
     public static void main(String[] args)throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -14,10 +24,7 @@ public class Main {
         M = Integer.parseInt(st.nextToken());
 
         map = new int[N+1][N+1];
-
         boxes = new ArrayList<>();
-
-        StringBuilder result = new StringBuilder();
 
         for(int i = 0; i < M; i++){
             st = new StringTokenizer(br.readLine());
@@ -27,43 +34,42 @@ public class Main {
             int c = Integer.parseInt(st.nextToken());
 
             Box box = new Box(k, 1, c, h, w);
-            dropNewBox(box);
+            moveDown(box);
             boxes.add(box);
-
-            print("drop");
         }
 
+        StringBuilder result = new StringBuilder();
 
         while(!boxes.isEmpty()){
-            Box left = findLeftBox();
+            Box leftBox = findLeftBox();
 
-            if(left != null){
-                result.append(left.k).append("\n");
-                place(left, 0);
-                boxes.remove(left);
-                gravity();
+            if(leftBox != null){
+                result.append(leftBox.k).append("\n");
+                boxes.remove(leftBox); // boxes list에서 없애기
+                place(leftBox, 0); // map에서 없애기
+                gravitiy();
             }
 
-            Box right = findRightBox();
+            Box rightBox = findRightBox();
 
-            if(right != null){
-                result.append(right.k).append("\n");
-                place(right, 0);
-                boxes.remove(right);
-                gravity();
+            if(rightBox != null){
+                result.append(rightBox.k).append("\n");
+                boxes.remove(rightBox); // boxes list에서 없애기
+                place(rightBox, 0); // map에서 없애기
+                gravitiy();
             }
         }
+
         System.out.print(result);
     }
 
-    static void gravity(){
+    static void gravitiy(){
         while(true){
             boolean isMoved = false;
 
             for(Box box : boxes){
                 place(box, 0);
-
-                if(canMoveDown(box)){
+                if(canPlace(box)){
                     box.r++;
                     isMoved = true;
                 }
@@ -71,99 +77,94 @@ public class Main {
                 place(box, box.k);
             }
 
-            if(!isMoved){
-                break;
-            }
+            if(!isMoved) break;
         }
-    }
-
-    static Box findRightBox(){
-        Box target = null;
-
-        for(Box box : boxes){
-            if(!canMoveRight(box)){
-                continue;
-            }
-
-            if(target == null || box.k < target.k){
-                target = box;
-            }
-        }
-
-        return target;
-    }
-
-    static boolean canMoveRight(Box box){
-        for(int i = box.r; i < box.r+ box.h; i++){
-            for(int j = N; j >= box.c + box.w; j--){
-                if(map[i][j] != 0) return false;
-            }
-        }
-        return true;
     }
 
     static Box findLeftBox(){
-        Box target = null;
-
+        Box removed = null;
         for(Box box : boxes){
-            if(!canMoveLeft(box)){
-                continue;
-            }
-
-            if(target == null || box.k < target.k){
-                target = box;
+            if(canPullLeft(box)){
+                if(removed == null || removed.k > box.k){
+                    removed = box;
+                }
             }
         }
 
-        return target;
+        return removed;
     }
 
-    static boolean canMoveLeft(Box box){
-        for(int i = box.r; i < box.r+ box.h; i++){
-            for(int j = 1; j < box.c; j++){
+    static boolean canPullLeft(Box box){
+        for(int i = box.r; i < box.r + box.h; i++){
+            for(int j = 1; j < box.c ; j++){
                 if(map[i][j] != 0) return false;
             }
         }
+
         return true;
     }
 
-    static void dropNewBox(Box box){
+    static Box findRightBox(){
+        Box removed = null;
+        for(Box box : boxes){
+            if(canPullRight(box)){
+                if(removed == null || removed.k > box.k){
+                    removed = box;
+                }
+            }
+        }
+
+        return removed;
+    }
+
+    static boolean canPullRight(Box box){
+        for(int i = box.r; i < box.r + box.h; i++){
+            for(int j = N; j >= box.c + box.w ; j--){
+                if(map[i][j] != 0) return false;
+            }
+        }
+
+        return true;
+    }
+
+
+
+    static void place(Box box, int value){
+        for(int i = box.r; i < box.r + box.h; i++){
+            for(int j = box.c; j < box.c + box.w; j++){
+                map[i][j] = value;
+            }
+        }
+    }
+
+    static void moveDown(Box box){
         while(true){
-            if(!canMoveDown(box)){
+            if(canPlace(box)){
+                box.r++;   
+            }else{
                 break;
             }
-
-            box.r++;
         }
 
         place(box, box.k);
     }
 
-    static boolean canMoveDown(Box box){
-        int r = box.r + box.h;
+    static boolean canPlace(Box box){
+        // 현재의 다음칸을 검증.
+        if(box.r + box.h -1 + 1 > N) return false;
 
-        if(r > N) return false;
-
-        for(int j = box.c; j < box.c + box.w; j++){
-            if(map[r][j] != 0) return false;
+        for(int j = box.c; j < box.c+box.w; j++){
+            if(map[box.r+box.h -1 + 1][j] != 0) return false;
         }
+
         return true;
     }
 
-    static void place(Box box, int k){
-        for(int i = box.r; i < box.r+ box.h; i++){
-            for(int j = box.c; j < box.c+ box.w; j++){
-                map[i][j] = k;
-            }
-        }
-    }
-
-     static void print(String title){
+    static void print(String title){
         if(!DEBUG) return;
         StringBuilder sb = new StringBuilder();
-
         sb.append("==" + title + "==\n");
-        for(int i = 1; i <= N; i++){
+        for(int i = 1; i<= N; i++){
             for(int j = 1; j <= N; j++){
                 sb.append(map[i][j] + " ");
             }
@@ -171,19 +172,5 @@ public class Main {
         }
 
         System.out.print(sb);
-    }
-
-    static class Box{
-        int k;
-        int r, c;
-        int h, w;
-
-        Box(int k, int r, int c, int h, int w){
-            this.k = k;
-            this.r = r;
-            this.c = c;
-            this.h = h;
-            this.w = w;
-        }
     }
 }

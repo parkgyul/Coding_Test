@@ -78,7 +78,7 @@ public class Main {
             int nc = BC[box] + DC[d];
 
             // 벽/범위 밖이거나, 이미 누가 차지한 칸이면 이동 실패
-            if (nr < 1 || nr > N || nc < 1 || nc > N || map[nr][nc] == 0 || newBoxMap[nr][nc] != 0) {
+            if ( newBoxMap[nr][nc] != 0) {
                 rollBack(box, newBoxMap);
             } else {
                 newBoxMap[nr][nc] = box;   // 일단 옮겨 둔다 (앞 상자도 움직인다고 가정)

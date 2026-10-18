@@ -645,6 +645,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0731-my-calendar-ii](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0731-my-calendar-ii/) | Medium |
 | [0853-car-fleet](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0853-car-fleet/) | Medium |
 | [1109-corporate-flight-bookings](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/1109-corporate-flight-bookings/) | Medium |
@@ -694,4 +695,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
 <!---LeetCode Topics End-->

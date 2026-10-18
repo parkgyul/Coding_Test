@@ -672,6 +672,7 @@
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0020-valid-parentheses](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0853-car-fleet](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0853-car-fleet/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
@@ -685,4 +686,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0020-valid-parentheses](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0020-valid-parentheses](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 <!---LeetCode Topics End-->

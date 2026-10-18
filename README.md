@@ -650,6 +650,7 @@
 | [0704-binary-search](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0704-binary-search/) | Easy |
 | [0731-my-calendar-ii](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0731-my-calendar-ii/) | Medium |
 | [0853-car-fleet](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0853-car-fleet/) | Medium |
+| [0994-rotting-oranges](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1109-corporate-flight-bookings](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/1109-corporate-flight-bookings/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -705,4 +706,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0994-rotting-oranges](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0994-rotting-oranges](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 <!---LeetCode Topics End-->

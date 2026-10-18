@@ -1,19 +1,28 @@
-cnt = 0
 
-def dfs(depth, sum, numbers, target):
+def dfs(depth, total, numbers, target):
     if(depth == len(numbers)):
-        if(target == sum):
-            global cnt
-            cnt += 1
-        return
+        if(target == total):
+            return 1
+        return 0
     
-    dfs(depth+1, sum+numbers[depth], numbers, target)
-    dfs(depth+1, sum-numbers[depth], numbers, target)
+    plus = dfs(
+        depth+1,
+        total + numbers[depth], 
+        numbers, 
+        target
+    )
+    
+    minus = dfs(
+        depth+1,
+        total - numbers[depth],
+        numbers,
+        target
+    )
+    
+    return plus + minus
     
 def solution(numbers, target):
-    
-    dfs(0, 0, numbers, target)
-    
-    return cnt
+    return dfs(0, 0, numbers, target)
+
 
 

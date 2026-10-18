@@ -4,11 +4,9 @@ def solution(s):
     for c in s:
         if c == '(':
             stack.append(c)
-        else :
+        else:
             if not stack:
                 return False
-            
             stack.pop()
-    
+                
     return not stack
-        

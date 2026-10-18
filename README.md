@@ -644,6 +644,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
 | [0731-my-calendar-ii](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0731-my-calendar-ii/) | Medium |
 | [0853-car-fleet](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0853-car-fleet/) | Medium |
 | [1109-corporate-flight-bookings](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/1109-corporate-flight-bookings/) | Medium |
@@ -680,4 +681,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0853-car-fleet](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0853-car-fleet/) | Medium |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0001-two-sum](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
 <!---LeetCode Topics End-->

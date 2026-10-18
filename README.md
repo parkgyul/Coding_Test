@@ -645,6 +645,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
+| [0049-group-anagrams](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0704-binary-search](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0704-binary-search/) | Easy |
 | [0731-my-calendar-ii](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0731-my-calendar-ii/) | Medium |
@@ -680,6 +681,7 @@
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0049-group-anagrams](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 | [0853-car-fleet](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0853-car-fleet/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
@@ -689,10 +691,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
+| [0049-group-anagrams](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
+| [0049-group-anagrams](https://github.com/parkgyul/Coding_Test/tree/main/LeetCode/Medium/0049-group-anagrams/) | Medium |
 ## Bracket Sequences
 | Problem Name | Difficulty |
 | ------- | ------- |

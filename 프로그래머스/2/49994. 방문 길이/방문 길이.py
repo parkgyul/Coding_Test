@@ -1,16 +1,13 @@
 def solution(dirs):
-    # 현재 위치
-    x, y = 0, 0; 
+    x, y = 0, 0
     
-    # 방문한 길을 저장할 집합
     visited = set()
-
-    # 딕셔너리
-    move = { 
-        "U": (0, 1),
-        "D": (0, -1),
-        "R": (1, 0),
-        "L": (-1, 0)
+    
+    move = {
+        "U" : (0, 1),
+        "D" : (0, -1),
+        "R" : (1, 0),
+        "L" : (-1, 0)
     }
     
     for d in dirs:
@@ -19,8 +16,9 @@ def solution(dirs):
         nx = x + dx
         ny = y + dy
         
-        if not (-5 <= nx <= 5 and -5 <= ny <= 5):
+        if not(-5 <= nx <= 5 and -5 <= ny <= 5):
             continue
+        
         start = (x, y)
         end = (nx, ny)
         
@@ -29,5 +27,5 @@ def solution(dirs):
         visited.add(road)
         
         x, y = nx, ny
-        
+    
     return len(visited)
